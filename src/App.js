@@ -335,7 +335,10 @@ const GulfJobPortalLaunch = React.lazy(() =>
 
 function LocationAwareHeader() {
   const location = useLocation();
+<<<<<<< HEAD
 console.log(location.pathname,"location");
+=======
+>>>>>>> 576083a43a265cea2d0cde471ab1fc556cb1d182
 
   const excludedPaths = [
     "/addjob",

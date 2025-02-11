@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Helmet } from "react-helmet";
 
@@ -554,3 +555,561 @@ const TermsOfUse = () => {
 };
 
 export default TermsOfUse;
+=======
+import React from "react";
+import { Helmet } from "react-helmet";
+
+const TermsOfUse = () => {
+  return (
+    <div>
+  <Helmet>
+        <title>Terms of Use - Angel Gulf</title>
+        <meta name="description" content="Read the terms of use for Angel Gulf. This document outlines the rules and guidelines for using our website." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Terms of Use - Angel Gulf" />
+        <meta property="og:description" content="Read the terms of use for Angel Gulf. This document outlines the rules and guidelines for using our website." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.angelgulfjobs.com/terms-of-use" />
+        <meta name="twitter:title" content="Terms of Use - Angel Gulf" />
+        <meta name="twitter:description" content="Read the terms of use for Angel Gulf. This document outlines the rules and guidelines for using our website." />
+      </Helmet>
+      <div className="container mb-3">
+        <h4 className="twm-s-title text-center blueuText">Terms of Use</h4>
+        <p>
+          This page states the Terms and Conditions under which you may use
+          www.angelgulfjobs.com (the "Website") including but not limited to the
+          information, text, images links, sound, graphics and video sequences
+          displayed herein (the"Materials"). Please read this page carefully. If
+          you do not accept the Terms and Conditions stated here, do not use
+          this web site and service. By using this web site, you are indicating
+          your acceptance to be bound by the terms of this Agreement. Angel Gulf
+          Jobs (the "Company" or "We") reserves the right to change, modify, add
+          or remove all or some of these Terms and Conditions at any time by
+          updating this posting. Please check these terms periodically for
+          changes. You agree that each time you visit the website, you shall be
+          subject to and bound by the current Terms and Conditions. In addition,
+          certain areas of this website are subject to additional terms of use.
+          By using such areas, or any part thereof, you agree to be bound by the
+          additional terms of use applicable to and contained in such areas. The
+          terms "You" and "User" as used herein refer to all individuals and/or
+          entities accessing this web site for any reason.
+        </p>
+        <h5>COPYRIGHT & OWNERSHIP</h5>
+        <p>
+          This website is owned and operated by Angel Gulf Jobs, and, unless
+          otherwise noted, owns the copyright in all the contents of this web
+          site, such as text, graphics, images and other material. No material
+          from this website may be copied, modified, reproduced, adapted,
+          republished, uploaded, posted, displayed, broadcast, hyperlinked,
+          framed, transmitted, or distributed in any manner or form or stored in
+          an information retrieval system except as explicitly provided below.
+          Modification/adaptation of the materials or the use of materials for
+          any purpose other than the purpose explicitly stated below is a
+          violation of copyright and/or other proprietary rights.
+        </p>
+        <p>
+          You shall not copy or adapt the code that is used to generate this
+          website. The use of any materials from this website on any other
+          website or networked computer environment is prohibited unless
+          permission is obtained in writing from the Company.
+        </p>
+        <p>
+          You may however download and print the Materials on this website for
+          personal, non-commercial use provided you do not modify the Materials
+          and that you retain all copyright and other proprietary notices
+          contained in the Materials.
+        </p>
+        <p>
+          You may not, without the prior written permission of the Company,
+          insert a hyperlink to this website on any other website or "mirror"
+          any Material contained on this website or any other server.
+        </p>
+        <h5>TRADEMARK</h5>
+        <p>
+          The trademarks, service marks and logo (the "Trade Marks") used and
+          displayed on this website are registered and unregistered Trade Marks
+          of Angel Gulf Jobs or its licensors, unless otherwise noted. Nothing
+          on this website should be construed as granting-by implication,
+          estoppel, or otherwise- any license or right to use any of the Trade
+          Marks displayed on this website, without the written permission of
+          Angel Gulf Jobs or the trademark owner. Angel Gulf Jobs prohibits the
+          use of the TradeMarks as an HTML link to any of our websites or the
+          names "Angelgulfjobs", and "Angelgulfjobs.com" and any of
+          Angelgulfjobs logo's use of without the prior written approval of
+          Angel Gulf Jobs.
+        </p>
+        <h5>USE OF MATERIALS </h5>
+        <p>
+          You may view and download a single copy of the information contained
+          in this website (the "Materials") on a single computer for your
+          personal, non-commercial internal use only. This is a revocable
+          license, not a transfer of title, and is subject to the following
+          restrictions: you may not
+        </p>
+        <ol type="i" style={{ marginLeft: "1rem" }}>
+          <li>
+            modify the Materials or use them for any commercial purpose, or any
+            public display, performance, sale or rental;
+          </li>
+          <li>de-compile, reverse engineer, or disassemble the Materials;</li>
+          <li>
+            remove any copyright, trademark registration, or other proprietary
+            notices from the Materials; or
+          </li>
+          <li>transfer the Materials to another person.</li>
+        </ol>
+        <p>
+          In the event that you downloaded any software from this website (here
+          the term software includes any files, images incorporated in or
+          generated by the software, and the data accompanying the software) are
+          licensed to you by the Company. The Company does not transfer the
+          title to the software to you. You own the medium on which the software
+          is recorded, but the Company retains full and complete title to the
+          software itself and all intellectual property rights therein. You may
+          not redistribute, sell, de-compile, reverse-engineer, or disassemble
+          the software.
+        </p>
+        <h5>ACCEPTABLE WEBSITE USE</h5>
+        <p>
+          <strong>General Rules: </strong>
+        </p>
+        <p>
+          You may not use this website in order to transmit, distribute, store
+          or destroy material
+        </p>
+        <ol type="i" style={{ marginLeft: "1rem" }}>
+          <li>In violation of any applicable law or regulation;</li>
+          <li>
+            In a manner that will infringe the copyright, trademark, trade
+            secret or other intellectual property rights of others or violate
+            the privacy, publicity or other personal rights of others, or
+          </li>
+          <li>
+            In a manner that is defamatory, obscene, threatening, abusive or
+            hateful.
+          </li>
+        </ol>
+        <h5 class="text-justify">WEBSITE SECURITY RULES</h5>
+        You are prohibited from violating or attempting to violate the security
+        of this website, including, without limitation,
+        <ol type="i" style={{ marginLeft: "1rem" }}>
+          <li>
+            Accessing data not intended for you or logging into a server or
+            account which you are not authorized to access,
+          </li>
+          <li>
+            Attempting to probe, scan, or test the vulnerability of a system or
+            network or to breach security or authentication measures without
+            proper authorization;
+          </li>
+          <li>
+            Attempting to interfere with service to any user, host, or network,
+            including, without limitation, by way of submitting a virus to this
+            website, overloading, "flooding", "spamming", "mailbombing", or
+            "crashing";
+          </li>
+          <li>
+            Sending unsolicited e-mail, including promotions and/or advertising
+            of products or services.
+          </li>
+          <li>
+            Forging any TCP/IP packet header or any part of the header
+            information in any e-mail or newsgroup posting. Violations of system
+            or network security may result in civil or criminal liability. The
+            Company will investigate occurrences, which may involve such
+            violations and may involve, and cooperate with, law enforcement
+            authorities in prosecuting users who are involved in such
+            violations.
+          </li>
+        </ol>
+        <h5>SPECIFIC PROHIBITED USES</h5>
+        This website may be used only for lawful purposes by individuals seeking
+        employment and career information and employers seeking employees. As
+        one of the conditions of your use of this website, you represent,
+        warrant, and agree that you will not use (or plan, encourage, or help
+        others to use) this website for any purpose or in any manner that is
+        prohibited by these terms, conditions and notices or by applicable law
+        (including but not limited to any applicable export controls). It is
+        your responsibility to ensure that your use of this website complies
+        with these terms and conditions (the "Terms and Conditions") and to seek
+        prior written consent from the Company for any uses not permitted or not
+        expressly specified herein. The Company specifically prohibits any use
+        of this website, and you hereby agree not to use this website, for any
+        of the following:
+        <ol type="i" style={{ marginLeft: "1rem" }}>
+          <li>
+            Posting any incomplete, false or inaccurate information about
+            yourself, your organization, and/or your postings. Further,
+            organizations and/or individuals which represent hiring
+            organizations (i.e. recruiting or staffing agencies) must identify
+            themselves as such on the website and must not otherwise
+            misrepresent themselves or the positions that they post;
+          </li>
+          <li>
+            Posting any material that is not entirely your own or for which you
+            do not have full rights to use;
+          </li>
+          <li>
+            Posting, advertising, or otherwise promoting any franchise,
+            "pyramid" scheme, "club membership," distributorship or sales
+            representative agency arrangement or other business opportunity that
+            requires an up front or periodic payment, pays commissions only (no
+            significant salary), requires recruitment of other members,
+            sub-distributors or sub-agents;
+          </li>
+          <li>
+            Deleting or otherwise revising any material posted by any other
+            person/users;
+          </li>
+          <li>
+            Using any device, software, or routine to interfere (or attempt to
+            interfere) with the proper working of this website or any activity
+            being conducted on this website;
+          </li>
+          <li>
+            Taking any action that imposes an unreasonable or disproportionately
+            large load on this website's infrastructure (including without
+            limitation "flooding," "spamming," "mail-bombing," or "crashing" the
+            website)
+          </li>
+          <li>
+            Notwithstanding anything to the contrary contained herein, using (or
+            attempting to use) any engine, software tool, agent, or other device
+            or mechanism (including without limitation browsers, spiders,
+            robots, avatars, or intelligent agents) to navigate or search this
+            website other than the search engine and search agents available
+            from the Company on this website and other than generally available
+            third party Web browsers (e.g., Netscape Navigator, Microsoft
+            Explorer, etc.);
+          </li>
+          <li>
+            Accessing data not intended for you or logging into a server or
+            account that you are not authorized to access;
+          </li>
+          <li>
+            Probing, scanning, or testing the vulnerability of a system or
+            network or to breach security or authentication measures without
+            proper authorization;
+          </li>
+          <li>
+            Forging any TCP/IP packet header or any part of the header
+            information in any e-mail or newsgroup posting;
+          </li>
+          <li>
+            If you have a password, allowing any other person to access a
+            non-public area of this website, disclosing to or sharing your
+            password with any third parties or using your password for any
+            unauthorized purpose; and
+          </li>
+          <li>
+            Attempting to decipher, de-compile, disassemble or reverse engineer
+            any of the software comprising or in any way making up a part of
+            this website.
+          </li>
+        </ol>
+        <h5>NO RESALE OR UNAUTHORIZED USE</h5>
+        You agree not to resell or assign your rights or obligations under these
+        Terms and Conditions. You also agree not to make any unauthorized
+        commercial use of this Web website.
+        <h5>LINKING</h5>
+        You may use an approved Angelgulfjobs logo as the prompt(s) for "hot"
+        links from other websites to this website, provided that any such hot
+        link explicitly is conditioned on the user's understanding and agreement
+        that entry into this website, in every instance, is subject to all the
+        terms and conditions of this agreement.
+        <p>
+          Any linking to this website must in each instance be directed to the
+          "home page" or entry portal page of this website. In no instance is
+          linking permitted directly to locations embedded within this website
+          (so-called "deep" linking).
+        </p>
+        <p>
+          The Company reserves the right to revoke this limited license to use
+          any of the approved Angelgulfjobs logo(s) for purposes of hot linking
+          to this website and may revoke any authority to link to this website
+          at any time and under any conditions deemed appropriate by the
+          Company, in its sole discretion. In the event of such revocation, the
+          linking party shall remove the hypertext link to the website with
+          three (3) days of such revocation. Any such revocation shall be
+          effective upon dispatch by the Company.
+        </p>
+        <p>
+          {" "}
+          The indemnity provisions set forth below apply in full measure to any
+          linked website, and any person or entity linking to this website shall
+          indemnify and hold harmless the Company from any claim arising from or
+          relating to the linked website.
+        </p>
+        <h5>LINKS TO OTHER SITES </h5>
+        <p>
+          {" "}
+          The Web Site contains links to third party web sites. These links are
+          provided solely as a convenience to you and not as an endorsement by
+          the Company of the contents on such third party Web sites. The Company
+          disclaims and forever waives any and all responsibility for the
+          contents of any website hot linked to this website, and assumes no
+          responsibility, and shall not be liable for any damages to, or viruses
+          that may infect, your computer equipment or other property on account
+          of your access to, use of, or browsing in this website or any linked
+          website or any downloading of a linked website. The Company is not
+          responsible for the content of linked third-party sites and does not
+          make any representations regarding the content or accuracy of
+          materials on such third-party Web sites. If you decide to access
+          linked third-party Web sites, you do so at your own risk.
+        </p>
+        <h5 class="text-justify">USER INFORMATION</h5>
+        <p>
+          {" "}
+          When you register for our service(s) on the website, you will be asked
+          to provide us with certain information, including but not limited to a
+          valid e-mail address (your "Information"). In addition to the terms
+          and conditions that may be set forth in any privacy policy on this Web
+          Site, you understand and agree that the Company may disclose to third
+          parties, on an anonymous basis, certain aggregate information
+          contained in your registration application. The Company will not
+          disclose to any third party your name, address, e-mail address or
+          telephone number without your prior consent, except to the extent
+          necessary or appropriate to comply with applicable laws or in legal
+          proceedings where such information is relevant. The Company reserves
+          the right to offer third party services and products to you based on
+          the preferences that you identify in your registration and at any time
+          thereafter; such offers may be made by the Company or by third
+          parties. Please see the Company's Privacy Policy for further details
+          regarding your Information.
+        </p>
+        <h5 class="text-justify">USER SUBMISSIONS</h5>
+        <p>
+          {" "}
+          As a user, you are responsible for your own communications and are
+          responsible for the consequences of their posting. You must not, and
+          by using this website you hereby agree not to, do the following
+          things:{" "}
+        </p>
+        <ol type="i" style={{ marginLeft: "1rem" }}>
+          <li>
+            Post material that is copyrighted, unless you are the copyright
+            owner or have the permission of the copyright owner to post it;
+          </li>
+          <li>
+            Post material that reveals trade secrets, unless you own them or
+            have the permission of the owner;
+          </li>
+          <li>
+            Post material that infringes on any other intellectual property
+            rights of others or on the privacy or publicity rights of others;
+          </li>
+          <li>
+            Post material that is obscene, defamatory, threatening, harassing,
+            abusive, hateful, or embarrassing to another user or any other
+            person or entity;
+          </li>
+          <li>post a sexually-explicit image or statement;</li>
+          <li>
+            post advertisements or solicitations of business, post chain letters
+            or pyramid schemes;
+          </li>
+          <li>impersonate another person;</li>
+          <li>
+            or post material that contains viruses, Trojan horses, worms, time
+            bombs, bots or other computer programming routines or engines that
+            are intended to damage, detrimentally interfere with,
+            surreptitiously intercept or expropriate any system, data or
+            information.
+          </li>
+        </ol>
+        <p>
+          The Company does not represent or guarantee the truthfulness,
+          accuracy, or reliability of communications posted by users or endorses
+          any opinions expressed by users. You acknowledge that any reliance on
+          material posted by other users will be at your own risk.
+        </p>
+        <p>
+          The Company has no obligation to screen communications in advance and
+          is not responsible for screening or monitoring material posted by
+          users. If notified by a user of communications, which allegedly do not
+          conform to this Agreement, the Company may investigate the allegation
+          and determine in good faith and its sole discretion whether to remove
+          or request the removal of the communication. The Company has no
+          liability or responsibility to users for performance or nonperformance
+          of such activities. The Company reserves the right to expel users and
+          prevent their further access to the Web Site for violating this
+          Agreement or the law and the right to remove communications which are
+          abusive, illegal, or disruptive.
+        </p>
+        <p>
+          We appreciate hearing from our customers and welcome your comments
+          regarding our services and this website. Please be advised, however,
+          that our policy does not permit us to accept or consider creative
+          ideas, suggestions, inventions or materials other than those, which we
+          have specifically requested. While we do value your feedback on our
+          services, please be specific in your comments regarding our services
+          and do not submit creative ideas, inventions, suggestions, or
+          materials.
+        </p>
+        <p>
+          If, despite our request, you send us creative suggestions, ideas,
+          drawings, concepts, inventions, or other information (collectively the
+          "Information"), the Information shall be the property of the Company.
+          None of the Information shall be subject to any obligation of
+          confidence on our part and we shall not be liable for any use or
+          disclosure of any Information. The Company shall own exclusively all
+          now known or later discovered rights to the information and shall be
+          entitled to unrestricted use of the Information for any purpose
+          whatsoever, commercial or otherwise, without compensation to you or
+          any other person who submitted the information By submitting content
+          to any public area of the Web Site, including message boards, forums,
+          contests and chat rooms, you grant the Company and its affiliates the
+          royalty-free, perpetual, irrevocable, non-exclusive right (including
+          any moral rights) and license to use, reproduce, modify, adapt,
+          publish, translate, create derivative works from, distribute,
+          communicate to the public, perform and display the content (in whole
+          or in part) worldwide and/or to incorporate it in other works in any
+          form, media, or technology now known or later developed, for the full
+          term of any rights that may exist in such content. You also warrant
+          that the holder of any rights, including moral rights in such content,
+          has completely and effectively waived all such rights and validly and
+          irrevocably granted to you the right to grant the license stated
+          above. You also permit any subscriber to access, display, view, store
+          and reproduce such content for personal use. Subject to the foregoing,
+          the owner of such content placed on the Web Site retains any and all
+          rights that may exist in such content.
+        </p>
+        <h5>REGISTRATION & PASSWORD</h5>
+        <p>
+          You are responsible for maintaining the confidentiality of your
+          information and password. You shall be responsible for all uses of
+          your registration, whether or not authorized by you. You agree to
+          immediately notify the Company of any unauthorized use of your
+          registration or password.
+        </p>
+        <h5>INTELLECTUAL PROPERTY POLICY</h5>
+        <p>
+          We respect the intellectual property of others and expect you to do
+          the same. At our discretion and in appropriate circumstances, we may
+          terminate your account(s) and/or prevent access to the website by
+          users who infringe upon the intellectual property rights of others.
+        </p>
+        <h5>TERMINATION</h5>
+        <p>
+          The Company reserves the right, at its sole discretion, to immediately
+          terminate your registration with or ability to access the Web Site
+          and/or any other service provided to you by the Company, upon any
+          breach by you of this Agreement.
+        </p>
+        <h5>MAKING PURCHASES</h5>
+        <p>
+          If products or services are made available at the Site, and if you
+          wish to license or make purchases of products or services described on
+          the Site, you may be asked by the applicable merchant or service
+          provider to supply certain information, including but not limited to
+          credit card or other payment information. You agree that all
+          information that you provide to any such merchant or service provider
+          will be accurate, complete and current. You agree to pay all charges
+          incurred by users of your account and credit card or other payment
+          mechanism at the prices in effect when such charges are incurred. You
+          will also be responsible for paying any applicable taxes relating to
+          your purchases. Moreover, you agree to review and to comply with the
+          terms and conditions of any specific agreement that you enter into
+          with the merchant and/or service provider in connection with the
+          licensing or purchase of any product or service.
+        </p>
+        <h5>THE COMPANY'S LIABILITY</h5>
+        <p>
+          The Material may contain inaccuracies or typographical errors. The
+          Company makes no representations about the accuracy, reliability,
+          completeness, or timeliness of the Web Site or the Material. The use
+          of the Web Site and the Material is at your own risk. Changes are
+          periodically made to the Web Site and may be made at any time.
+        </p>
+        <p>
+          You acknowledge and agree that you are solely responsible for the
+          form, content and accuracy of any resume or material contained therein
+          placed by you on the Web Site. Employers are solely responsible for
+          their postings on the Web Site.
+        </p>
+        <p>
+          The Company is not to be considered to be an employer with respect to
+          your use of the Web Site and the Company shall not be responsible for
+          any employment decisions, for whatever reason made, made by any entity
+          posting jobs on the Web Site.
+        </p>
+        <p>
+          THE COMPANY DOES NOT WARRANT THAT THE WEB SITE WILL OPERATE ERROR-FREE
+          OR THAT THE WEB SITE AND ITS SERVER ARE FREE OF COMPUTER VIRUSES OR
+          OTHER HARMFUL MECHANISMS. IF YOUR USE OF THE WEB SITE OR THE MATERIAL
+          RESULTS IN THE NEED FOR SERVICING OR REPLACING EQUIPMENT OR DATA, THE
+          COMPANY IS NOT RESPONSIBLE FOR THOSE COSTS. THE WEB SITE AND MATERIAL
+          ARE PROVIDED ON AN "AS IS" BASIS WITHOUT ANY WARRANTIES OF ANY KIND.
+          THE COMPANY, TO THE FULLEST EXTENT PERMITTED BY LAW, DISCLAIMS ALL
+          WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING THE WARRANTY OF
+          MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+          THE COMPANY MAKES NO WARRANTIES ABOUT THE ACCURACY, RELIABILITY,
+          COMPLETENESS, OR TIMELINESS OF THE MATERIAL, SERVICES, SOFTWARE, TEXT,
+          GRAPHICS, AND LINKS.
+        </p>
+        <p>
+          The Company will not be liable for any damages or injury caused by any
+          failure of performance, error, omission, interruption, deletion,
+          defect, delay in operation or transmission, computer virus, act of
+          God/act of nature, communication line failure, theft or destruction or
+          unauthorized access to, alteration of, or use of record, whether for
+          breach of contract, tortuous behavior, negligence, or under any other
+          cause of action.
+        </p>
+        <p>
+          You specifically acknowledge and agree that the Company is not liable
+          for your defamatory, offensive, infringing or illegal materials or
+          conduct or that of third parties, and we reserve the right to remove
+          such materials from this website without liability.
+        </p>
+        <h5>LIMITATION OF LIABILITY</h5>
+        <p>
+          UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE,
+          SHALL THE COMPANY, ITS SUPPLIERS, OR ANY THIRD PARTIES MENTIONED ON
+          THE WEB SITE BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT
+          LIMITATION, INCIDENTAL AND CONSEQUENTIAL DAMAGES, LOST PROFITS, OR
+          DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION) RESULT FROM
+          THE USE OF, OR THE INABILITY TO USE, THE WEB SITE AND THE MATERIAL,
+          EVEN IF THE COMPANY OR ITS AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED
+          OF THE POSSIBILITY OF SUCH DAMAGES. APPLICABLE LAW MAY NOT ALLOW THE
+          LIMITATION OR EXCLUSION OF LIABILITY OR INCIDENTAL OR CONSEQUENTIAL
+          DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN
+          NO EVENT SHALL THE COMPANY'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES,
+          LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT, OR OTHERWISE)
+          EXCEED THE AMOUNT PAID BY YOU, IF ANY, FOR ACCESSING THIS WEBSITE.
+        </p>
+        <h5>INDEMNITY</h5>
+        <p>
+          Although the Site is accessible worldwide, not all products or
+          services discussed or referenced in the Site are available to all
+          persons or in all geographic locations or jurisdictions. The Company
+          reserves the right to limit the provision of any product or service to
+          any person, geographic area or jurisdiction it so desires.
+        </p>
+        <p>
+          You agree to defend, indemnify, and hold harmless the Company, its'
+          officers, directors, employees and agents, from and against any
+          claims, actions or demands, including without limitation reasonable
+          legal and accounting fees, alleging or resulting directly or
+          indirectly out of or from
+        </p>
+        <ol type="a">
+          <li>your use of the Material,</li>
+          <li>your breach of the terms of this Agreement and/or</li>
+          <li>
+            your activities in connection with the Website or Website-related
+            services
+          </li>
+        </ol>
+        <p>
+          The Company shall provide notice to you promptly of any such claim,
+          suit, or proceeding and shall assist you, at your expense, in
+          defending any such claim, suit or proceeding.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default TermsOfUse;
+>>>>>>> 576083a43a265cea2d0cde471ab1fc556cb1d182
