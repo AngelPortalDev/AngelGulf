@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /.env
-
+/php/conn.php
 # testing
 /coverage
 

@@ -1,9 +1,9 @@
 <?php
 // Connection code (no session_start here)
 $host = "localhost";      
-$dbname = "gulf_angel"; 
-$username = "root"; 
-$password = ""; 
+$dbname = "angelgulfjobs_gulf"; 
+$username = "angelgulfjobs_db"; 
+$password = "9w0%ye+S6v=I"; 
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
