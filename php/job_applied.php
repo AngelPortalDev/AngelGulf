@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 header("Access-Control-Allow-Origin: *");
@@ -131,6 +132,8 @@ if (isset($formData['name'], $formData['email'], $formData['message'])) {
 
 ?>
 =======
+=======
+>>>>>>> d07af54cc9a03b6c2fcf143c9339fe57c9e0c85d
 <?php
 
 header("Access-Control-Allow-Origin: *");
@@ -262,4 +265,3 @@ if (isset($formData['name'], $formData['email'], $formData['message'])) {
 }
 
 ?>
->>>>>>> 576083a43a265cea2d0cde471ab1fc556cb1d182
