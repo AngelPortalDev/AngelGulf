@@ -1,0 +1,24 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Serve existing files or directories as-is.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 2. If the request is coming from "localhost", redirect it to the production domain.
+  RewriteCond %{HTTP_HOST} ^localhost$ [NC]
+  RewriteRule ^(.*)$ https://www.angelgulfjobs.com/$1 [R=301,L]
+
+  # 3. For all requests NOT targeting the PHP folder, rewrite to index.html.
+  RewriteCond %{REQUEST_URI} !^/php/
+  RewriteRule ^.*$ /index.html [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  # 4. Set CORS headers for requests.
+  Header set Access-Control-Allow-Origin "https://www.angelgulfjobs.com/"
+  Header set Access-Control-Allow-Methods "POST, GET, PUT, OPTIONS"
+  Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+</IfModule>

@@ -1,0 +1,145 @@
+[11-Feb-2025 09:23:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 09:26:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 09:30:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 09:56:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 09:57:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 09:58:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:02:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:13:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:14:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:14:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:18:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:26:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:26:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:26:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:27:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:28:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:28:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:29:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:32:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'fgxhndfyjtyjjjt' for column 'mobile' at row 1 in /home/angelgulfjobs/public_html/php/job_applied.php:86
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/job_applied.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/job_applied.php on line 86
+[11-Feb-2025 10:32:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:32:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'fgxhndfyjtyjjjt' for column 'mobile' at row 1 in /home/angelgulfjobs/public_html/php/job_applied.php:86
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/job_applied.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/job_applied.php on line 86
+[11-Feb-2025 10:37:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:38:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:42:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:42:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:50:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 10:50:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'currency_type' doesn't have a default value in /home/angelgulfjobs/public_html/php/jobpost.php:99
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/jobpost.php(99): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/jobpost.php on line 99
+[11-Feb-2025 11:28:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'asdfghvfgh' for column 'mobile' at row 1 in /home/angelgulfjobs/public_html/php/job_applied.php:86
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/job_applied.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/job_applied.php on line 86
+[11-Feb-2025 11:28:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: 'asdfghvfgh' for column 'mobile' at row 1 in /home/angelgulfjobs/public_html/php/job_applied.php:86
+Stack trace:
+#0 /home/angelgulfjobs/public_html/php/job_applied.php(86): PDOStatement->execute()
+#1 {main}
+  thrown in /home/angelgulfjobs/public_html/php/job_applied.php on line 86
