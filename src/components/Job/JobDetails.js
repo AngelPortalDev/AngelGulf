@@ -131,7 +131,7 @@ const JobDetails = () => {
                               <span className="twm-title">Location</span>
                               <div className="twm-s-info-discription">
                                 {jobDetails.location_hiring},{" "}
-                                {jobDetails.country_name}
+                                {jobDetails.name}
                               </div>
                             </div>
                           </li>
@@ -191,7 +191,6 @@ const JobDetails = () => {
                               {skill.trim()}
                             </NavLink>
                           ))}
-                        <NavLink to="">Html</NavLink>
                       </div>
                     </div>
                   </div>
