@@ -74,6 +74,7 @@ const AdminEditJob = () => {
       const formData = new FormData();
   
       for (let key in values) {
+
         formData.append(key, values[key]);
       }
   
@@ -112,7 +113,9 @@ const AdminEditJob = () => {
   
 
   if (!jobData) {
-    return <div>Loading...</div>;
+    return <div className="loading-overlay">
+    <div className="loading-text">Loading...</div>
+  </div>
   }
 
   return (

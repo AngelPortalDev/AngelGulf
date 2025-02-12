@@ -68,7 +68,6 @@ const JobApplicationForm = ({ closeModal,job_Id  }) => {
           },
         });
         if (response.data) {
-          console.log("response data: " + response.data);
           formik.resetForm();
           setResume(null);
           toast.success("Your application was submitted successfully!");

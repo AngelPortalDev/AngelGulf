@@ -44,7 +44,6 @@ const Login = () => {
           }
         );
 
-        console.log("response", response);
 
         if (response.data.success) {
           login(response.data.token);
