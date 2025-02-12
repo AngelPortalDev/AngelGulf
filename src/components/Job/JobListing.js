@@ -8,12 +8,9 @@ const JobListing = () => {
   const [jobList, setJobList] = useState([]);
   const [job_Id, setJobId] = useState(null);
 
-
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
-  const jobsPerPage = 5; 
-
-
+  const jobsPerPage = 5;
 
   const openModal = (job_Id) => {
     // console.log("Job_id",job_Id);
@@ -24,15 +21,12 @@ const JobListing = () => {
     setIsModalOpen(false);
   };
 
-  console.log(`${process.env.REACT_APP_API_BASE_URL}php/job_applied.php`,"console");
-
   const fetchJobListing = async () => {
     try {
       const res = await axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/joblist.php`
       );
       setJobList(res.data.jobs || []);
-      console.log("result: ", res.data);
     } catch (err) {
       console.error(err);
       setJobList([]);
@@ -43,21 +37,22 @@ const JobListing = () => {
     fetchJobListing();
   }, []);
 
+  // Calculate jobs to display based on the current page
+  const indexOfLastJob = currentPage * jobsPerPage;
+  const indexOfFirstJob = indexOfLastJob - jobsPerPage;
+  const currentJobs = jobList
+    .filter((job) => job.is_deleted === "No")
+    .slice(indexOfFirstJob, indexOfLastJob);
 
-   // Calculate jobs to display based on the current page
-   const indexOfLastJob = currentPage * jobsPerPage;
-   const indexOfFirstJob = indexOfLastJob - jobsPerPage;
-   const currentJobs = jobList.filter((job) => job.is_deleted === "No").slice(indexOfFirstJob, indexOfLastJob);
- 
-   // Pagination Logic
-   const totalPages = Math.ceil(jobList.filter((job) => job.is_deleted === "No").length / jobsPerPage);
- 
-   // Function to handle page change
-   const handlePageChange = (pageNumber) => {
-     setCurrentPage(pageNumber);
-   };
+  // Pagination Logic
+  const totalPages = Math.ceil(
+    jobList.filter((job) => job.is_deleted === "No").length / jobsPerPage
+  );
 
-  console.log("jobList: ", jobList);
+  // Function to handle page change
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   return (
     <div>
@@ -206,16 +201,15 @@ const JobListing = () => {
                 {/*Filter Short By*/}
                 <div className="product-filter-wrap d-flex justify-content-between align-items-center m-b30">
                   <span className="woocommerce-result-count-left">
-                     Showing {
-                      jobList.filter((job) => job.is_deleted === "No").length
-                    } jobs
+                    Showing{" "}
+                    {jobList.filter((job) => job.is_deleted === "No").length}{" "}
+                    jobs
                   </span>
                 </div>
                 <div className="twm-jobs-list-wrap">
                   <div className="twm-jobs-list-wrap">
                     <ul>
-                      {currentJobs
-                      .map((job, index) => { 
+                      {currentJobs.map((job, index) => {
                         return (
                           <li key={index}>
                             <div className="twm-jobs-list-style1 mb-5">
@@ -227,7 +221,7 @@ const JobListing = () => {
                                       : "/images/jobs-company/pic1.jpg"
                                   }
                                   alt="img not found"
-                               />
+                                />
                               </div>
                               <div className="twm-mid-content">
                                 <NavLink
@@ -239,7 +233,7 @@ const JobListing = () => {
                                 <p className="twm-job-address">
                                   {job.company_name}
                                 </p>
-                              </div> 
+                              </div>
                               <div className="twm-right-content">
                                 {/* <div className="twm-jobs-category green">
                                   <span className="twm-bg-brown">
@@ -272,26 +266,67 @@ const JobListing = () => {
                 <div className="pagination-outer">
                   <div className="pagination-style1">
                     <ul className="clearfix">
-                      <li className="prev">
-                        <NavLink to="#" onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
+                      <li
+                        className={`prev ${
+                          currentPage === 1 ? "disabled" : ""
+                        }`}
+                      >
+                        <NavLink
+                          to="#"
+                          onClick={(e) => {
+                            if (currentPage > 1) {
+                              handlePageChange(currentPage - 1);
+                            } else {
+                              e.preventDefault();
+                            }
+                          }}
+                        >
                           <span>
-                            {" "}
-                            <i className="fa fa-angle-left" />{" "}
+                            <i className="fa fa-angle-left" />
                           </span>
                         </NavLink>
                       </li>
-                      {Array.from({ length: totalPages }, (_, index) => index + 1).map((pageNumber) => (
-                        <li key={pageNumber} className={pageNumber === currentPage ? "active" : ""}>
-                          <NavLink to="#" onClick={() => handlePageChange(pageNumber)}>
+                      {Array.from(
+                        { length: totalPages },
+                        (_, index) => index + 1
+                      ).map((pageNumber) => (
+                        <li
+                          key={pageNumber}
+                          className={pageNumber === currentPage ? "active" : ""}
+                        >
+                          <NavLink
+                            to="#"
+                            onClick={() => handlePageChange(pageNumber)}
+                          >
                             {pageNumber}
                           </NavLink>
                         </li>
                       ))}
-                      <li className="next">
+                      {/* <li className="next">
                         <NavLink to="#" onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages}>
                           <span>
                             {" "}
                             <i className="fa fa-angle-right" />{" "}
+                          </span>
+                        </NavLink>
+                      </li> */}
+                      <li
+                        className={`next ${
+                          currentPage === totalPages ? "disabled" : ""
+                        }`}
+                      >
+                        <NavLink
+                          to="#"
+                          onClick={(e) => {
+                            if (currentPage < totalPages) {
+                              handlePageChange(currentPage + 1);
+                            } else {
+                              e.preventDefault(); // Prevent clicking if already on the last page
+                            }
+                          }}
+                        >
+                          <span>
+                            <i className="fa fa-angle-right" />
                           </span>
                         </NavLink>
                       </li>

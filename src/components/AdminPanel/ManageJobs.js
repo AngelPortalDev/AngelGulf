@@ -5,6 +5,7 @@ import { toast,ToastContainer } from "react-toastify";
 import AdminEditJob from "./AdminEditJob";
 import { useAuth } from "../middleware/AuthContext";
 import JobAppliedList from "../Job/JobAppliedList";
+import Swal from 'sweetalert2';
 
 const ManageJobs = () => {
   const [displayJobs, setDisplayJobs] = React.useState([]);
@@ -28,7 +29,6 @@ const ManageJobs = () => {
       const res = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/joblist.php`
       );
-      console.log("response: ", res.data);
       setDisplayJobs(res.data.jobs || []);
     } catch (err) {
       console.error(err);
@@ -99,8 +99,8 @@ const ManageJobs = () => {
   const toggleJobStatus = async (job_id, currentStatus) => {
     const newStatus = currentStatus === "Active" ? "Inactive" : "Active";
   
-    console.log("currentStatus", currentStatus);
-    console.log("job_id", job_id);
+    // console.log("currentStatus", currentStatus);
+    // console.log("job_id", job_id);
   
     const isConfirmed = window.confirm(
       `Are you sure you want to mark this job as ${newStatus}?`

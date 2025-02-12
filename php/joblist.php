@@ -18,7 +18,7 @@ $country_id = isset($_GET['country_id']) ? $_GET['country_id'] : null;
 // print_r($country_id);
 // exit();
 $stmt = $conn->prepare("
-    SELECT jl.id, jl.job_title, jl.job_description, jl.skill_keyword,jl.update_at, jl.location_hiring, jl.no_of_openings, jl.currency_type, jl.job_education,jl.company_name,jl.company_logo, jl.is_deleted, jl.country_id, cm.name,  jl.gender, jl.salary FROM joblist jl JOIN country_list cm ON jl.id = cm.id ");
+    SELECT jl.id, jl.job_title, jl.job_description, jl.skill_keyword,jl.update_at, jl.location_hiring, jl.no_of_openings, jl.currency_type, jl.job_education,jl.company_name,jl.company_logo, jl.is_deleted, jl.country_id, cm.name,  jl.gender, jl.salary FROM joblist jl LEFT JOIN country_list cm ON jl.id = cm.id ORDER BY jl.id DESC");
 
     if ($country_id) {
         $stmt = $conn->prepare(" SELECT jl.id, jl.job_title,jl.company_logo,jl.company_name, jl.job_description, jl.skill_keyword, jl.location_hiring, 

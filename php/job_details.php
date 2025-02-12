@@ -32,9 +32,10 @@ if ($job_id > 0) {
             jl.gender, 
             jl.salary ,
             jl.update_at,
-            jl.experience
+            jl.experience,
+            jl.country_id
         FROM joblist jl
-        JOIN country_list cm ON jl.id = cm.id
+        LEFT JOIN country_list cm ON jl.id = cm.id
         WHERE jl.id = :job_id
     ");
 

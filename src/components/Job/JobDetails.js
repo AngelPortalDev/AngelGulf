@@ -23,7 +23,6 @@ const JobDetails = () => {
       const res = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/job_details.php?job_id=${jobId}`
       );
-      console.log("res", res);
       setJobDetails(res.data.job);
     } catch (err) {
       console.error("Error fetching job list: ", err);
@@ -37,7 +36,9 @@ const JobDetails = () => {
   }, [jobId]);
 
   if (!jobDetails) {
-    return <div>Loading...</div>;
+    return <div className="loading-overlay">
+    <div className="loading-text">Loading...</div>
+  </div>
   }
 
 

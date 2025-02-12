@@ -38,15 +38,7 @@ const AdminPostJob = () => {
     // gender: Yup.string().required("Functional area is required"),
     job_description: Yup.string().required("Job description is required"),
     experience: Yup.string().required("Experience is required"),
-    company_logo: Yup.mixed()
-      .test("fileFormat", "Only .jpg, .jpeg, .png are allowed", (value) => {
-        return (
-          value && ["image/jpeg", "image/png", "image/jpg"].includes(value.type)
-        );
-      })
-      .test("fileSize", "File size must be less than 2MB", (value) => {
-        return value && value.size <= 2 * 1024 * 1024; // 2MB limit
-      }),
+    company_logo: Yup.mixed().nullable()
   });
 
   const formik = useFormik({
@@ -61,7 +53,7 @@ const AdminPostJob = () => {
       // gender: "",
       job_description: "",
       experience: "",
-      // company_logo: "",
+      company_logo: null
       // company_logo: selectedImage,
     },
     validationSchema: validationSchema,
@@ -76,7 +68,7 @@ const AdminPostJob = () => {
       formData.append("job_education", values.job_education);
       // formData.append("gender", values.gender);
       formData.append("job_description", values.job_description);
-      formData.append("company_logo", values.company_logo);
+      // formData.append("company_logo", values.company_logo);
       formData.append("experience", values.experience);
 
 
@@ -94,9 +86,7 @@ const AdminPostJob = () => {
             },
           }
         );
-        console.log("response", response);
         if (response.data) {
-          console.log("response data: " + response.data);
           formik.resetForm();
           toast.success("Your Job Post successfully!");
           setTimeout(() => {
@@ -118,7 +108,7 @@ const AdminPostJob = () => {
         navigate("/login");
         // alert("Token Not found. Please try again")
       }
-    }, [navigate]);
+    }, []);
 
   return (
     <div>
@@ -179,11 +169,9 @@ const AdminPostJob = () => {
                                           event.currentTarget.files[0];
                                         formik.setFieldValue(
                                           "company_logo",
-                                          file
+                                          file || null
                                         );
-                                        setSelectedImage(
-                                          URL.createObjectURL(file)
-                                        );
+                                        setSelectedImage(file ? URL.createObjectURL(file) : null);
                                       }}
                                     />
                                   </div>
@@ -265,7 +253,7 @@ const AdminPostJob = () => {
                                       onBlur={formik.handleBlur}
                                       value={formik.values.salary}
                                     />
-                                    <i className="fs-input-icon fa fa-dollar-sign" />
+                                    {/* <i className="fs-input-icon fa fa-dollar-sign" /> */}
                                   </div>
                                   {formik.touched.salary &&
                                     formik.errors.salary && (

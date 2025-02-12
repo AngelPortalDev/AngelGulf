@@ -18,6 +18,7 @@ import Login from "./components/Authentication/Login.js";
 import ProtectedRoute from "./components/middleware/ProtectedRoute.js";
 import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
+import './App.css';
 
 // Services components
 const VisaService = React.lazy(() =>
@@ -335,7 +336,6 @@ const GulfJobPortalLaunch = React.lazy(() =>
 
 function LocationAwareHeader() {
   const location = useLocation();
-console.log(location.pathname,"location");
 
   const excludedPaths = [
     "/addjob",
