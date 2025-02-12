@@ -26,6 +26,7 @@ const validationSchema = Yup.object({
 });
 
 const Partners = () => {
+    const [loading,setLoading] = useState(false);
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -39,6 +40,7 @@ const Partners = () => {
     },
     validationSchema,
     onSubmit: async (values) => {
+      setLoading(true);
       // Handle form submission
       const formData = new FormData();
       formData.append("name", values.name);
@@ -57,10 +59,12 @@ const Partners = () => {
         );
         if (response.data) {
           formik.resetForm();
-          toast.success("Form Submitted Successfully");
+          toast.success("Thank you for reaching out! We’ll contact you as soon as possible.");
         }
       } catch (err) {
         toast.error("Failed to submit form. Please try again later.");
+      }finally{
+        setLoading(false);
       }
     },
   });
@@ -84,6 +88,11 @@ const Partners = () => {
 
   return (
     <div>
+      {loading && (
+        <div className="loading-overlay">
+          <div className="loading-text">Loading...</div>
+        </div>
+      )}
       <Helmet>
         <title>Partner With us</title>
         <meta
@@ -226,7 +235,7 @@ const Partners = () => {
                       {countryList.length > 0 ? (
                         countryList.map((country) => (
                           <option key={country.id} value={country.id}>
-                            {country.country_name}
+                            {country.name}
                           </option>
                         ))
                       ) : (

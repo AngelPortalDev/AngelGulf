@@ -10221,6 +10221,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   width: 100%;
   display: block;
   padding: 5px;
+  height: 65px;
+  margin-top: 12px;
 }
 .twm-job-self-wrap .twm-job-self-info .twm-job-self-top .twm-job-title {
   margin-bottom: 15px;

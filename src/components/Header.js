@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Logo from '../assets/images/ange_gulf_logo.png';
 
 const Header = () => {
   return (
@@ -11,10 +12,10 @@ const Header = () => {
             <div className="logo-header-inner logo-header-one">
               <NavLink to="/">
                 <img
-                  src="images/ange_gulf_logo.png"
-                  alt="branding"
+                  src={Logo}
+                  alt="Angel gulf"
                   title="angel gulf jobs logo"
-                  style={{ maxWidth: "100%", height: "auto" }} // Logo scaling for responsiveness
+                  style={{ maxWidth: "100%", height: "auto" }} 
                 />
               </NavLink>
             </div>

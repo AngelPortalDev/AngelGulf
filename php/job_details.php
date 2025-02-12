@@ -26,16 +26,16 @@ if ($job_id > 0) {
             jl.location_hiring, 
             jl.no_of_openings, 
             jl.currency_type, 
-            jl.job_education, 
-            jl.id, 
-            cm.name,  
+            jl.job_education,            
+            cm.name, 
+            cm.id, 
             jl.gender, 
             jl.salary ,
             jl.update_at,
             jl.experience,
             jl.country_id
         FROM joblist jl
-        LEFT JOIN country_list cm ON jl.id = cm.id
+        LEFT JOIN country_list cm ON jl.country_id = cm.id
         WHERE jl.id = :job_id
     ");
 
