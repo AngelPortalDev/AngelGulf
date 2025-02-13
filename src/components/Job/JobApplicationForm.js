@@ -37,7 +37,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
       const file = acceptedFiles[0];
       if (file) {
         if (file.size > 2 * 1024 * 1024) {
-          toast.error("Resume file size should not exceed 2MB");
+          toast.error("Resume file size should not exceed 2MB",{ autoClose: 1000 });
           return;
         }
         setResume(file);
