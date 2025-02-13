@@ -28,7 +28,7 @@ const GrievanceForm = () => {
                   <div className="section-head left wt-small-separator-outer"></div>
                   {/* TITLE END*/}
                   <form
-                    className="cons-contact-form"
+                    className="cons-contact-form mb-3"
                     method="post"
                     action="https://thewebmax.org/jobzilla/form-handler2.php"
                   >

@@ -5,7 +5,6 @@ import { toast,ToastContainer } from "react-toastify";
 import AdminEditJob from "./AdminEditJob";
 import { useAuth } from "../middleware/AuthContext";
 import JobAppliedList from "../Job/JobAppliedList";
-import Swal from 'sweetalert2';
 
 const ManageJobs = () => {
   const [displayJobs, setDisplayJobs] = React.useState([]);
@@ -29,7 +28,10 @@ const ManageJobs = () => {
       const res = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/joblist.php`
       );
-      setDisplayJobs(res.data.jobs || []);
+      let jobs = res.data.jobs || [];
+      // console.log("jobs",jobs);
+      jobs.sort((a, b) => new Date(b.update_at) - new Date(a.update_at));
+      setDisplayJobs(jobs);
     } catch (err) {
       console.error(err);
       setDisplayJobs([]);
@@ -122,8 +124,6 @@ const ManageJobs = () => {
           // Show success toast message immediately
           toast.success(`Job marked as ${newStatus} successfully!`);
   
-          // Delay the update of job status in the state to allow the toast to appear
-          setTimeout(() => {
             setDisplayJobs((prevJobs) =>
               prevJobs.map((job) =>
                 job.id === job_id
@@ -134,7 +134,6 @@ const ManageJobs = () => {
                   : job
               )
             );
-          }, 5000);  // Delay for 2 seconds
         } else {
           toast.error("Failed to update job status. Please try again later.");
         }

@@ -12,7 +12,9 @@ const JobAppliedList = () => {
       const response = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/jobapplied_list.php`
       );
-      setCandidateList(response.data.jobs);
+      // setCandidateList(response.data.jobs);
+      setCandidateList(response.data.jobs.sort((a, b) => b.id - a.id));
+
     } catch (error) {
       console.error("Error fetching candidates:", error);
     }

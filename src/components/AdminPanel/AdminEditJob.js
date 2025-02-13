@@ -45,7 +45,7 @@ const AdminEditJob = () => {
   const validationSchema = Yup.object({
     job_title: Yup.string().required("Job Title is required"),
     company_name: Yup.string().required("Company name is required"),
-    salary: Yup.string().required("Annual salary is required"),
+    salary: Yup.string().required("Monthly salary is required"),
     country_id: Yup.string().required("Country is required"),
     location_hiring: Yup.string().required("Job location is required"),
     skill_keyword: Yup.string().required("Skills are required"),
@@ -92,6 +92,9 @@ const AdminEditJob = () => {
           {
             headers: {
               "Content-Type": "multipart/form-data",
+              "Cache-Control": "no-cache, no-store, must-revalidate",
+              Pragma: "no-cache",
+              Expires: "0",
             },
           }
         );
@@ -133,7 +136,7 @@ const AdminEditJob = () => {
             <div className="row d-flex justify-content-center">
               <div className="col-lg-8 col-md-12">
               <div className="d-flex justify-content-end mb-3">
-              <button className="btn btn-primary" onClick={() => window.history.back()} >Back</button>
+              <button className="btn btn-primary" onClick={() => navigate('/managejobs')} >Back</button>
             </div>
                 <div className="twm-right-section-panel-wrap2">
                   <div className="twm-right-section-panel site-bg-primary">
@@ -266,18 +269,18 @@ const AdminEditJob = () => {
 
                               <div className="col-xl-6 col-lg-6 col-md-12">
                                 <div className="form-group">
-                                  <label>Annual Salary*</label>
+                                  <label>Monthly Salary*</label>
                                   <div className="ls-inputicon-box">
                                     <input
                                       className="form-control"
                                       name="salary"
                                       type="text"
-                                      placeholder="Your Annual Salary"
+                                      placeholder="Monthly Salary With Currency"
                                       onChange={formik.handleChange}
                                       onBlur={formik.handleBlur}
                                       value={formik.values.salary}
                                     />
-                                    <i className="fs-input-icon fa fa-dollar-sign" />
+                                    {/* <i className="fs-input-icon fa fa-dollar-sign" /> */}
                                   </div>
                                   {formik.touched.salary &&
                                     formik.errors.salary && (
