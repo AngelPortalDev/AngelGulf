@@ -16,8 +16,8 @@ const validationSchema = Yup.object({
   email: Yup.string()
     .email('Please enter a valid email address')
     .required('Email is required'),
-  phone: Yup.string()
-    .matches(/^\d{10,14}$/, 'Please enter a valid phone number')
+    phone: Yup.string()
+    .matches(/^\d{10,14}$/, 'Please enter a valid phone number').max(14, 'Phone number should not exceed 14 digits')
     .required('Phone number is required'),
   message: Yup.string(),
 });
@@ -154,7 +154,7 @@ const ContactUs = () => {
                             <div className="form-group mb-3">
                               <input
                                 name="phone"
-                                type="text"
+                                type="number"
                                 className="form-control"
                                 placeholder="Phone Number*"
                                 value={formik.values.phone}

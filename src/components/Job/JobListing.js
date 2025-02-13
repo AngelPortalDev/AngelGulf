@@ -241,7 +241,7 @@ const JobListing = () => {
                                   </span>
                                 </div> */}
                                 <div className="twm-jobs-amount">
-                                  {job.salary} <span>/ Year</span>
+                                  {job.salary} <span>/ Month</span>
                                 </div>
                                 <button
                                   className="twm-jobs-browse btn btn-primary text-decoration-none"
