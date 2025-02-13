@@ -10,8 +10,8 @@ const JobDetails = () => {
   const [job_Id, setJobId] = useState(null);
   const { jobId } = useParams();
 
-  const openModal = (job_Id) => {
-    setJobId(job_Id);
+  const openModal = () => {
+    setJobId(jobId);
     setIsModalOpen(true);
   };
   const closeModal = () => {
@@ -200,9 +200,12 @@ const JobDetails = () => {
           </div>
         </div>
 
-        {isModalOpen && (
-          <JobApplicationForm closeModal={closeModal} job_id={job_Id} />
-        )}
+        {isModalOpen && job_Id && (
+                        <JobApplicationForm
+                          closeModal={closeModal}
+                          job_Id={job_Id}
+                        />
+                      )}
         {/* OUR BLOG END */}
       </div>
     </div>

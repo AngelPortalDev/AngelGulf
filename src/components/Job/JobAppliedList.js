@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const JobAppliedList = () => {
   const [candidateList, setCandidateList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(5); // Define how many items to show per page
+  const [itemsPerPage] = useState(5); 
 
   const fetchCandidates = async () => {
     try {
@@ -35,11 +35,14 @@ const JobAppliedList = () => {
   // Handle page change
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  const handleResumeDownload = (resumeUrl) => {
+  const handleResumeDownload = (resumeFileName) => {
+    const fullResumeUrl = `${process.env.REACT_APP_API_BASE_URL}php/uploads/resume/${resumeFileName}`;  
     const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = resumeUrl.split("/").pop();
+    link.href = fullResumeUrl;
+    link.download = resumeFileName;
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   return (
