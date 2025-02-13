@@ -13,7 +13,6 @@ const JobListing = () => {
   const jobsPerPage = 5;
 
   const openModal = (job_Id) => {
-    // console.log("Job_id",job_Id);
     setJobId(job_Id);
     setIsModalOpen(true);
   };
