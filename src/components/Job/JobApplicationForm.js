@@ -15,8 +15,8 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
       .required("Email is required"),
     mobile: Yup.string()
       .required("Mobile no is required")
-      .max(14, "Mobile number cannot be more than 14 digits"),
-    message: Yup.string().required("Message is required"),
+      .max(15, "Mobile number cannot be more than 15 digits"),
+    // message: Yup.string().required("Message is required"),
     resume: Yup.mixed()
       .required("Resume is required")
       .test("fileSize", "Resume must be less than 2MB", (value) => {
@@ -51,7 +51,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
     initialValues: {
       name: "",
       email: "",
-      message: "",
+      // message: "",
       mobile: "",
       job_id: job_Id,
       resume: null,
@@ -70,7 +70,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
       formData.append("name", values.name);
       formData.append("email", values.email);
       formData.append("mobile", values.mobile);
-      formData.append("message", values.message);
+      // formData.append("message", values.message);
       formData.append("job_id", values.job_id);
 
       if (resume) {
@@ -92,7 +92,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
         if (response.data) {
           formik.resetForm();
           setResume(null);
-          toast.success("Your application was submitted successfully!");
+          toast.success("Your application was submitted successfully!",{ autoClose: 1500 });
           setTimeout(() => {
             closeModal();
           }, 2000);
@@ -205,9 +205,10 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
                                     {formik.errors.mobile}
                                   </div>
                                 ) : null}
+                                 <small class="form-text text-muted">Mobile no should not greater than 15 digits.</small>
                               </div>
                             </div>
-                            <div className="col-md-12">
+                            {/* <div className="col-md-12">
                               <div className="form-group">
                                 <label>Message</label>
                                 <textarea
@@ -226,7 +227,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
                                   </div>
                                 ) : null}
                               </div>
-                            </div>
+                            </div> */}
                             <div className="col-lg-12 col-md-12">
                               <div className="form-group">
                                 <label>Upload Resume</label>
@@ -252,6 +253,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
                                     upload
                                   </p>
                                 </div>
+                                <small class="form-text text-muted">Resume should not more that 2 MB.</small>
                                 {resume && (
                                   <div className="mt-2">
                                     <strong>Selected file:</strong>{" "}
