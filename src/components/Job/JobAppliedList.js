@@ -72,9 +72,9 @@ const JobAppliedList = () => {
             <tr>
               <th>No</th>
               <th>Student Name</th>
-              <th>Applied Job</th>
               <th>Email Address</th>
               <th>Mobile No</th>
+              <th>Applied Job</th>
               <th className="text-center">Resume</th>
             </tr>
           </thead>
@@ -85,7 +85,6 @@ const JobAppliedList = () => {
                   {indexOfFirstCandidate + index + 1}
                 </td>
                 <td>{candidate.name}</td>
-                <td>{getJobTitle(candidate.job_id)}</td>
                 <td>
                   <a
                     href={`mailto:${candidate.email}`}
@@ -107,6 +106,7 @@ const JobAppliedList = () => {
                     </a>
                   )}
                 </td>
+                <td>{getJobTitle(candidate.job_id)}</td>
                 <td>
                   {candidate.upload_resume ? (
                     <button
