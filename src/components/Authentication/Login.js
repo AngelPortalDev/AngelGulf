@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../middleware/AuthContext";
 import loginImg from '../../assets/images/Login.jpg';
 import { ToastContainer,toast } from "react-toastify";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 // Validation Schema using Yup
 const validationSchema = Yup.object({
@@ -20,6 +21,7 @@ const validationSchema = Yup.object({
 const Login = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
+  const [showPassword, setShowPassword] = useState(false);
 
   const formik = useFormik({
     initialValues: {
@@ -60,6 +62,11 @@ const Login = () => {
       }
     },
   });
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
 
   return (
     <div
@@ -107,9 +114,9 @@ const Login = () => {
               ) : null}
             </div>
 
-            <div className="form-group mb-3">
+            <div className="form-group mb-3 position-relative">
               <input
-                type="password"
+                type={showPassword ? "text" : "password"}
                 placeholder="Password*"
                 {...formik.getFieldProps("password")}
                 className="form-control"
@@ -122,6 +129,9 @@ const Login = () => {
               {formik.touched.password && formik.errors.password ? (
                 <div className="text-danger">{formik.errors.password}</div>
               ) : null}
+                <span style={{ position:'absolute',right:'20px', top:'20px', cursor:'pointer' }} onClick={togglePasswordVisibility}>
+                 {showPassword ? <FaEyeSlash /> : <FaEye/>} </span>
+                
             </div>
 
             <div className="col-md-12">

@@ -433,7 +433,7 @@ const AdminEditJob = () => {
                                       className="form-control"
                                       name="job_description"
                                       rows={4}
-                                      placeholder="Select the role that you work in"
+                                      placeholder="Please Enter Job Description"
                                       onChange={formik.handleChange}
                                       onBlur={formik.handleBlur}
                                       value={formik.values.job_description}
