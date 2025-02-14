@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const JobAppliedList = () => {
   const [candidateList, setCandidateList] = useState([]);
+  const [jobList, setJobList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(5); 
 
@@ -12,7 +13,6 @@ const JobAppliedList = () => {
       const response = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/jobapplied_list.php`
       );
-      // setCandidateList(response.data.jobs);
       setCandidateList(response.data.jobs.sort((a, b) => b.id - a.id));
 
     } catch (error) {
@@ -20,9 +20,28 @@ const JobAppliedList = () => {
     }
   };
 
+  const fetchJobList = async()=>{
+    try {
+      const response = await Axios.get(
+        `${process.env.REACT_APP_API_BASE_URL}php/joblist.php`
+      );
+      setJobList(response.data.jobs);
+
+    } catch (error) {
+      console.error("Error fetching candidates:", error);
+    }
+  }
+
   useEffect(() => {
     fetchCandidates();
+    fetchJobList();
   }, []);
+
+  const getJobTitle = (jobId) => {
+    const job = jobList.find((job) => job.id === jobId);
+    console.log("getJobTitle",job);
+    return job ? job.job_title : "Job title not available";
+  };
 
   // Logic to calculate the index of candidates to display
   const indexOfLastCandidate = currentPage * itemsPerPage;
@@ -55,7 +74,8 @@ const JobAppliedList = () => {
               <th>Student Name</th>
               <th>Email Address</th>
               <th>Mobile No</th>
-              <th>Resume</th>
+              <th>Applied Job</th>
+              <th className="text-center">Resume</th>
             </tr>
           </thead>
           <tbody>
@@ -86,6 +106,7 @@ const JobAppliedList = () => {
                     </a>
                   )}
                 </td>
+                <td>{getJobTitle(candidate.job_id)}</td>
                 <td>
                   {candidate.upload_resume ? (
                     <button

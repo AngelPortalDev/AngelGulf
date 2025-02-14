@@ -89,6 +89,11 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
             },
           }
         );
+        if (response.data.success === false) {
+          toast.error(response.data.message, { autoClose: 1500 });
+          setLoading(false);
+          return;
+        }
         if (response.data) {
           formik.resetForm();
           setResume(null);
