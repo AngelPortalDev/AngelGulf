@@ -71,7 +71,7 @@ const JobAppliedList = () => {
           <thead>
             <tr>
               <th>No</th>
-              <th>Student Name</th>
+              <th>Candidate Name</th>
               <th>Email Address</th>
               <th>Mobile No</th>
               <th>Applied Job</th>

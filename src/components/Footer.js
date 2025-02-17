@@ -47,8 +47,8 @@ const Footer = () => {
                   <h3 className="widget-title">Quick Links</h3>
                   <ul>
                     <li><NavLink to='/about-us' onClick={gotoTop}>About us</NavLink></li>
-                    <li><NavLink>Current Openings</NavLink></li>
-                    <li><NavLink>Post Your Resume</NavLink></li>
+                    <li><NavLink to="/job-list" onClick={gotoTop}>Current Openings</NavLink></li>
+                    <li><NavLink to="#">Post Your Resume</NavLink></li>
                     <li><NavLink>Careers</NavLink></li>
                   </ul>
                 </div>

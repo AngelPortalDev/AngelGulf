@@ -212,7 +212,7 @@ const ManageJobs = () => {
                   <NavLink to="#" className="twm-job-title">
                     <h4>Admin</h4>
                   </NavLink>
-                  <p>IT Contractor</p>
+                  <p>Angel Gulf</p>
                 </div>
                 <div className="twm-nav-list-1">
                   <ul>
