@@ -4,7 +4,7 @@ import "swiper/css/navigation";
 import { Navigation,Autoplay } from "swiper/modules";
 // Banners
 
-import homeBanner from "../assets/images/home_banner.png";
+// import homeBanner from "../assets/images/home_banner.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Iocns
