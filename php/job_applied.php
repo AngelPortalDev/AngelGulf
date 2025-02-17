@@ -63,6 +63,11 @@ if (isset($formData['name'], $formData['email'])) {
         }
     }
 
+    $jobdata = $conn->prepare("SELECT id, job_title FROM joblist WHERE id = $job_id");
+   
+    $jobdata->execute();
+    $result = $jobdata->fetch(PDO::FETCH_ASSOC);
+ 
     $stmt = $conn->prepare("SELECT id FROM job_applications WHERE email = :email AND job_id = :job_id");
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':job_id', $job_id);
@@ -109,7 +114,7 @@ if (isset($formData['name'], $formData['email'])) {
             $body .= "<p><strong>Email:</strong> $email</p>";
             $body .= "<p><strong>Mobile:</strong> $mobile</p>";
             // $body .= "<p><strong>Message:</strong> $message</p>";
-            $body .= "<p><strong>Job ID:</strong> $job_id</p>";
+            $body .= "<p><strong>Job Title:</strong>". $result['job_title']."</p>";
 
             $mail->Body = $body;
 
