@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { NavLink } from 'react-router-dom';
@@ -22,6 +22,9 @@ const validationSchema = Yup.object({
 });
 
 const ContactUs = () => {
+
+    const [loading, setLoading] = useState(false);
+
   // Use Formik for form management
   const formik = useFormik({
     initialValues: {
@@ -32,6 +35,7 @@ const ContactUs = () => {
     },
     validationSchema,
     onSubmit: async(values) => {
+      setLoading(true);
       // Handle form submission
       const formData = new FormData();
       formData.append("name", values.name);
@@ -46,16 +50,23 @@ const ContactUs = () => {
         );
         if (response.data) {
           formik.resetForm();
-          toast.success("Form Submitted Successfully");
+          toast.success("Form Submitted Successfully",{autoClose:1500});
         }
       } catch (err) {
         toast.error("Failed to Job Post. Please try again later.");
+      }finally {
+        setLoading(false);
       }
     },
   });
 
   return (
     <div>
+       {loading && (
+        <div className="loading-overlay">
+          <div className="loading-text">Loading...</div>
+        </div>
+      )}
       <ToastContainer />
       <Helmet>
         <title>Gulf Recruitment Agency, Job Consultancy for Gulf Countries</title>
@@ -172,7 +183,7 @@ const ContactUs = () => {
                                 className="form-control"
                                 rows={3}
                                 placeholder="Remark"
-                                value={formik.values.remark}
+                                value={formik.values.message}
                                 onChange={formik.handleChange}
                                 onBlur={formik.handleBlur}
                               />
@@ -215,7 +226,7 @@ const ContactUs = () => {
                             </div>
                             <h3 className="twm-title">Email Id:</h3>
                             <p>
-                              <a href="mailto:info@angelgulfjobs.com">info@angelgulfjobs.com</a>
+                              <a href="mailto:Binimol@angelgulfjobs.com">Binimol@angelgulfjobs.com</a>
                             </p>
                           </div>
                         </div>
