@@ -223,7 +223,7 @@ const Home = () => {
           {/* TITLE START*/}
           <div className="section-head center wt-small-separator-outer">
             <div className="wt-small-separator site-text-primary">
-              <h2 className="wt-title blueuText">Top Functional Area</h2>
+              <h2 className="wt-title blueuText">Jobs By Industries</h2>
             </div>
             {/* <h2 className="wt-title">Top Functional Area</h2> */}
           </div>
@@ -235,11 +235,13 @@ const Home = () => {
                   {/* COLUMNS 1 */}
                   <div className="col">
                     <div className="job-cat-block-hpage-6 m-b30">
-                      <div className="twm-media">
-                        <div className="flaticon-dashboard" />
+                    <div className="twm-media">
+                        <div className="flaticon-computer">
+                        <i class="fa-solid fa-oil-well"></i>
+                        </div>
                       </div>
                       <div className="twm-content pe-none">
-                        <NavLink> Accounting </NavLink>
+                        <NavLink> Oil & Gas </NavLink>
                         <div className="twm-jobs-available">
                           <span>100+</span> Openings
                         </div>
@@ -274,10 +276,12 @@ const Home = () => {
                   <div className="col">
                     <div className="job-cat-block-hpage-6 m-b30">
                       <div className="twm-media">
-                        <div className="flaticon-note" />
+                      <div className="flaticon-computer">
+                      <i class="fa-solid fa-shop"></i>
+                      </div>
                       </div>
                       <div className="twm-content pe-none">
-                        <NavLink>Educations</NavLink>
+                        <NavLink>FMCG</NavLink>
                         <div className="twm-jobs-available">
                           <span>4</span> Openings
                         </div>
@@ -353,11 +357,12 @@ const Home = () => {
                     <div className="job-cat-block-hpage-6 m-b30">
                       <div className="twm-media">
                         <div className="flaticon-computer">
-                          <i class="fas fa-ad"></i>
+                          {/* <i class="fas fa-ad"></i> */}
+                          <i class="fa-solid fa-suitcase-medical"></i>
                         </div>
                       </div>
                       <div className="twm-content pe-none">
-                        <NavLink>Advertisement</NavLink>
+                        <NavLink>Healthcare</NavLink>
                         <div className="twm-jobs-available">
                           <span>21</span> Openings
                         </div>
@@ -399,7 +404,7 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="twm-content pe-none">
-                        <NavLink>Shipping</NavLink>
+                        <NavLink>Logistics</NavLink>
                         <div className="twm-jobs-available">
                           <span>70+</span> Openings
                         </div>
