@@ -11,13 +11,15 @@ import axios from 'axios';
 // Validation schema using Yup
 const validationSchema = Yup.object({
   name: Yup.string()
-    .min(3, 'Name should be at least 3 characters long')
-    .required('Name is required'),
+    .min(3, "Name should be at least 3 characters long")
+    .required("Name is required"),
   email: Yup.string()
-    .email('Please enter a valid email address')
-    .required('Email is required'),
-    phone: Yup.string().max(15, 'Phone number should not exceed 15 digits')
-    .required('Phone number is required'),
+    .email("Please enter a valid email address")
+    .required("Email is required"),
+  phone: Yup.string()
+    .max(15, "Phone number should not exceed 15 digits")
+    .required("Phone number is required"),
+  enquiry_type: Yup.string().required("Enquiry type is required"),
   message: Yup.string(),
 });
 
@@ -28,10 +30,11 @@ const ContactUs = () => {
   // Use Formik for form management
   const formik = useFormik({
     initialValues: {
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
+      name: "",
+      email: "",
+      phone: "",
+      enquiry_type: "",
+      message: "",
     },
     validationSchema,
     onSubmit: async(values) => {
@@ -41,6 +44,7 @@ const ContactUs = () => {
       formData.append("name", values.name);
       formData.append("email", values.email);
       formData.append("phone", values.phone);
+      formData.append("enquiry_type", values.enquiry_type);
       formData.append("message", values.message);
 
       try {
@@ -50,7 +54,7 @@ const ContactUs = () => {
         );
         if (response.data) {
           formik.resetForm();
-          toast.success("Form Submitted Successfully",{autoClose:1500});
+          toast.success("Thank you for reaching out! Our team will contact you shortly.", { autoClose: 1500 });
         }
       } catch (err) {
         toast.error("Failed to Job Post. Please try again later.");
@@ -172,7 +176,29 @@ const ContactUs = () => {
                                 onBlur={formik.handleBlur}
                               />
                               {formik.touched.phone && formik.errors.phone ? (
-                                <div className="text-danger">{formik.errors.phone}</div>
+                                <div className="text-danger">
+                                  {formik.errors.phone}
+                                </div>
+                              ) : null}
+                            </div>
+                          </div>
+                          <div className="col-lg-12 col-md-12">
+                            <div className="form-group mb-3">
+                              <select
+                                className="form-select form-control"
+                                name="enquiry_type"
+                                onChange={formik.handleChange}
+                                onBlur={formik.handleBlur}
+                                value={formik.values.enquiry_type}
+                              >
+                                <option value="">Select an Option*</option>
+                                <option value="Want to Hire a Candidate">Want to Hire a Candidate</option>
+                                <option value="Looking for a Job">Looking for a Job</option>
+                              </select>
+                              {formik.touched.enquiry_type && formik.errors.enquiry_type ? (
+                                <div className="text-danger">
+                                  {formik.errors.enquiry_type}
+                                </div>
                               ) : null}
                             </div>
                           </div>
@@ -226,7 +252,9 @@ const ContactUs = () => {
                             </div>
                             <h3 className="twm-title">Email Id:</h3>
                             <p>
-                              <a href="mailto:Binimol@angelgulfjobs.com">Binimol@angelgulfjobs.com</a>
+                              <a href="mailto:binimol@angelgulfjobs.com">
+                                binimol@angelgulfjobs.com
+                              </a>
                             </p>
                           </div>
                         </div>

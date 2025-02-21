@@ -21,22 +21,24 @@ $formData = $_POST;
 
 // print_r($formData);
 // exit();
-if (isset($formData['name'], $formData['email'], $formData['message'])) {
+if (isset($formData['name'], $formData['email'], $formData['message'], $formData['enquiry_type'])) {
     $name = $formData['name'];
     $email = $formData['email'];
     $phone = $formData['phone'];
     $message = $formData['message'];
+    $enquiry_type = $formData['enquiry_type'];
    
   
 
  
- $stmt = $conn->prepare("INSERT INTO contact (name, email, message, phone) 
-                            VALUES (:name, :email, :message, :phone)");
+ $stmt = $conn->prepare("INSERT INTO contact (name, email, message, phone,enquiry_type) 
+                            VALUES (:name, :email, :message, :phone, :enquiry_type)");
 
     $stmt->bindParam(':name', $name);
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':message', $message);
     $stmt->bindParam(':phone', $phone);
+    $stmt->bindParam('enquiry_type',$enquiry_type);
 
 
     if ($stmt->execute()) {
@@ -46,22 +48,23 @@ if (isset($formData['name'], $formData['email'], $formData['message'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'info@angelgulfjobs.com';
-            $mail->Password = 'fwabkwhzkmoktjsy';
+            $mail->Username = 'ashish@angel-portal.com';
+            $mail->Password = 'ovpxdeioephlelas';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
-            $mail->setFrom('info@angelgulfjobs.com', 'Angel Gulf Jobs');
-            // $mail->addAddress('prince@yopmail.com');
+            $mail->setFrom('ashish@angel-portal.com', 'Angel Gulf Jobs');
+            $mail->addAddress('ashish@yopmail.com');
 
          
 
             $mail->isHTML(true);
             $mail->Subject = "New contact form " . $name;
-            $body = "<p>You have received a new job application. Here are the details:</p>";
+            $body = "<p>You have received a new inquiry:</p>";
             $body .= "<p><strong>Name:</strong> $name</p>";
             $body .= "<p><strong>Email:</strong> $email</p>";
             $body .= "<p><strong>Mobile No:</strong> $phone</p>";
+            $body .= "<p><strong>Enquiry Type:</strong> $enquiry_type</p>";
             $body .= "<p><strong>Message:</strong> $message</p>";
             // $body .= "<p><strong>Job ID:</strong> $job_id</p>";
 
