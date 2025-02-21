@@ -57,7 +57,7 @@ const ContactUs = () => {
           toast.success("Thank you for reaching out! Our team will contact you shortly.", { autoClose: 1500 });
         }
       } catch (err) {
-        toast.error("Failed to Job Post. Please try again later.");
+        toast.error("Failed to Contact. Please try again later.");
       }finally {
         setLoading(false);
       }
