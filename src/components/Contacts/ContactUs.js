@@ -129,7 +129,6 @@ const ContactUs = () => {
                         <p>Feel free to contact us and we will get back to you as soon as we can.</p>
                       </div>
                       {/* TITLE END */}
-
                       <form onSubmit={formik.handleSubmit} className="cons-contact-form">
                         <div className="row">
                           <div className="col-lg-6 col-md-6">
