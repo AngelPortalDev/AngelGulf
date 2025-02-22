@@ -5,7 +5,7 @@ import { useDropzone } from "react-dropzone";
 import * as Yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
 
-const JobApplicationForm = ({ closeModal, job_Id }) => {
+const JobApplicationForm = ({ closeModal, job_Id = null }) => {
   const [loading, setLoading] = useState(false);
 
   const validationSchema = Yup.object({
@@ -53,7 +53,7 @@ const JobApplicationForm = ({ closeModal, job_Id }) => {
       email: "",
       // message: "",
       mobile: "",
-      job_id: job_Id,
+      job_id: job_Id || "0",
       resume: null,
     },
     validationSchema: validationSchema,

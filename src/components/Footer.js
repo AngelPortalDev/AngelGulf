@@ -1,11 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
+import JobApplicationForm from './Job/JobApplicationForm.js';
 
 const Footer = () => {
 
   const gotoTop = ()=>{
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
    <div>
@@ -48,8 +52,9 @@ const Footer = () => {
                   <ul>
                     <li><NavLink to='/about-us' onClick={gotoTop}>About us</NavLink></li>
                     <li><NavLink to="/job-list" onClick={gotoTop}>Current Openings</NavLink></li>
-                    <li><NavLink to="#">Post Your Resume</NavLink></li>
-                    <li><NavLink>Careers</NavLink></li>
+                    <li><NavLink to="#" onClick={() => setIsModalOpen(true)}>Post Your Resume</NavLink></li>
+                    {isModalOpen && <JobApplicationForm closeModal={() => setIsModalOpen(false)} job_Id={null}/>}
+                    <li><NavLink to="/job-list" onClick={gotoTop}>Careers</NavLink></li>
                   </ul>
                 </div>
               </div>
