@@ -39,7 +39,7 @@ const JobAppliedList = () => {
 
   const getJobTitle = (jobId) => {
     const job = jobList.find((job) => job.id === jobId);
-    console.log("getJobTitle",job);
+    // console.log("getJobTitle",job);
     return job ? job.job_title : "Job title not available";
   };
 

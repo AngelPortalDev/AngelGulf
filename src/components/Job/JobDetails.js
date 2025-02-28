@@ -10,19 +10,21 @@ const JobDetails = () => {
   const [job_Id, setJobId] = useState(null);
   const { jobId } = useParams();
 
-  const openModal = () => {
-    setJobId(jobId);
-    setIsModalOpen(true);
-  };
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  // const openModal = () => {
+  //   setJobId(jobId);
+  //   setIsModalOpen(true);
+  // };
+  // const closeModal = () => {
+  //   setIsModalOpen(false);
+  // };
 
   const fetchJobDetails = async (jobId) => {
     try {
+      
       const res = await Axios.get(
         `${process.env.REACT_APP_API_BASE_URL}php/job_details.php?job_id=${jobId}`
       );
+      console.log("Job details",jobDetails)
       setJobDetails(res.data.job);
     } catch (err) {
       console.error("Error fetching job list: ", err);
@@ -89,7 +91,7 @@ const JobDetails = () => {
                             <div className="twm-job-self-bottom">
                               <button
                                 className="twm-jobs-browse btn btn-primary text-decoration-none me-2"
-                                onClick={() => openModal(jobDetails.id)}
+                                onClick={() => window.open(`/apply-job/${jobDetails.id}`, "_blank")}
                               >
                                 Apply Now
                               </button>
@@ -99,7 +101,7 @@ const JobDetails = () => {
                       </div>
                     </div>
                     <h4 className="twm-s-title">Job Description:</h4>
-                    <p>{jobDetails.job_description}</p>
+                    <p style={{ whiteSpace:'pre-line' }}>{jobDetails.job_description}</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-12 rightSidebar">
@@ -200,12 +202,12 @@ const JobDetails = () => {
           </div>
         </div>
 
-        {isModalOpen && job_Id && (
+        {/* {isModalOpen && job_Id && (
                         <JobApplicationForm
                           closeModal={closeModal}
                           job_Id={job_Id}
                         />
-                      )}
+                      )} */}
         {/* OUR BLOG END */}
       </div>
     </div>

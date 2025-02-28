@@ -122,7 +122,7 @@ const ManageJobs = () => {
   
         if (response.data.success) {
           // Show success toast message immediately
-          toast.success(`Job marked as ${newStatus} successfully!`);
+          toast.success(`Job marked as ${newStatus} successfully!`,{hideProgressBar: true});
   
             setDisplayJobs((prevJobs) =>
               prevJobs.map((job) =>

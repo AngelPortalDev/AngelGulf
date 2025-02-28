@@ -4,21 +4,21 @@ import JobApplicationForm from "./JobApplicationForm";
 import axios from "axios";
 
 const JobListing = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
   const [jobList, setJobList] = useState([]);
-  const [job_Id, setJobId] = useState(null);
+  // const [job_Id, setJobId] = useState(null);
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1);
   const jobsPerPage = 5;
 
-  const openModal = (job_Id) => {
-    setJobId(job_Id);
-    setIsModalOpen(true);
-  };
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  // const openModal = (job_Id) => {
+  //   setJobId(job_Id);
+  //   setIsModalOpen(true);
+  // };
+  // const closeModal = () => {
+  //   setIsModalOpen(false);
+  // };
 
   const fetchJobListing = async () => {
     try {
@@ -226,12 +226,17 @@ const JobListing = () => {
                                 <NavLink
                                   to={`/job-details/${job.id}`}
                                   className="twm-job-title"
+                                  target="_blank"
                                 >
                                   <h4>{job.job_title}</h4>
                                 </NavLink>
-                                <p className="twm-job-address">
-                                  {job.company_name}
-                                </p>
+                                <p 
+                                  className="twm-job-address" 
+                                  style={{ maxWidth: "100%", overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }} 
+                                  title={job.company_name}
+                                >
+                                  {job.company_name.length > 100 ? job.company_name.substring(0, 100) + "..." : job.company_name}
+                              </p>
                               </div>
                               <div className="twm-right-content">
                                 {/* <div className="twm-jobs-category green">
@@ -244,7 +249,7 @@ const JobListing = () => {
                                 </div>
                                 <button
                                   className="twm-jobs-browse btn btn-primary text-decoration-none"
-                                  onClick={() => openModal(job.id)}
+                                  onClick={() => window.open(`/apply-job/${job.id}`, "_blank")}
                                 >
                                   Apply Now
                                 </button>
@@ -253,12 +258,11 @@ const JobListing = () => {
                           </li>
                         );
                       })}
-                      {isModalOpen && job_Id && (
+                      {/* {job_Id && (
                         <JobApplicationForm
-                          closeModal={closeModal}
                           job_Id={job_Id}
                         />
-                      )}
+                      )} */}
                     </ul>
                   </div>
                 </div>

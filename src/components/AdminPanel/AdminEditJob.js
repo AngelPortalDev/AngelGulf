@@ -100,7 +100,7 @@ const AdminEditJob = () => {
         );
   
         if (response.data.success) {
-          toast.success("Job updated successfully!");
+          toast.success("Job updated successfully!",{hideProgressBar: true});
           setTimeout(() => {
             navigate("/managejobs");
           }, 2000);
@@ -293,7 +293,7 @@ const AdminEditJob = () => {
 
                               <div className="col-xl-6 col-lg-6 col-md-12">
                                 <div className="form-group">
-                                  <label>country *</label>
+                                  <label>Country *</label>
                                   <div className="ls-inputicon-box">
                                     <select
                                       className="form-select form-control"

@@ -1,15 +1,17 @@
 import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
-import JobApplicationForm from './Job/JobApplicationForm.js';
+// import JobApplicationForm from './Job/JobApplicationForm.js';
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
 
   const gotoTop = ()=>{
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
    <div>
@@ -24,7 +26,7 @@ const Footer = () => {
               <div className="logo-footer clearfix">
                 <NavLink to='/'><img src="images/ange_gulf_logo.png" width='110px' alt="" /></NavLink>
               </div>
-              <p>The Easiest Way to get your new Job in Gulf.</p>
+              <p style={{fontSize:'14px'}}>The Easiest Way to get your new Job in Gulf.</p>
               <ul className="ftr-list">
                 <li><p><span>Address :</span>716, Master Mind 5, Near Lake View III Apt, Royal Palms, Aarey Colony, Goregaon East, Mumbai - 65 </p></li>
                 <li><p><span>Email :</span><a href='mailto:info@angelgulfjobs.com'>info@angelgulfjobs.com</a></p></li>
@@ -52,8 +54,7 @@ const Footer = () => {
                   <ul>
                     <li><NavLink to='/about-us' onClick={gotoTop}>About us</NavLink></li>
                     <li><NavLink to="/job-list" onClick={gotoTop}>Current Openings</NavLink></li>
-                    <li><NavLink to="#" onClick={() => setIsModalOpen(true)}>Post Your Resume</NavLink></li>
-                    {isModalOpen && <JobApplicationForm closeModal={() => setIsModalOpen(false)} job_Id={null}/>}
+                    <li><NavLink to="/apply-job/general" target="_blank">Post Your Resume</NavLink></li>
                     <li><NavLink to="/job-list" onClick={gotoTop}>Careers</NavLink></li>
                   </ul>
                 </div>
@@ -90,7 +91,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-bottom-info">
           <div className="footer-copy-right">
-            <span className="copyrights-text">Copyright © 2023 Angel Gulf Jobs. All rights reserved - Gulf Job Consultants, Gulf Visa Consultants, Gulf Recruitment Agency.</span>
+            <span className="copyrights-text">Copyright © {currentYear} Angel Gulf Jobs. All rights reserved - Gulf Job Consultants, Gulf Visa Consultants, Gulf Recruitment Agency.</span>
           </div>
           <ul className="social-icons">
             <li><NavLink to="https://www.facebook.com/angelgulfjobs/" className="fab fa-facebook-f"  target='_blank'/></li>

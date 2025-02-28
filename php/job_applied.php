@@ -25,18 +25,26 @@ if (isset($formData['name'], $formData['email'])) {
     $name = $formData['name'];
     $email = $formData['email'];
     $mobile = $formData['mobile'];
+    $country_code = $formData['country_code'];
     // $message = $formData['message'];
-    $job_id = $formData['job_id'];
+    // $job_id = $formData['job_id'];
+    $job_id = $formData['job_id'] ?? "0";
     // $job_id = '1';  
 
-    $stmt = $conn->prepare("SELECT id FROM joblist WHERE id = :job_id");
-    $stmt->bindParam(':job_id', $job_id);
-    $stmt->execute();
-
-    if ($stmt->rowCount() == 0) {
-        echo json_encode(["success" => false, "message" => "Job ID does not exist"]);
-        exit();
+    if ($job_id !== "0") {
+        $stmt = $conn->prepare("SELECT id FROM joblist WHERE id = :job_id");
+        $stmt->bindParam(':job_id', $job_id);
+        $stmt->execute();
+    
+        if ($stmt->rowCount() == 0) {
+            echo json_encode(["success" => false, "message" => "Job ID does not exist"]);
+            exit();
+        }
+        $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+        $result = ['job_title' => 'General Submission'];
     }
+ 
 
     $upload_resume = null;
     $resume_path = null; 
@@ -63,11 +71,16 @@ if (isset($formData['name'], $formData['email'])) {
         }
     }
 
+    if ($job_id !== "0") {
     $jobdata = $conn->prepare("SELECT id, job_title FROM joblist WHERE id = $job_id");
    
     $jobdata->execute();
     $result = $jobdata->fetch(PDO::FETCH_ASSOC);
- 
+        $title=$result['job_title'];
+     }else {
+        $title="Genral Submission";
+    }
+  
     $stmt = $conn->prepare("SELECT id FROM job_applications WHERE email = :email AND job_id = :job_id");
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':job_id', $job_id);
@@ -78,14 +91,15 @@ if (isset($formData['name'], $formData['email'])) {
         exit();
     }
 
-    $stmt = $conn->prepare("INSERT INTO job_applications (name, email,  mobile, job_id, upload_resume) 
-                            VALUES (:name, :email, :mobile, :job_id, :resume_path)");
+    $stmt = $conn->prepare("INSERT INTO job_applications (name, email, country_code, mobile, job_id, upload_resume) 
+                            VALUES (:name, :email, :country_code, :mobile, :job_id, :resume_path)");
 
     $stmt->bindParam(':name', $name);
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':mobile', $mobile);
+    $stmt->bindParam(':country_code', $country_code);
     // $stmt->bindParam(':message', $message);
-    $stmt->bindParam(':job_id', $job_id);
+    $stmt->bindParam(':job_id', $job_id, PDO::PARAM_NULL);
     $stmt->bindParam(':resume_path', $newFileName);
 
     if ($stmt->execute()) {
@@ -95,26 +109,26 @@ if (isset($formData['name'], $formData['email'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'info@angelgulfjobs.com';
-            $mail->Password = 'ukygnpisdrhfkxox';
+            $mail->Username = 'ashish@angel-portal.com';
+            $mail->Password = 'ovpxdeioephlelas';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
-            $mail->setFrom('info@angelgulfjobs.com', 'Angel Gulf');
-            $mail->addAddress('info@angelgulfjobs.com');
+            $mail->setFrom('ashish@angel-portal.com', 'Angel Gulf');
+            $mail->addAddress('ashish@angel-portal.com');
 
             if ($upload_resume) {
                 $mail->addAttachment($upload_resume,$newFileName);
             }
 
             $mail->isHTML(true);
-            $mail->Subject = "New Job Application for Job ID: " . $job_id;
+            $mail->Subject = "New Job Application from $name for: " . $title;
             $body = "<p>You have received a new job application. Here are the details:</p>";
             $body .= "<p><strong>Name:</strong> $name</p>";
             $body .= "<p><strong>Email:</strong> $email</p>";
-            $body .= "<p><strong>Mobile:</strong> $mobile</p>";
+            $body .= "<p><strong>Mobile:</strong>$country_code $mobile</p>";
             // $body .= "<p><strong>Message:</strong> $message</p>";
-            $body .= "<p><strong>Job Title:</strong>". $result['job_title']."</p>";
+            $body .= "<p><strong>Job Title:</strong>". $title."</p>";
 
             $mail->Body = $body;
 

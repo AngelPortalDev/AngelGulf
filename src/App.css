@@ -55,3 +55,23 @@
   color: #fff;
   font-weight: bold;
 }
+
+.twm-jobs-browse:after, .twm-view-prifile:after{
+  border-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .mobileLogo {
+    display: block !important;;
+  }
+  .mobileViewHide{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mobileLogo {
+    display: none !important;;;
+  }
+}
