@@ -63,7 +63,14 @@ const RegistrationForm = () => {
         const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}php/registration.php`, formData, {
           headers: { "Content-Type": "multipart/form-data" },
         });
-        console.log("response", response);
+        // console.log("response", response);
+
+        if (!response.data.success) {
+          toast.error(response.data.message || "Submission failed.", { hideProgressBar: true });
+          setLoading(false);
+          return;
+        }
+        
         toast.success("Form submitted successfully!",{hideProgressBar:true});
         formik.resetForm();
         setResume(null);
