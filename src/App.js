@@ -15,6 +15,8 @@ import JobDetails from "./components/Job/JobDetails.js";
 import ManageJobs from "./components/AdminPanel/ManageJobs.js";
 import AdminEditJob from "./components/AdminPanel/AdminEditJob.js";
 import Login from "./components/Authentication/Login.js";
+import JobApplicationForm from "./components/Job/JobApplicationForm.js";
+import RegistrationForm from "./components/Job/RegistrationForm.js";
 import ProtectedRoute from "./components/middleware/ProtectedRoute.js";
 import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
@@ -879,6 +881,8 @@ function App() {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/job-list" element={<JobListing />} />
             <Route path="/job-details/:jobId" element={<JobDetails />} />
+            <Route path="/apply-job/:jobId" element={<JobApplicationForm/>}/>
+            <Route path="/registration" element={<RegistrationForm/>}/>
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AuthProvider>

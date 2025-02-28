@@ -63,7 +63,7 @@ const DubaiJobs = () => {
                   <p>Angel Gulf Jobs is a professionally managed overseas recruitment agency with years of work experience in the field. We help aspirants find jobs that match their profile and skills across sectors in the Gulf region. If you aspire to work in UAE or in any other Gulf country, check Angel Gulf Jobs for the latest openings. You can use the platform to search latest jobs in the industry and get complete guidance about the vacancy, like salary, location, skills required and more.</p>
                   <p>UAE welcomes talented individuals from all over the world. The current net migration rate in UAE is 0.433/1000. Dubai is the major contributor to it with a 90 per cent migrant workforce.</p>
                   <p>Out of about 3.4 million expatriates in UAE, 30% population is Indian. This makes referencing and finding <strong>jobs in UAE</strong> a little easier for Indian aspirants.</p>
-                  <p>Register here for suitable job opportunities: <NavLink to='' className="textlinkstyle">Register</NavLink></p>
+                  <p>Register here for suitable job opportunities: <NavLink to='/registration' className="textlinkstyle" target='_blank'>Register</NavLink></p>
                   <p>Courtesy: <NavLink to='/' className="textlinkstyle"> Gulf Job Consultants</NavLink></p>
                 </div>
 

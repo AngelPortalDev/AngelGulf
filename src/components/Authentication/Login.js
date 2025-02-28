@@ -49,12 +49,12 @@ const Login = () => {
 
         if (response.data.success) {
           login(response.data.token);
-          toast.success("Login successful");
+          toast.success("Login successful",{hideProgressBar: true});
           setTimeout(() => {
             navigate("/managejobs", { replace: true });
           }, 1500); 
         } else {
-          toast.error("Invalid Credential");
+          toast.error("Invalid Credential",{hideProgressBar: true});
         }
       } catch (error) {
         console.error("Login Error: ", error);

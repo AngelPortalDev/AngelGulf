@@ -1,18 +1,23 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import axios from "axios";
 import { useFormik } from "formik";
 import { useDropzone } from "react-dropzone";
 import * as Yup from "yup";
 import { ToastContainer, toast } from "react-toastify";
+import { useParams } from "react-router-dom";
 
-const JobApplicationForm = ({ closeModal, job_Id = null }) => {
+const JobApplicationForm = ({ job_Id = null }) => {
   const [loading, setLoading] = useState(false);
+
+  const { jobId } = useParams();
+  const actualJobId = jobId === "general" ? "0" : jobId || "0";
 
   const validationSchema = Yup.object({
     name: Yup.string().required("Your name is required"),
     email: Yup.string()
       .email("Invalid email format")
       .required("Email is required"),
+    country_code: Yup.string().required("Country code is required"),
     mobile: Yup.string()
       .required("Mobile no is required")
       .max(15, "Mobile number cannot be more than 15 digits"),
@@ -52,13 +57,15 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
       name: "",
       email: "",
       // message: "",
+      country_code:"",
       mobile: "",
-      job_id: job_Id || "0",
+      job_id: actualJobId,
       resume: null,
     },
     validationSchema: validationSchema,
 
     onSubmit: async (values) => {
+      // console.log("Submitting with job_id:", values.job_id);
       setLoading(true);
       if (!resume) {
         // Manually trigger validation if resume is not uploaded
@@ -69,6 +76,7 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
       const formData = new FormData();
       formData.append("name", values.name);
       formData.append("email", values.email);
+      formData.append("country_code", values.country_code);
       formData.append("mobile", values.mobile);
       // formData.append("message", values.message);
       formData.append("job_id", values.job_id);
@@ -97,10 +105,10 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
         if (response.data) {
           formik.resetForm();
           setResume(null);
-          toast.success("Your application was submitted successfully!",{ autoClose: 1500 });
-          setTimeout(() => {
-            closeModal();
-          }, 2000);
+          toast.success("Your application was submitted successfully!",{ autoClose: 1500, hideProgressBar: true });
+          // setTimeout(() => {
+          //   closeModal();
+          // }, 2000);
         }
       } catch (err) {
         console.error(err);
@@ -110,6 +118,26 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
       }
     },
   });
+ 
+  // fetch Country
+
+  const [countryList, setCountryList] = useState([]);
+
+  const fetchCountries = async () => {
+    try {
+      const res = await axios.get(
+        `${process.env.REACT_APP_API_BASE_URL}php/country_master.php`
+      );
+      // console.log("country List",res);
+      setCountryList(res.data.country);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    fetchCountries();
+  }, []);
 
   return (
     <div>
@@ -118,22 +146,14 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
           <div className="loading-text">Loading...</div>
         </div>
       )}
-      <div className="modal" style={{ display: "block" }}>
-        <div className="modal-dialog modal-dialog-centered modal-md">
-          <div className="modal-content">
-            <form onSubmit={formik.handleSubmit}>
-              <div className="modal-header mt-3">
+      <div className="container">
+      <form onSubmit={formik.handleSubmit} >
+              <div className="modal-header mt-3 d-flex mx-auto" style={{ maxWidth:'900px' }}>
                 <h3 className="modal-title" id="sign_up_popupLabel-3">
                   Job Application
                 </h3>
-                <button
-                  type="button"
-                  className="btn-close"
-                  aria-label="Close"
-                  onClick={closeModal}
-                />
               </div>
-              <div className="modal-body p-3">
+              <div className="modal-body p-3 d-flex mx-auto" style={{ maxWidth:'900px' }}>
                 <div className="twm-right-section-panel-wrap2">
                   {/* Filter Short By */}
                   <div className="twm-right-section-panel site-bg-primary">
@@ -195,24 +215,51 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
                             <div className="col-xl-12 col-lg-12 col-md-12">
                               <div className="form-group">
                                 <label>Mobile Number</label>
-                                <input
-                                  className="form-control"
-                                  name="mobile"
-                                  type="number"
-                                  placeholder="1234567890"
+                                <div className="d-flex">
+                                <select
+                                  className="form-select form-control"
+                                  name="country_code"
                                   onChange={formik.handleChange}
                                   onBlur={formik.handleBlur}
-                                  value={formik.values.mobile}
-                                />
-                                {formik.touched.mobile &&
-                                formik.errors.mobile ? (
-                                  <div className="text-danger">
-                                    {formik.errors.mobile}
-                                  </div>
-                                ) : null}
-                                 <small class="form-text text-muted">Mobile no should not greater than 15 digits.</small>
+                                  value={formik.values.country_code}
+                                  style={{ width: "25%", height:'60px', padding:'20px',borderTopLeftRadius:'10px', borderBottomLeftRadius:'10px', borderRight:'1px solid rgb(234 234 234)'  }}
+                                >
+                                  <option value="">Select Country</option>
+                                  {countryList.length > 0 ? (
+                                    countryList.map((country) => (
+                                      <option key={country.id} value={country.country_code}>
+                                        {country.country_code}
+                                      </option>
+                                    ))
+                                  ) : (
+                                    <option value="">Loading countries...</option>
+                                  )}
+                                </select>
+                                  <input
+                                    className="form-control"
+                                    name="mobile"
+                                    type="number"
+                                    placeholder="1234567890"
+                                    onChange={formik.handleChange}
+                                    onBlur={formik.handleBlur}
+                                    value={formik.values.mobile}
+                                    style={{ width: "75%",borderTopLeftRadius:'0px', borderBottomLeftRadius:'0px' }}
+                                  />
+                                </div>
+                                {/* Display Error Messages */}
+                                  {formik.touched.country_code && formik.errors.country_code && (
+                                    <div className="text-danger mt-1">{formik.errors.country_code}</div>
+                                  )}
+                                  {formik.touched.mobile && formik.errors.mobile && (
+                                    <div className="text-danger mt-1">{formik.errors.mobile}</div>
+                                  )}
+
+                                  <small className="form-text text-muted">
+                                    Mobile number should not be greater than 15 digits.
+                                  </small>
                               </div>
                             </div>
+
                             {/* <div className="col-md-12">
                               <div className="form-group">
                                 <label>Message</label>
@@ -290,10 +337,9 @@ const JobApplicationForm = ({ closeModal, job_Id = null }) => {
                 </div>
               </div>
               <ToastContainer />
-            </form>
-          </div>
-        </div>
+        </form>
       </div>
+       
     </div>
   );
 };

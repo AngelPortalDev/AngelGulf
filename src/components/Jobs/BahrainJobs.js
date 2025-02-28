@@ -107,7 +107,7 @@ const QuatarJobs = () => {
 
                     <p>
                       Register here for suitable job opportunities:{" "}
-                      <NavLink href="" className="textlinkstyle">Register</NavLink>
+                      <NavLink href="/registration" className="textlinkstyle" target="_blank">Register</NavLink>
                     </p>
                     <p>
                       Courtesy: <NavLink to="/" className="textlinkstyle"> Gulf Job Consultants</NavLink>

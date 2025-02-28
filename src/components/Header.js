@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       <header className="site-header header-style-3 mobile-sider-drawer-menu">
-        <div className="container-fluid mt-2 mb-2 d-flex justify-content-around flex-column flex-lg-row">
+        <div className="container-fluid mt-2 mb-2 d-flex justify-content-around flex-column flex-lg-row mobileViewHide">
           {/* Logo */}
           <div className="logo-header mb-3 mb-md-0">
             <div className="logo-header-inner logo-header-one">
@@ -96,6 +96,31 @@ const Header = () => {
           <div className="main-bar">
             <div className="container-fluid clearfix">
               {/* NAV Toggle Button */}
+              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+             {/* {
+              showLogo && ( */}
+                <span className="mobileLogo">
+                  <Link to="/" className="logo-header-inner logo-header-one mobileViewheader">
+                    <img
+                      src={Logo}
+                      alt="Angel gulf"
+                      title="angel gulf jobs logo"
+                      style={{ maxWidth: "100%", height: "40px" }} 
+                    />
+                  </Link>
+                </span>
+              {/* )
+             }  */}
+             <span>
+              {/* <NavLink to="/">
+                <img
+                  src={Logo}
+                  alt="Angel gulf"
+                  title="angel gulf jobs logo"
+                  style={{ maxWidth: "100%", height: "auto" }} 
+                />
+              </NavLink> */}
+              </span>
               <button
                 id="mobile-side-drawer"
                 data-target=".header-nav"
@@ -108,6 +133,8 @@ const Header = () => {
                 <span className="icon-bar icon-bar-two" />
                 <span className="icon-bar icon-bar-three" />
               </button>
+              </div>
+             
               {/* MAIN Vav */}
               <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
                 <ul className=" nav navbar-nav">
@@ -235,6 +262,11 @@ const Header = () => {
                   <li className="has-child removearrowicon">
                     <NavLink to="/job-list" target="_blank">
                       Browse Jobs
+                    </NavLink>
+                  </li>
+                  <li className="has-child removearrowicon">
+                    <NavLink to="/registration" target="_blank">
+                      Registration
                     </NavLink>
                   </li>
                 </ul>

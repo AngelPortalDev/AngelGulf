@@ -63,7 +63,7 @@ const DubaiJobs = () => {
                   <p>Although ample opportunities for <strong>jobs in Saudi Arabia for Indian </strong> aspirant is present, the introduction of “Saudization” has made finding jobs in Saudi for foreign nationals difficult. It is next to impossible for a foreign national to stay in Saudi and search job. Expats can get a job in Saudi through consultants or recruitment agencies while they are in their home country.</p>
                   <p>UAE welcomes talented individuals from all over the world. The current net migration rate in UAE is 0.433/1000. Dubai is the major contributor to it with a 90 per cent migrant workforce.</p>
                   <p>Angle Gulf Jobs is a pioneer recruitment agency for Gulf and Saudi Arabia jobs. For the latest <strong>Saudi Arabia job vacancy,</strong> you can contact the team of Angel Gulf Jobs.</p>
-                  <p>Register here for suitable job opportunities: <NavLink to='' className="textlinkstyle">Register</NavLink></p>
+                  <p>Register here for suitable job opportunities: <NavLink to='/registration' className="textlinkstyle" target='_blank'>Register</NavLink></p>
                   <p>Courtesy: <NavLink to='/' className="textlinkstyle"> Gulf Job Consultants</NavLink></p>
                 </div>
 
