@@ -20,6 +20,7 @@ const RegistrationForm = () => {
     full_name: Yup.string().required("Full name is required"),
     category: Yup.string().required("Industry is required"),
     position: Yup.string().required("Position is required"),
+    position_Name: Yup.string().required("Position name is required"),
     email: Yup.string().email("Invalid email format").required("Email is required"),
     current_location: Yup.string().required("Current location is required"),
     gulf_exp: Yup.number().min(0, "Must be positive").required("Gulf experience is required"),
@@ -39,6 +40,7 @@ const RegistrationForm = () => {
       full_name: "",
       category: "",
       position: "",
+      position_Name: "",
       email: "",
       current_location: "",
       gulf_exp: "",
@@ -125,7 +127,7 @@ const RegistrationForm = () => {
       );
       let getAllPositions = res.data.position;
       getAllPositions.map((position)=>position.name);
-    setPositionList(getAllPositions);
+      setPositionList(getAllPositions);
     } catch (err) {
       console.error(err);
     }
@@ -275,24 +277,29 @@ const RegistrationForm = () => {
                       <div className="form-group">
                         <label>Position</label>
                         <select
-                                  className="form-select form-control"
-                                  name="position"
-                                  onChange={formik.handleChange}
-                                  onBlur={formik.handleBlur}
-                                  value={formik.values.position}
-                                  style={{ height:'60px',borderRadius:'10px', padding:'20px', borderRight:'1px solid rgb(234 234 234)'  }}
-                                >
-                                  <option value="">Select Position</option>
-                                  {positionList.length > 0 ? (
-                                    positionList.map((position) => (
-                                      <option key={position.id} value={position.name}>
-                                        {position.name}
-                                      </option>
-                                    ))
-                                  ) : (
-                                    <option value="">Loading countries...</option>
-                                  )}
-                                </select>
+                          className="form-select form-control"
+                          name="position"
+                          onChange={(e) => {
+                            const selectedValue = JSON.parse(e.target.value);
+                            formik.setFieldValue("position", selectedValue.id); 
+                            formik.setFieldValue("position_Name", selectedValue.name);
+                          }}
+                          onBlur={formik.handleBlur}
+                          value={JSON.stringify({ id: formik.values.position, name: formik.values.position_Name })}
+                          style={{ height: "60px", borderRadius: "10px", padding: "20px", borderRight: "1px solid rgb(234 234 234)" }}
+                        >
+                          <option value="">Select Position</option>
+                          {positionList.length > 0 ? (
+                            positionList.map((position) => (
+                              <option key={position.id} value={JSON.stringify({ id: position.id, name: position.name })}>
+                                {position.name}
+                              </option>
+                            ))
+                          ) : (
+                            <option value="">Loading positions...</option>
+                          )}
+                        </select>
+
                         {/* <input
                           className="form-control"
                           name="positionfrhtn"
