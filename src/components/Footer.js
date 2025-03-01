@@ -41,9 +41,9 @@ const Footer = () => {
                   <h3 className="widget-title">Useful Links</h3>
                   <ul>
                     <li><NavLink to='/' onClick={gotoTop}>Home</NavLink></li>
-                    <li><NavLink to='/industries' onClick={gotoTop}>Industries</NavLink></li>
-                    <li><NavLink to='/articles' onClick={gotoTop}>Articles of Interest</NavLink></li>
-                    <li><NavLink to='/site-map' onClick={gotoTop}>Site Map</NavLink></li>
+                    <li><NavLink to='/industries' onClick={gotoTop} target='_blank'>Industries</NavLink></li>
+                    <li><NavLink to='/articles' onClick={gotoTop} target='_blank'>Articles of Interest</NavLink></li>
+                    <li><NavLink to='/site-map' onClick={gotoTop} target='_blank'>Site Map</NavLink></li>
                     <li><NavLink >Blog</NavLink></li>
                   </ul>
                 </div>
@@ -52,10 +52,10 @@ const Footer = () => {
                 <div className="widget widget_services ftr-list-center">
                   <h3 className="widget-title">Quick Links</h3>
                   <ul>
-                    <li><NavLink to='/about-us' onClick={gotoTop}>About us</NavLink></li>
-                    <li><NavLink to="/job-list" onClick={gotoTop}>Current Openings</NavLink></li>
+                    <li><NavLink to='/about-us' onClick={gotoTop} target='_blank'>About us</NavLink></li>
+                    <li><NavLink to="/job-list" onClick={gotoTop} target='_blank'>Current Openings</NavLink></li>
                     <li><NavLink to="/apply-job/general" target="_blank">Post Your Resume</NavLink></li>
-                    <li><NavLink to="/job-list" onClick={gotoTop}>Careers</NavLink></li>
+                    <li><NavLink to="/job-list" onClick={gotoTop} target='_blank'>Careers</NavLink></li>
                   </ul>
                 </div>
               </div>
@@ -63,11 +63,11 @@ const Footer = () => {
                 <div className="widget widget_services ftr-list-center">
                   <h3 className="widget-title">Helpful Links</h3>
                   <ul>
-                    <li><NavLink to='/contact-us' onClick={gotoTop}>Contact us</NavLink></li>
-                    <li><NavLink to="/recruitment-procedure" onClick={gotoTop}>Recruitment Procedure</NavLink></li>
-                    <li><NavLink to='/terms-of-use' onClick={gotoTop}>Terms of use</NavLink></li>
-                    <li><NavLink to='/latest-gulf-news' onClick={gotoTop}>Latest Gulf News</NavLink></li>
-                    <li><NavLink to='/press-release' onClick={gotoTop}>Press Release</NavLink></li>
+                    <li><NavLink to='/contact-us' onClick={gotoTop} target='_blank'>Contact us</NavLink></li>
+                    <li><NavLink to="/recruitment-procedure" onClick={gotoTop} target='_blank'>Recruitment Procedure</NavLink></li>
+                    <li><NavLink to='/terms-of-use' onClick={gotoTop} target='_blank'>Terms of use</NavLink></li>
+                    <li><NavLink to='/latest-gulf-news' onClick={gotoTop} target='_blank'>Latest Gulf News</NavLink></li>
+                    <li><NavLink to='/press-release' onClick={gotoTop} target='_blank'>Press Release</NavLink></li>
                   </ul>
                 </div>
               </div>
@@ -75,11 +75,11 @@ const Footer = () => {
                 <div className="widget widget_services ftr-list-center">
                   <h3 className="widget-title">Our Services</h3>
                   <ul>
-                    <li><NavLink to='/visa' onClick={gotoTop}>Visa Services</NavLink></li>
-                    <li><NavLink to='/authentication' onClick={gotoTop}>Authentication</NavLink></li>
-                    <li><NavLink to="/gamca-medical-centre" onClick={gotoTop}>Medical Centres</NavLink></li>
-                    <li><NavLink to='/skill-test-centres' onClick={gotoTop}>Skill Test Centers</NavLink></li>
-                    <li><NavLink to='/foreign-exchange' onClick={gotoTop}>Foreign Exchange</NavLink></li>
+                    <li><NavLink to='/visa' onClick={gotoTop} target='_blank'>Visa Services</NavLink></li>
+                    <li><NavLink to='/authentication' onClick={gotoTop} target='_blank'>Authentication</NavLink></li>
+                    <li><NavLink to="/gamca-medical-centre" onClick={gotoTop} target='_blank'>Medical Centres</NavLink></li>
+                    <li><NavLink to='/skill-test-centres' onClick={gotoTop} target='_blank'>Skill Test Centers</NavLink></li>
+                    <li><NavLink to='/foreign-exchange' onClick={gotoTop} target='_blank'>Foreign Exchange</NavLink></li>
                   </ul>
                 </div>
               </div>

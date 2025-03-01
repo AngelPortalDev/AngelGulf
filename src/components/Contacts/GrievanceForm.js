@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import grivience from "../../assets/images/grievance.jpg";
 import { Helmet } from "react-helmet";
 import { Formik, Field, Form, ErrorMessage } from "formik";
@@ -56,6 +56,24 @@ const GrievanceForm = () => {
       setSubmitting(false); 
     }
   };
+
+  const [countryList, setCountryList] = useState([]);
+
+  const fetchCountries = async () => {
+    try {
+      const res = await Axios.get(
+        `${process.env.REACT_APP_API_BASE_URL}php/country_master.php`
+      );
+      // console.log("country List",res);
+      setCountryList(res.data.country);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    fetchCountries();
+  }, []);
   
 
   return (
@@ -107,7 +125,7 @@ const GrievanceForm = () => {
                     validationSchema={validationSchema}
                     onSubmit={handleSubmit}
                   >
-                    {({ setFieldValue }) => (
+                    {({ setFieldValue,handleBlur, values  }) => (
                       <Form className="cons-contact-form mb-3">
                         <div className="row">
                           <div className="col-lg-6 col-md-6">
@@ -172,7 +190,7 @@ const GrievanceForm = () => {
                           </div>
                           <div className="col-lg-6 col-md-6">
                             <div className="form-group mb-3">
-                              <Field
+                              {/* <Field
                                 as="select"
                                 name="country"
                                 className="form-select form-control"
@@ -191,7 +209,38 @@ const GrievanceForm = () => {
                                 name="country"
                                 component="div"
                                 className="error-message text-danger"
-                              />
+                              /> */}
+                              <select
+              className="form-select form-control"
+              name="country"
+              onChange={(e) => setFieldValue("country", e.target.value)}
+              onBlur={handleBlur}
+              value={values.country}
+              style={{
+                width: "100%",
+                height: "55px",
+                padding: "10px",
+                borderTopRightRadius: "0px",
+                borderBottomRightRadius: "0px",
+                borderRight: "1px solid rgb(234 234 234)",
+              }}
+            >
+              <option value="">Select Country</option>
+              {countryList.length > 0 ? (
+                countryList.map((country) => (
+                  <option key={country.id} value={country.country_name}>
+                     {country.country_code} - {country.country_name}
+                  </option>
+                ))
+              ) : (
+                <option value="">Loading countries...</option>
+              )}
+            </select>
+            <ErrorMessage
+              name="country"
+              component="div"
+              className="error-message text-danger"
+            />
                             </div>
                           </div>
                           <div className="col-lg-6 col-md-6">

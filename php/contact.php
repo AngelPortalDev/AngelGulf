@@ -24,6 +24,7 @@ $formData = $_POST;
 if (isset($formData['name'], $formData['email'], $formData['message'], $formData['enquiry_type'])) {
     $name = $formData['name'];
     $email = $formData['email'];
+    $country_code = $formData['country_code'];
     $phone = $formData['phone'];
     $message = $formData['message'];
     $enquiry_type = $formData['enquiry_type'];
@@ -31,12 +32,15 @@ if (isset($formData['name'], $formData['email'], $formData['message'], $formData
   
 
  
- $stmt = $conn->prepare("INSERT INTO contact (name, email, message, phone,enquiry_type) 
-                            VALUES (:name, :email, :message, :phone, :enquiry_type)");
+//  $stmt = $conn->prepare("INSERT INTO contact (name, email, message, country_code phone,enquiry_type) 
+//                             VALUES (:name, :email, :message, :country_code, :phone, :enquiry_type)");
+$stmt = $conn->prepare("INSERT INTO contact (name, email, message, country_code, phone, enquiry_type) 
+                            VALUES (:name, :email, :message, :country_code, :phone, :enquiry_type)");
 
     $stmt->bindParam(':name', $name);
     $stmt->bindParam(':email', $email);
     $stmt->bindParam(':message', $message);
+    $stmt->bindParam(':country_code', $country_code);
     $stmt->bindParam(':phone', $phone);
     $stmt->bindParam('enquiry_type',$enquiry_type);
 
@@ -63,7 +67,7 @@ if (isset($formData['name'], $formData['email'], $formData['message'], $formData
             $body = "<p>You have received a new inquiry:</p>";
             $body .= "<p><strong>Name:</strong> $name</p>";
             $body .= "<p><strong>Email:</strong> $email</p>";
-            $body .= "<p><strong>Mobile No:</strong> $phone</p>";
+            $body .= "<p><strong>Mobile No:</strong> " . htmlspecialchars($country_code) . " " . htmlspecialchars($phone) . "</p>";
             $body .= "<p><strong>Enquiry Type:</strong> $enquiry_type</p>";
             $body .= "<p><strong>Message:</strong> $message</p>";
             // $body .= "<p><strong>Job ID:</strong> $job_id</p>";
