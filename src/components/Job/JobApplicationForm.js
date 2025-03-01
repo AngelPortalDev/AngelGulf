@@ -42,7 +42,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
       const file = acceptedFiles[0];
       if (file) {
         if (file.size > 2 * 1024 * 1024) {
-          toast.error("Resume file size should not exceed 2MB",{ autoClose: 1000 });
+          toast.error("Resume file size should not exceed 2MB",{ autoClose: 1000,hideProgressBar: true });
           return;
         }
         setResume(file);
@@ -98,7 +98,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
           }
         );
         if (response.data.success === false) {
-          toast.error(response.data.message, { autoClose: 1500 });
+          toast.error(response.data.message, { autoClose: 1500,hideProgressBar: true });
           setLoading(false);
           return;
         }
@@ -112,7 +112,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
         }
       } catch (err) {
         console.error(err);
-        toast.error("Failed to submit application. Please try again later.");
+        toast.error("Failed to submit application. Please try again later.",{hideProgressBar:true});
       } finally {
         setLoading(false);
       }
