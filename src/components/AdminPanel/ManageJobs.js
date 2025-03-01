@@ -135,11 +135,11 @@ const ManageJobs = () => {
               )
             );
         } else {
-          toast.error("Failed to update job status. Please try again later.");
+          toast.error("Failed to update job status. Please try again later.",{hideProgressBar: true});
         }
       } catch (err) {
         console.error(err);
-        toast.error("Failed to update job status. Please try again later.");
+        toast.error("Failed to update job status. Please try again later.",{hideProgressBar: true});
       }
     } else {
       console.log("Job status change was canceled.");

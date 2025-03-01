@@ -62,7 +62,7 @@ const Partners = () => {
           toast.success("Thank you for reaching out! We’ll contact you as soon as possible.", {hideProgressBar: true});
         }
       } catch (err) {
-        toast.error("Failed to submit form. Please try again later.");
+        toast.error("Failed to submit form. Please try again later.",{hideProgressBar: true});
       }finally{
         setLoading(false);
       }

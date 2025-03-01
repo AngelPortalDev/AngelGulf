@@ -18,7 +18,7 @@ const RegistrationForm = () => {
       .max(15, "Whatsapp number cannot be more than 15 digits"),
     country_code: Yup.string().required("You must select the country code"),
     full_name: Yup.string().required("Full name is required"),
-    category: Yup.string().required("Category is required"),
+    category: Yup.string().required("Industry is required"),
     position: Yup.string().required("Position is required"),
     email: Yup.string().email("Invalid email format").required("Email is required"),
     current_location: Yup.string().required("Current location is required"),
@@ -57,23 +57,23 @@ const RegistrationForm = () => {
       Object.keys(values).forEach((key) => {
         formData.append(key, values[key]);
       });
-      formData.append("resume", resume);
-      console.log("formData",formData);
+      // formData.append("resume", resume);
+      // console.log("formData",formData);
       try {
-        const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}php/registration.php`, formData, {
-          headers: { "Content-Type": "multipart/form-data" },
-        });
+          const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}php/registration.php`, formData, {
+            headers: { "Content-Type": "multipart/form-data" },
+          });
         // console.log("response", response);
 
-        if (!response.data.success) {
-          toast.error(response.data.message || "Submission failed.", { hideProgressBar: true });
-          setLoading(false);
-          return;
-        }
+          if (!response.data.success) {
+            toast.error(response.data.message || "Submission failed.", { hideProgressBar: true });
+            setLoading(false);
+            return;
+          }
         
-        toast.success("Form submitted successfully!",{hideProgressBar:true});
-        formik.resetForm();
-        setResume(null);
+          toast.success("Form submitted successfully!",{hideProgressBar:true});
+          formik.resetForm();
+          setResume(null);
       } catch (error) {
         toast.error("Submission failed. Try again.",{hideProgressBar:true});
       } finally {
@@ -236,12 +236,12 @@ const RegistrationForm = () => {
                     {/* Category */}
                     <div className="col-xl-12 col-lg-12 col-md-12">
                       <div className="form-group">
-                        <label>Category</label>
+                        <label>Industry</label>
                         <select 
                         className="form-control form-select"
                         name="category"
                         // type="text"
-                        placeholder="Category"
+                        placeholder="Industry"
                         onChange={formik.handleChange}
                         onBlur={formik.handleBlur}
                         value={formik.values.category}

@@ -33,7 +33,7 @@ const AdminEditJob = () => {
       setJobData(res.data.job);
     } catch (err) {
       console.error(err);
-      toast.error("Failed to load job data. Please try again later.");
+      toast.error("Failed to load job data. Please try again later.",{hideProgressBar:true});
     }
   };
 
@@ -105,11 +105,11 @@ const AdminEditJob = () => {
             navigate("/managejobs");
           }, 2000);
         } else {
-          toast.error("Failed to update job. Please try again later.");
+          toast.error("Failed to update job. Please try again later.",{hideProgressBar: true});
         }
       } catch (err) {
         console.error(err);
-        toast.error("Failed to update job. Please try again later.");
+        toast.error("Failed to update job. Please try again later.",{hideProgressBar: true});
       }
     },
   });
