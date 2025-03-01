@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { NavLink } from 'react-router-dom';
@@ -16,6 +16,7 @@ const validationSchema = Yup.object({
   email: Yup.string()
     .email("Please enter a valid email address")
     .required("Email is required"),
+  country_code: Yup.string().required("Country code is required"),
   phone: Yup.string()
     .max(15, "Phone number should not exceed 15 digits")
     .required("Phone number is required"),
@@ -32,6 +33,7 @@ const ContactUs = () => {
     initialValues: {
       name: "",
       email: "",
+      country_code:"",
       phone: "",
       enquiry_type: "",
       message: "",
@@ -43,6 +45,7 @@ const ContactUs = () => {
       const formData = new FormData();
       formData.append("name", values.name);
       formData.append("email", values.email);
+      formData.append("country_code", values.country_code);
       formData.append("phone", values.phone);
       formData.append("enquiry_type", values.enquiry_type);
       formData.append("message", values.message);
@@ -54,15 +57,34 @@ const ContactUs = () => {
         );
         if (response.data) {
           formik.resetForm();
-          toast.success("Thank you for reaching out! Our team will contact you shortly.", { autoClose: 1500 });
+          toast.success("Thank you for reaching out! Our team will contact you shortly.", { autoClose: 1500, hideProgressBar:true });
         }
       } catch (err) {
-        toast.error("Failed to Contact. Please try again later.");
+        toast.error("Failed to Contact. Please try again later.",{hideProgressBar:true});
       }finally {
         setLoading(false);
       }
     },
   });
+
+  const [countryList, setCountryList] = useState([]);
+
+  const fetchCountries = async () => {
+    try {
+      const res = await axios.get(
+        `${process.env.REACT_APP_API_BASE_URL}php/country_master.php`
+      );
+      console.log("country List",res);
+      setCountryList(res.data.country);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    fetchCountries();
+  }, []);
+  
 
   return (
     <div>
@@ -164,7 +186,7 @@ const ContactUs = () => {
                             </div>
                           </div>
                           <div className="col-lg-12 col-md-12">
-                            <div className="form-group mb-3">
+                            {/* <div className="form-group mb-3">
                               <input
                                 name="phone"
                                 type="number"
@@ -179,7 +201,52 @@ const ContactUs = () => {
                                   {formik.errors.phone}
                                 </div>
                               ) : null}
-                            </div>
+                            </div> */}
+                              <div className="form-group">
+                                <label>Mobile Number</label>
+                                <div className="d-flex">
+                                <select
+                                  className="form-select form-control"
+                                  name="country_code"
+                                  onChange={formik.handleChange}
+                                  onBlur={formik.handleBlur}
+                                  value={formik.values.country_code}
+                                  style={{ width: "25%", height:'55px', padding:'20px',borderTopRightRadius:'0px', borderBottomRightRadius:'0px', borderRight:'1px solid rgb(234 234 234)'  }}
+                                >
+                                  <option value="">Select Country</option>
+                                  {countryList.length > 0 ? (
+                                    countryList.map((country) => (
+                                      <option key={country.id} value={country.country_code}>
+                                        {country.country_code} - {country.country_name}
+                                      </option>
+                                    ))
+                                  ) : (
+                                    <option value="">Loading countries...</option>
+                                  )}
+                                </select>
+                                  <input
+                                    className="form-control"
+                                    name="phone"
+                                    type="number"
+                                    placeholder="1234567890"
+                                    onChange={formik.handleChange}
+                                    onBlur={formik.handleBlur}
+                                    value={formik.values.phone}
+                                    style={{ width: "75%",borderTopLeftRadius:'0px', borderBottomLeftRadius:'0px' }}
+                                  />
+                                </div>
+                                {/* Display Error Messages */}
+                                  {formik.touched.country_code && formik.errors.country_code && (
+                                    <div className="text-danger mt-1">{formik.errors.country_code}</div>
+                                  )}
+                                  {formik.touched.phone && formik.errors.phone && (
+                                    <div className="text-danger mt-1">{formik.errors.phone}</div>
+                                  )}
+
+                                  <small className="form-text text-muted">
+                                    Mobile number should not be greater than 15 digits.
+                                  </small>
+                              </div>
                           </div>
                           <div className="col-lg-12 col-md-12">
                             <div className="form-group mb-3">

@@ -191,7 +191,7 @@ const RegistrationForm = () => {
                                   {countryList.length > 0 ? (
                                     countryList.map((country) => (
                                       <option key={country.id} value={country.country_code}>
-                                        {country.country_code}
+                                        {country.country_code} - {country.country_name}
                                       </option>
                                     ))
                                   ) : (
