@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { get } from "jquery";
+import Select from 'react-select';
 
 const RegistrationForm = () => {
   const [resume, setResume] = useState(null);
@@ -138,6 +138,11 @@ const RegistrationForm = () => {
   }, []);
 
 
+  const countryOptions = countryList.map(country => ({
+    value: country.country_code,
+    label: `${country.country_code} - ${country.country_name}`,
+  }));
+
 
   return (
     <form onSubmit={formik.handleSubmit}>
@@ -178,45 +183,59 @@ const RegistrationForm = () => {
                     <div className="col-xl-12 col-lg-12 col-md-12">
                       <div className="form-group">
                         <label>Whatsapp Number</label>
-                        <div className="d-flex">
-                        <select
-                                  className="form-select form-control"
-                                  name="country_code"
-                                  onChange={formik.handleChange}
-                                  onBlur={formik.handleBlur}
-                                  value={formik.values.country_code}
-                                  style={{ width: "25%", height:'60px', padding:'20px',borderTopLeftRadius:'10px', borderBottomLeftRadius:'10px', borderRight:'1px solid rgb(234 234 234)'  }}
-                                >
-                                  <option value="">Select Country Code</option>
-                                  {countryList.length > 0 ? (
-                                    countryList.map((country) => (
-                                      <option key={country.id} value={country.country_code}>
-                                        {country.country_code} - {country.country_name}
-                                      </option>
-                                    ))
-                                  ) : (
-                                    <option value="">Loading countries...</option>
-                                  )}
-                                </select>
-                        <input
-                          className="form-control"
-                          name="whatsup_no"
-                          type="number"
-                          placeholder="Whatsapp Number"
-                          onChange={formik.handleChange}
-                          onBlur={formik.handleBlur}
-                          value={formik.values.whatsup_no}
-                          style={{ width: "75%",borderTopLeftRadius:'0px', borderBottomLeftRadius:'0px' }}
-                        />
+                        <div className="d-flex flex-wrap flex-column flex-md-row seachContainer">
+                          {/* Use react-select for searchable dropdown */}
+                          <Select
+                            name="country_code"
+                            options={countryOptions}
+                            onChange={(selectedOption) =>
+                              formik.setFieldValue('country_code', selectedOption ? selectedOption.value : '')
+                            }
+                            onBlur={formik.handleBlur}
+                            value={
+                              countryOptions.find(
+                                (option) => option.value === formik.values.country_code
+                              ) || ''
+                            }
+                            placeholder="Select Country Code"
+                            styles={{
+                              control: (provided) => ({
+                                ...provided,
+                                height: '60px',
+                                // padding: '0 15px', // Adjust padding for more control over width
+                                borderTopLeftRadius: '10px',
+                                borderBottomLeftRadius: '10px',
+                                // borderRight: '1px solid rgb(234, 234, 234)',
+                                backgroundColor:"#f1f6fe",
+                                border:0,
+                                flex: 1, // Makes sure this takes up the available space
+                              }),
+                            }}
+                          />
+                          <input
+                            className="form-control"
+                            name="whatsup_no"
+                            type="number"
+                            placeholder="Whatsapp Number"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.whatsup_no}
+                            style={{
+                              borderTopLeftRadius: '0px',
+                              borderBottomLeftRadius: '0px',
+                              flex: 2, // This takes up more space compared to the dropdown
+                              height: '60px', // Ensure the height matches the dropdown for consistency
+                            }}
+                          />
                         </div>
                         {formik.touched.country_code && formik.errors.country_code && (
-                            <div className="text-danger mt-1">{formik.errors.country_code}</div>
+                          <div className="text-danger mt-1">{formik.errors.country_code}</div>
                         )}
                         {formik.touched.whatsup_no && formik.errors.whatsup_no && (
                           <div className="text-danger">{formik.errors.whatsup_no}</div>
                         )}
                       </div>
-                    </div>
+                     </div>
 
                     {/* Email */}
                     <div className="col-xl-12 col-lg-12 col-md-12">

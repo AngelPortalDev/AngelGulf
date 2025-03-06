@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet';
 import { ToastContainer, toast } from 'react-toastify';
 import ContactUsImage from '../../assets/images/NewImages/contact-us.jpg';
 import axios from 'axios';
+import Select from 'react-select';
 
 
 // Validation schema using Yup
@@ -84,6 +85,11 @@ const ContactUs = () => {
   useEffect(() => {
     fetchCountries();
   }, []);
+
+  const countryOptions = countryList.map(country => ({
+    value: country.country_code,
+    label: `${country.country_code} - ${country.country_name}`,
+  }));
   
 
   return (
@@ -202,7 +208,7 @@ const ContactUs = () => {
                                 </div>
                               ) : null}
                             </div> */}
-                              <div className="form-group">
+                              {/* <div className="form-group">
                                 <label>Mobile Number</label>
                                 <div className="d-flex">
                                 <select
@@ -235,7 +241,7 @@ const ContactUs = () => {
                                     style={{ width: "75%",borderTopLeftRadius:'0px', borderBottomLeftRadius:'0px' }}
                                   />
                                 </div>
-                                {/* Display Error Messages */}
+              
                                   {formik.touched.country_code && formik.errors.country_code && (
                                     <div className="text-danger mt-1">{formik.errors.country_code}</div>
                                   )}
@@ -246,7 +252,61 @@ const ContactUs = () => {
                                   <small className="form-text text-muted">
                                     Mobile number should not be greater than 15 digits.
                                   </small>
-                              </div>
+                              </div> */}
+                                <div className="form-group">
+                        <label>Mobile Number</label>
+                        <div className="d-flex flex-wrap flex-column flex-md-row seachContainer">
+                          {/* Use react-select for searchable dropdown */}
+                          <Select
+                            name="country_code"
+                            options={countryOptions}
+                            onChange={(selectedOption) =>
+                              formik.setFieldValue('country_code', selectedOption ? selectedOption.value : '')
+                            }
+                            onBlur={formik.handleBlur}
+                            value={
+                              countryOptions.find(
+                                (option) => option.value === formik.values.country_code
+                              ) || ''
+                            }
+                            placeholder="Select Country Code"
+                            styles={{
+                              control: (provided) => ({
+                                ...provided,
+                                height: '60px',
+                                // padding: '0 15px', // Adjust padding for more control over width
+                                borderTopLeftRadius: '10px',
+                                borderBottomLeftRadius: '10px',
+                                // borderRight: '1px solid rgb(234, 234, 234)',
+                                backgroundColor:"#f1f6fe",
+                                border:0,
+                                flex: 1, // Makes sure this takes up the available space
+                              }),
+                            }}
+                          />
+                          <input
+                            className="form-control"
+                            name="phone"
+                            type="number"
+                            placeholder="1234567890"
+                            onChange={formik.handleChange}
+                            onBlur={formik.handleBlur}
+                            value={formik.values.phone}
+                            style={{
+                              borderTopLeftRadius: '0px',
+                              borderBottomLeftRadius: '0px',
+                              flex: 2, // This takes up more space compared to the dropdown
+                              height: '60px', // Ensure the height matches the dropdown for consistency
+                            }}
+                          />
+                        </div>
+                        {formik.touched.country_code && formik.errors.country_code && (
+                          <div className="text-danger mt-1">{formik.errors.country_code}</div>
+                        )}
+                        {formik.touched.phone && formik.errors.phone && (
+                          <div className="text-danger">{formik.errors.phone}</div>
+                        )}
+                      </div>
                           </div>
                           <div className="col-lg-12 col-md-12">
                             <div className="form-group mb-3">
