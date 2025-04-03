@@ -269,20 +269,105 @@ const RegistrationForm = () => {
                         style={{ height:'60px', borderRadius:'10px', padding:'20px', borderRight:'1px solid rgb(234 234 234)'  }}
                         >
                             <option value="">Select an Option</option>
-                            <option value="Civil">Civil</option>
-                            <option value="Mechanical">Mechanical</option>
-                            <option value="Electrical">Electrical</option>
-                            <option value="Instrumentation">Instrumentation</option>
-                            <option value="IT">IT</option>
-                            <option value="Admin/HR">Admin/HR</option>
-                            <option value="Safety">Safety</option>
-                            <option value="Project/Planning/Staff">Project/Planning/Staff</option>
-                            <option value="Design">Design</option>
-                            <option value="Healthcare">Healthcare</option>
+                            <option value="BFSI">BFSI</option>
+                            <option value="Banking">Banking</option>
+                            <option value="Broking">Broking</option>
+                            <option value="Financial Services">Financial Services</option>
+                            <option value="FinTech">FinTech</option>
+                            <option value="Insurance">Insurance</option>
+                            <option value="Investment Banking">Investment Banking</option>
+                            <option value="Venture Capital">Venture Capital</option>
+                            <option value="Private Equity">Private Equity</option>
+                            <option value="MFI">MFI (Micro Finance)</option>
+                            <option value="NBFC">NBFC (Non Banking Financial Services)</option>
+                            <option value="BPM">BPM</option>
+                            <option value="BPO">BPO / Call Center</option>
+                            <option value="KPO">KPO / Analytics</option>
+                            <option value="Consumer">Consumer, Retail & Hospitality</option>
+                            <option value="Consumer Durables">Consumer Durables / Electronics</option>
+                            <option value="Cotton">Cotton / Cotton Mill</option>
+                            <option value="FMCG">FMCG / F&B</option>
+                            <option value="Food Processing">Food Processing</option>
+                            <option value="Furnishings">Furnishings / Sanitaryware / Electricals</option>
+                            <option value="Gems">Gems / Jewellery</option>
+                            <option value="Gifts">Gifts / Toys / Stationary</option>
                             <option value="Hospitality">Hospitality</option>
-                            <option value="Security">Security</option>
-                            <option value="Logistics">Logistics</option>
-                            <option value="Operators/Drivers">Operators/Drivers</option>
+                            <option value="Hotel">Hotel / Restaurant</option>
+                            <option value="Leather">Leather</option>
+                            <option value="Personal Care">Personal Care / Beauty</option>
+                            <option value="Retail">Retail</option>
+                            <option value="Sculpture">Sculpture / Craft</option>
+                            <option value="Sports">Sports / Fitness</option>
+                            <option value="Textile">Textile / Garments / Fashion</option>
+                            <option value="Travel">Travel / Tourism</option>
+                            <option value="Education">Education</option>
+                            <option value="Education Training">Education / Training</option>
+                            <option value="E-Learning">E-Learning</option>
+                            <option value="Healthcare">Healthcare & Life Sciences</option>
+                            <option value="Medical">Medical / Healthcare</option>
+                            <option value="Pharma">Pharma / Biotech</option>
+                            <option value="Veterinary">Veterinary Science / Pet Care</option>
+                            <option value="Infrastructure">Infrastructure, Transport & Real Estate</option>
+                            <option value="Aviation">Aviation / Airline</option>
+                            <option value="Engineering">Engineering / Construction</option>
+                            <option value="Environment">Environment / Waste Management</option>
+                            <option value="Industrial Design">Industrial Design</option>
+                            <option value="Logistics">Logistics / Courier / Transportation</option>
+                            <option value="Oil & Gas">Oil & Gas / Petroleum</option>
+                            <option value="Power">Power / Energy</option>
+                            <option value="Railways">Railways</option>
+                            <option value="Real Estate">Real Estate</option>
+                            <option value="Shipping">Shipping</option>
+                            <option value="Urban Transport">Urban Transport</option>
+                            <option value="IT Services">IT Services & Consulting</option>
+                            <option value="Manufacturing">Manufacturing & Production</option>
+                            <option value="Auto Components">Auto Components</option>
+                            <option value="Automation">Automation</option>
+                            <option value="Automobile">Automobile / Auto Ancillaries</option>
+                            <option value="Cement">Cement / Building Material</option>
+                            <option value="Chemical">Chemical / Plastic / Rubber / Glass</option>
+                            <option value="Defence">Defence & Aerospace</option>
+                            <option value="Fertilizers">Fertilizers / Pesticides</option>
+                            <option value="Metal">Metal / Iron / Steel</option>
+                            <option value="Mining">Mining</option>
+                            <option value="Paint">Paint</option>
+                            <option value="Paper">Paper / Wood</option>
+                            <option value="Printing">Printing / Packaging</option>
+                            <option value="Media">Media, Entertainment & Telecom</option>
+                            <option value="Advertising">Advertising / MR / PR / Events</option>
+                            <option value="Animation">Animation</option>
+                            <option value="Gaming">Gaming</option>
+                            <option value="Media Dotcom">Media / Dotcom / Entertainment</option>
+                            <option value="Telecom">Telecom / ISP</option>
+                            <option value="Agriculture">Agriculture / Dairy</option>
+                            <option value="Astrology">Astrology</option>
+                            <option value="Export-Import">Export-Import / Trading</option>
+                            <option value="Government">Government Department</option>
+                            <option value="Merchant Navy">Merchant Navy</option>
+                            <option value="Military">Military / Police / Arms & Ammunition</option>
+                            <option value="NGO">NGO / Social Work</option>
+                            <option value="Unskilled Labor">Unskilled Labor / Domestic Help</option>
+                            <option value="Matrimony">Matrimony</option>
+                            <option value="Fresher">Fresher (No Industry)</option>
+                            <option value="Politics">Politics</option>
+                            <option value="Quality Certification">Quality Certification</option>
+                            <option value="Religion">Religion / Spirituality</option>
+                            <option value="Professional Services">Professional Services</option>
+                            <option value="Accounting">Accounting & Auditing</option>
+                            <option value="Architecture">Architecture / Interior Design</option>
+                            <option value="Facility Management">Facility management</option>
+                            <option value="HVAC">Heat ventilation Air conditioning</option>
+                            <option value="Legal">Legal</option>
+                            <option value="Management Consulting">Management Consulting / Strategy</option>
+                            <option value="Recruitment Services">Recruitment Services</option>
+                            <option value="Security">Security / Detective Services</option>
+                            <option value="Emerging Technologies">Emerging Technologies</option>
+                            <option value="Internet">Internet / E-Commerce</option>
+                            <option value="IT Hardware">IT - Hardware / Networking</option>
+                            <option value="Semiconductors">Semiconductors</option>
+                            <option value="Software Product">Software Product</option>
+                            <option value="Staffing">Staffing</option>
+                            <option value="Conglomerate">Conglomerate</option>
                             <option value="Other">Other</option>
                         </select>
                         {formik.touched.category && formik.errors.category && (
@@ -443,7 +528,7 @@ const RegistrationForm = () => {
                         </p>
                         
                         <p className="mt-2 mb-1" style={{ fontSize:'13px' }}>
-                        Once you add our Whatsapp Number to your contact list, please fill out the form below so that we can add your Name and Mobile number to our Whatsapp Broadcast list.
+                        Once you add our Whatsapp Number to your contact list, please fill out the form above so that we can add your Name and Mobile number to our Whatsapp Broadcast list.
                         </p>
                         {formik.touched.terms && formik.errors.terms && (
                             <div className="text-danger">{formik.errors.terms}</div>

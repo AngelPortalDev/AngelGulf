@@ -383,6 +383,17 @@ const ContactUs = () => {
                               </a>
                             </p>
                           </div>
+                          <div className="c-info-column">
+                            <div className="c-info-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <h3 className="twm-title"> WhatsApp channel:</h3>
+                            <p>
+                              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#3598DB', wordWrap:'break-word' }}>
+                                https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A
+                              </a>
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
