@@ -53,6 +53,18 @@ const JobListing = () => {
     setCurrentPage(pageNumber);
   };
 
+  const handleImageClick = (imageUrl) => {
+    const modalImage = document.getElementById("modalImage");
+    modalImage.src = imageUrl;
+  
+    const modal = new window.bootstrap.Modal(
+      document.getElementById("imagePreviewModal")
+    );
+    console.log("modal",modal);
+    modal.show();
+  };
+  
+
   return (
     <div>
       <div className="page-content">
@@ -213,14 +225,31 @@ const JobListing = () => {
                           <li key={index}>
                             <div className="twm-jobs-list-style1 mb-5">
                               <div className="twm-media">
-                                <img
+                                {/* <img
                                   src={
                                     job.company_logo
                                       ? `${process.env.REACT_APP_API_BASE_URL}php/uploads/company_logo/${job.company_logo}`
                                       : "/images/jobs-company/pic1.jpg"
                                   }
                                   alt="img not found"
-                                />
+                                /> */}
+                                <img
+                                    src={
+                                      job.company_logo
+                                        ? `${process.env.REACT_APP_API_BASE_URL}php/uploads/company_logo/${job.company_logo}`
+                                        : "/images/jobs-company/pic1.jpg"
+                                    }
+                                    alt="img not found"
+                                    style={{ cursor: "pointer" }}
+                                    onClick={() =>
+                                      handleImageClick(
+                                        job.company_logo
+                                          ? `${process.env.REACT_APP_API_BASE_URL}php/uploads/company_logo/${job.company_logo}`
+                                          : "/images/jobs-company/pic1.jpg"
+                                      )
+                                    }
+                                  />
+
                               </div>
                               <div className="twm-mid-content">
                                 <NavLink
@@ -337,6 +366,35 @@ const JobListing = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Image Preview Modal */}
+      <div
+        className="modal fade"
+        id="imagePreviewModal"
+        tabIndex="-1"
+        aria-labelledby="imagePreviewModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-lg">
+          <div className="modal-content">
+            <div className="modal-body position-relative p-0">
+              <button
+                type="button"
+                className="btn-close position-absolute end-0 m-3"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style={{border:'1px solid black'}}
+              ></button>
+              <img
+                src=""
+                alt="Preview"
+                id="modalImage"
+                style={{ width: "100%", height: "auto" }}
+              />
             </div>
           </div>
         </div>

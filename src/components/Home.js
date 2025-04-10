@@ -45,6 +45,7 @@ import Client17 from "../assets/images/clients/our-client-17.webp";
 import Client18 from "../assets/images/clients/our-client-18.webp";
 import video1 from "../assets/video/new.mp4";
 import poster from "../assets/video/poster.jpg";
+import BeAwareModal from './static/BeAwareModal.js';
 
 import { NavLink } from "react-router-dom";
 
@@ -74,6 +75,7 @@ const Home = () => {
 
   return (
     <div>
+       <BeAwareModal/>
       <div className="page-content">
         {/*Banner Start*/}
         <div className="">

@@ -20,6 +20,7 @@ import RegistrationForm from "./components/Job/RegistrationForm.js";
 import ProtectedRoute from "./components/middleware/ProtectedRoute.js";
 import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
+import BeAwareModal from './components/static/BeAwareModal.js'
 import './App.css';
 
 // Services components
@@ -439,6 +440,10 @@ function App() {
             <Route exact path="/jobs-in-oman" element={<OmanJobs />} />
             <Route exact path="/jobs-in-qatar" element={<QuatarJobs />} />
             <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
+
+            {/* Modal */}
+            
+            <Route exact path="/BeAwareModal" element={<BeAwareModal/>}/>
 
             {/* Footer Pages */}
 

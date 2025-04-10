@@ -42,6 +42,13 @@ const ContactUs = () => {
     validationSchema,
     onSubmit: async(values) => {
       setLoading(true);
+      const recaptchaToken = window.grecaptcha.getResponse();
+    
+      if (!recaptchaToken) {
+        toast.error("Please complete the reCAPTCHA verification.", { hideProgressBar: true });
+        setLoading(false);
+        return;
+      }
       // Handle form submission
       const formData = new FormData();
       formData.append("name", values.name);
@@ -50,6 +57,7 @@ const ContactUs = () => {
       formData.append("phone", values.phone);
       formData.append("enquiry_type", values.enquiry_type);
       formData.append("message", values.message);
+      formData.append("g-recaptcha-response", recaptchaToken);
 
       try {
         const response = await axios.post(
@@ -58,6 +66,7 @@ const ContactUs = () => {
         );
         if (response.data) {
           formik.resetForm();
+          window.grecaptcha.reset(); 
           toast.success("Thank you for reaching out! Our team will contact you shortly.", { autoClose: 1500, hideProgressBar:true });
         }
       } catch (err) {
@@ -83,7 +92,27 @@ const ContactUs = () => {
   };
 
   useEffect(() => {
+    
     fetchCountries();
+    const renderRecaptcha = () => {
+      if (window.grecaptcha) {
+        window.grecaptcha.render('recaptcha-container', {
+          sitekey: '6LegjBArAAAAABmDDCUe9jgHZmmc0xSxUrQl9_w5',
+          theme: 'light',
+        });
+      }
+    };
+
+    if (window.grecaptcha) {
+      renderRecaptcha();
+    } else {
+      const interval = setInterval(() => {
+        if (window.grecaptcha) {
+          clearInterval(interval);
+          renderRecaptcha();
+        }
+      }, 500);
+    }
   }, []);
 
   const countryOptions = countryList.map(country => ({
@@ -341,6 +370,12 @@ const ContactUs = () => {
                               />
                             </div>
                           </div>
+                          <div className="col-lg-12">
+                            <div className="form-group mb-3">
+                              <div id="recaptcha-container"></div>
+                            </div>
+                          </div>
+
                           <div className="col-md-12">
                             <button type="submit" className="site-button">
                               Send
@@ -363,7 +398,7 @@ const ContactUs = () => {
                             <h3 className="twm-title">Address:</h3>
                             <p>716, Master Mind 5, Near Lake View III Apt, Royal Palms, Aarey Colony, Goregaon East, Mumbai - 65</p>
                           </div>
-                          <div className="c-info-column">
+                          {/* <div className="c-info-column">
                             <div className="c-info-icon custome-size">
                               <i className="fas fa-mobile-alt" />
                             </div>
@@ -371,7 +406,7 @@ const ContactUs = () => {
                             <p>
                               <a href="tel:+216-761-8331">+91-22 40115750</a>
                             </p>
-                          </div>
+                          </div> */}
                           <div className="c-info-column">
                             <div className="c-info-icon">
                               <i className="fas fa-envelope" />
@@ -390,7 +425,7 @@ const ContactUs = () => {
                             <h3 className="twm-title"> WhatsApp channel:</h3>
                             <p>
                               <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#3598DB', wordWrap:'break-word' }}>
-                                https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A
+                              Join our WhatsApp Channel
                               </a>
                             </p>
                           </div>

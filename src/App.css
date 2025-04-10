@@ -80,7 +80,7 @@
   width: 210px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   #react-select-2-placeholder {
     font-size: 14px !important;
   }

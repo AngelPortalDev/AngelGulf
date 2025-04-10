@@ -76,6 +76,9 @@ const JobDetails = () => {
                                     : "/images/jobs-company/pic1.jpg"
                                 }
                                 alt="img not found"
+                                style={{ cursor: "pointer" }}
+                                data-bs-toggle="modal"
+                                data-bs-target="#logoModal"
                               />
                             </div>
                             <h4 className="twm-job-title">
@@ -209,6 +212,42 @@ const JobDetails = () => {
                         />
                       )} */}
         {/* OUR BLOG END */}
+
+        <div
+  className="modal fade"
+  id="logoModal"
+  tabIndex="-1"
+  aria-labelledby="logoModalLabel"
+  aria-hidden="true"
+>
+  <div className="modal-dialog modal-dialog-centered modal-lg">
+    <div className="modal-content position-relative">
+      {/* Close button */}
+      <button
+        type="button"
+        className="btn-close position-absolute top-0 end-0 m-3 border-1"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+        style={{ zIndex: 1060, border:'1px solid black' }}
+      >
+      </button>
+
+      {/* Modal body */}
+      <div className="modal-body text-center p-0">
+        <img
+          src={
+            jobDetails.company_logo
+              ? `${process.env.REACT_APP_API_BASE_URL}php/uploads/company_logo/${jobDetails.company_logo}`
+              : "/images/jobs-company/pic1.jpg"
+          }
+          alt="Large View"
+          style={{ width: "100%", height: "auto" }}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </div>
   );
