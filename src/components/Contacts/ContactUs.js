@@ -97,7 +97,7 @@ const ContactUs = () => {
     const renderRecaptcha = () => {
       if (window.grecaptcha) {
         window.grecaptcha.render('recaptcha-container', {
-          sitekey: '6LegjBArAAAAABmDDCUe9jgHZmmc0xSxUrQl9_w5',
+          sitekey: '6LdChhArAAAAABFb11ddrctnq7jAm_1V5nJ77Blf',
           theme: 'light',
         });
       }
