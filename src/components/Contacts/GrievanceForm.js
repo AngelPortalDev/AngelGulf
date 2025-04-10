@@ -309,16 +309,15 @@ const GrievanceForm = () => {
               </p>
               <p>
                 Email:
-                <a href="mailto:info@angelgulfjobs.com" className="text-white">
-                  info@angelgulfjobs.com
-                </a>
+                 <a href="mailto:info@angelgulfjobs.com" className="text-white">
+                   info@angelgulfjobs.com
+                 </a>
               </p>
               <p>
-                Contact:{" "}
-                <a href="tel: +91-22 40115750" className="text-white">
-                  {" "}
-                  +91-22 40115750
-                </a>
+              WhatsApp channel:
+              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#3598DB', wordWrap:'break-word' }}>
+              <span style={{color:'#fff',textDecoration:'underline'}}> Join our WhatsApp Channel</span>
+              </a>
               </p>
               <p>
                 The Redressal team shall get in touch with the candidate /
