@@ -30,7 +30,7 @@ const Footer = () => {
               <ul className="ftr-list">
                 <li><p><span>Address :</span>716, Master Mind 5, Near Lake View III Apt, Royal Palms, Aarey Colony, Goregaon East, Mumbai - 65 </p></li>
                 <li><p><span>Email :</span><a href='mailto:info@angelgulfjobs.com'>info@angelgulfjobs.com</a></p></li>
-                <li><p><span>WhatsApp channel :</span><a href='https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A' target='blank'>Join our WhatsApp </a></p></li>
+                <li><p><span>WhatsApp channel :</span><a href='https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A' target='blank' >Join our WhatsApp </a></p></li>
               </ul>
             </div>                            
           </div> 
