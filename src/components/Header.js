@@ -37,6 +37,10 @@ const Header = () => {
             </div>
           </div>
 
+        <div className="" style={{display:'flex',alignItems:'center'}}>
+            <h5 className="text-white mb-0" style={{padding:'5px', backgroundColor:'#3498db',borderRadius:'4px',height:'fit-content'}}><a className="text-white" style={{display:'flex',textAlign:'center'}} href='https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A' target='blank'>Join our WhatsApp channel</a></h5>
+        </div>
+
           {/* Social Media Icons */}
           <div className="d-flex flex-column flex-lg-row align-items-center mt-0 mt-md-2">
             <h5 className="text-center text-md-start ms-md-5 mb-3 mb-md-0">
@@ -87,6 +91,14 @@ const Header = () => {
                 style={{ color: "#3598DB" }}
               >
                 <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a 
+               href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="fs-5 ms-3"
+               style={{ color: "#3598DB" }}>
+              <i class="fa-brands fa-whatsapp"></i>
               </a>
             </div>
           </div>
@@ -268,6 +280,11 @@ const Header = () => {
                     <NavLink to="/registration" target="_blank">
                       Registration
                     </NavLink>
+                  </li>
+                  <li className="has-child removearrowicon">
+                    <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target="_blank" rel="noopener noreferrer">
+                     Join Our WhatsApp Channel
+                     </a>
                   </li>
                 </ul>
               </div>
