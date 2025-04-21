@@ -281,7 +281,7 @@ const Header = () => {
                       Registration
                     </NavLink>
                   </li>
-                  <li className="has-child removearrowicon">
+                  <li className="has-child removearrowicon d-lg-none d-block">
                     <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target="_blank" rel="noopener noreferrer">
                      Join Our WhatsApp Channel
                      </a>
