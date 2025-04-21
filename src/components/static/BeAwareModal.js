@@ -3,15 +3,34 @@ import React, { useState, useEffect } from "react";
 const BeAwareModal = () => {
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    // Check if this is the user's first time visiting the page
-    const isFirstVisit = localStorage.getItem("isFirstVisit");
+  // useEffect(() => {
+  //   // Check if this is the user's first time visiting the page
+  //   const isFirstVisit = localStorage.getItem("isFirstVisit");
 
-    if (!isFirstVisit) {
-      // If it's the first visit, show the modal
+  //   if (!isFirstVisit) {
+  //     // If it's the first visit, show the modal
+  //     setShowModal(true);
+  //     // Mark the first visit in localStorage so we don't show the modal again
+  //     localStorage.setItem("isFirstVisit", "true");
+  //   }
+  // }, []);
+
+  useEffect(() => {
+    const visitTimestamp = localStorage.getItem("visitTimestamp");
+
+    if (!visitTimestamp) {
       setShowModal(true);
-      // Mark the first visit in localStorage so we don't show the modal again
-      localStorage.setItem("isFirstVisit", "true");
+      localStorage.setItem("visitTimestamp", Date.now().toString());
+    } else {
+      const now = Date.now();
+      const oneDay = 24 * 60 * 60 * 1000; 
+      const timePassed = now - parseInt(visitTimestamp, 10);
+
+      if (timePassed > oneDay) {
+        // More than 1 day has passed, show modal again and update timestamp
+        setShowModal(true);
+        localStorage.setItem("visitTimestamp", Date.now().toString());
+      }
     }
   }, []);
 
