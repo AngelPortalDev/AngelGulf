@@ -241,6 +241,7 @@ const JobListing = () => {
                                     }
                                     alt="img not found"
                                     style={{ cursor: "pointer" }}
+                                    loading="lazy"
                                     onClick={() =>
                                       handleImageClick(
                                         job.company_logo

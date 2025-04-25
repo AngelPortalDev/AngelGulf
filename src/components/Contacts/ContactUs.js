@@ -413,8 +413,8 @@ const ContactUs = () => {
                             </div>
                             <h3 className="twm-title">Email Id:</h3>
                             <p>
-                              <a href="mailto:binimol@angelgulfjobs.com">
-                                binimol@angelgulfjobs.com
+                              <a href="mailto:aashna@angelgulfjobs.com">
+                                aashna@angelgulfjobs.com
                               </a>
                             </p>
                           </div>
