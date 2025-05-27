@@ -447,7 +447,7 @@ const ManageJobs = () => {
               )}
 
               {activeTab === "browsecandidate" && (
-                <div className="twm-right-section-panel candidate-save-job site-bg-gray">
+                <div className="twm-right-section-panel candidate-save-job site-bg-gray p-0">
                   {/*Filter Short By*/}
                   <div className="product-filter-wrap d-flex justify-content-between align-items-center">
                     <span className="woocommerce-result-count-left">
