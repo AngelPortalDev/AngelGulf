@@ -23,6 +23,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
       .required("Mobile no is required")
       .max(15, "Mobile number cannot be more than 15 digits"),
     // message: Yup.string().required("Message is required"),
+    position: Yup.string().required("Position is required"),
     resume: Yup.mixed()
       .required("Resume is required")
       .test("fileSize", "Resume must be less than 2MB", (value) => {
@@ -60,6 +61,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
       // message: "",
       country_code:"",
       mobile: "",
+      position:"",
       job_id: actualJobId,
       resume: null,
     },
@@ -80,6 +82,7 @@ const JobApplicationForm = ({ job_Id = null }) => {
       formData.append("country_code", values.country_code);
       formData.append("mobile", values.mobile);
       // formData.append("message", values.message);
+      formData.append("position", values.position);
       formData.append("job_id", values.job_id);
 
       if (resume) {
@@ -323,6 +326,28 @@ const JobApplicationForm = ({ job_Id = null }) => {
                         )}
                       </div>
                      </div>
+                     <div className="col-xl-12 col-lg-12 col-md-12">
+                              <div className="form-group">
+                                <label>Position</label>
+                                <div className="ls-inputicon-box">
+                                  <input
+                                    className="form-control"
+                                    name="position"
+                                    type="text"
+                                    placeholder="Enter Position"
+                                    onChange={formik.handleChange}
+                                    onBlur={formik.handleBlur}
+                                    value={formik.values.position}
+                                  />
+                                  {/* <i className="fs-input-icon fas fa-at" /> */}
+                                </div>
+                                {formik.touched.position && formik.errors.position ? (
+                                  <div className="text-danger">
+                                    {formik.errors.position}
+                                  </div>
+                                ) : null}
+                              </div>
+                      </div>
 
                             {/* <div className="col-md-12">
                               <div className="form-group">

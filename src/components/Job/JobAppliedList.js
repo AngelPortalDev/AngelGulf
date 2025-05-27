@@ -283,6 +283,7 @@ const JobAppliedList = () => {
               <th>Candidate Name</th>
               <th>Email Address</th>
               <th>Mobile No</th>
+              <th>Position</th>
               <th>Applied Job</th>
               <th className="text-center">Resume</th>
             </tr>
@@ -308,6 +309,7 @@ const JobAppliedList = () => {
                     </a>
                   )}
                 </td>
+                <td>{candidate.position}</td>
                 <td>{getJobTitle(candidate.job_id)}</td>
                 <td>
                   {candidate.upload_resume ? (
