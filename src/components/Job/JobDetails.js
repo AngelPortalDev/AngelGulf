@@ -94,7 +94,7 @@ const JobDetails = () => {
                             <div className="twm-job-self-bottom">
                               <button
                                 className="twm-jobs-browse btn btn-primary text-decoration-none me-2"
-                                onClick={() => window.open(`/apply-job/${jobDetails.id}`, "_blank")}
+                                onClick={() => window.open(`/apply-job/${jobId}`, "_blank")}
                               >
                                 Apply Now
                               </button>
