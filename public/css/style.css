@@ -3220,7 +3220,7 @@ ol li {
     padding: 0px;
   }
   .header-style-3 .header-nav .nav > li > a {
-    color: #000;
+    color: #000 !important;
     margin: 0px;
     padding: 10px 12px;
   }
