@@ -1,8 +1,22 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from '../assets/images/ange_gulf_logo.png';
 
 const Header = () => {
+
+  const styles = {
+    maltaBun:{
+      backgroundColor:'#3498db',
+      color:'#fff',
+      borderRadius:'4px',
+      padding:'6px 12px',
+      height:'fit-content',
+      textAlign:'center',
+      whiteSpace:'nowrap'
+    }
+  }
+
   return (
     <div>
       <header className="site-header header-style-3 mobile-sider-drawer-menu">
@@ -39,6 +53,10 @@ const Header = () => {
 
         <div className="" style={{display:'flex',alignItems:'center'}}>
             <h5 className="text-white mb-0" style={{padding:'5px', backgroundColor:'#3498db',borderRadius:'4px',height:'fit-content'}}><a className="text-white" style={{display:'flex',textAlign:'center'}} href='https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A' target='blank'>Join our WhatsApp channel</a></h5>
+        </div>
+
+        <div style={{display:'flex',alignItems:'center'}}>
+          <a href="https://www.angel-jobs.mt/" target="_blank" className="maltabtn1 ms-2" style={styles.maltaBun}>Work in Malta</a>
         </div>
 
           {/* Social Media Icons */}
@@ -284,6 +302,11 @@ const Header = () => {
                   <li className="has-child removearrowicon d-lg-none d-block">
                     <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target="_blank" rel="noopener noreferrer">
                      Join Our WhatsApp Channel
+                     </a>
+                  </li>
+                   <li className="has-child removearrowicon d-lg-none d-block" style={{ color:'#fff !important', padding:'0px 10px 10px', width:'fit-content' }}>
+                    <a href="https://www.angel-jobs.mt/" id="maltabtn1mobile" target="_blank" rel="noopener noreferrer" style={{ color:'fff !important',backgroundColor:'#3498db',padding:'6px 12px',borderRadius:'4px' }}>
+                     Work in Malta
                      </a>
                   </li>
                 </ul>
