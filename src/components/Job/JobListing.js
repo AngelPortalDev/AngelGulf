@@ -262,7 +262,7 @@ const JobListing = () => {
                                 </NavLink>
                                 <p 
                                   className="twm-job-address" 
-                                  style={{ maxWidth: "100%", overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }} 
+                                  style={{ maxWidth: "100%", overflow: "hidden", whiteSpace: "normal", textOverflow: "ellipsis" }} 
                                   title={job.company_name}
                                 >
                                   {job.company_name.length > 100 ? job.company_name.substring(0, 100) + "..." : job.company_name}
