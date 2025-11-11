@@ -92,27 +92,8 @@ const ContactUs = () => {
   };
 
   useEffect(() => {
-    
+    // Only fetch countries; reCAPTCHA v2 will auto-render via the script in public/index.html
     fetchCountries();
-    const renderRecaptcha = () => {
-      if (window.grecaptcha) {
-        window.grecaptcha.render('recaptcha-container', {
-          sitekey: '6LeAhhIrAAAAAN1mLRktx4e7nuoeQPIuP-DsC8FT',
-          theme: 'light',
-        });
-      }
-    };
-
-    if (window.grecaptcha) {
-      renderRecaptcha();
-    } else {
-      const interval = setInterval(() => {
-        if (window.grecaptcha) {
-          clearInterval(interval);
-          renderRecaptcha();
-        }
-      }, 500);
-    }
   }, []);
 
   const countryOptions = countryList.map(country => ({
@@ -372,7 +353,11 @@ const ContactUs = () => {
                           </div>
                           <div className="col-lg-12">
                             <div className="form-group mb-3">
-                              <div id="recaptcha-container"></div>
+                              <div
+                                className="g-recaptcha"
+                                data-sitekey="6LeAhhIrAAAAAN1mLRktx4e7nuoeQPIuP-DsC8FT"
+                                data-theme="light"
+                              ></div>
                             </div>
                           </div>
 
