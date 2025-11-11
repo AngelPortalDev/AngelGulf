@@ -138,7 +138,7 @@ const Home = () => {
                   style={{
                     height: "120px",
                     width: "120px",
-                    background: "#3498db",
+                    background: "#009BD4",
                     border: "none",
                     borderRadius: "50%",
                   }}
@@ -167,7 +167,7 @@ const Home = () => {
                   style={{
                     height: "120px",
                     width: "120px",
-                    background: "#3498db",
+                    background: "#009BD4",
                     border: "none",
                     borderRadius: "50%",
                   }}
@@ -196,7 +196,7 @@ const Home = () => {
                   style={{
                     height: "120px",
                     width: "120px",
-                    background: "#3498db",
+                    background: "#009BD4",
                     border: "none",
                     borderRadius: "50%",
                   }}
@@ -471,7 +471,7 @@ const Home = () => {
                     className="img-fluid"
                     alt="Jobs in Dubai"
                     title="Jobs in Dubai"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
 
@@ -486,7 +486,7 @@ const Home = () => {
                     className="img-fluid"
                     alt="Jobs in Saudi Arabia"
                     title="Jobs in Saudi Arabia"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Saudi</p>
@@ -501,7 +501,7 @@ const Home = () => {
                     alt="Jobs in Oman"
                     title="Jobs in Oman"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Oman</p>
@@ -516,7 +516,7 @@ const Home = () => {
                     alt="Jobs in Qatar"
                     title="Jobs in Qatar"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Qatar</p>
@@ -532,7 +532,7 @@ const Home = () => {
                     alt="Jobs in Kuwait"
                     title="Jobs in Kuwait"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Kuwait</p>
@@ -547,7 +547,7 @@ const Home = () => {
                     alt="Jobs in Bahrain"
                     title="Jobs in Bahrain"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Bahrain</p>
@@ -562,7 +562,7 @@ const Home = () => {
                     alt="Jobs in Singapore"
                     title="Jobs in Singapore"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Singapore</p>
@@ -577,7 +577,7 @@ const Home = () => {
                     alt="Jobs in Malaysia"
                     title="Jobs in Malaysia"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #3498DB" }}
+                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Malaysia</p>
@@ -1150,7 +1150,7 @@ const Home = () => {
                           alt="angel gulf consultant"
                           style={{
                             borderRadius: "50%",
-                            border: "5px solid #3498DB",
+                            border: "5px solid #009BD4",
                           }}
                         />
                         <p className="text-center">Jobs in Dubai</p>
@@ -1162,7 +1162,7 @@ const Home = () => {
                           alt="angel gulf consultant"
                           style={{
                             borderRadius: "50%",
-                            border: "5px solid #3498DB",
+                            border: "5px solid #009BD4",
                           }}
                         />
                       </div>
@@ -1173,7 +1173,7 @@ const Home = () => {
                           alt="not found"
                           style={{
                             borderRadius: "50%",
-                            border: "5px solid #3498DB",
+                            border: "5px solid #009BD4",
                           }}
                         />
                       </div>
@@ -1184,7 +1184,7 @@ const Home = () => {
                           alt="not found"
                           style={{
                             borderRadius: "50%",
-                            border: "5px solid #3498DB",
+                            border: "5px solid #009BD4",
                           }}
                         />
                       </div>

@@ -292,14 +292,14 @@ const GrievanceForm = () => {
                     src={grivience}
                     className="img-fluid"
                     alt="not found"
-                    style={{ border: "10px solid #3498db" }}
+                    style={{ border: "10px solid #009BD4" }}
                   />
                 </div>
               </div>
             </div>
             <div
               className="p-3 text-white mt-3 mb-4"
-              style={{ background: "#3498db" }}
+              style={{ background: "#009BD4" }}
             >
               <p>
                 If any Candidate / Emigrant facing any Compliant / Grievances
@@ -315,7 +315,7 @@ const GrievanceForm = () => {
               </p>
               <p>
               WhatsApp channel:
-              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#3598DB', wordWrap:'break-word' }}>
+              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#009BD4', wordWrap:'break-word' }}>
               <span style={{color:'#fff',textDecoration:'underline'}}> Join our WhatsApp Channel</span>
               </a>
               </p>

@@ -107,7 +107,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             }
         ]
     },
@@ -152,7 +152,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"
@@ -185,7 +185,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.stroke",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"
@@ -478,7 +478,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             }
         ]
     },
@@ -523,7 +523,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"
@@ -556,7 +556,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.stroke",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"
@@ -815,7 +815,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             }
         ]
     },
@@ -860,7 +860,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.fill",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"
@@ -893,7 +893,7 @@ var infoBox_ratingType = 'star-rating';
         "elementType": "geometry.stroke",
         "stylers": [
             {
-                "color": "#1967d2"
+                "color": "#009BD4"
             },
             {
                 "saturation": "0"

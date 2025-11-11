@@ -46,7 +46,7 @@ const ForeignExchange = () => {
         </div>
         {/* INNER PAGE BANNER END */}
         {/* Employer Detail START */}
-        <div className="container-fluid d-none" style={{ background: "#3498db" }}>
+        <div className="container-fluid d-none" style={{ background: "#009BD4" }}>
           <div className="container ">
             {/* <div className="row">
               <div className="col-lg-2">

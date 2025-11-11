@@ -409,7 +409,7 @@ const ContactUs = () => {
                             </div>
                             <h3 className="twm-title"> WhatsApp channel:</h3>
                             <p>
-                              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#3598DB', wordWrap:'break-word' }}>
+                              <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target='_blank' rel="noreferrer" style={{ color:'#009BD4', wordWrap:'break-word' }}>
                               Join our WhatsApp Channel
                               </a>
                             </p>
