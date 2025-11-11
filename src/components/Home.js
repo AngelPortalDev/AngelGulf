@@ -1033,6 +1033,59 @@ const Home = () => {
        
       <div className="container">
       <h2 className="wt-title blueuText mb-5 mt-4 text-center"> Our Clients</h2>
+        <div className="clients-carousel position-relative" style={{ padding: '0 56px' }}>
+        {clientImages && clientImages.length > 1 && (
+          <>
+            <button
+              className="clients-prev site-bg-primary"
+              type="button"
+              aria-label="Previous clients"
+              style={{
+                position: 'absolute',
+                left: '8px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                zIndex: 5,
+                border: 'none',
+                cursor: 'pointer',
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#fff',
+                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+              }}
+            >
+              <span style={{ fontSize: '22px', lineHeight: 1 }}>&lt;</span>
+            </button>
+            <button
+              className="clients-next site-bg-primary"
+              type="button"
+              aria-label="Next clients"
+              style={{
+                position: 'absolute',
+                right: '8px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                zIndex: 5,
+                border: 'none',
+                cursor: 'pointer',
+                width: '40px',
+                height: '40px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#fff',
+                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+              }}
+            >
+              <span style={{ fontSize: '22px', lineHeight: 1 }}>&gt;</span>
+            </button>
+          </>
+        )}
         <Swiper
           slidesPerView={5} 
           spaceBetween={20} 
@@ -1042,6 +1095,7 @@ const Home = () => {
             disableOnInteraction: false, 
           }}
           modules={[Navigation, Autoplay]}
+          navigation={{ prevEl: '.clients-prev', nextEl: '.clients-next' }}
           className="mySwiper"
           breakpoints={{
             320: { slidesPerView: 1 },  
@@ -1067,6 +1121,7 @@ const Home = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        </div>
       </div>
     </div>
 
