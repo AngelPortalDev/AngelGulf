@@ -371,6 +371,29 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <a
+        href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Join our WhatsApp Channel"
+        style={{
+          position: 'fixed',
+          right: '8px',
+          bottom: '70px',
+          width: '58px',
+          height: '58px',
+          backgroundColor: '#25D366',
+          color: '#fff',
+          borderRadius: '50%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+          zIndex: 1000
+        }}
+      >
+        <i className="fa-brands fa-whatsapp" style={{ fontSize: '32px', lineHeight: 1 }}></i>
+      </a>
     </div>
   );
 };
