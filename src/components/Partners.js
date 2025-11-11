@@ -493,7 +493,7 @@ const Partners = () => {
             <form>
               <div className="modal-header">
                 <h3 className="modal-title" id="sign_up_popupLabel-3">
-                  Rasid Security
+                  Shahig Company
                 </h3>
                 <button
                   type="button"
@@ -533,7 +533,7 @@ const Partners = () => {
             <form>
               <div className="modal-header">
                 <h3 className="modal-title" id="sign_up_popupLabel-3">
-                  Rasid Security
+                  Simple But Dynamic
                 </h3>
                 <button
                   type="button"
@@ -543,7 +543,7 @@ const Partners = () => {
                 />
               </div>
               <div className="modal-body">
-                <img src={saudiCompany} className="img-fluid" alt="not found" />
+                <img src={saudyDynamic} className="img-fluid" alt="not found" />
               </div>
               <div className="modal-footer">
                 <button
