@@ -80,7 +80,7 @@ const BeAwareModal = () => {
 
                   <div className="modal-body">
                     <div className="update-section">
-                        <h5 className="text-primary">📣 Important Update:</h5>
+                        <h5 className="blueuText">📣 Important Update:</h5>
                         <p>
                             We're excited to share that Angel Management Consultant
                             is in the process of becoming <strong>Angel Portal Private
