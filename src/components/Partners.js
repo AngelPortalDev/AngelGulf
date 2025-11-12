@@ -201,56 +201,52 @@ const Partners = () => {
                   </div>
                 </div>
 
-                {/* Mobile Number Field */}
+                {/* Country Code + Mobile (grouped left) */}
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group mb-3">
-                    <input
-                      name="mobile_no"
-                      type="text"
-                      className="form-control"
-                      placeholder="Enter Phone Number *"
-                      value={formik.values.mobile_no}
-                      onChange={formik.handleChange}
-                      onBlur={formik.handleBlur}
-                    />
-                    {formik.touched.mobile_no && formik.errors.mobile_no && (
-                      <div className="text-danger">
-                        {formik.errors.mobile_no}
+                    <div className="row g-2">
+                      <div className="col-12 col-md-4">
+                        <select
+                          className="form-select form-control"
+                          name="country_id"
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
+                          value={formik.values.country_id}
+                        >
+                          <option value="">Select Country</option>
+                          {countryList.length > 0 ? (
+                            countryList.map((country) => (
+                              <option key={country.id} value={country.id}>
+                                {country.name}
+                              </option>
+                            ))
+                          ) : (
+                            <option value="">Loading countries...</option>
+                          )}
+                        </select>
+                        {formik.touched.country_id && formik.errors.country_id && (
+                          <div className="text-danger">{formik.errors.country_id}</div>
+                        )}
                       </div>
-                    )}
+                      <div className="col-12 col-md-8">
+                        <input
+                          name="mobile_no"
+                          type="text"
+                          className="form-control"
+                          placeholder="Enter Phone Number *"
+                          value={formik.values.mobile_no}
+                          onChange={formik.handleChange}
+                          onBlur={formik.handleBlur}
+                        />
+                        {formik.touched.mobile_no && formik.errors.mobile_no && (
+                          <div className="text-danger">{formik.errors.mobile_no}</div>
+                        )}
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                {/* Country Select Field */}
-                <div className="col-lg-6 col-md-6">
-                  <div className="form-group mb-3">
-                    <select
-                      className="form-select form-control"
-                      name="country_id"
-                      onChange={formik.handleChange}
-                      onBlur={formik.handleBlur}
-                      value={formik.values.country_id}
-                    >
-                      <option value="">Select Country</option>
-                      {countryList.length > 0 ? (
-                        countryList.map((country) => (
-                          <option key={country.id} value={country.id}>
-                            {country.name}
-                          </option>
-                        ))
-                      ) : (
-                        <option value="">Loading countries...</option>
-                      )}
-                    </select>
-                    {formik.touched.country_id && formik.errors.country_id && (
-                      <div className="text-danger">
-                        {formik.errors.country_id}
-                      </div>
-                    )}
-                  </div>
-                </div>
-
-                {/* City Field */}
+                {/* City Field (right) */}
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group mb-3">
                     <input
@@ -269,13 +265,13 @@ const Partners = () => {
                 </div>
 
                 {/* Message Field */}
-                <div className="col-lg-6 col-md-6">
+                <div className="col-lg-12">
                   <div className="form-group mb-3">
-                    <input
+                    <textarea
                       name="msg"
-                      type="text"
                       className="form-control"
                       placeholder="Enter Message"
+                      rows={4}
                       value={formik.values.msg}
                       onChange={formik.handleChange}
                       onBlur={formik.handleBlur}
