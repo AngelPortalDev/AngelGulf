@@ -46,6 +46,7 @@ import Client18 from "../assets/images/clients/our-client-18.webp";
 import video1 from "../assets/video/new.mp4";
 import poster from "../assets/video/poster.jpg";
 import BeAwareModal from './static/BeAwareModal.js';
+import Testimonials from "./Testimonials";
 
 import { NavLink } from "react-router-dom";
 
@@ -1028,7 +1029,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-
+         {/* TESTIMONIALS SECTION */}
+        <Testimonials />
         <div className="section-full p-t50 p-b40 twm-blog-post-h-page6-wrap bg-white">
        
       <div className="container">
