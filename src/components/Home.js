@@ -715,7 +715,7 @@ const Home = () => {
         {/* OUR Services END */}
 
         {/* GET JOBS SECTION START */}
-        <div className="section-full site-bg-white h-page6-getjobs-wrap">
+        <div className="section-full site-bg-white h-page6-getjobs-wrap " style={{backgroundColor:'white'}}>
           <div className="h-page6-client-slider-outer d-none">
             <div className="container">
               <div className="h-page6-client-slider">
@@ -974,9 +974,9 @@ const Home = () => {
                         alt="angel gulf consultant"
                         style={{ width: "350px", height: "auto" }}
                       />
-                      <div className="twm-media-bg-circle" />
+                      <div className="twm-media-bg-circle" style={{ backgroundColor: '#009BD4' }} />
                       <div className="twm-media-bg-circle2" />
-                      <div className="twm-media-bg-circle3">
+                      <div className="twm-media-bg-circle3" >
                         {/* <div className="rotate-center">
                           <span className="ring1" />
                           <span className="ring2" />
