@@ -3,6 +3,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation,Autoplay } from "swiper/modules";
 import jobConsultImgg from '../assets/images/job-consultance.png'
+import whyChoose from '../assets/images/why-choose.png'
 // Banners
 
 // import homeBanner from "../assets/images/home_banner.png";
@@ -96,63 +97,166 @@ const Home = () => {
 
         <div className="section-head center wt-small-separator-outer">
           <div className="wt-small-separator site-text-primary">
-            {/* <div>Welcome to Angel Gulf Jobs</div> */}
+            
           </div>
-          <h2 className="wt-title blueuText mb-0 mt-4">
-            Welcome to Angel Gulf Jobs
-          </h2>
+          
         </div>
-        <div className="container">
-          <p>
-            Angel Gulf Jobs is a fastest-growing, professionally managed Gulf
-            job consultants (abroad / overseas job consultants) based in Mumbai,
-            India, registered with Government of India Ministry of Labour. The
-            organization is a part of the “Angel” group having offices in
-            Mumbai, Paris, & expanding into other parts of the World. Angel Gulf
-            Jobs has been founded by professionals with years of Gulf experience
-            (overseas experience) capable of providing the best of recruitment
-            services to employers and job seekers. Being a specialist Gulf job
-            consultant, it provides its services across UAE, Qatar, Bahrain,
-            Oman, Saudi Arabia & the entire Gulf. The organization is equipped
-            with the necessary infrastructure in Mumbai & the Gulf region.
-          </p>
-          <p>
-            The organization primarily does its sourcing through its own job &
-            educational portal Angel-Jobs.Com. The portal maintains a large
-            database of job seekers interested in working abroad (Gulf region).
-            The job seeker database is updated regularly through various
-            sources, thus, in a position to meet up small to large requirements
-            of candidates from clients in a short notice. The database is spread
-            across different work categories including mechanical, electrical,
-            electronics, civil, hospitality, IT & more. Over the years, Angel
-            Gulf Jobs has established itself as one of the trust-worthy Gulf job
-            consultant (abroad / overseas job consultant) providing top of the
-            class recruitment solutions to clients through out the Gulf region.
-            Due to its professional approach, Angel Gulf Jobs in a short span of
-            time has become a preferred recruitment partner & a trusted Gulf job
-            consultant for clients throughout the Gulf region.
-          </p>
-          <div className="row mt-4">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="d-flex justify-content-center align-items-center flex-column">
+        <div className="container" style={{ maxWidth: '1200px' }}>
+           <h2 className="wt-title blueuText mb-4 mt-4">
+            Welcome to Angel Gulf Jobs – Leading Gulf Job Consultants
+          </h2>
+          <div className="row">
+            <div className="col-lg-12">
+              <div style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#444' }}>
+                <p style={{ marginBottom: '1.5rem' }}>
+                 Angel Gulf Jobs is one of India's most trusted and professionally managed Gulf job consultants. We are widely known as abroad job consultants and overseas job consultants based in Mumbai, India. Registered with the Government of India, Ministry of Labour, we specialise in overseas job placements, international hiring, and end-to-end recruitment services for all Gulf countries.
+                </p>
+                <p style={{ marginBottom: '1.5rem' }}>
+                  The organisation is a part of the "Angel" group, having offices in Mumbai, Paris, & expanding into other parts of the World. Angel Gulf Jobs continues to expand its global presence as a respected overseas recruitment agency.
+                </p>
+                <p style={{ marginBottom: '1.5rem' }}>
+                  Our mission is simple. Being a specialist Gulf job consultant, Angel Gulf Job provides its services across the UAE, Qatar, Bahrain, Oman, Saudi Arabia & the entire Gulf. The organisation is equipped with the necessary infrastructure in Mumbai & the Gulf region. As one of the most reputable Indian overseas job consultants, we ensure job seekers receive verified job opportunities and safe, structured recruitment support.
+                </p>
+
+                <p style={{ marginBottom: '1.5rem' }}>
+                  Angel Gulf Jobs, a Gulf recruitment agency, was founded by professionals with extensive Gulf experience. We focus on delivering reliable, efficient, and transparent recruitment solutions for both employers and job seekers. With many years of experience, our team ensures that Gulf employers get access to skilled professionals, and job seekers find genuine overseas job offers that match their skills and qualifications.
+                </p>
+
+                <div style={{ 
+                  background: '#F3F7FD', 
+                  padding: '2rem', 
+                  borderRadius: '10px', 
+                  border: '1px solid #e9ecef',
+                  marginBottom: '1.5rem'
+                }}>
+                  <p style={{ marginBottom: '1rem', fontWeight: '600', color: '#009BD4' }}>
+                    As a professional manpower consultancy for Gulf, we support recruitment across major industries such as:
+                  </p>
+                  <div className="row">
+                    <div className="col-md-6">
+                      <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Mechanical, Electrical, and Civil Engineering
+                        </li>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Construction and Infrastructure
+                        </li>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Hospitality and Tourism
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="col-md-6">
+                      <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Information Technology and Support Services
+                        </li>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Healthcare and Administration
+                        </li>
+                        <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
+                          <span style={{ 
+                            width: '6px', 
+                            height: '6px', 
+                            background: '#009BD4', 
+                            borderRadius: '50%', 
+                            marginRight: '10px' 
+                          }}></span>
+                          Skilled Trades and Household Staff
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <p style={{ marginBottom: '1.5rem' }}>
+                  The organisation primarily does its sourcing through its own job & educational portal, <strong style={{ color: '#009BD4' }}>Angelgulfjobs.com</strong>. The portal maintains a large database of job seekers interested in working abroad (Gulf region). The job seeker database is updated regularly through various sources; thus, it is well-positioned to meet the small to large candidate requirements of clients on short notice.
+                </p>
+                <p style={{ marginBottom: '2rem' }}>
+                  With strong online visibility and an active, growing talent pool, the Angel Gulf Job Portal effectively caters to small, medium, and large-scale hiring needs across the Gulf region, including urgent recruitment drives and specialised manpower sourcing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div className="d-flex justify-content-start align-items-center flex-column text-center enhanced-card" style={{
+                padding: '2rem 1rem',
+                borderRadius: '15px',
+                background: '#fff',
+                boxShadow: '0 8px 20px rgba(0,0,0,0.12)',
+                border: '2px solid #e3f2fd',
+                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                cursor: 'pointer',
+                height: '100%',
+                minHeight: '380px'
+              }}>
                 <div
-                  class="circle-img d-flex align-items-center justify-content-center mt-2"
+                  className="circle-img d-flex align-items-center justify-content-center"
                   style={{
-                    height: "120px",
-                    width: "120px",
-                    background: "#009BD4",
+                    height: "100px",
+                    width: "100px",
+                    background: "linear-gradient(135deg, #009BD4, #007bb5)",
                     border: "none",
                     borderRadius: "50%",
+                    boxShadow: "0 8px 20px rgba(0, 155, 212, 0.3)",
+                    marginBottom: "1.5rem"
                   }}
                 >
                   <img
                     src={SearchIcon}
-                    alt="not found"
-                    className="img-fluid searchIcon"
+                    alt="Search Methods"
+                    className="img-fluid"
+                    style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 className="mt-2">Our Search Methods</h3>
-                <p>
+                <h3 style={{ 
+                  color: "#009BD4", 
+                  fontWeight: "600", 
+                  fontSize: "1.4rem",
+                  marginBottom: "1rem"
+                }}>Our Search Methods</h3>
+                <p style={{
+                  color: "#666",
+                  lineHeight: "1.6",
+                  fontSize: "1rem",
+                  margin: 0
+                }}>
                   Our methods of handling the search for a candidate are
                   tailored to specific circumstances. Keeping in mind the
                   considerations like industry-specific skills and the location
@@ -162,26 +266,49 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="d-flex justify-content-center align-items-center flex-column">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div className="d-flex justify-content-start align-items-center flex-column text-center enhanced-card" style={{
+                padding: '2rem 1rem',
+                borderRadius: '15px',
+                background: '#fff',
+                boxShadow: '0 8px 20px rgba(0,0,0,0.12)',
+                border: '2px solid #e3f2fd',
+                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                cursor: 'pointer',
+                height: '100%',
+                minHeight: '380px'
+              }}>
                 <div
-                  class="circle-img d-flex align-items-center justify-content-center mt-2"
+                  className="circle-img d-flex align-items-center justify-content-center"
                   style={{
-                    height: "120px",
-                    width: "120px",
-                    background: "#009BD4",
+                    height: "100px",
+                    width: "100px",
+                    background: "linear-gradient(135deg, #009BD4, #007bb5)",
                     border: "none",
                     borderRadius: "50%",
+                    boxShadow: "0 8px 20px rgba(0, 155, 212, 0.3)",
+                    marginBottom: "1.5rem"
                   }}
                 >
                   <img
                     src={BriefCase}
-                    alt="not found"
-                    className="img-fluid searchIcon"
+                    alt="Work Process"
+                    className="img-fluid"
+                    style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 className="mt-2">Our Work Process</h3>
-                <p>
+                <h3 style={{ 
+                  color: "#009BD4", 
+                  fontWeight: "600", 
+                  fontSize: "1.4rem",
+                  marginBottom: "1rem"
+                }}>Our Work Process</h3>
+                <p style={{
+                  color: "#666",
+                  lineHeight: "1.6",
+                  fontSize: "1rem",
+                  margin: 0
+                }}>
                   We proactively tap the market for excellent candidates. Once
                   the candidates have been identified, we conduct in-depth
                   interviews with each individual, and obtain detailed
@@ -191,34 +318,85 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="d-flex justify-content-center align-items-center flex-column">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
+              <div className="d-flex justify-content-start align-items-center flex-column text-center enhanced-card" style={{
+                padding: '2rem 1rem',
+                borderRadius: '15px',
+                background: '#fff',
+                boxShadow: '0 8px 20px rgba(0,0,0,0.12)',
+                border: '2px solid #e3f2fd',
+                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                cursor: 'pointer',
+                height: '100%',
+                minHeight: '380px'
+              }}>
                 <div
-                  class="circle-img d-flex align-items-center justify-content-center mt-2"
+                  className="circle-img d-flex align-items-center justify-content-center"
                   style={{
-                    height: "120px",
-                    width: "120px",
-                    background: "#009BD4",
+                    height: "100px",
+                    width: "100px",
+                    background: "linear-gradient(135deg, #009BD4, #007bb5)",
                     border: "none",
                     borderRadius: "50%",
+                    boxShadow: "0 8px 20px rgba(0, 155, 212, 0.3)",
+                    marginBottom: "1.5rem"
                   }}
                 >
                   <img
                     src={OurTeam}
-                    alt="not found"
-                    className="img-fluid searchIcon"
+                    alt="Our Team"
+                    className="img-fluid"
+                    style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 className="mt-2">Our Team</h3>
-                <p>
+                <h3 style={{ 
+                  color: "#009BD4", 
+                  fontWeight: "600", 
+                  fontSize: "1.4rem",
+                  marginBottom: "1rem"
+                }}>Our Team</h3>
+                <p style={{
+                  color: "#666",
+                  lineHeight: "1.6",
+                  fontSize: "1rem",
+                  margin: 0
+                }}>
                   We are equipped with powerful integrated recruitment
                   technologies and have a team of seasoned expert recruiters. We
-                  have all the latest facilities in the are of communication,
+                  have all the latest facilities in the area of communication,
                   frequent transport etc, leading to expedition of the entire
                   process.
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* WHY CHOOSE US SECTION */}
+        <div className="section-full p-t80 p-b50" style={{ background: '#F3F7FD' }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-10 mx-auto">
+                <div className="section-head left wt-small-separator-outer">
+                  <h2 className="wt-title blueuText mb-3 mt-4">
+                    Why Choose Angel Gulf Jobs?
+                  </h2>
+                </div>
+                <div style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#444', textAlign: 'left' }}>
+                  <p style={{ marginBottom: '1.5rem' }}>
+                    Over the years, Angel Gulf Jobs has built a strong reputation as one of the most trusted Gulf recruitment consultants in Mumbai. Our recruitment agency offers professional, ethical, and result-driven services as a Gulf job consultancy in India. Whether employers need bulk staffing or specialised professionals, our international recruitment expertise ensures reliable outcomes. As a seasoned overseas job placement agency, we have supported thousands of candidates in securing long-term employment in the Gulf.
+                  </p>
+                  <p style={{ marginBottom: '1.5rem' }}>
+                    Our success is driven by a dedicated approach, a large database of job seekers, and an in-depth understanding of Gulf job markets. We follow a transparent recruitment process aligned with Gulf labour laws, ensuring that both job seekers and employers benefit from accurate information, fair guidelines, and ethical employment practices. This commitment has positioned us as the best Gulf job consultancy for organisations needing consistent staffing support.
+                  </p>
+                  <p style={{ marginBottom: '2rem' }}>
+                    Backed by a proven track record and a commitment to ethical recruitment standards, Angel Gulf Jobs remains the preferred hiring partner for leading companies across the Gulf region. Our manpower consultancy offers high-quality workforce solutions that empower businesses and help job seekers achieve rewarding, long-term overseas careers.
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+        
           </div>
         </div>
 

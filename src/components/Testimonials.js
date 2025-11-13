@@ -147,7 +147,7 @@ const Testimonials = () => {
           <div className="wt-small-separator site-text-primary">
             <h2 className="wt-title blueuText">Testimonials</h2>
           </div>
-          <p>Real stories from successful professionals</p>
+          <p>{`10,000+ successful placements | 15+ years of experience in Gulf recruitment | 3000+ corporate clients | Successful placements of freshers as well as experienced candidates`}</p>
         </div>
 
         <div className="row justify-content-center">
