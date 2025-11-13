@@ -20,7 +20,8 @@ const Header = () => {
   return (
     <div>
       <header className="site-header header-style-3 mobile-sider-drawer-menu">
-        <div className="container-fluid mt-2 mb-2 d-flex justify-content-around flex-column flex-lg-row mobileViewHide">
+        <div style={{ background:'#ffffff', borderBottom:'1px solid #eef2f6' }}>
+        <div className="container py-2 d-flex align-items-center justify-content-between gap-3 flex-column flex-lg-row mobileViewHide">
           {/* Logo */}
           <div className="logo-header mb-3 mb-md-0">
             <div className="logo-header-inner logo-header-one">
@@ -29,7 +30,7 @@ const Header = () => {
                   src={Logo}
                   alt="Angel gulf"
                   title="angel gulf jobs logo"
-                  style={{ maxWidth: "100%", height: "auto" }} 
+                  style={{ maxWidth: "100%", height: "90px" }} 
                 />
               </NavLink>
             </div>
@@ -49,20 +50,18 @@ const Header = () => {
                 </strong>
               </p>
             </div>
+            
           </div>
-
-        <div className="" style={{display:'flex',alignItems:'center'}}>
+        {/* <div className="" style={{display:'flex',alignItems:'center'}}>
             <h5 className="text-white mb-0" style={{padding:'5px', backgroundColor:'#009BD4',borderRadius:'4px',height:'fit-content'}}><a className="text-white" style={{display:'flex',textAlign:'center'}} href='https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A' target='blank'>Join our WhatsApp channel</a></h5>
-        </div>
+        </div> */}
 
-        <div style={{display:'flex',alignItems:'center'}}>
-          <a href="https://www.angel-jobs.mt/" target="_blank" className="maltabtn1 ms-2" style={styles.maltaBun}>Work in Malta</a>
-        </div>
+        
 
           {/* Social Media Icons */}
           <div className="d-flex flex-column flex-lg-row align-items-center mt-0 mt-md-2">
-            <h5 className="text-center text-md-start ms-md-5 mb-3 mb-md-0">
-              Follow us:
+            <h5 className="text-center text-md-start ms-md-4 mb-2 mb-md-0" style={{ fontSize: '0.9rem', color: '#6b7280' }}>
+              Follow us
             </h5>
             <div className="d-flex justify-content-center justify-content-md-start">
               <a
@@ -119,11 +118,15 @@ const Header = () => {
               <i class="fa-brands fa-whatsapp"></i>
               </a>
             </div>
+            <div style={{display:'flex',alignItems:'center'}}>
+              <a href="https://www.angel-jobs.mt/" target="_blank" className="maltabtn1 ms-3" style={styles.maltaBun}>Work in Malta</a>
+            </div>
           </div>
+        </div>
         </div>
 
         <div className="sticky-header main-bar-wraper  navbar-expand-lg">
-          <div className="main-bar">
+          <div className="main-bar" style={{ backgroundColor: '#ffffff', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', borderBottom: '1px solid #eef2f6', padding: '2px 0' }}>
             <div className="container-fluid clearfix">
               {/* NAV Toggle Button */}
               <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
@@ -135,7 +138,7 @@ const Header = () => {
                       src={Logo}
                       alt="Angel gulf"
                       title="angel gulf jobs logo"
-                      style={{ maxWidth: "100%", height: "40px" }} 
+                      style={{ maxWidth: "100%", height: "56px" }} 
                     />
                   </Link>
                 </span>
@@ -167,12 +170,12 @@ const Header = () => {
              
               {/* MAIN Vav */}
               <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
-                <ul className=" nav navbar-nav">
+                <ul className=" nav navbar-nav" style={{ gap: '8px' }}>
                   <li className="has-mega-menu">
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Home</NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink>Our Services</NavLink>
+                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Our Services</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/visa" target="_blank">
@@ -207,12 +210,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/industries" target="_blank">
+                    <NavLink to="/industries" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
                       Industries
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink>Process</NavLink>
+                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Process</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/recruitment-procedure" target="_blank">
@@ -237,7 +240,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child">
-                    <NavLink>Current Opening</NavLink>
+                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Current Opening</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/jobs-in-uae" target="_blank">
@@ -270,12 +273,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/partner-with-us" target="_blank">
+                    <NavLink to="/partner-with-us" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
                       Partner With Us
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <Link>Contact</Link>
+                    <Link style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Contact</Link>
                     <ul className="sub-menu">
                       <li>
                         <Link to="/contact-us" target="_blank">
@@ -290,20 +293,20 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/job-list" target="_blank">
+                    <NavLink to="/job-list" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
                       Browse Jobs
                     </NavLink>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/registration" target="_blank">
+                    <NavLink to="/registration" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
                       Registration
                     </NavLink>
                   </li>
-                  <li className="has-child removearrowicon d-lg-none d-block">
+                  {/* <li className="has-child removearrowicon d-lg-none d-block">
                     <a href="https://whatsapp.com/channel/0029Va9inuu6xCSXEKgRio1A" target="_blank" rel="noopener noreferrer">
                      Join Our WhatsApp Channel
                      </a>
-                  </li>
+                  </li> */}
                    <li className="has-child removearrowicon d-lg-none d-block" style={{ color:'#fff !important', padding:'0px 10px 10px', width:'fit-content' }}>
                     <a href="https://www.angel-jobs.mt/" id="maltabtn1mobile" target="_blank" rel="noopener noreferrer" style={{ color:'fff !important',backgroundColor:'#009BD4',padding:'6px 12px',borderRadius:'4px' }}>
                      Work in Malta
