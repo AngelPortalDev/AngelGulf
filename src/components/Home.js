@@ -222,6 +222,110 @@ const Home = () => {
           </div>
         </div>
 
+         {/* JOBS BY LOCATION SECTION */}
+        <div className="section-head center wt-small-separator-outer p-t50">
+          <div className="wt-small-separator site-text-primary">
+            <h2 className="wt-title blueuText">Jobs By Location</h2>
+          </div>
+          {/* <h2 className="wt-title">Jobs By Location</h2> */}
+        </div>
+        <div className="container">
+          <div className="row g-4 justify-content-center">
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Dubai}
+                    className="img-fluid"
+                    alt="Jobs in Dubai"
+                    title="Jobs in Dubai"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+
+                <p className="text-center mt-2">Jobs in Dubai</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Saudi}
+                    className="img-fluid"
+                    alt="Jobs in Saudi Arabia"
+                    title="Jobs in Saudi Arabia"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+                <p className="text-center mt-2">Jobs in Saudi</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Oman}
+                    className="img-fluid"
+                    alt="Jobs in Oman"
+                    title="Jobs in Oman"
+                    loading="lazy"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+                <p className="text-center mt-2">Jobs in Oman</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Quatar}
+                    className="img-fluid"
+                    alt="Jobs in Qatar"
+                    title="Jobs in Qatar"
+                    loading="lazy"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+                <p className="text-center mt-2">Jobs in Qatar</p>
+              </div>
+            </div>
+
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Kuwait}
+                    className="img-fluid"
+                    alt="Jobs in Kuwait"
+                    title="Jobs in Kuwait"
+                    loading="lazy"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+                <p className="text-center mt-2">Jobs in Kuwait</p>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="d-flex justify-content-center align-items-center flex-column">
+                <NavLink to="/job-list">
+                  <img
+                    src={Behrain}
+                    className="img-fluid"
+                    alt="Jobs in Bahrain"
+                    title="Jobs in Bahrain"
+                    loading="lazy"
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
+                  />
+                </NavLink>
+                <p className="text-center mt-2">Jobs in Bahrain</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* END JOBS BY LOCATIONS */}
+
         {/* JOBS CATEGORIES SECTION START */}
         <div className="section-full p-t50 p-b40 site-bg-white twm-job-categories-hpage-6-area">
           {/* TITLE START*/}
@@ -455,110 +559,6 @@ const Home = () => {
           </div>
         </div>
         {/* JOBS CATEGORIES SECTION END */}
-
-        {/* JOBS BY LOCATION SECTION */}
-        <div className="section-head center wt-small-separator-outer">
-          <div className="wt-small-separator site-text-primary">
-            <h2 className="wt-title blueuText">Jobs By Location</h2>
-          </div>
-          {/* <h2 className="wt-title">Jobs By Location</h2> */}
-        </div>
-        <div className="container">
-          <div className="row g-4 justify-content-center">
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Dubai}
-                    className="img-fluid"
-                    alt="Jobs in Dubai"
-                    title="Jobs in Dubai"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-
-                <p className="text-center mt-2">Jobs in Dubai</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Saudi}
-                    className="img-fluid"
-                    alt="Jobs in Saudi Arabia"
-                    title="Jobs in Saudi Arabia"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Saudi</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Oman}
-                    className="img-fluid"
-                    alt="Jobs in Oman"
-                    title="Jobs in Oman"
-                    loading="lazy"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Oman</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Quatar}
-                    className="img-fluid"
-                    alt="Jobs in Qatar"
-                    title="Jobs in Qatar"
-                    loading="lazy"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Qatar</p>
-              </div>
-            </div>
-
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Kuwait}
-                    className="img-fluid"
-                    alt="Jobs in Kuwait"
-                    title="Jobs in Kuwait"
-                    loading="lazy"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Kuwait</p>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-4 col-sm-6">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Behrain}
-                    className="img-fluid"
-                    alt="Jobs in Bahrain"
-                    title="Jobs in Bahrain"
-                    loading="lazy"
-                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Bahrain</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* END JOBS BY LOCATIONS */}
 
         {/* OUR Services */}
         <div className="section-full p-t50 p-b40 twm-blog-post-h-page6-wrap">
