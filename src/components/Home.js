@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation,Autoplay } from "swiper/modules";
+import jobConsultImgg from '../assets/images/job-consultance.png'
 // Banners
 
 // import homeBanner from "../assets/images/home_banner.png";
@@ -463,8 +464,8 @@ const Home = () => {
           {/* <h2 className="wt-title">Jobs By Location</h2> */}
         </div>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="row g-4 justify-content-center">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -472,14 +473,14 @@ const Home = () => {
                     className="img-fluid"
                     alt="Jobs in Dubai"
                     title="Jobs in Dubai"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
 
                 <p className="text-center mt-2">Jobs in Dubai</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -487,13 +488,13 @@ const Home = () => {
                     className="img-fluid"
                     alt="Jobs in Saudi Arabia"
                     title="Jobs in Saudi Arabia"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Saudi</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -502,13 +503,13 @@ const Home = () => {
                     alt="Jobs in Oman"
                     title="Jobs in Oman"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Oman</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -517,14 +518,14 @@ const Home = () => {
                     alt="Jobs in Qatar"
                     title="Jobs in Qatar"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Qatar</p>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -533,13 +534,13 @@ const Home = () => {
                     alt="Jobs in Kuwait"
                     title="Jobs in Kuwait"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Kuwait</p>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-2 col-md-4 col-sm-6">
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <NavLink to="/job-list">
                   <img
@@ -548,40 +549,10 @@ const Home = () => {
                     alt="Jobs in Bahrain"
                     title="Jobs in Bahrain"
                     loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
+                    style={{ width: "140px", height: "140px", objectFit: "cover", borderRadius: "50%", border: "5px solid #009BD4" }}
                   />
                 </NavLink>
                 <p className="text-center mt-2">Jobs in Bahrain</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Singapore}
-                    className="img-fluid"
-                    alt="Jobs in Singapore"
-                    title="Jobs in Singapore"
-                    loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Singapore</p>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
-              <div className="d-flex justify-content-center align-items-center flex-column">
-                <NavLink to="/job-list">
-                  <img
-                    src={Malesia}
-                    className="img-fluid"
-                    alt="Jobs in Malaysia"
-                    title="Jobs in Malaysia"
-                    loading="lazy"
-                    style={{ borderRadius: "50%", border: "5px solid #009BD4" }}
-                  />
-                </NavLink>
-                <p className="text-center mt-2">Jobs in Malaysia</p>
               </div>
             </div>
           </div>
@@ -970,7 +941,8 @@ const Home = () => {
                   <div className="h-page-6-getjobs-left">
                     <div className="twm-media">
                       <img
-                        src="images/get-job-pic.png"
+                        // src="images/get-job-pic.png"
+                        src={jobConsultImgg}
                         alt="angel gulf consultant"
                         style={{ width: "350px", height: "auto" }}
                       />
