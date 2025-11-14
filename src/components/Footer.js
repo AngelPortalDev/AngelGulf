@@ -44,7 +44,7 @@ const Footer = () => {
                     <li><NavLink to='/industries' onClick={gotoTop} target='_blank'>Industries</NavLink></li>
                     <li><NavLink to='/articles' onClick={gotoTop} target='_blank'>Articles of Interest</NavLink></li>
                     <li><NavLink to='/site-map' onClick={gotoTop} target='_blank'>Site Map</NavLink></li>
-                    <li><NavLink >Blog</NavLink></li>
+                    <li><NavLink to='/blogs' onClick={gotoTop} target='_blank' rel='noopener noreferrer'>Blog</NavLink></li>
                   </ul>
                 </div>
               </div>

@@ -22,6 +22,7 @@ import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
 import BeAwareModal from './components/static/BeAwareModal.js'
 import './App.css';
+import TestBlog from "./components/Blog/TestBlog.js";
 
 // Services components
 const VisaService = React.lazy(() =>
@@ -95,6 +96,10 @@ const PressRelease = React.lazy(() =>
   import("./components/static/PressRelease.js")
 );
 const Sitemap = React.lazy(() => import("./components/Sitemap.js"));
+const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
+const AvoidGulfJobScams = React.lazy(() =>
+  import("./components/Blog/AvoidGulfJobScams.js")
+);
 
 // Articles
 
@@ -453,6 +458,19 @@ function App() {
             <Route exact path="/latest-gulf-news" element={<LatestNews />} />
             <Route exact path="/press-release" element={<PressRelease />} />
             <Route exact path="/site-map" element={<Sitemap />} />
+            <Route exact path="/blogs" element={<BlogList />} />
+           
+            {/* Blog routes*/}
+            <Route
+              exact
+              path="/blogs/avoid-gulf-job-scams"
+              element={<AvoidGulfJobScams />}
+            />
+            <Route
+              exact
+              path="/blogs/test-blog"
+              element={<TestBlog />}
+            />
 
             {/* Articles */}
 
