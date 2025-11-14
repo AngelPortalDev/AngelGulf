@@ -22,7 +22,7 @@ import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
 import BeAwareModal from './components/static/BeAwareModal.js'
 import './App.css';
-import TestBlog from "./components/Blog/TestBlog.js";
+
 
 // Services components
 const VisaService = React.lazy(() =>
@@ -466,11 +466,7 @@ function App() {
               path="/blogs/avoid-gulf-job-scams"
               element={<AvoidGulfJobScams />}
             />
-            <Route
-              exact
-              path="/blogs/test-blog"
-              element={<TestBlog />}
-            />
+           
 
             {/* Articles */}
 
