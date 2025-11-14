@@ -10,6 +10,9 @@ const blogs = [
       "Spot fake Gulf job offers, know the red flags, and learn how verified agencies like Angel Gulf Jobs keep your job search safe.",
     to: "/blogs/avoid-gulf-job-scams",
     image: FakeJobImg,
+    category: "Safety & Compliance",
+    readingTime: "8 min read",
+    updatedOn: "Oct 2025",
   },
 ];
 
@@ -30,44 +33,27 @@ const BlogList = () => {
         <link rel="canonical" href="https://www.angelgulfjobs.com/blogs" />
       </Helmet>
 
-      <div className="page-content">
+      <div className="page-content bloglayout">
 
         {/* HEADER */}
-        <div
-          className="position-relative py-5"
-          style={{
-            background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)",
-            // background: "linear-gradient(135deg, #F3F7FD 0%, #F3F7FD 100%)",
-            borderBottom: "1px solid rgba(0, 155, 212, 0.1)"
-          }}
-        >
+        <div className="position-relative py-5 bloglayout-header">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h1
-                  className="display-4 fw-bold mb-3"
-                  style={{
-                    color: "#0f172a",
-                    fontSize: "clamp(2rem, 5vw, 3rem)"
-                  }}
-                >
-                  Blogs
+                <h1 className="display-4 fw-bold mb-3 bloglayout-title">
+                  Angel Gulf Jobs Blog
                 </h1>
+                <p className="lead text-muted mb-4">
+                  Curated guidance and scam alerts from the Angel Gulf Jobs team to keep your overseas job search safe and confident.
+                </p>
                 <nav aria-label="breadcrumb">
-                  <ol className="breadcrumb justify-content-center mb-0 bg-transparent">
+                  <ol className="breadcrumb justify-content-center mb-0 bg-transparent bloglayout-breadcrumb">
                     <li className="breadcrumb-item">
-                      <NavLink
-                        to="/"
-                        className="text-decoration-none"
-                        style={{ color: "#009bd4", fontWeight: 500 }}
-                      >
+                      <NavLink to="/" className="text-decoration-none" style={{ color: "#009bd4", fontWeight: 500 }}>
                         Home
                       </NavLink>
                     </li>
-                    <li
-                      className="breadcrumb-item active"
-                      style={{ color: "#64748b" }}
-                    >
+                    <li className="breadcrumb-item active" style={{ color: "#64748b" }}>
                       Blogs
                     </li>
                   </ol>
@@ -78,20 +64,16 @@ const BlogList = () => {
         </div>
 
         {/* BLOG LIST BODY */}
-        <div className="py-5 bg-white">
+        <div className="py-5 bloglayout-body">
           <div className="container">
 
             {/* SECTION TITLE */}
             <div className="row justify-content-center mb-5">
               <div className="col-lg-8 text-center">
 
-                <div className="blog-badge">
-                  LATEST INSIGHTS
-                </div>
+                <div className="blog-badge">Latest insights</div>
 
-                <h2 className="section-title">
-                  Latest from Angel Gulf Jobs
-                </h2>
+                <h2 className="section-title">Latest from Angel Gulf Jobs</h2>
 
                 <p className="section-subtitle">
                   Discover expert tips, scam alerts, and success stories designed to support your Gulf job journey.
@@ -101,30 +83,38 @@ const BlogList = () => {
             </div>
 
             {/* BLOG CARDS */}
-            <div className="row g-4">
+            <div className="row g-4 justify-content-center">
               {blogs.map((blog) => (
                 <div className="col-lg-4 col-md-6" key={blog.to}>
                   <NavLink
                     to={blog.to}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="d-block h-100 text-decoration-none blog-card-link"
                   >
-                    <div className="blog-card h-100">
-                      
+                    <div className="blog-card h-100 d-flex flex-column">
+
                       <div className="blog-card-image-wrapper">
                         <img
                           src={blog.image}
                           alt={blog.title}
                           className="blog-card-image"
                         />
-                        <div className="blog-card-image-overlay"></div>
+                        <div className="blog-card-image-overlay" />
                       </div>
 
                       <div className="card-body d-flex flex-column p-4">
+                        <span className="blog-card-category">{blog.category}</span>
                         <h3 className="blog-card-title">{blog.title}</h3>
 
                         <p className="blog-card-description flex-grow-1">
                           {blog.description}
                         </p>
+
+                        <div className="blog-card-meta">
+                          <span>{blog.readingTime}</span>
+                          <span>Updated {blog.updatedOn}</span>
+                        </div>
 
                         <div className="d-flex align-items-center mt-auto readmore-wrapper">
                           <span className="readmore-text">
@@ -159,6 +149,26 @@ const BlogList = () => {
 
       {/* INTERNAL STYLES */}
       <style>{`
+        .bloglayout-title {
+          color: #0f172a;
+          font-size: clamp(2rem, 5vw, 3rem);
+        }
+
+        .bloglayout-header {
+          background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+          border-bottom: 1px solid rgba(0, 155, 212, 0.1);
+        }
+
+        .bloglayout-body {
+          background: #f8fafc;
+        }
+
+        .breadcrumb-item + .breadcrumb-item::before {
+          content: "›";
+          color: #94a3b8;
+          font-size: 1.1rem;
+        }
+
         .blog-badge {
           display: inline-block;
           padding: 6px 18px;
@@ -188,10 +198,11 @@ const BlogList = () => {
 
         .blog-card {
           background: #ffffff;
-          border-radius: 18px;
-          transition: all 0.28s ease;
-          border: 1px solid rgba(0,0,0,0.05);
+          border-radius: 20px;
+          transition: all 0.24s ease;
+          border: 1px solid rgba(15, 23, 42, 0.08);
           overflow: hidden;
+          box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
         }
 
         .blog-card-image-wrapper {
@@ -216,9 +227,23 @@ const BlogList = () => {
           background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.05) 100%);
         }
 
+        .blog-card-category {
+          display: inline-flex;
+          align-items: center;
+          font-size: 0.8rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+          color: #0284c7;
+          background: rgba(2, 132, 199, 0.08);
+          border-radius: 999px;
+          padding: 0.35rem 0.8rem;
+          margin-bottom: 0.75rem;
+        }
+
         .blog-card-title {
           color: #0f172a;
-          font-size: 1.22rem;
+          font-size: 1.18rem;
           font-weight: 700;
           line-height: 1.35;
           margin-bottom: 0.75rem;
@@ -226,8 +251,31 @@ const BlogList = () => {
 
         .blog-card-description {
           color: #64748b;
-          font-size: 0.97rem;
-          line-height: 1.6;
+          font-size: 0.95rem;
+          line-height: 1.65;
+        }
+
+        .blog-card-meta {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.6rem 1.4rem;
+          font-size: 0.85rem;
+          color: #475569;
+          margin-bottom: 1rem;
+        }
+
+        .blog-card-meta span {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.35rem;
+        }
+
+        .blog-card-meta span::before {
+          content: "";
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: rgba(15, 23, 42, 0.18);
         }
 
         .readmore-text {
@@ -241,8 +289,8 @@ const BlogList = () => {
         }
 
         .blog-card-link:hover .blog-card {
-          transform: translateY(-8px);
-          box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+          transform: translateY(-6px);
+          box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
         }
 
         .blog-card-link:hover .blog-card-image {
@@ -257,10 +305,16 @@ const BlogList = () => {
           transform: translateX(4px);
         }
 
-        .breadcrumb-item + .breadcrumb-item::before {
-          content: "›";
-          color: #94a3b8;
-          font-size: 1.1rem;
+        @media (max-width: 991px) {
+          .blog-card-image-wrapper {
+            height: 200px;
+          }
+        }
+
+        @media (max-width: 576px) {
+          .blog-layout-title {
+            font-size: 2rem;
+          }
         }
       `}</style>
     </div>

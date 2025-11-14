@@ -26,6 +26,27 @@ const AvoidGulfJobScams = () => {
   return (
     <BlogLayout
       title="Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies"
+      subtitle="Simple checks you can follow to stay safe while chasing your Gulf career dreams."
+      eyebrow="Job search safety"
+      intro="Angel Gulf Jobs shares practical guidance to help Indian job seekers identify fake Gulf job offers, verify recruiters, and trust only licensed agencies."
+      hero={(
+        <figure className="text-center mb-0">
+          <img
+            src={BgImge}
+            alt="Top tips for a safe Gulf job search"
+            className="img-fluid rounded-4 shadow"
+            style={{ maxHeight: "460px", objectFit: "cover" }}
+          />
+          <figcaption className="mt-3 text-muted fst-italic hero-caption">
+            Top tips that help every job seeker stay protected while exploring Gulf opportunities.
+          </figcaption>
+        </figure>
+      )}
+      metaHighlights={[
+        { label: "Category", value: "Safety & Compliance" },
+        { label: "Reading time", value: "8 mins" },
+        { label: "Updated", value: "Oct 2025" },
+      ]}
       metaTitle="Avoid Gulf Job Scams | Choose Verified & Legit Gulf Job Agencies"
       metaDescription="Learn how to identify fake Gulf job offers, avoid recruitment scams, and choose legit Gulf job agencies. Find verified Gulf jobs for Indians with Angel Gulf Jobs."
       metaKeywords={SEO_KEYWORDS}
@@ -36,18 +57,6 @@ const AvoidGulfJobScams = () => {
       ]}
       canonicalUrl="https://www.angelgulfjobs.com/blogs/avoid-gulf-job-scams"
     >
-      {/* HERO IMAGE */}
-      <div className="text-center mb-5">
-        <img
-          src={BgImge}
-          alt="Top tips for a safe Gulf job search"
-          className="img-fluid rounded-4 shadow"
-          style={{ maxWidth: "720px" }}
-        />
-        <p className="mt-4 text-muted fst-italic hero-caption">
-          Top tips that help every job seeker stay protected while exploring Gulf opportunities.
-        </p>
-      </div>
 
       {/* INTRO */}
       <section className="blog-section mb-5">
@@ -232,99 +241,75 @@ const AvoidGulfJobScams = () => {
       <section className="blog-section mb-5">
         <h2 className="h3 fw-bold section-title-blue">Frequently Asked Questions (FAQs)</h2>
 
-        <div className="accordion accordion-flush" id="faqAccordion">
-          <div className="accordion-item border rounded-3 mb-3" style={{ overflow: "hidden" }}>
+        <div className="accordion accordion-flush blog-faq" id="faqAccordion">
+          <div className="accordion-item blog-faq-item">
             <h3 className="accordion-header">
               <button
-                className="accordion-button collapsed fw-semibold"
+                className="accordion-button collapsed fw-semibold blog-faq-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqOne"
-                style={{
-                  background: "#f8fafc",
-                  color: "#0f172a",
-                  fontSize: "1.05rem",
-                  padding: "1.25rem"
-                }}
               >
                 1. How to verify if a Gulf job agency is real?
               </button>
             </h3>
             <div id="faqOne" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div className="accordion-body" style={{ padding: "1.25rem", color: "#475569", lineHeight: 1.7 }}>
+              <div className="accordion-body blog-faq-body">
                 Verify the agency's official government registration or licence number on trusted portals.
               </div>
             </div>
           </div>
 
-          <div className="accordion-item border rounded-3 mb-3" style={{ overflow: "hidden" }}>
+          <div className="accordion-item blog-faq-item">
             <h3 className="accordion-header">
               <button
-                className="accordion-button collapsed fw-semibold"
+                className="accordion-button collapsed fw-semibold blog-faq-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqTwo"
-                style={{
-                  background: "#f8fafc",
-                  color: "#0f172a",
-                  fontSize: "1.05rem",
-                  padding: "1.25rem"
-                }}
               >
                 2. Can scammers use real company names?
               </button>
             </h3>
             <div id="faqTwo" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div className="accordion-body" style={{ padding: "1.25rem", color: "#475569", lineHeight: 1.7 }}>
+              <div className="accordion-body blog-faq-body">
                 Yes, they often impersonate genuine firms. Always contact the company through the official website.
               </div>
             </div>
           </div>
 
-          <div className="accordion-item border rounded-3 mb-3" style={{ overflow: "hidden" }}>
+          <div className="accordion-item blog-faq-item">
             <h3 className="accordion-header">
               <button
-                className="accordion-button collapsed fw-semibold"
+                className="accordion-button collapsed fw-semibold blog-faq-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqThree"
-                style={{
-                  background: "#f8fafc",
-                  color: "#0f172a",
-                  fontSize: "1.05rem",
-                  padding: "1.25rem"
-                }}
               >
                 3. Is Angel Gulf Jobs a legitimate platform?
               </button>
             </h3>
             <div id="faqThree" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div className="accordion-body" style={{ padding: "1.25rem", color: "#475569", lineHeight: 1.7 }}>
+              <div className="accordion-body blog-faq-body">
                 Absolutely! Angel Gulf Jobs works with verified recruiters and offers a range of overseas job opportunities to
                 candidates.
               </div>
             </div>
           </div>
 
-          <div className="accordion-item border rounded-3 mb-3" style={{ overflow: "hidden" }}>
+          <div className="accordion-item blog-faq-item">
             <h3 className="accordion-header">
               <button
-                className="accordion-button collapsed fw-semibold"
+                className="accordion-button collapsed fw-semibold blog-faq-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqFour"
-                style={{
-                  background: "#f8fafc",
-                  color: "#0f172a",
-                  fontSize: "1.05rem",
-                  padding: "1.25rem"
-                }}
               >
                 4. How can I verify a job offer from a Gulf company?
               </button>
             </h3>
             <div id="faqFour" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div className="accordion-body" style={{ padding: "1.25rem", color: "#475569", lineHeight: 1.7 }}>
+              <div className="accordion-body blog-faq-body">
                 Check whether the company's offer letter includes full employer details, a company seal, and valid contact
                 information. You can also verify the company's authenticity through its official website or by contacting the
                 Indian Embassy in the respective Gulf country.
@@ -332,25 +317,19 @@ const AvoidGulfJobScams = () => {
             </div>
           </div>
 
-          <div className="accordion-item border rounded-3 mb-3" style={{ overflow: "hidden" }}>
+          <div className="accordion-item blog-faq-item">
             <h3 className="accordion-header">
               <button
-                className="accordion-button collapsed fw-semibold"
+                className="accordion-button collapsed fw-semibold blog-faq-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#faqFive"
-                style={{
-                  background: "#f8fafc",
-                  color: "#0f172a",
-                  fontSize: "1.05rem",
-                  padding: "1.25rem"
-                }}
               >
                 5. What is the safest method for applying for Gulf jobs for Indians online?
               </button>
             </h3>
             <div id="faqFive" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-              <div className="accordion-body" style={{ padding: "1.25rem", color: "#475569", lineHeight: 1.7 }}>
+              <div className="accordion-body blog-faq-body">
                 Use trusted Gulf job portals like AngelGulfJobs, which feature verified employers and legitimate job listings.
                 Avoid social media ads, WhatsApp forwards, and unverified websites to stay protected from Gulf job scams.
               </div>
@@ -361,7 +340,7 @@ const AvoidGulfJobScams = () => {
 
       {/* CTA BOX */}
       <section className="cta-box mb-5 p-4 p-md-5 rounded-4">
-        <div className="d-flex align-items-center mb-4">
+        <div className="d-flex flex-wrap align-items-center mb-4 gap-3 cta-header">
           <div className="cta-icon-wrapper">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
               <path d="M13 10V3L4 14h7v7l9-11h-7z" fill="white" />
@@ -376,9 +355,18 @@ const AvoidGulfJobScams = () => {
         </p>
 
         <ul className="list-unstyled ms-0 mb-4 cta-list">
-          <li className="d-flex align-items-start mb-3"><span className="green-icon">✓</span><span style={{ marginLeft: 10, color: "#0c4a6e" }}>100% Verified Jobs</span></li>
-          <li className="d-flex align-items-start mb-3"><span className="green-icon">✓</span><span style={{ marginLeft: 10, color: "#0c4a6e" }}>No Hidden Fees</span></li>
-          <li className="d-flex align-items-start mb-3"><span className="green-icon">✓</span><span style={{ marginLeft: 10, color: "#0c4a6e" }}>Government-Approved Company</span></li>
+          <li className="cta-list-item">
+            <span className="green-icon">✓</span>
+            <span>100% Verified Jobs</span>
+          </li>
+          <li className="cta-list-item">
+            <span className="green-icon">✓</span>
+            <span>No Hidden Fees</span>
+          </li>
+          <li className="cta-list-item">
+            <span className="green-icon">✓</span>
+            <span>Government-Approved Company</span>
+          </li>
         </ul>
 
         <p className="cta-bottom fw-bold">Start your journey safely — with Angel Gulf Jobs!</p>
@@ -388,7 +376,12 @@ const AvoidGulfJobScams = () => {
       <style>{`
         .hero-caption { font-size: 0.95rem; }
         .intro-text { color: #1e293b; font-size: 1.15rem; line-height: 1.8; }
+        .blog-section { margin-bottom: clamp(2rem, 4vw, 4rem); }
+        .blog-section:last-of-type { margin-bottom: 0; }
         .blog-section p { margin-bottom: 1.2rem; line-height: 1.75; }
+        .blog-section ul,
+        .blog-section ol { padding-left: 0; }
+        .blog-section li { line-height: 1.7; }
         .section-title-blue { color: #009bd4; margin-bottom: 1.5rem; }
         .section-title-dark { color: #0f172a; margin-bottom: 1.5rem; }
 
@@ -399,6 +392,7 @@ const AvoidGulfJobScams = () => {
         .flag-icon, .green-icon, .amber-icon {
           width: 24px; height: 24px; display: inline-flex; align-items: center; justify-content: center;
           font-size: 0.75rem; font-weight: bold; border-radius: 50%; flex-shrink: 0;
+          transition: transform 0.25s ease;
         }
 
         .flag-icon { background: #fee2e2; color: #dc2626; }
@@ -419,15 +413,129 @@ const AvoidGulfJobScams = () => {
           justify-content: center; font-weight: bold;
         }
 
-        .cta-box { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border: 1px solid rgba(0,155,212,0.2); }
-        .cta-icon-wrapper { width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #009bd4 0%, #0284c7 100%); display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem; }
-        .cta-title, .cta-text, .cta-bottom { color: #0c4a6e; }
-        .cta-list li span { color: #0c4a6e; }
+        .cta-box {
+          background: linear-gradient(135deg, #edf6ff 0%, #dff1ff 100%);
+          border: 1px solid rgba(0,155,212,0.2);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+        }
+
+        .cta-icon-wrapper {
+          width: 48px; height: 48px; border-radius: 50%; background: linear-gradient(135deg, #009bd4 0%, #0284c7 100%);
+          display: inline-flex; align-items: center; justify-content: center; margin-right: 1rem;
+        }
+
+        .cta-title { color: #0c4a6e; }
+        .cta-text { color: #0c4a6e; line-height: 1.75; }
+        .cta-bottom { color: #0b3c5d; }
+
+        .cta-list-item {
+          display: flex;
+          align-items: flex-start;
+          gap: 12px;
+          margin-bottom: 0.85rem;
+        }
+
+        .cta-list-item span:last-child {
+          color: #0c4a6e;
+          flex: 1;
+        }
+
+        .blog-faq {
+          border-radius: 22px;
+          border: 1px solid rgba(0,155,212,0.25);
+          background: #f4fbff;
+        }
+
+        .blog-faq-item + .blog-faq-item {
+          border-top: 1px solid rgba(0,155,212,0.15);
+        }
+
+        .blog-faq-button {
+          background: transparent;
+          color: #0f172a;
+          font-size: 1.02rem;
+          padding: 1.2rem 1.35rem;
+          border-radius: 0;
+          box-shadow: none;
+        }
+
+        .blog-faq-button:focus {
+          box-shadow: none;
+        }
+
+        .blog-faq-button:not(.collapsed) {
+          background: rgba(0,155,212,0.08);
+          color: #0b3c5d;
+        }
+
+        .blog-faq-button::after {
+          filter: invert(33%) sepia(98%) saturate(708%) hue-rotate(159deg) brightness(94%) contrast(92%);
+        }
+
+        .blog-faq-body {
+          padding: 1.1rem 1.35rem 1.4rem;
+          color: #475569;
+          line-height: 1.7;
+          background: #ffffff;
+        }
 
         /* Responsive tweaks */
+        @media (max-width: 991px) {
+          .intro-text { font-size: 1.08rem; }
+          .blog-section { margin-bottom: 2.5rem; }
+        }
+
         @media (max-width: 767px) {
-          .intro-text { font-size: 1.03rem; }
-          .counter { top: 6px; }
+          .bloglayout-reading section + section { padding-top: 2rem; }
+          .alert-tips { flex-direction: column; text-align: left; }
+          .counter-list li { padding-left: 40px; }
+          .counter { top: 4px; width: 32px; height: 32px; }
+          .cta-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+          .cta-box { padding: 1.8rem; }
+          .cta-list-item { align-items: flex-start; }
+          .blog-faq-button { font-size: 0.98rem; padding: 1rem; }
+        }
+
+        @media (max-width: 575px) {
+          .hero-caption { font-size: 0.9rem; }
+          .cta-list-item { flex-direction: column; gap: 8px; }
+          .counter-list li { padding-left: 34px; }
+          .counter { width: 28px; height: 28px; font-size: 0.85rem; }
+          .cta-box { text-align: left; }
+          .cta-text { font-size: 0.95rem; }
+          .blog-faq-button { font-size: 0.95rem; padding: 0.95rem 1rem; }
+
+          .flag-icon,
+          .green-icon,
+          .amber-icon {
+            display: none;
+          }
+
+          .red-flag-list li,
+          .green-tick-list li,
+          .amber-list li,
+          .cta-list-item {
+            position: relative;
+            padding-left: 18px;
+          }
+
+          .red-flag-list li::before,
+          .amber-list li::before,
+          .green-tick-list li::before,
+          .cta-list-item::before {
+            content: "";
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            position: absolute;
+            top: 0.55rem;
+            left: 0;
+          }
+
+          .red-flag-list li::before { background: #dc2626; }
+          .amber-list li::before { background: #d97706; }
+          .green-tick-list li::before,
+          .cta-list-item::before { background: #16a34a; }
         }
       `}</style>
     </BlogLayout>
