@@ -113,5 +113,51 @@
   box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
 }
 
+/* Sticky header readability tweaks */
+.header-style-3 .main-bar {
+  position: relative;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    backdrop-filter 0.3s ease;
+}
 
+.header-style-3 .is-fixed .main-bar {
+  background-color: #009bd4 !important;
+  backdrop-filter: blur(6px) saturate(160%);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.25);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
+.header-style-3 .is-fixed .header-nav .nav > li > a {
+  color: #f8fbff !important;
+  border-radius: 0;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.header-style-3 .is-fixed .header-nav .nav > li > a:hover,
+.header-style-3 .is-fixed .header-nav .nav > li > a:focus,
+.header-style-3 .is-fixed .header-nav .nav > li > a.active {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #ffffff !important;
+}
+
+.header-style-3 .is-fixed .header-nav .nav > li .sub-menu {
+  background-color: #ffffff;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.2);
+}
+
+.header-style-3 .is-fixed .header-nav .nav > li .sub-menu li a {
+  color: #111;
+}
+
+.header-style-3 .is-fixed .navbar-toggler .icon-bar {
+  background-color: #ffffff;
+}
+
+@media (max-width: 991px) {
+  .header-style-3 .is-fixed .main-bar {
+    backdrop-filter: none;
+  }
+}
