@@ -126,7 +126,7 @@ const Header = () => {
         </div>
 
         <div className="sticky-header main-bar-wraper  navbar-expand-lg">
-          <div className="main-bar" style={{ backgroundColor: '#ffffff', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', borderBottom: '1px solid #eef2f6', padding: '2px 0' }}>
+          <div className="main-bar" style={{ backgroundColor: '#009BD4', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', borderBottom: '1px solid #009BD4', padding: '2px 0' }}>
             <div className="container-fluid clearfix">
               {/* NAV Toggle Button */}
               <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
@@ -172,10 +172,10 @@ const Header = () => {
               <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
                 <ul className=" nav navbar-nav" style={{ gap: '8px' }}>
                   <li className="has-mega-menu">
-                    <NavLink to="/" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Home</NavLink>
+                    <NavLink to="/" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Home</NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Our Services</NavLink>
+                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Our Services</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/visa" target="_blank">
@@ -210,12 +210,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/industries" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/industries" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
                       Industries
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Process</NavLink>
+                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Process</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/recruitment-procedure" target="_blank">
@@ -240,7 +240,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Current Opening</NavLink>
+                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Current Opening</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/jobs-in-uae" target="_blank">
@@ -273,12 +273,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/partner-with-us" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/partner-with-us" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
                       Partner With Us
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <Link style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>Contact</Link>
+                    <Link style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Contact</Link>
                     <ul className="sub-menu">
                       <li>
                         <Link to="/contact-us" target="_blank">
@@ -293,12 +293,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/job-list" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/job-list" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
                       Browse Jobs
                     </NavLink>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/registration" target="_blank" style={{ color: '#111', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/registration" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
                       Registration
                     </NavLink>
                   </li>
