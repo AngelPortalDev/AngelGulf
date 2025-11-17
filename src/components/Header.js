@@ -1,9 +1,22 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from '../assets/images/ange_gulf_logo.png';
 
 const Header = () => {
+
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== 'undefined' ? window.innerWidth < 992 : false
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 992);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const styles = {
     maltaBun:{
@@ -16,6 +29,19 @@ const Header = () => {
       whiteSpace:'nowrap'
     }
   }
+
+  const navLinkStyle = {
+    color: isMobile ? '#111' : '#fff',
+    background: 'transparent',
+    padding: '6px 10px'
+  };
+
+  const mainBarStyle = {
+    backgroundColor: isMobile ? '#ffffff' : '#009BD4',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+    borderBottom: isMobile ? '1px solid #eef2f6' : '1px solid #009BD4',
+    padding: '2px 0'
+  };
 
   return (
     <div>
@@ -126,7 +152,7 @@ const Header = () => {
         </div>
 
         <div className="sticky-header main-bar-wraper  navbar-expand-lg">
-          <div className="main-bar" style={{ backgroundColor: '#009BD4', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', borderBottom: '1px solid #009BD4', padding: '2px 0' }}>
+          <div className="main-bar" style={mainBarStyle}>
             <div className="container-fluid clearfix">
               {/* NAV Toggle Button */}
               <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
@@ -172,10 +198,10 @@ const Header = () => {
               <div className="nav-animation header-nav navbar-collapse collapse d-flex justify-content-center">
                 <ul className=" nav navbar-nav" style={{ gap: '8px' }}>
                   <li className="has-mega-menu">
-                    <NavLink to="/" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Home</NavLink>
+                    <NavLink to="/" style={navLinkStyle}>Home</NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Our Services</NavLink>
+                    <NavLink style={navLinkStyle}>Our Services</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/visa" target="_blank">
@@ -210,12 +236,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/industries" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/industries" target="_blank" style={navLinkStyle}>
                       Industries
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Process</NavLink>
+                    <NavLink style={navLinkStyle}>Process</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/recruitment-procedure" target="_blank">
@@ -240,7 +266,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child">
-                    <NavLink style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Current Opening</NavLink>
+                    <NavLink style={navLinkStyle}>Current Opening</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/jobs-in-uae" target="_blank">
@@ -273,12 +299,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/partner-with-us" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/partner-with-us" target="_blank" style={navLinkStyle}>
                       Partner With Us
                     </NavLink>
                   </li>
                   <li className="has-child">
-                    <Link style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>Contact</Link>
+                    <Link style={navLinkStyle}>Contact</Link>
                     <ul className="sub-menu">
                       <li>
                         <Link to="/contact-us" target="_blank">
@@ -293,12 +319,12 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/job-list" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/job-list" target="_blank" style={navLinkStyle}>
                       Browse Jobs
                     </NavLink>
                   </li>
                   <li className="has-child removearrowicon">
-                    <NavLink to="/registration" target="_blank" style={{ color: '#fff', background:'transparent', padding: '6px 10px' }}>
+                    <NavLink to="/registration" target="_blank" style={navLinkStyle}>
                       Registration
                     </NavLink>
                   </li>

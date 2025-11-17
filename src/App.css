@@ -157,7 +157,25 @@
 }
 
 @media (max-width: 991px) {
+  .header-style-3 .main-bar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #eef2f6;
+  }
   .header-style-3 .is-fixed .main-bar {
     backdrop-filter: none;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #eef2f6;
+  }
+  .header-style-3 .is-fixed .header-nav .nav > li > a {
+    color: #111 !important;
+  }
+  .header-style-3 .is-fixed .header-nav .nav > li > a:hover,
+  .header-style-3 .is-fixed .header-nav .nav > li > a:focus,
+  .header-style-3 .is-fixed .header-nav .nav > li > a.active {
+    color: #000 !important;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .header-style-3 .is-fixed .navbar-toggler .icon-bar {
+    background-color: #009bd4 !important;
   }
 }
