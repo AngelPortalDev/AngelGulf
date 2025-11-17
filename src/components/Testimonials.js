@@ -152,38 +152,23 @@ const Testimonials = () => {
 
         <div className="row justify-content-center">
           <div className="col-lg-9 col-md-11">
-            <div className="p-a40 bg-white" style={{ boxShadow: "0 10px 30px rgba(0,0,0,0.08)", borderRadius: 15, height: 400, display: 'flex', flexDirection: 'column' }}>
+            <div className="testimonials-card p-a40 bg-white">
               <div className="d-flex justify-content-center">
                 <InitialBadge name={t.name} image={t.image} />
               </div>
 
-              <div className="d-flex align-items-center justify-content-between" style={{ flex: 1 }}>
+              <div className="testimonial-body">
                 <button
                   type="button"
                   aria-label="Previous testimonial"
                   onClick={handlePrev}
-                  style={{ 
-                    minWidth: 40, 
-                    height: 40,
-                    borderRadius: 50,
-                    border: 'none',
-                    backgroundColor: '#009BD4',
-                    color: '#fff',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    marginRight: '20px',
-                    flexShrink: 0
-                  }}
-                  onMouseEnter={(e) => e.target.style.backgroundColor = '#007BA3'}
-                  onMouseLeave={(e) => e.target.style.backgroundColor = '#009BD4'}
+                  className="testimonial-nav-btn testimonial-nav-btn--prev"
                 >
                   <i className="fa fa-chevron-left" aria-hidden="true" />
                 </button>
 
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: '200px' }}>
-                  <div className="twm-testi-text m-b15 text-center" style={{ fontStyle: "italic", color: '#111827', overflow: 'hidden' }}>
+                <div className="testimonial-text-wrapper">
+                  <div className="twm-testi-text m-b15 text-center testimonial-quote">
                     "{t.review}"
                   </div>
                   <div className="twm-testi-info text-center">
@@ -195,45 +180,20 @@ const Testimonials = () => {
                   type="button"
                   aria-label="Next testimonial"
                   onClick={handleNext}
-                  style={{ 
-                    minWidth: 40, 
-                    height: 40,
-                    borderRadius: 50,
-                    border: 'none',
-                    backgroundColor: '#009BD4',
-                    color: '#fff',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    marginLeft: '20px',
-                    flexShrink: 0
-                  }}
-                  onMouseEnter={(e) => e.target.style.backgroundColor = '#007BA3'}
-                  onMouseLeave={(e) => e.target.style.backgroundColor = '#009BD4'}
+                  className="testimonial-nav-btn testimonial-nav-btn--next"
                 >
                   <i className="fa fa-chevron-right" aria-hidden="true" />
                 </button>
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center testimonial-dots">
                 {testimonials.map((_, idx) => (
                   <button
                     key={idx}
                     aria-label={`Go to testimonial ${idx + 1}`}
                     onClick={() => setCurrentIndex(idx)}
-                    style={{
-                      width: 8,
-                      height: 8,
-                      borderRadius: "50%",
-                      margin: 4,
-                      border: 0,
-                      backgroundColor: idx === currentIndex ? "#009BD4" : "#D1D5DB",
-                      cursor: "pointer",
-                      padding: 0,
-                      outline: 'none',
-                      boxSizing: 'border-box'
-                    }}
+                    type="button"
+                    className={`testimonial-dot${idx === currentIndex ? " is-active" : ""}`}
                   />
                 ))}
               </div>
