@@ -35,6 +35,16 @@ const blogs = [
     readingTime: "7 min read",
     updatedOn: "Nov 2025",
   },
+  {
+    title: "The Kafala System: From Control to Reform in Saudi Arabia",
+    description:
+      "Understand how the Kafala system shaped migrant workers' lives in Saudi Arabia and what its abolition means for Indian Gulf jobseekers.",
+    to: "/blogs/kafala-system-saudi-arabia",
+    image: BgImge,
+    category: "Labour Rights & Policy",
+    readingTime: "8 min read",
+    updatedOn: "Nov 2025",
+  },
 ];
 
 const BlogList = () => {

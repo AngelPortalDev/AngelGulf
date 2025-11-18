@@ -106,6 +106,9 @@ const ConnectingContinents = React.lazy(() =>
 const EcrNonEcrPassports = React.lazy(() =>
   import("./components/Blog/EcrNonEcrPassports.js")
 );
+const KafalaSystem = React.lazy(() =>
+  import("./components/Blog/KafalaSystem.js")
+);
 
 // Articles
 
@@ -481,6 +484,11 @@ function App() {
               exact
               path="/blogs/ecr-and-non-ecr-passports"
               element={<EcrNonEcrPassports />}
+            />
+            <Route
+              exact
+              path="/blogs/kafala-system-saudi-arabia"
+              element={<KafalaSystem />}
             />
            
 
