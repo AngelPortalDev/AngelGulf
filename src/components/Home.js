@@ -205,7 +205,7 @@ const Home = () => {
                 </div>
                 
                 <p style={{ marginBottom: '1.5rem' }}>
-                  The organisation primarily does its sourcing through its own job & educational portal, <strong style={{ color: '#009BD4' }}>Angelgulfjobs.com</strong>. The portal maintains a large database of job seekers interested in working abroad (Gulf region). The job seeker database is updated regularly through various sources; thus, it is well-positioned to meet the small to large candidate requirements of clients on short notice.
+                  The job seeker database is updated regularly through various sources; thus, it is well-positioned to meet the small to large candidate requirements of clients on short notice.
                 </p>
                 <p style={{ marginBottom: '2rem' }}>
                   With strong online visibility and an active, growing talent pool, the Angel Gulf Job Portal effectively caters to small, medium, and large-scale hiring needs across the Gulf region, including urgent recruitment drives and specialised manpower sourcing.
