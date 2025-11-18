@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { BLOG_POSTS } from "./blogConfig";
 
 const joinKeywords = (keywords) => {
   if (!keywords) return "";
@@ -25,6 +26,8 @@ const BlogLayout = ({
   canonicalUrl,
   children,
 }) => {
+  const location = useLocation();
+
   const computedBreadcrumbs = [
     { label: "Home", to: "/" },
     { label: "Blogs", to: "/blogs" },
@@ -32,6 +35,13 @@ const BlogLayout = ({
   ];
 
   const keywordsContent = joinKeywords(metaKeywords);
+
+  const currentPath = location.pathname;
+
+  const relatedBlogs = React.useMemo(() => {
+    const others = BLOG_POSTS.filter((post) => post.to !== currentPath);
+    return others.slice(0, 3);
+  }, [currentPath]);
 
   return (
     <div>
@@ -163,6 +173,37 @@ const BlogLayout = ({
                 </div>
               </div>
             </div>
+
+            {relatedBlogs.length > 0 && (
+              <div className="row justify-content-center mt-5">
+                <div className="col-lg-10">
+                  <section className="bloglayout-related">
+                    <h2 className="h4 fw-bold mb-3 bloglayout-related-title">More from Angel Gulf Jobs</h2>
+                    <p className="bloglayout-related-subtitle mb-4">
+                      Explore more guidance, insights, and safety tips for your Gulf job journey.
+                    </p>
+                    <div className="row g-3">
+                      {relatedBlogs.map((blog) => (
+                        <div className="col-md-4" key={blog.to}>
+                          <NavLink
+                            to={blog.to}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-decoration-none bloglayout-related-link d-block h-100"
+                          >
+                            <div className="bloglayout-related-card h-100">
+                              <p className="bloglayout-related-category mb-1">{blog.category}</p>
+                              <h3 className="bloglayout-related-heading">{blog.title}</h3>
+                              <p className="bloglayout-related-meta mb-0">{blog.readingTime} • Updated {blog.updatedOn}</p>
+                            </div>
+                          </NavLink>
+                        </div>
+                      ))}
+                    </div>
+                  </section>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -363,6 +404,52 @@ const BlogLayout = ({
 
         .bloglayout-keypoints p {
           margin-bottom: 0.25rem;
+        }
+
+        .bloglayout-related {
+          margin-top: 3rem;
+        }
+
+        .bloglayout-related-title {
+          color: #0f172a;
+        }
+
+        .bloglayout-related-subtitle {
+          color: #64748b;
+          font-size: 0.98rem;
+        }
+
+        .bloglayout-related-card {
+          border-radius: 16px;
+          border: 1px solid rgba(15,23,42,0.08);
+          padding: 1rem 1.1rem;
+          background: #ffffff;
+          transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+        }
+
+        .bloglayout-related-link:hover .bloglayout-related-card {
+          box-shadow: 0 14px 30px rgba(15,23,42,0.12);
+          transform: translateY(-3px);
+          border-color: rgba(0,155,212,0.6);
+        }
+
+        .bloglayout-related-category {
+          text-transform: uppercase;
+          letter-spacing: 0.08em;
+          font-size: 0.72rem;
+          color: #0ea5e9;
+          margin-bottom: 0.2rem;
+        }
+
+        .bloglayout-related-heading {
+          font-size: 0.98rem;
+          color: #0f172a;
+          margin-bottom: 0.4rem;
+        }
+
+        .bloglayout-related-meta {
+          font-size: 0.8rem;
+          color: #64748b;
         }
 
         @media (max-width: 991px) {

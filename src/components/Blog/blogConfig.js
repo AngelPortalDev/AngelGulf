@@ -1,0 +1,49 @@
+// Central configuration for blog posts used by BlogList and BlogLayout
+
+export const BLOG_POSTS = [
+  {
+    id: "avoid-gulf-job-scams",
+    title: "Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies",
+    description:
+      "Spot fake Gulf job offers, know the red flags, and learn how verified agencies like Angel Gulf Jobs keep your job search safe.",
+    to: "/blogs/avoid-gulf-job-scams",
+    imageKey: "fakeJob",
+    category: "Safety & Compliance",
+    readingTime: "8 min read",
+    updatedOn: "Oct 2025",
+  },
+  {
+    id: "connecting-continents-global-talent",
+    title:
+      "Connecting Continents: How Angel Gulf Jobs is Bridging Global Talent with Opportunity",
+    description:
+      "See how Angel Gulf Jobs connects skilled professionals with verified Gulf employers through a trusted overseas manpower network.",
+    to: "/blogs/connecting-continents-global-talent",
+    imageKey: "connectingContinents",
+    category: "Global Recruitment",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
+  },
+  {
+    id: "ecr-and-non-ecr-passports",
+    title: "ECR and Non-ECR passports",
+    description:
+      "Understand the difference between ECR and ECNR passports, who needs emigration clearance, and how to travel safely for Gulf jobs.",
+    to: "/blogs/ecr-and-non-ecr-passports",
+    imageKey: "ecrNonEcr",
+    category: "Compliance & Documentation",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
+  },
+  {
+    id: "kafala-system-saudi-arabia",
+    title: "The Kafala System: From Control to Reform in Saudi Arabia",
+    description:
+      "Understand how the Kafala system shaped migrant workers' lives in Saudi Arabia and what its abolition means for Indian Gulf jobseekers.",
+    to: "/blogs/kafala-system-saudi-arabia",
+    imageKey: "kafala",
+    category: "Labour Rights & Policy",
+    readingTime: "8 min read",
+    updatedOn: "Nov 2025",
+  },
+];
