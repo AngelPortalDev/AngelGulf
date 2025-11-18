@@ -350,8 +350,18 @@ const AvoidGulfJobScams = () => {
         </div>
 
         <p className="cta-text">
-          Looking for verified Gulf job opportunities from trusted recruiters? Visit <strong>angelgulfjobs.com</strong> today
-          and explore thousands of authentic, scam-free job listings across the Gulf countries, such as the UAE, Saudi Arabia, Qatar, Oman, Bahrain and Kuwait.
+          Looking for verified Gulf job opportunities from trusted recruiters? Visit
+          {" "}
+          <a
+            href="/registration"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontWeight: 700, color: "#0c4a6e", textDecoration: "underline" }}
+          >
+            AngelGulfJobs.com
+          </a>
+          {" "}
+          today and explore thousands of authentic, scam-free job listings across the Gulf countries, such as the UAE, Saudi Arabia, Qatar, Oman, Bahrain and Kuwait.
         </p>
 
         <ul className="list-unstyled ms-0 mb-4 cta-list">

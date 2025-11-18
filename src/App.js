@@ -100,6 +100,12 @@ const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
 const AvoidGulfJobScams = React.lazy(() =>
   import("./components/Blog/AvoidGulfJobScams.js")
 );
+const ConnectingContinents = React.lazy(() =>
+  import("./components/Blog/ConnectingContinents.js")
+);
+const EcrNonEcrPassports = React.lazy(() =>
+  import("./components/Blog/EcrNonEcrPassports.js")
+);
 
 // Articles
 
@@ -465,6 +471,16 @@ function App() {
               exact
               path="/blogs/avoid-gulf-job-scams"
               element={<AvoidGulfJobScams />}
+            />
+            <Route
+              exact
+              path="/blogs/connecting-continents-global-talent"
+              element={<ConnectingContinents />}
+            />
+            <Route
+              exact
+              path="/blogs/ecr-and-non-ecr-passports"
+              element={<EcrNonEcrPassports />}
             />
            
 

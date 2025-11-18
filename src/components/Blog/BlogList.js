@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import FakeJobImg from '../../assets/images/blogs/fake-job-scam.png'
+import BgImge from "../../assets/images/blogs/connection-contitent-blog-img.png";
 
 const blogs = [
   {
@@ -13,6 +14,26 @@ const blogs = [
     category: "Safety & Compliance",
     readingTime: "8 min read",
     updatedOn: "Oct 2025",
+  },
+  {
+    title: "Connecting Continents: How Angel Gulf Jobs is Bridging Global Talent with Opportunity",
+    description:
+      "See how Angel Gulf Jobs connects skilled professionals with verified Gulf employers through a trusted overseas manpower network.",
+    to: "/blogs/connecting-continents-global-talent",
+    image: BgImge,
+    category: "Global Recruitment",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
+  },
+  {
+    title: "ECR and Non-ECR passports",
+    description:
+      "Understand the difference between ECR and ECNR passports, who needs emigration clearance, and how to travel safely for Gulf jobs.",
+    to: "/blogs/ecr-and-non-ecr-passports",
+    image: FakeJobImg,
+    category: "Compliance & Documentation",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
   },
 ];
 
