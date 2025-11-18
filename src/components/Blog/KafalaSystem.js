@@ -1,6 +1,6 @@
 import React from "react";
 import BlogLayout from "./BlogLayout";
-import HeroImg from "../../assets/images/blogs/connection-contitent-blog-img.png";
+import HeroImg from "../../assets/images/blogs/kafala.png";
 import InlineImg1 from "../../assets/images/blogs/abuse-within-kafala-system.png";
 import InlineImg2 from "../../assets/images/blogs/reforms-to-the-kafala-system.png";
 

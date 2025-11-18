@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import FakeJobImg from '../../assets/images/blogs/fake-job-scam.png'
 import BgImge from "../../assets/images/blogs/connection-contitent-blog-img.png";
+import EcrNonEcrImgr from "../../assets/images/blogs/ecr-non-ecr-bg.png";
+import KafalaImg from "../../assets/images/blogs/kafala.png";
+
 
 const blogs = [
   {
@@ -30,7 +33,7 @@ const blogs = [
     description:
       "Understand the difference between ECR and ECNR passports, who needs emigration clearance, and how to travel safely for Gulf jobs.",
     to: "/blogs/ecr-and-non-ecr-passports",
-    image: FakeJobImg,
+    image: EcrNonEcrImgr,
     category: "Compliance & Documentation",
     readingTime: "7 min read",
     updatedOn: "Nov 2025",
@@ -40,7 +43,7 @@ const blogs = [
     description:
       "Understand how the Kafala system shaped migrant workers' lives in Saudi Arabia and what its abolition means for Indian Gulf jobseekers.",
     to: "/blogs/kafala-system-saudi-arabia",
-    image: BgImge,
+    image: KafalaImg,
     category: "Labour Rights & Policy",
     readingTime: "8 min read",
     updatedOn: "Nov 2025",

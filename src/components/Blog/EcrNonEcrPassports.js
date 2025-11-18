@@ -1,6 +1,7 @@
 import React from "react";
 import BlogLayout from "./BlogLayout";
-import HeroImg from "../../assets/images/blogs/Difference-between-ECR-and -ECNR-Passports.png";
+import heroImg from "../../assets/images/blogs/ecr-non-ecr-bg.png";
+import sectionImg from "../../assets/images/blogs/Difference-between-ECR-and -ECNR-Passports.png";
 import StepsImg from "../../assets/images/blogs/points-to-remember-before-travelling.png";
 
 const SEO_KEYWORDS = [
@@ -36,7 +37,7 @@ const EcrNonEcrPassports = () => {
       hero={(
         <figure className="text-center mb-0">
           <img
-            src={HeroImg}
+            src={heroImg}
             alt="Difference between ECR and ECNR passports"
             className="img-fluid rounded-4 shadow"
             style={{ maxHeight: "460px", objectFit: "cover" }}
@@ -79,7 +80,7 @@ const EcrNonEcrPassports = () => {
 
         <figure className="my-4 text-center">
           <img
-            src={HeroImg}
+            src={sectionImg}
             alt="Difference between ECR and ECNR Passports"
             className="img-fluid rounded-4 shadow-sm"
             style={{ maxWidth: "720px" }}
