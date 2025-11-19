@@ -8,9 +8,15 @@ const AboutUs = () => {
   return (
     <div>
       <Helmet>
-      <title>Angel Gulf Jobs | Overseas Manpower Consultancy for Gulf Jobs</title>
-<meta name="keywords" content="Angel Gulf Jobs, overseas manpower consultancy, Gulf job consultancy, Gulf recruitment agency, jobs in UAE, jobs in Saudi Arabia, jobs in Qatar, jobs in Oman, jobs in Bahrain, overseas jobs from India" />
-<meta name="description" content="Angel Gulf Jobs is a trusted overseas manpower consultancy connecting skilled professionals from India, South Asia and Southeast Asia with leading employers across the Gulf region."/>
+      <title>About Angel Gulf Jobs | Overseas Manpower Consultancy for Gulf Countries</title>
+<meta
+  name="description"
+  content="Learn about Angel Gulf Jobs, a trusted overseas manpower consultancy based in Mumbai, connecting skilled professionals from India, South Asia and Southeast Asia with leading employers across the UAE, Saudi Arabia, Qatar, Oman, Bahrain and other Gulf countries."
+/>
+<meta
+  name="keywords"
+  content="About Angel Gulf Jobs, overseas manpower consultancy India, Gulf job consultants, Gulf recruitment agency, overseas jobs in UAE Saudi Qatar Oman Bahrain, international manpower agency Mumbai, Gulf employment services"
+/>
 <link rel="canonical" href="https://www.angelgulfjobs.com/about-us"/>
 <meta name="revisit-after" content="7 days"/>
 <meta name="robots" content="index, follow"/>
