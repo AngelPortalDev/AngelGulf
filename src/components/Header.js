@@ -200,6 +200,11 @@ const Header = () => {
                   <li className="has-mega-menu">
                     <NavLink to="/" style={navLinkStyle}>Home</NavLink>
                   </li>
+                  <li className="has-child removearrowicon">
+                    <NavLink to="/about-us" target="_blank" style={navLinkStyle}>
+                      About Us
+                    </NavLink>
+                  </li>
                   <li className="has-child">
                     <NavLink style={navLinkStyle}>Our Services</NavLink>
                     <ul className="sub-menu">
