@@ -276,6 +276,9 @@ const UAEDefenceDeals = React.lazy(() =>
 const CentrepointExpansionHiring = React.lazy(() =>
   import("./components/News/CentrepointExpansionHiring.js")
 );
+const UAEDigitalWorkPermitSystem = React.lazy(() =>
+  import("./components/News/UAEDigitalWorkPermitSystem.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -770,6 +773,11 @@ function App() {
               exact
               path="/centerpoint-to-add-25-outlets-in-2016"
               element={<CentrepointExpansionHiring />}
+            />
+            <Route
+              exact
+              path="/uae-digital-work-permit-system"
+              element={<UAEDigitalWorkPermitSystem />}
             />
 
             {/* Sitemap */}
