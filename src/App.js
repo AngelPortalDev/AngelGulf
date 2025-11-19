@@ -109,6 +109,9 @@ const EcrNonEcrPassports = React.lazy(() =>
 const KafalaSystem = React.lazy(() =>
   import("./components/Blog/KafalaSystem.js")
 );
+const EconomicDiversificationGCC = React.lazy(() =>
+  import("./components/Blog/EconomicDiversificationGCC.js")
+);
 
 // Articles
 
@@ -489,6 +492,11 @@ function App() {
               exact
               path="/blogs/kafala-system-saudi-arabia"
               element={<KafalaSystem />}
+            />
+            <Route
+              exact
+              path="/blogs/economic-diversification-gcc-countries"
+              element={<EconomicDiversificationGCC />}
             />
            
 

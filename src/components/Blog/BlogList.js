@@ -6,6 +6,8 @@ import BgImge from "../../assets/images/blogs/connection-contitent-blog-img.png"
 import EcrNonEcrImgr from "../../assets/images/blogs/ecr-non-ecr-bg.png";
 import KafalaImg from "../../assets/images/blogs/kafala.png";
 import { BLOG_POSTS } from "./blogConfig";
+import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Diversification-in-GCC-Countries.png";
+
 
 
 const imageMap = {
@@ -13,6 +15,7 @@ const imageMap = {
   connectingContinents: BgImge,
   ecrNonEcr: EcrNonEcrImgr,
   kafala: KafalaImg,
+  economicDiversificationGCC: EconomicDiversificationGCCImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

@@ -46,4 +46,15 @@ export const BLOG_POSTS = [
     readingTime: "8 min read",
     updatedOn: "Nov 2025",
   },
+  {
+    id: "economic-diversification-gcc-countries",
+    title: "Economic Diversification in GCC Countries",
+    description:
+      "Explore how GCC economic diversification is creating industrial and blue-collar jobs for Indians, and how Angel Gulf Jobs connects talent to these opportunities.",
+    to: "/blogs/economic-diversification-gcc-countries",
+    imageKey: "economicDiversificationGCC",
+    category: "Gulf Economy & Jobs",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
+  },
 ];
