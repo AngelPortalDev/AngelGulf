@@ -10,6 +10,11 @@ const NEWS_GROUPS = [
     metaLabel: "Latest headline",
     items: [
       {
+        id: "saudi-skill-based-work-permit-system-2025",
+        to: "/saudi-skill-based-work-permit-system",
+        title: "Saudi Skill-Based Work Permit System",
+      },
+      {
         id: "uae-digital-work-permit-system-2025",
         to: "/uae-digital-work-permit-system",
         title: "UAE Digital Work Permit System",
