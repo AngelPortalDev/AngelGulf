@@ -43,6 +43,9 @@ const FlightBooking = React.lazy(() =>
 const ForeignExchange = React.lazy(() =>
   import("./components/Services/ForeignExchange.js")
 );
+const GCCIndustries = React.lazy(() =>
+  import("./components/Services/GCCIndustries.js")
+);
 
 // Industries component
 const Industries = React.lazy(() => import("./components/Industries.js"));
@@ -431,6 +434,11 @@ function App() {
               exact
               path="/foreign-exchange"
               element={<ForeignExchange />}
+            />
+            <Route
+              exact
+              path="/gcc-industries"
+              element={<GCCIndustries />}
             />
 
             {/* Industries */}
