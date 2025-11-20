@@ -455,15 +455,41 @@ const SaudiSkillBasedWorkPermit = () => {
 
         .blog-faq-button {
           background: #ffffff;
+          color: #0f172a;
+          transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+          border: 1px solid rgba(15, 23, 42, 0.15);
+          box-shadow: none;
+        }
+
+        .blog-faq-button:not(.collapsed) {
+          background: #009bd4;
+          color: #ffffff;
+          box-shadow: none;
+          border-color: #009bd4;
+        }
+
+        .blog-faq-button:not(.collapsed)::after {
+          filter: invert(1);
+        }
+
+        .blog-faq-button:focus,
+        .blog-faq-button:focus-visible {
+          border-color: #009bd4;
+          box-shadow: 0 0 0 0.15rem rgba(0, 155, 212, 0.35);
         }
 
         .blog-faq-body {
           color: #475569;
+          line-height: 1.65;
         }
 
         @media (max-width: 767px) {
           .article-highlight-grid {
             grid-template-columns: 1fr;
+          }
+
+          .blog-faq-button {
+            text-align: left;
           }
         }
       `}</style>
