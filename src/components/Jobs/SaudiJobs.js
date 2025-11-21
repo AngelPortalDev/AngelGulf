@@ -9,9 +9,15 @@ const DubaiJobs = () => {
   return (
     <div>
       <Helmet>
-      <title>Jobs in Saudi Arabia for Indian, Saudi Arabia Job Vacancy</title>
-      <meta name="keywords" content="Jobs in Saudi Arabia for Indian, Saudi Arabia Job Vacancy, Job in Saudi Arabia for Indian, Job Opportunities in Dubai, Vacancies in Saudi Arabia"/>
-      <meta name="description" content="Search jobs in Saudi Arabia for Indian Freshers. Angel Gulf Jobs provides jobs for freshers, as its the world's largest oil producer offers enormous job opportunities."/>
+      <title>Work in Saudi Arabia for Indian, Saudi Arabia Work Opportunities</title>
+      <meta
+        name="keywords"
+        content="Work in Saudi Arabia for Indian, Saudi Arabia Work Opportunities, Work in Saudi Arabia for Indian, Job Opportunities in Dubai, Vacancies in Saudi Arabia"
+      />
+      <meta
+        name="description"
+        content="Search work in Saudi Arabia for Indian Freshers. Angel Gulf Jobs provides work for freshers, as its the world's largest oil producer offers enormous opportunities."
+      />
       <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-saudi-arabia"/> 
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
@@ -27,7 +33,7 @@ const DubaiJobs = () => {
           <div className="wt-bnr-inr-entry">
             <div className="banner-title-outer">
               <div className="banner-title-name background-heading p-3">
-                <h2 className="wt-title darkblueTxt">Jobs In Saudi Arabia</h2>
+                <h2 className="wt-title darkblueTxt">Work In Saudi Arabia</h2>
               </div>
             </div>
             {/* BREADCRUMB ROW */}
@@ -36,7 +42,7 @@ const DubaiJobs = () => {
                 <li>
                   <NavLink to='/'>Home</NavLink>
                 </li>
-                <li className='text-white'>Jobs In Saudi Arabia</li>
+                <li className='text-white'>Work In Saudi Arabia</li>
               </ul>
             </div>
             {/* BREADCRUMB ROW END */}

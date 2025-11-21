@@ -9,9 +9,15 @@ const DubaiJobs = () => {
   return (
     <div>
       <Helmet>
-      <title>Jobs in UAE, Jobs in UAE for Indian, Jobs in Dubai for Indians</title>
-      <meta name="keywords" content="Jobs in UAE, Jobs in UAE for Indian, Jobs in Dubai for Indians, jobs in Dubai, oil & gas jobs in UAE, civil jobs in UAE, medical jobs in UAE, banking jobs in UAE, IT jobs in UAE, hospitality jobs in UAE"/>
-      <meta name="description" content="Apply for latest jobs in UAE. Search from 400+ jobs in UAE for Indians in various industries like oil & gas, civil, banking, IT, hospitality, medical & more."/>
+      <title>Work in UAE, Work in UAE for Indian, Work in Dubai for Indians</title>
+      <meta
+        name="keywords"
+        content="Work in UAE, Work in UAE for Indian, Work in Dubai for Indians, work in Dubai, oil & gas work in UAE, civil work in UAE, medical work in UAE, banking work in UAE, IT work in UAE, hospitality work in UAE"
+      />
+      <meta
+        name="description"
+        content="Apply for latest work opportunities in UAE. Search from 400+ work openings in UAE for Indians spread across oil & gas, civil, banking, IT, hospitality, medical & more."
+      />
       <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-uae"/> 
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
@@ -27,7 +33,7 @@ const DubaiJobs = () => {
           <div className="wt-bnr-inr-entry">
             <div className="banner-title-outer">
               <div className="banner-title-name background-heading p-3">
-                <h2 className="wt-title darkblueTxt">Jobs In UAE</h2>
+                <h2 className="wt-title darkblueTxt">Work In UAE</h2>
               </div>
             </div>
             {/* BREADCRUMB ROW */}
@@ -36,7 +42,7 @@ const DubaiJobs = () => {
                 <li>
                   <NavLink to="/">Home </NavLink>
                 </li>
-                <li>Jobs In UAE</li>
+                <li>Work In UAE</li>
               </ul>
             </div>
             {/* BREADCRUMB ROW END */}

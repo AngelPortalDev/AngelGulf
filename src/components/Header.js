@@ -276,34 +276,34 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="has-child">
-                    <NavLink style={navLinkStyle}>Current Opening</NavLink>
+                    <NavLink style={navLinkStyle}>Country Guides</NavLink>
                     <ul className="sub-menu">
                       <li>
                         <NavLink to="/jobs-in-uae" target="_blank">
-                          Jobs in Dubai
+                          Work in Dubai
                         </NavLink>
                       </li>
                       <li>
                         <NavLink to="/jobs-in-saudi-arabia" target="_blank">
-                          Jobs in Saudi
+                          Work in Saudi
                         </NavLink>
                       </li>
                       <li>
                         <NavLink to="/jobs-in-oman" target="_blank">
-                          Jobs in Oman
+                          Work in Oman
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink>Jobs in Kuwait</NavLink>
+                        <NavLink>Work in Kuwait</NavLink>
                       </li>
                       <li>
                         <NavLink to="/jobs-in-qatar" target="_blank">
-                          Jobs in Qatar
+                          Work in Qatar
                         </NavLink>
                       </li>
                       <li>
                         <NavLink to="/jobs-in-bahrain" target="_blank">
-                          Jobs in Bahrain
+                          Work in Bahrain
                         </NavLink>
                       </li>
                     </ul>

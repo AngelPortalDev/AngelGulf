@@ -8,9 +8,9 @@ const QuatarJobs = () => {
   return (
     <div>
       <Helmet>
-      <title>Jobs in Bahrain, Jobs in Bahrain for Indian, Bahrain Job Vacancy</title>
-<meta name="keywords" content="Jobs in Bahrain, Jobs in Bahrain for Indian, Bahrain Job Vacancy, Job Opportunities in Bahrain, Bahrain Jobs for Indian, Job Opening in Bahrain"/>
-<meta name="description" content="Search & apply for latest gulf jobs in Bahrain for Indians at Angel Gulf Jobs. Get complete list of Bahrain Job Vacancy in various industries like Construction, Banking, IT, etc."/>
+      <title>Work in Bahrain, Work in Bahrain for Indian, Bahrain Work Vacancy</title>
+<meta name="keywords" content="Work in Bahrain, Work in Bahrain for Indian, Bahrain Work Vacancy, Work Opportunities in Bahrain, Bahrain Work for Indian, Work Opening in Bahrain"/>
+<meta name="description" content="Search & apply for latest gulf work in Bahrain for Indians at Angel Gulf Jobs. Get complete list of Bahrain Work Vacancy in various industries like Construction, Banking, IT, etc."/>
 <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-bahrain"/> 
 <meta name="revisit-after" content="7 days"/>
 <meta name="robots" content="index, follow"/>
@@ -26,7 +26,7 @@ const QuatarJobs = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name background-heading p-3">
-                  <h2 className="wt-title darkblueTxt">Jobs In Bahrain</h2>
+                  <h2 className="wt-title darkblueTxt">Work In Bahrain</h2>
                 </div>
               </div>
               {/* BREADCRUMB ROW */}
@@ -35,7 +35,7 @@ const QuatarJobs = () => {
                   <li>
                     <NavLink to='/'>Home</NavLink>
                   </li>
-                  <li>Jobs In Bahrain</li>
+                  <li>Work In Bahrain</li>
                 </ul>
               </div>
               {/* BREADCRUMB ROW END */}

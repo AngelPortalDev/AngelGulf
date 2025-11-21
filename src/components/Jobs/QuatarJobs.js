@@ -9,9 +9,14 @@ const QuatarJobs = () => {
   return (
     <div>
       <Helmet>
-      <title>Jobs in Qatar, Jobs in Qatar for Indians, Job Opportunities in Qatar</title>
-<meta name="keywords" content="Jobs in Qatar, Jobs in Qatar for Indians, Job Opportunities in Qatar, Job Vacancies in Qatar for Freshers"/>
-<meta name="description" content="Find the latest jobs in Qatar for Indians. Check out the job opportunities in Qatar like various industries like oil & gas, civil, banking, IT etc. and many more."/>
+      <title>Work in Qatar, Work in Qatar for Indians, Work Opportunities in Qatar</title>
+<meta
+  name="keywords"
+  content="Work in Qatar, Work in Qatar for Indians, Work Opportunities in Qatar, Work Vacancies in Qatar for Freshers"
+/>
+<meta
+  name="description"
+  content="Find the latest work in Qatar for Indians. Check out the work opportunities in Qatar across industries like oil & gas, civil, banking, IT and more."/>
 <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-qatar"/> 
 <meta name="revisit-after" content="7 days"/>
 <meta name="robots" content="index, follow"/>
@@ -27,7 +32,7 @@ const QuatarJobs = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name background-heading p-3">
-                  <h2 className="wt-title darkblueTxt">Jobs In Qatar</h2>
+                  <h2 className="wt-title darkblueTxt">Work In Qatar</h2>
                 </div>
               </div>
               {/* BREADCRUMB ROW */}
@@ -36,7 +41,7 @@ const QuatarJobs = () => {
                   <li>
                     <NavLink to="/">Home</NavLink>
                   </li>
-                  <li>Jobs In Qatar</li>
+                  <li>Work In Qatar</li>
                 </ul>
               </div>
               {/* BREADCRUMB ROW END */}

@@ -9,9 +9,15 @@ const OmanJobs = () => {
   return (
     <div>
       <Helmet>
-        <title>Jobs in Oman, Jobs in Oman for Indian, Jobs in Oman Muscat</title>
-        <meta name="keywords" content="Jobs in Oman, Jobs in Oman for Indian, Jobs in Oman Muscat, Oman Jobs For Freshers, Vacancies In Oman, Current Job Openings In Oman"/>
-        <meta name="description" content="Find the latest jobs in Oman for Indians. Check out the jobs in Oman, Muskat in various industries like oil & gas, civil, banking, IT etc. and many more."/>
+        <title>Work in Oman, Work in Oman for Indian, Work in Oman Muscat</title>
+        <meta
+          name="keywords"
+          content="Work in Oman, Work in Oman for Indian, Work in Oman Muscat, Oman Work For Freshers, Vacancies In Oman, Current Work Openings In Oman"
+        />
+        <meta
+          name="description"
+          content="Find the latest work in Oman for Indians. Check out the work opportunities in Oman, Muscat across industries like oil & gas, civil, banking, IT and more."
+        />
         <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-oman"/> 
         <meta name="revisit-after" content="7 days"/>
         <meta name="robots" content="index, follow"/>
@@ -27,7 +33,7 @@ const OmanJobs = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name background-heading p-3">
-                  <h2 className="wt-title darkblueTxt">Jobs In Oman</h2>
+                  <h2 className="wt-title darkblueTxt">Work In Oman</h2>
                 </div>
               </div>
               {/* BREADCRUMB ROW */}
@@ -36,7 +42,7 @@ const OmanJobs = () => {
                   <li>
                     <NavLink to='/'>Home</NavLink>
                   </li>
-                  <li>Jobs In Oman</li>
+                  <li>Work In Oman</li>
                 </ul>
               </div>
               {/* BREADCRUMB ROW END */}
