@@ -115,6 +115,9 @@ const KafalaSystem = React.lazy(() =>
 const EconomicDiversificationGCC = React.lazy(() =>
   import("./components/Blog/EconomicDiversificationGCC.js")
 );
+const ApostilleAttestation = React.lazy(() =>
+  import("./components/Blog/ApostilleAttestation.js")
+);
 
 // Articles
 
@@ -511,6 +514,11 @@ function App() {
               exact
               path="/blogs/economic-diversification-gcc-countries"
               element={<EconomicDiversificationGCC />}
+            />
+            <Route
+              exact
+              path="/blogs/apostille-attestation-gulf-document-verification"
+              element={<ApostilleAttestation />}
             />
            
 

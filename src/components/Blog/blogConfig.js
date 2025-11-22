@@ -57,4 +57,15 @@ export const BLOG_POSTS = [
     readingTime: "7 min read",
     updatedOn: "Nov 2025",
   },
+  {
+    id: "apostille-attestation-gulf-document-verification",
+    title: "Apostille Attestation for Gulf document verification",
+    description:
+      "Learn MEA, e-Sanad, embassy and MOFA attestation steps for Gulf employment along with document requirements and timelines.",
+    to: "/blogs/apostille-attestation-gulf-document-verification",
+    imageKey: "apostilleAttestation",
+    category: "Compliance & Documentation",
+    readingTime: "7 min read",
+    updatedOn: "Nov 2025",
+  },
 ];

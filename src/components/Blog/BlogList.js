@@ -7,6 +7,7 @@ import EcrNonEcrImgr from "../../assets/images/blogs/ecr-non-ecr-bg.png";
 import KafalaImg from "../../assets/images/blogs/kafala.png";
 import { BLOG_POSTS } from "./blogConfig";
 import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Diversification-in-GCC-Countries.png";
+import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attestation-blog-list.png";
 
 
 
@@ -16,6 +17,7 @@ const imageMap = {
   ecrNonEcr: EcrNonEcrImgr,
   kafala: KafalaImg,
   economicDiversificationGCC: EconomicDiversificationGCCImg,
+  apostilleAttestation: ApostilleAttestationImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({
