@@ -1,7 +1,7 @@
 import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation,Autoplay } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import jobConsultImgg from '../assets/images/job-consultance.png'
 import whyChoose from '../assets/images/why-choose.png'
 // Banners
@@ -49,6 +49,7 @@ import video1 from "../assets/video/new.mp4";
 import poster from "../assets/video/poster.jpg";
 import BeAwareModal from './static/BeAwareModal.js';
 import Testimonials from "./Testimonials";
+import ClientTestimonials from "./ClientTestimonials";
 
 import { NavLink } from "react-router-dom";
 
@@ -78,7 +79,7 @@ const Home = () => {
 
   return (
     <div>
-       <BeAwareModal/>
+      <BeAwareModal />
       <div className="page-content">
         {/*Banner Start*/}
         <div className="">
@@ -97,19 +98,19 @@ const Home = () => {
 
         <div className="section-head center wt-small-separator-outer">
           <div className="wt-small-separator site-text-primary">
-            
+
           </div>
-          
+
         </div>
         <div className="container" style={{ maxWidth: '1200px' }}>
-           <h2 className="wt-title blueuText mb-4 mt-4">
+          <h2 className="wt-title blueuText mb-4 mt-4">
             Welcome to Angel Gulf Jobs – Leading Gulf Job Consultants
           </h2>
           <div className="row">
             <div className="col-lg-12">
               <div style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#444' }}>
                 <p style={{ marginBottom: '1.5rem' }}>
-                 Angel Gulf Jobs is one of India's most trusted and professionally managed Gulf job consultants. We are widely known as abroad job consultants and overseas job consultants based in Mumbai, India. Registered with the Government of India, Ministry of Labour, we specialise in overseas job placements, international hiring, and end-to-end recruitment services for all Gulf countries.
+                  Angel Gulf Jobs is one of India's most trusted and professionally managed Gulf job consultants. We are widely known as abroad job consultants and overseas job consultants based in Mumbai, India. Registered with the Government of India, Ministry of Labour, we specialise in overseas job placements, international hiring, and end-to-end recruitment services for all Gulf countries.
                 </p>
                 <p style={{ marginBottom: '1.5rem' }}>
                   The organisation is a part of the "Angel" group, having offices in Mumbai, Paris, & expanding into other parts of the World. Angel Gulf Jobs continues to expand its global presence as a respected overseas recruitment agency.
@@ -122,10 +123,10 @@ const Home = () => {
                   Angel Gulf Jobs, a Gulf recruitment agency, was founded by professionals with extensive Gulf experience. We focus on delivering reliable, efficient, and transparent recruitment solutions for both employers and job seekers. With many years of experience, our team ensures that Gulf employers get access to skilled professionals, and job seekers find genuine overseas job offers that match their skills and qualifications.
                 </p>
 
-                <div style={{ 
-                  background: '#F3F7FD', 
-                  padding: '2rem', 
-                  borderRadius: '10px', 
+                <div style={{
+                  background: '#F3F7FD',
+                  padding: '2rem',
+                  borderRadius: '10px',
                   border: '1px solid #e9ecef',
                   marginBottom: '1.5rem'
                 }}>
@@ -136,32 +137,32 @@ const Home = () => {
                     <div className="col-md-6">
                       <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Mechanical, Electrical, and Civil Engineering
                         </li>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Construction and Infrastructure
                         </li>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Hospitality and Tourism
                         </li>
@@ -170,32 +171,32 @@ const Home = () => {
                     <div className="col-md-6">
                       <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Information Technology and Support Services
                         </li>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Healthcare and Administration
                         </li>
                         <li style={{ marginBottom: '0.5rem', display: 'flex', alignItems: 'center' }}>
-                          <span style={{ 
-                            width: '6px', 
-                            height: '6px', 
-                            background: '#009BD4', 
-                            borderRadius: '50%', 
-                            marginRight: '10px' 
+                          <span style={{
+                            width: '6px',
+                            height: '6px',
+                            background: '#009BD4',
+                            borderRadius: '50%',
+                            marginRight: '10px'
                           }}></span>
                           Skilled Trades and Household Staff
                         </li>
@@ -203,7 +204,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <p style={{ marginBottom: '1.5rem' }}>
                   The job seeker database is updated regularly through various sources; thus, it is well-positioned to meet the small to large candidate requirements of clients on short notice.
                 </p>
@@ -245,9 +246,9 @@ const Home = () => {
                     style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 style={{ 
-                  color: "#009BD4", 
-                  fontWeight: "600", 
+                <h3 style={{
+                  color: "#009BD4",
+                  fontWeight: "600",
                   fontSize: "1.4rem",
                   marginBottom: "1rem"
                 }}>Our Search Methods</h3>
@@ -297,9 +298,9 @@ const Home = () => {
                     style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 style={{ 
-                  color: "#009BD4", 
-                  fontWeight: "600", 
+                <h3 style={{
+                  color: "#009BD4",
+                  fontWeight: "600",
                   fontSize: "1.4rem",
                   marginBottom: "1rem"
                 }}>Our Work Process</h3>
@@ -349,9 +350,9 @@ const Home = () => {
                     style={{ width: "45px", height: "45px", filter: "brightness(0) invert(1)" }}
                   />
                 </div>
-                <h3 style={{ 
-                  color: "#009BD4", 
-                  fontWeight: "600", 
+                <h3 style={{
+                  color: "#009BD4",
+                  fontWeight: "600",
                   fontSize: "1.4rem",
                   marginBottom: "1rem"
                 }}>Our Team</h3>
@@ -395,12 +396,14 @@ const Home = () => {
                 </div>
               </div>
             </div>
-        
-        
+
+
           </div>
         </div>
+        {/* CLIENT TESTIMONIALS SECTION */}
+        <ClientTestimonials />
 
-         {/* JOBS BY LOCATION SECTION */}
+        {/* JOBS BY LOCATION SECTION */}
         <div className="section-head center wt-small-separator-outer p-t50">
           <div className="wt-small-separator site-text-primary">
             <h2 className="wt-title blueuText">Jobs By Location</h2>
@@ -521,9 +524,9 @@ const Home = () => {
                   {/* COLUMNS 1 */}
                   <div className="col">
                     <div className="job-cat-block-hpage-6 m-b30">
-                    <div className="twm-media">
+                      <div className="twm-media">
                         <div className="flaticon-computer">
-                        <i class="fa-solid fa-oil-well"></i>
+                          <i class="fa-solid fa-oil-well"></i>
                         </div>
                       </div>
                       <div className="twm-content pe-none">
@@ -562,9 +565,9 @@ const Home = () => {
                   <div className="col">
                     <div className="job-cat-block-hpage-6 m-b30">
                       <div className="twm-media">
-                      <div className="flaticon-computer">
-                      <i class="fa-solid fa-shop"></i>
-                      </div>
+                        <div className="flaticon-computer">
+                          <i class="fa-solid fa-shop"></i>
+                        </div>
                       </div>
                       <div className="twm-content pe-none">
                         <NavLink>FMCG</NavLink>
@@ -864,7 +867,7 @@ const Home = () => {
         {/* OUR Services END */}
 
         {/* GET JOBS SECTION START */}
-        <div className="section-full site-bg-white h-page6-getjobs-wrap " style={{backgroundColor:'white'}}>
+        <div className="section-full site-bg-white h-page6-getjobs-wrap " style={{ backgroundColor: 'white' }}>
           <div className="h-page6-client-slider-outer d-none">
             <div className="container">
               <div className="h-page6-client-slider">
@@ -1112,170 +1115,106 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+        </div>
+        {/* TESTIMONIALS SECTION */}
+        <Testimonials />
+
+        <div className="section-full p-t50 p-b40 twm-blog-post-h-page6-wrap bg-white">
+
           <div className="container">
-            <div className="h-page-6-getjobs-wrap">
-              <div className="row">
-                <div className="col-lg-7 col-md-12">
-                  <div className="h-page-6-getjobs-left">
-                    <div className="twm-media">
-                      <img
-                        // src="images/get-job-pic.png"
-                        src={jobConsultImgg}
-                        alt="angel gulf consultant"
-                        style={{ width: "350px", height: "auto" }}
-                      />
-                      <div className="twm-media-bg-circle" style={{ backgroundColor: '#009BD4' }} />
-                      <div className="twm-media-bg-circle2" />
-                      <div className="twm-media-bg-circle3" >
-                        {/* <div className="rotate-center">
-                          <span className="ring1" />
-                          <span className="ring2" />
-                          <span className="ring3" />
-                        </div> */}
+            <h2 className="wt-title blueuText mb-5 mt-4 text-center"> Our Clients</h2>
+            <div className="clients-carousel position-relative" style={{ padding: '0 56px' }}>
+              {clientImages && clientImages.length > 1 && (
+                <>
+                  <button
+                    className="clients-prev site-bg-primary"
+                    type="button"
+                    aria-label="Previous clients"
+                    style={{
+                      position: 'absolute',
+                      left: '8px',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      zIndex: 5,
+                      border: 'none',
+                      cursor: 'pointer',
+                      width: '40px',
+                      height: '40px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: '#fff',
+                      boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+                    }}
+                  >
+                    <span style={{ fontSize: '22px', lineHeight: 1 }}>&lt;</span>
+                  </button>
+                  <button
+                    className="clients-next site-bg-primary"
+                    type="button"
+                    aria-label="Next clients"
+                    style={{
+                      position: 'absolute',
+                      right: '8px',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      zIndex: 5,
+                      border: 'none',
+                      cursor: 'pointer',
+                      width: '40px',
+                      height: '40px',
+                      borderRadius: '50%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      color: '#fff',
+                      boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
+                    }}
+                  >
+                    <span style={{ fontSize: '22px', lineHeight: 1 }}>&gt;</span>
+                  </button>
+                </>
+              )}
+              <Swiper
+                slidesPerView={5}
+                spaceBetween={20}
+                loop={true}
+                autoplay={{
+                  delay: 2000,
+                  disableOnInteraction: false,
+                }}
+                modules={[Navigation, Autoplay]}
+                navigation={{ prevEl: '.clients-prev', nextEl: '.clients-next' }}
+                className="mySwiper"
+                breakpoints={{
+                  320: { slidesPerView: 1 },
+                  480: { slidesPerView: 2 },
+                  768: { slidesPerView: 3 },
+                  1024: { slidesPerView: 4 },
+                  1200: { slidesPerView: 5 },
+                }}
+              >
+                {clientImages.map((image, index) => (
+                  <SwiperSlide key={index}>
+                    <div className="ow-client-logo d-flex justify-content-center">
+                      <div className="client-logo client-logo-media">
+                        <img
+                          src={image.src}
+                          alt={`Client ${index + 1}`}
+                          title={`Client ${index + 1}`}
+                          className="img-fluid"
+                          loading="lazy"
+                        />
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div className="col-lg-5 col-md-12">
-                  <div className="h-page-6-getjobs-right">
-                    {/* TITLE START*/}
-                    <div className="section-head left wt-small-separator-outer">
-                      <div className="wt-small-separator site-text-primary">
-                        <h2 className="wt-title blueuText">
-                          Gulf Job Consultants
-                        </h2>
-                      </div>
-                      {/* <h2 className="wt-title">
-                        Gulf Job Consultants
-                        <span className="site-text-primary"></span>
-                      </h2> */}
-                      <p>
-                        Gulf Jobs - for people from around the world, Gulf jobs
-                        are some of the best paying jobs. If right skills are
-                        acquired and proper planning is initiated then for sure
-                        Gulf jobs could be a very rewarding & full-filling
-                        career option.
-                      </p>
-                      <p>
-                        Angel Gulf Jobs is a specialized Gulf Job Consultants
-                        (abroad / overseas job consultant) based in Mumbai -
-                        India, with years of Gulf experience; we are rigorously
-                        recruiting for the Gulf countries from India, Sri Lanka,
-                        Bangladesh, Nepal & Philippines. Full-filling the
-                        requirement of clients in the Gulf & candidates across
-                        different work categories is synchronized in the best
-                        possible manner.
-                      </p>
-                    </div>
-                    {/* TITLE END*/}
-                    <div className="twm-read-more d-none">
-                      <a href="about-1.html" className="site-button">
-                        About More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
           </div>
         </div>
-         {/* TESTIMONIALS SECTION */}
-        <Testimonials />
-        <div className="section-full p-t50 p-b40 twm-blog-post-h-page6-wrap bg-white">
-       
-      <div className="container">
-      <h2 className="wt-title blueuText mb-5 mt-4 text-center"> Our Clients</h2>
-        <div className="clients-carousel position-relative" style={{ padding: '0 56px' }}>
-        {clientImages && clientImages.length > 1 && (
-          <>
-            <button
-              className="clients-prev site-bg-primary"
-              type="button"
-              aria-label="Previous clients"
-              style={{
-                position: 'absolute',
-                left: '8px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                zIndex: 5,
-                border: 'none',
-                cursor: 'pointer',
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: '#fff',
-                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
-              }}
-            >
-              <span style={{ fontSize: '22px', lineHeight: 1 }}>&lt;</span>
-            </button>
-            <button
-              className="clients-next site-bg-primary"
-              type="button"
-              aria-label="Next clients"
-              style={{
-                position: 'absolute',
-                right: '8px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                zIndex: 5,
-                border: 'none',
-                cursor: 'pointer',
-                width: '40px',
-                height: '40px',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: '#fff',
-                boxShadow: '0 2px 6px rgba(0,0,0,0.15)',
-              }}
-            >
-              <span style={{ fontSize: '22px', lineHeight: 1 }}>&gt;</span>
-            </button>
-          </>
-        )}
-        <Swiper
-          slidesPerView={5} 
-          spaceBetween={20} 
-          loop={true} 
-          autoplay={{
-            delay: 2000, 
-            disableOnInteraction: false, 
-          }}
-          modules={[Navigation, Autoplay]}
-          navigation={{ prevEl: '.clients-prev', nextEl: '.clients-next' }}
-          className="mySwiper"
-          breakpoints={{
-            320: { slidesPerView: 1 },  
-            480: { slidesPerView: 2 },  
-            768: { slidesPerView: 3 },  
-            1024: { slidesPerView: 4 }, 
-            1200: { slidesPerView: 5 }, 
-          }}
-        >
-          {clientImages.map((image, index) => (
-            <SwiperSlide key={index}>
-              <div className="ow-client-logo d-flex justify-content-center">
-                <div className="client-logo client-logo-media">
-                  <img
-                   src={image.src}
-                   alt={`Client ${index + 1}`}
-                   title={`Client ${index + 1}`}
-                    className="img-fluid"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        </div>
-      </div>
-    </div>
 
         {/* GET JOBS SECTION SECTION END */}
         {/* Featured Jobs SECTION START */}
