@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Testimonials.css";
+import TestimonialsStats from "./shared/TestimonialsStats";
 import Akash from "../assets/images/candidates-testimonials/akash-achari.png";
 import Farhan from "../assets/images/candidates-testimonials/farhan-hasan.png";
 import Garuda from "../assets/images/candidates-testimonials/garuda-gamer.png";
@@ -278,6 +279,8 @@ const Testimonials = () => {
           </button>
         </div>
       </div>
+
+      <TestimonialsStats />
     </section>
   );
 };

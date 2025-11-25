@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./ClientTestimonials.css";
 import { testimonials } from "../data/clientTestimonialsData";
+import TestimonialsStats from "./shared/TestimonialsStats";
 
 // Icons
 const ArrowLeft = () => (
@@ -188,6 +189,8 @@ const ClientTestimonials = () => {
                         View All Clientele
                     </NavLink>
                 </div>
+
+                <TestimonialsStats />
             </div>
         </section>
     );
