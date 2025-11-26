@@ -180,7 +180,16 @@ const MedicalCenters = () => {
                         Wafid (formerly known as the GAMCA medical test) is the official online health screening platform created by the Gulf Health Council (GHC). It helps expatriates going to GCC nations for employment, residency, or family visas to complete their medical exams smoothly before departure. For Qatar, medicals and biometrics are completed at the Qatar Visa Centre (QVC) in India.
                       </p>
                       <p>
-                        In India, applicants often use Wafid India (wafidindia.com) to book an appointment for the required pre-departure medical tests.
+                        In India, applicants often use Wafid India ({' '}
+                        <a
+                          href="https://wafidindia.com"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          wafidindia.com
+                        </a>
+                        ) to book an appointment for the required pre-departure medical tests.
                       </p>
                       <p>
                         For details on Qatar Visa Centre (QVC), visit: 
@@ -358,13 +367,25 @@ const MedicalCenters = () => {
                           </ul>
                         </li>
                       </ol>
-                      <p>⚠ Important Notes</p>
-                      <p>Fees and document requirements vary by country</p>
-                      <p>Charges may differ based on the medical centre, country, or any additional tests required.</p>
-                      <p>Always check the official Wafid (formerly GAMCA) website when booking your appointment.</p>
-                      <p>Only visit authorised medical centres approved by Gulf countries.</p>
-                      <p>Make sure your documents are accurate to avoid delays in processing your medical clearance.</p>
-                      <p>Source: Wafid Fees structure</p>
+                      <p className="fw-bold">⚠ Important Notes</p>
+                      <ul className="ps-4 mb-3" style={unorderedListStyle}>
+                        <li className="mb-2">Fees and document requirements vary by country</li>
+                        <li className="mb-2">Charges may differ based on the medical centre, country, or any additional tests required</li>
+                        <li className="mb-2">Always check the official Wafid (formerly GAMCA) website when booking your appointment</li>
+                        <li className="mb-2">Only visit authorised medical centres approved by Gulf countries</li>
+                        <li className="mb-2">Make sure your documents are accurate to avoid delays in processing your medical clearance</li>
+                      </ul>
+                      <p className="text-muted">
+                        Source:{' '}
+                        <a
+                          href="https://wafindia.com/"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Wafid Fees structure
+                        </a>
+                      </p>
                     </section>
                     <section className={infoCardClasses}>
                       <h3 className="twm-s-title mb-3">Important Notes for GCC Applicants</h3>

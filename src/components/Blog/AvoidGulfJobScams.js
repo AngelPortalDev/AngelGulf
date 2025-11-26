@@ -142,7 +142,7 @@ const AvoidGulfJobScams = () => {
           <li className="d-flex align-items-start mb-4 position-relative ps-5">
             <span className="counter">1</span>
             <div>
-              <strong style={{ color: "#0f172a" }}>Check their license</strong> – Indian job seekers can verify Gulf agencies on eMigrate, a government-approved portal that lists licensed overseas recruiters India trusts.
+              <strong style={{ color: "#0f172a" }}>Check their license</strong> – Indian job seekers can verify Gulf agencies on{' '}<a href="https://emigrate.gov.in/#/emigrate/emigrant/list-of-ra-consolidate-report" target="_blank" rel="noreferrer" className="text-primary fw-semibold">eMigrate</a>, a government-approved portal that lists licensed overseas recruiters India trusts.
             </div>
           </li>
           <li className="d-flex align-items-start mb-4 position-relative ps-5">

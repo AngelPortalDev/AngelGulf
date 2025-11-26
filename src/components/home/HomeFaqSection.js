@@ -46,7 +46,7 @@ const HomeFaqSection = () => {
                                     data-bs-target="#faq2"
                                     aria-expanded="false"
                                 >
-                                    What documents are required for a Saudi work visa?
+                                    Why choose Angel Gulf Jobs as your trusted overseas job consultants?
                                 </button>
                                 <div
                                     id="faq2"
@@ -54,7 +54,7 @@ const HomeFaqSection = () => {
                                     data-bs-parent="#homeFaqAccordion"
                                 >
                                     <div className="accordion-body">
-                                        A Saudi work visa requires a passport, employment contract, medical report, experience certificates, PCC, and attested documents.
+                                        Angel Gulf Jobs is registered with the Government of India, Ministry of Labour, and listed on the eMigrate portal. We verify all employers and job offers to ensure genuine opportunities and transparent recruitment processes.
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ const HomeFaqSection = () => {
                                     data-bs-target="#faq3"
                                     aria-expanded="false"
                                 >
-                                    Is Emigration Clearance mandatory for individuals seeking employment in Gulf countries?
+                                    Do Angel Gulf Jobs assist Gulf employers with urgent or bulk manpower requirements?
                                 </button>
                                 <div
                                     id="faq3"
@@ -76,7 +76,7 @@ const HomeFaqSection = () => {
                                     data-bs-parent="#homeFaqAccordion"
                                 >
                                     <div className="accordion-body">
-                                        Emigration Clearance is required only for ECR passport holders applying for Gulf employment.
+                                        Yes, our Gulf manpower consultancy supports urgent hiring, bulk recruitment, and specialised manpower sourcing.
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const HomeFaqSection = () => {
                                     data-bs-target="#faq4"
                                     aria-expanded="false"
                                 >
-                                    What is certificate attestation and why is it required?
+                                    Does Angel Gulf Jobs offer recruitment for both skilled and unskilled workers?
                                 </button>
                                 <div
                                     id="faq4"
@@ -98,7 +98,7 @@ const HomeFaqSection = () => {
                                     data-bs-parent="#homeFaqAccordion"
                                 >
                                     <div className="accordion-body">
-                                        Certificate attestation is the process of verifying the authenticity of documents by authorized government bodies. It's required to validate educational and professional credentials for Gulf employment.
+                                        Yes, we recruit skilled, semi-skilled, and unskilled workers across multiple industries as a full-service manpower consultancy for the Gulf regions.
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ const HomeFaqSection = () => {
                                     data-bs-target="#faq5"
                                     aria-expanded="false"
                                 >
-                                    How does Angel Gulf Jobs ensure safe recruitment?
+                                    Which industries does Angel Gulf Jobs, as a Gulf recruitment agency, specialise in?
                                 </button>
                                 <div
                                     id="faq5"
@@ -120,7 +120,51 @@ const HomeFaqSection = () => {
                                     data-bs-parent="#homeFaqAccordion"
                                 >
                                     <div className="accordion-body">
-                                        Angel Gulf Jobs is registered with the Government of India, Ministry of Labour, and listed on the eMigrate portal. We verify all employers and job offers to ensure genuine opportunities and transparent recruitment processes.
+                                        Our Gulf recruitment agency covers engineering, construction, hospitality, healthcare, IT, and skilled trades.
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* FAQ 6 */}
+                            <div className="accordion-item">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#faq6"
+                                    aria-expanded="false"
+                                >
+                                    Does Angel Gulf Jobs operate as a manpower consultancy for Gulf countries?
+                                </button>
+                                <div
+                                    id="faq6"
+                                    className="accordion-collapse collapse"
+                                    data-bs-parent="#homeFaqAccordion"
+                                >
+                                    <div className="accordion-body">
+                                        Yes, we are a trusted manpower consultancy for the Gulf regions, including Saudi Arabia, UAE, Qatar, Oman, Bahrain, and Kuwait.
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* FAQ 7 */}
+                            <div className="accordion-item">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#faq7"
+                                    aria-expanded="false"
+                                >
+                                    Can Angel Gulf Jobs help with documentation and visa processing?
+                                </button>
+                                <div
+                                    id="faq7"
+                                    className="accordion-collapse collapse"
+                                    data-bs-parent="#homeFaqAccordion"
+                                >
+                                    <div className="accordion-body">
+                                        Yes, we guide applicants through documentation, medicals, visa stamping, emigration clearance guidance and travel procedures.
                                     </div>
                                 </div>
                             </div>
