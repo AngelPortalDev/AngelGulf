@@ -142,7 +142,7 @@ const BlogLayout = ({
               </div>
             )}
 
-            {metaHighlights.length > 0 && (
+            {false && metaHighlights.length > 0 && (
               <div className="row justify-content-center mb-5">
                 <div className="col-lg-10">
                   <div className="bloglayout-meta-grid">

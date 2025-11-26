@@ -29,9 +29,6 @@ const HomeBlogSection = () => {
             <div className="container">
                 <div className="home-section-title">
                     <h2 className="home-section-heading">Insights & Updates</h2>
-                    <p style={{ color: "#5f6a7c", maxWidth: "680px", margin: "0 auto" }}>
-                        Onboard your own talent pool to Qubly, invite them to projects, sign contracts and kick off the projects simpler than ever.
-                    </p>
                 </div>
 
                 <div className="row g-4 justify-content-center mb-4">

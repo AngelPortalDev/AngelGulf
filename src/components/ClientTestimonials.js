@@ -89,7 +89,7 @@ const ClientTestimonials = () => {
                         Building Trust Through Excellence
                     </span>
                     <h2 className="ct-title">
-                        Join the leading organizations that trust Angel Gulf Jobs
+                        Join the leading organisation that trust Angel Gulf Jobs
                     </h2>
                 </div>
 

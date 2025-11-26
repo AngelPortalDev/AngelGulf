@@ -46,7 +46,7 @@ const ClientsSection = ({ clientImages }) => {
             ))}
           </Swiper>
         </div>
-        <p className="home-clients-bottom-label">TRUSTED BY LEADING GLOBAL ORGANIZATIONS</p>
+        <p className="home-clients-bottom-label">TRUSTED BY LEADING GLOBAL organisation</p>
       </div>
     </section>
   );

@@ -12,6 +12,62 @@ import placeholder from "../assets/images/candidates-testimonials/profile-placeh
 
 const testimonials = [
   {
+    id: 10,
+    name: "Garuda Gamer",
+    review:
+      "Best office I found for my work...staff was very helpful and polite ...and the process is smooth and clear...at very less time i got a job with good pay... And also they are genuine ..overall experience was good.... Thanks Angel Gulf Jobs Team and sanjana mam.",
+    image: Garuda,
+    date: "January 15, 2024",
+  },
+  {
+    id: 9,
+    name: "Ksrinivasan Nair",
+    review:
+      "Good service thank you rameshwari and binomol mam for smooth process 9f my bharain work visa thank you once again.",
+    image: Ksrinivasan,
+    date: "December 05, 2023",
+  },
+  {
+    id: 8,
+    name: "Murshitha AK",
+    review:
+      "The platform is remarkably transparent, providing clear information about their services and processes. I truly appreciated their commitment to candidates satisfaction. Highly recommend for anyone looking to connect in the Gulf region.",
+    image: placeholder,
+    date: "November 20, 2023",
+  },
+  {
+    id: 7,
+    name: "Nithin Mathew",
+    review:
+      "I had a wonderful experience with them especially saroja helped me a lot.",
+    image: placeholder,
+    date: "October 01, 2023",
+  },
+  {
+    id: 6,
+    name: "Israr",
+    review:
+      "ماشاء اللہ.. Good Agency Reasonable Service Charge Quick Departure. Special Mention to Aashna Khan Who Facilitated All process so Hassle Free. Thank You Aashna Khan.",
+    image: placeholder,
+    date: "September 12, 2023",
+  },
+  {
+    id: 5,
+    name: "Farhan Hasan",
+    review:
+      "I highly recommend Angel Gulf Jobs for their exceptional visa consultancy services. My visa advisor, Ashna, was extremely professional and guided me through the entire process with ease.",
+    image: Farhan,
+    date: "August 05, 2023",
+  },
+  {
+    id: 4,
+    name: "Mohd Ashar",
+    review:
+      "Had a great experience with angel gulf consultancy, received offer letter from Qatar within 2 weeks. Everything is transparent and the process is so smooth, Special thanks to Aashna mam. Highly recommended to anyone who was looking for a job in gulf countries.",
+    image: Mohd,
+    date: "July 10, 2023",
+  },
+  {
     id: 1,
     name: "Akash Achari",
     review:
@@ -34,62 +90,6 @@ const testimonials = [
       "Am thiruppathi Madurai tamilnadu, have a great experiance in angel gulf jobs.com consultancy Mumbai, am selected from dubai within 3 weeks, Aashna in HR angel gulf jobs.com very responsible handle with updation time to time inform to me.",
     image: Thiru,
     date: "April 22, 2023",
-  },
-  {
-    id: 4,
-    name: "Mohd Ashar",
-    review:
-      "Had a great experience with angel gulf consultancy, received offer letter from Qatar within 2 weeks. Everything is transparent and the process is so smooth, Special thanks to Aashna mam. Highly recommended to anyone who was looking for a job in gulf countries.",
-    image: Mohd,
-    date: "July 10, 2023",
-  },
-  {
-    id: 5,
-    name: "Farhan Hasan",
-    review:
-      "I highly recommend Angel Gulf Jobs for their exceptional visa consultancy services. My visa advisor, Ashna, was extremely professional and guided me through the entire process with ease.",
-    image: Farhan,
-    date: "August 05, 2023",
-  },
-  {
-    id: 6,
-    name: "Israr",
-    review:
-      "ماشاء اللہ.. Good Agency Reasonable Service Charge Quick Departure. Special Mention to Aashna Khan Who Facilitated All process so Hassle Free. Thank You Aashna Khan.",
-    image: placeholder,
-    date: "September 12, 2023",
-  },
-  {
-    id: 7,
-    name: "Nithin Mathew",
-    review:
-      "I had a wonderful experience with them especially saroja helped me a lot.",
-    image: placeholder,
-    date: "October 01, 2023",
-  },
-  {
-    id: 8,
-    name: "Murshitha AK",
-    review:
-      "The platform is remarkably transparent, providing clear information about their services and processes. I truly appreciated their commitment to candidates satisfaction. Highly recommend for anyone looking to connect in the Gulf region.",
-    image: placeholder,
-    date: "November 20, 2023",
-  },
-  {
-    id: 9,
-    name: "Ksrinivasan Nair",
-    review:
-      "Good service thank you rameshwari and binomol mam for smooth process 9f my bharain work visa thank you once again.",
-    image: Ksrinivasan,
-    date: "December 05, 2023",
-  },
-  {
-    id: 10,
-    name: "Garuda Gamer",
-    review:
-      "Best office I found for my work...staff was very helpful and polite ...and the process is smooth and clear...at very less time i got a job with good pay... And also they are genuine ..overall experience was good.... Thanks Angel Gulf Jobs Team and sanjana mam.",
-    image: Garuda,
-    date: "January 15, 2024",
   },
 ];
 

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import comingSoon from './../../assets/images/logo-coming-soon.jpg';
 // import clientel from '../../assets/images/banner-clients.jpg';
 import clientel from '../../assets/images/NewImages/clintel.jpg';
 import { testimonials } from '../../data/clientTestimonialsData';
 import './Clientele.css';
-
 import { Helmet } from 'react-helmet';
 
 const ITEMS_PER_PAGE = 6;
@@ -64,7 +64,7 @@ const Clientele = () => {
               <div>
                 <ul className="wt-breadcrumb breadcrumb-style-2">
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>Client Listing</li>
                 </ul>
