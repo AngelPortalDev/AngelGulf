@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import Quatar from '../../assets/images/countries/qatar-1.jpg';
 import Quatar from '../../assets/images/NewImages/qatar.jpg';
+import qatarInfoImage from '../../assets/images/countries/Work-in-Qatar.png';
 
 import { Helmet } from "react-helmet";
 
@@ -9,12 +10,18 @@ const QuatarJobs = () => {
   return (
     <div>
       <Helmet>
-      <title>Jobs in Qatar, Jobs in Qatar for Indians, Job Opportunities in Qatar</title>
-<meta name="keywords" content="Jobs in Qatar, Jobs in Qatar for Indians, Job Opportunities in Qatar, Job Vacancies in Qatar for Freshers"/>
-<meta name="description" content="Find the latest jobs in Qatar for Indians. Check out the job opportunities in Qatar like various industries like oil & gas, civil, banking, IT etc. and many more."/>
-<link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-qatar"/> 
-<meta name="revisit-after" content="7 days"/>
-<meta name="robots" content="index, follow"/>
+        <title>Jobs in Qatar | Qatar Careers for Expats | Angel Gulf Jobs</title>
+        <meta
+          name="description"
+          content="Find the best jobs in Qatar with Angel Gulf Jobs. Explore verified Qatar job vacancies, high-paying Gulf jobs, and safe opportunities for expats. Apply now for top roles."
+        />
+        <meta
+          name="keywords"
+          content="Gulf jobs, Jobs in Qatar, Qatar job vacancies, job opportunities in Qatar, Qatar careers, Qatar jobs for foreigners, Qatar jobs for expats, Qatar recruitment, Work in Qatar, Qatar Vision 2030"
+        />
+        <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-qatar" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <div className="page-content">
         {/* INNER PAGE BANNER */}
@@ -27,7 +34,7 @@ const QuatarJobs = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name background-heading p-3">
-                  <h2 className="wt-title darkblueTxt">Jobs In Qatar</h2>
+                  <h2 className="wt-title darkblueTxt">Work In Qatar</h2>
                 </div>
               </div>
               {/* BREADCRUMB ROW */}
@@ -36,7 +43,7 @@ const QuatarJobs = () => {
                   <li>
                     <NavLink to="/">Home</NavLink>
                   </li>
-                  <li>Jobs In Qatar</li>
+                  <li>Work In Qatar</li>
                 </ul>
               </div>
               {/* BREADCRUMB ROW END */}
@@ -54,79 +61,156 @@ const QuatarJobs = () => {
                   <div className="cabdidate-de-info">
                     {/* <h4 className="twm-s-title">About Company</h4> */}
                     <h2 className="twm-s-title blueuText">
-                      Scope of Employment for Foreign Citizens in Qatar
+                      Jobs in Qatar – Build Your Gulf Career with Angel Gulf Jobs
                     </h2>
 
                     <p>
-                      Qatar is the richest nation in the Gulf country, and it
-                      ranks fourth in the world’s rich nation list. Being a
-                      tax-free country, it provides excellent living conditions
-                      to its citizens and expats. The land is home to some of
-                      the most renowned multinational companies’ branch offices
-                      and head offices presenting excellent <strong>job opportunities in
-                      Qatar </strong> for citizens and overseas people. All these
-                      favouring factors make Qatar the most sought-after
-                      destination for working professionals. Therefore, in
-                      recent years the country has become the second home for
-                      many expats.
+                      Qatar is one of the fastest-growing economies in the Gulf region, offering exceptional job opportunities in Qatar for skilled professionals from around the world. With its tax-free income, modern infrastructure, and booming industries, Qatar has become a favourite destination for expats looking for stable, high-paying jobs in Qatar. As the country continues to grow rapidly, more overseas workers are exploring jobs in Qatar to secure long-term Qatar careers and better financial stability. Due to its strong economy, Qatar is now one of the most attractive places for Gulf jobs and overseas employment.
                     </p>
                     <p>
-                      Talking about the life of expats in Qatar, it lies
-                      somewhere between traditional and modern. Although the
-                      country is conservative, it does not impose its cultural
-                      beliefs and rules on expats (except a few related to
-                      clothing and behaviour in public places).
-                    </p>
-                    <h4 className="twm-s-title">
-                      Labour Law in Qatar Countries
-                    </h4>
-                    <p>
-                      Qatar has a well-laid labour law which most organizations
-                      there follow stringently. To ensure its inescapable
-                      implementation, organizations remain under the monitoring
-                      of authorities. The work hour varies between 40-48 hours a
-                      week, i.e., 8-9 hours/day. Friday remains the day off in
-                      Qatar, however, most international companies give off on
-                      Sunday as well. The regulations for <strong>jobs in Qatar for
-                      Indians </strong> and countries of different religious origins are
-                      the same, and the country attracts many Indian expats (of
-                      all religions).
-                    </p>
-                    <h4 className="twm-s-title">
-                      Getting a Work Visa in Qatar
-                    </h4>
-                    <p>
-                      The first and most important document for an aspirant to
-                      work in Qatar is the Work Residence Permit. One cannot
-                      engage in employment without the same. However, it is not
-                      a worrisome reason for an aspirant, as the WRP is the
-                      employer’s responsibility.
-                    </p>
-                    <h4 className="twm-s-title">The Average Salary in Qatar</h4>
-                    <p>
-                      The salary structure in Qatar varies according to the
-                      nature of work. The minimum wage in Qatar is QAR1,800.00
-                      per month from 2023 onwards. However, the average salary
-                      differs according to the work profile and rank. You can
-                      check the salary range for different job profiles on our
-                      portal.
+                      At Angel Gulf Jobs, we specialise in connecting job seekers with genuine, verified employers offering reliable Qatar job vacancies. Our platform helps candidates find trusted job opportunities in Qatar that match their skills, experience, and career goals. Whether you are searching for engineering roles, hospitality jobs, healthcare positions, or corporate openings, our Qatar careers platform brings you verified listings from reputable companies providing top jobs in Qatar.
                     </p>
                     <p>
-                      If you are looking for <strong>job opportunities in Qatar,</strong> the
-                      team of Angel Gulf Jobs is with you. Drop your resume to
-                      get our professional service.
+                      As a leading overseas recruitment agency, Angel Gulf Jobs, one of the most reliable recruitment agencies for Gulf hiring, ensures a smooth, transparent process by guiding candidates on labour laws, visa rules, and employer requirements for anyone looking to work in Qatar.
+                    </p>
+
+                    <h3 className="twm-s-title text-dark mt-4">
+                      Scope of Job Opportunities in Qatar for Foreign Citizens
+                    </h3>
+                    <p>
+                      Qatar is the richest nation in the Gulf and provides excellent living standards for citizens and expats. The country is home to many multinational companies offering steady job opportunities in Qatar for locals and foreign professionals. These strong economic conditions make Qatar a preferred destination for Qatar jobs for foreigners and highly skilled Qatar jobs for expats seeking high salaries and career growth. With plenty of Qatar job vacancies across industries, professionals can build successful Qatar careers in a stable, welcoming environment.
                     </p>
                     <p>
-                      For recruiters, we have an eclectic database of candidates
-                      aspiring to work in Qatar and other Gulf countries.
+                      Life in Qatar is a mix of traditional values and modern living. Although certain cultural norms apply, expats are free to maintain their personal lifestyle. This balanced environment makes Qatar one of the best places to work in Qatar and build long-term Qatar careers, especially for those moving from abroad.
                     </p>
+
+                    <h3 className="twm-s-title text-dark mt-4">Why Work in Qatar?</h3>
+
+                    <figure className="mb-4">
+                      <img
+                        src={qatarInfoImage}
+                        alt="Work in Qatar"
+                        className="img-fluid rounded-3 shadow-sm"
+                      />
+                    </figure>
+
+                 
+
+                    <div className="mt-4">
+                      <div className="mb-4">
+                        <p className="fw-bold mb-2">Tax-Free Income and High Salary Potential</p>
+                        <p>
+                          Qatar offers tax-free salaries, allowing professionals to enjoy higher take-home income. This attracts skilled workers searching for rewarding Gulf jobs and long-term jobs in Qatar.
+                        </p>
+                      </div>
+                      <div className="mb-4">
+                        <p className="fw-bold mb-2">Strong Job Market with Global Companies</p>
+                        <p>
+                          Qatar is home to many multinational headquarters and major Gulf corporations, creating excellent job opportunities in Qatar. With support from Angel Gulf Jobs, expats can find suitable roles and access secure Qatar job vacancies.
+                        </p>
+                      </div>
+                      <div className="mb-4">
+                        <p className="fw-bold mb-2">Modern Lifestyle with a Safe Environment</p>
+                        <p>
+                          Overseas workers in Qatar enjoy a modern lifestyle with world-class healthcare, top education, and excellent safety. This makes Qatar one of the safest places for Qatar jobs for foreigners and overseas families.
+                        </p>
+                      </div>
+                      <div className="mb-4">
+                        <p className="fw-bold mb-2">Favourable Labour Laws for Expats</p>
+                        <p>
+                          Qatar’s labour laws protect workers with regulated hours, overtime pay, paid leave, and end-of-service benefits. The removal of the NOC requirement has made applying for Qatar jobs for expats much easier.
+                        </p>
+                      </div>
+                      <div>
+                        <p className="fw-bold mb-2">Growing Economy with Long-Term Stability</p>
+                        <p>
+                          Guided by Qatar Vision 2030, the country continues to grow in IT, logistics, construction, energy, and security. This creates long-lasting Qatar recruitment opportunities and new job opportunities in Qatar for skilled workers.
+                        </p>
+                      </div>
+                    </div>
+
+                    <h3 className="twm-s-title text-dark mt-4">Start Your Qatar Career Journey Today</h3>
+                    <p>
+                      Whether you are an experienced professional or just starting your overseas career, Angel Gulf Jobs is your trusted partner for finding safe, high-quality jobs in Qatar. Explore verified Qatar job vacancies, discover the best job opportunities in Qatar, submit your CV, and let our team guide you toward the right role in one of the Gulf’s most promising countries.
+                    </p>
+
                     <p>
                       Register here for suitable job opportunities:{" "}
-                      <NavLink to="/registration" className="textlinkstyle" target="_blank">Register</NavLink>
+                      <NavLink to="/registration" className="textlinkstyle" target="_blank">
+                      Register
+                    </NavLink>
                     </p>
-                    <p>
-                      Courtesy: <NavLink to="/" className="textlinkstyle"> Gulf Job Consultants</NavLink>
-                    </p>
+
+                    <section className="blog-section mt-5">
+                      <h3 className="twm-s-title text-dark mb-3">FAQs</h3>
+                      <div className="accordion accordion-flush blog-faq" id="qatarJobsFaq">
+                        <div className="accordion-item blog-faq-item">
+                          <h4 className="accordion-header">
+                            <button
+                              className="accordion-button collapsed fw-semibold blog-faq-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#qatarFaqOne"
+                            >
+                              1. How can I find genuine jobs in Qatar as an expat?
+                            </button>
+                          </h4>
+                          <div
+                            id="qatarFaqOne"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#qatarJobsFaq"
+                          >
+                            <div className="accordion-body blog-faq-body">
+                              You can find verified and safe jobs in Qatar through Angel Gulf Jobs, a pioneering overseas recruiting agency that connects you only with genuine employers.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="accordion-item blog-faq-item">
+                          <h4 className="accordion-header">
+                            <button
+                              className="accordion-button collapsed fw-semibold blog-faq-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#qatarFaqTwo"
+                            >
+                              2. What qualifications are required for jobs in Qatar?
+                            </button>
+                          </h4>
+                          <div
+                            id="qatarFaqTwo"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#qatarJobsFaq"
+                          >
+                            <div className="accordion-body blog-faq-body">
+                              Requirements vary by industry, but most Qatar job vacancies prefer skilled professionals with relevant experience, certifications, and good communication skills.
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="accordion-item blog-faq-item">
+                          <h4 className="accordion-header">
+                            <button
+                              className="accordion-button collapsed fw-semibold blog-faq-button"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#qatarFaqThree"
+                            >
+                              3. Is Qatar a good place for overseas professionals to work?
+                            </button>
+                          </h4>
+                          <div
+                            id="qatarFaqThree"
+                            className="accordion-collapse collapse"
+                            data-bs-parent="#qatarJobsFaq"
+                          >
+                            <div className="accordion-body blog-faq-body">
+                              Yes, Qatar offers tax-free income, strong labour protection, high living standards, and abundant Qatar employment opportunities for expats.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
                   </div>
                 </div>
               </div>

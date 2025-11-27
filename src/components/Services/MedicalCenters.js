@@ -1,24 +1,134 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import MedicalCenterAddress from "../common/MedicalCenterAddress.js";
 // import medicalAddImg from '../../assets/images/backgroundImages/gamce-medical-centers.jpg';
+import medicalAddImg2 from "../../assets/images/GCC-medical-test.png";
 import medicalAddImg from '../../assets/images/NewImages/medicalCenter.avif';
 
 
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
+const mumbaiCenters = [
+  {
+    name: "A to Z Diagnostic Centre",
+    address:
+      "1st Floor, Harchandrai House 81, Queens Road, Marine Lines (E), Mumbai – India",
+  },
+  {
+    name: "Al Amal Diagnostic Centre",
+    address:
+      "Kanakia Zillion,A wing, 101/102, 1st, floor, BKC Annex, Junction of CST Road, & LBS Marg, Kurla, Mumbai – India",
+  },
+  {
+    name: "Al-Salaam Diagnostics",
+    address:
+      "Commercial Premises No.01, first Floor, ‘C’ Wing, Greenstone Heritage, Opp. Haj House, M.R.A. Road, Mumbai – India",
+  },
+  {
+    name: "Ashwini Clinic",
+    address:
+      "1st Floor, Bhupesh Gupta Bhawan, 85, Sayani Road, Leningrad Chowk, Prabhadevi, Mumbai-400025. India",
+  },
+  {
+    name: "Bahrainwala’s Super Speciality Clinic",
+    address:
+      "Hermes House 2nd Floor,B-3 Mama Paramanand Marg, Opera House,Near Charni Rd Station. Mumbai 4000 004 INDIA,Mumbai,India",
+  },
+  {
+    name: "Bhatia Medical Centre",
+    address:
+      "7, Geeta A. Ground Floor, Ramabai Pandit Road, Gamdevi, Mumbai – 400 007, India.",
+  },
+  {
+    name: "Chouhan Clinic",
+    address: "OFFICE NO.13 ,FIRUZ ARA,GROUND FLOOR ,M.K.ROAD",
+  },
+  {
+    name: "Clinical Diagnostic Centre",
+    address:
+      "First Floor, Mahila Vikas Mandal Building, Plot 1, Jagannath Bhosale Road Near Mantralaya, Nariman Point Mumbai 400-021, India.",
+  },
+  {
+    name: "Dr. Alva’s Clinic",
+    address:
+      "DTC Building, Sitaram Mill Compound, N.M.Joshi Marg, near HP Petrol Pump, Next to HDFC Bank,",
+  },
+  {
+    name: "Dr. Padaria’s Medical Consultancy Services",
+    address:
+      "1st floor, Elegant Building, Next to Mumbai Central Railway Station, Dr.A.N.Nair Road Mumbai 400011",
+  },
+  {
+    name: "Dr. Qureshi Medical Checkup Centre",
+    address:
+      "Mercury Apartments, Commercial Premises, 183/191 Maulana Azad Road (Duncan Road), In between Nagpada Junction and Two tank, Mumbai – 400008,Mumbai,India",
+  },
+  {
+    name: "Fulara Medicare Clinic",
+    address:
+      "G-B/2, Gold Coin, B Block, Ground Floor, Opp. Sobo Shopping Centre, Tardeo, Mumbai – 400034 (India)",
+  },
+  {
+    name: "Gulshan Medicare – Mumbai",
+    address: "107/109, Embassy Centre, Nariman Point, Mumbai, India",
+  },
+  {
+    name: "K. N. Diagnostic Centre Pvt. Ltd.",
+    address:
+      "1/1, Unity House, 8, Mama Parmanand Marg, Above State Bank of India, Opera House, Mumbai-400004, India",
+  },
+  {
+    name: "Kaifak Medicare",
+    address:
+      "Office no. 4/18, Tulsiani Chambers, Ground floor, 212 – Free Press Journal Marg, Nariman Point, Mumbai- 400 021, Mumbai, India",
+  },
+  {
+    name: "Medicare Diagnostic Centre",
+    address:
+      "Kanakia Zillion Phase II, F Wing, 119, First Floor, L.B.S. Road, Next to Kurla Bus Depot, Kurla West, Mumbai 400 070, India",
+  },
+  {
+    name: "Modern Diagnostics",
+    address:
+      "103-A, Crystal Residency, 65A Dockyard Road, Next to Mazgaon Garden, Near Dockyard Road Rly Stn (W), Mazgaon, Mumbai 400010, INDIA",
+  },
+  {
+    name: "Mohammadi Health Care Systems",
+    address: "Moon Building, 1st FLoor, 798 Mori Road Mahim (W), Bombay 400016.",
+  },
+  {
+    name: "Shastari Medical Centre",
+    address:
+      "Shop No. 5/6, Ground Floor, Shivam Centrium, Opp. Kalpita Enclave, Koldongri, Andheri Sahar Road, Andheri (E), Mumbai- India.",
+  },
+  {
+    name: "Zaff Jay Medical Services",
+    address:
+      "1st Floor, CJ Plaza Building, Apsara Complex, Dr Dadasaheb Bhadkamkar Marg, Grant Road (East), Mumbai 400007, Maharashtra, India",
+  },
+];
+
+const infoCardClasses = "bg-white border rounded-3 shadow-sm p-4 p-md-5 mb-4";
+const unorderedListStyle = { listStyleType: "disc" };
+const orderedListStyle = { listStyleType: "decimal" };
+
 const MedicalCenters = () => {
   return (
     <div>
 
   <Helmet>
-    <title>GAMCA Approved Medical Centre, Gulf Approved Medical Services Center </title>
-    <meta name="keywords" content="GAMCA Approved Medical Centre, Gulf Approved Medical Services Center, Gamca Mumbai, medical centers, list of medical centers, medical center list" />
-    <meta name="description" content="Find GAMCA Approved Medical Centre complete list on our website. People willing to work in GCC companies need to pass Gulf Approved Medical Services Center test." />
-    <link rel="canonical" href="https://www.angelgulfjobs.com/gamca-medical-centre"/>
-    <meta name="revisit-after" content="7 days"/>
-    <meta name="robots" content="index, follow"/>
+    <title>GCC Medical Test (Wafid/GAMCA) for Employment Visa | Guide & Centres</title>
+    <meta
+      name="description"
+      content="Complete guide to the GCC Wafid (GAMCA) medical test for employment visas. Learn booking steps, costs, required documents, validity, and approved centres in India."
+    />
+    <meta
+      name="keywords"
+      content="GCC medical test, Wafid medical test, GAMCA medical test, Wafid appointment India, Wafid Medical for GCC countries, GAMCA medical appointment Mumbai, Medical test for Gulf countries, Wafid medical certificate, GCC visa medical test, Wafid test validity period, GCC medical report online"
+    />
+    <link rel="canonical" href="https://www.angelgulfjobs.com/gamca-medical-centre" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="robots" content="index, follow" />
   </Helmet>
       <div className="page-content">
         {/* INNER PAGE BANNER */}
@@ -31,7 +141,7 @@ const MedicalCenters = () => {
             <div className="wt-bnr-inr-entry">
               <div className="banner-title-outer">
                 <div className="banner-title-name background-heading p-3">
-                  <h2 className="wt-title darkblueTxt">GAMCA Approved Medical Centre</h2>
+                  <h2 className="wt-title darkblueTxt">GCC Medical Test for Employment Visa</h2>
                 </div>
               </div>
               {/* BREADCRUMB ROW */}
@@ -40,7 +150,7 @@ const MedicalCenters = () => {
                   <li>
                     <NavLink to='/'>Home</NavLink>
                   </li>
-                  <li>GAMCA Approved Medical Centre</li>
+                  <li>GCC Medical Test for Employment Visa</li>
                 </ul>
               </div>
               {/* BREADCRUMB ROW END */}
@@ -56,251 +166,292 @@ const MedicalCenters = () => {
                 <div className="col-lg-10 col-md-12">
                   {/* Candidate detail START */}
                   <div className="cabdidate-de-info">
-                    {/* <h4 className="twm-s-title">About Company</h4> */}
-                    <p>
-                      GAMCA stands for “GCC Approved Medical Centers
-                      Association”. People willing to work in GCC countries need
-                      to pass GAMCA medical test. There is a network of medical
-                      centers across different countries approved by GAMCA for
-                      conducting medical tests. These medical centers conduct
-                      tests as per the prescribed process laid down by GAMCA.
-                      The test includes (Physical test, mental test, eye test,
-                      dental test, x-ray test, urine test, blood test and so
-                      on). Find GAMCA Approved Medical Centre complete list on
-                      our website. People willing to work in GCC companies need
-                      to pass Gulf Approved Medical Services Center test. Once
-                      you are declared unfit in GAMCA medical test then there is
-                      no other way to get cleared. GCC Medical test is also
-                      known as GAMCA medical test, both the tests are one & the
-                      same. For GCC medical exam, you have to do the same
-                      procedure as GAMCA medical exam. In India as well, many
-                      GAMCA centers are available across different cities, here
-                      is a listing of GAMCA medical centers across different
-                      cities in India.
-                    </p>
-                    <div className="bg-light">
-                      {/* <div className="container p-4 d-none">
-                      Medical Center List In India:
-                        <div className="row">
-                          <div className="col-lg-3 col-md-6">
-                            <div className="form-group mb-3">
-                              <select
-                                class="form-select form-control"
-                                aria-label="Default select example"
-                              >
-                                <option selected>Select Country</option>
-                                <option value="1">India</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6">
-                            <div className="form-group mb-3">
-                              <select
-                                class="form-select form-control"
-                                aria-label="Default select example"
-                              >
-                                <option selected>Select State</option>
-                                <option value="1">Maharashtra</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6">
-                            <div className="form-group mb-3">
-                              <select
-                                class="form-select form-control"
-                                aria-label="Default select example"
-                              >
-                                <option selected>Select City</option>
-                                <option value="1">Mumbai</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div className="col-lg-3 col-md-6">
-                            <button className="btn btn-primary">Go</button>
-                          </div>
-                        </div>
-                      </div> */}
-                    </div>
-                    <div>
-                      <h2 className="text-center mt-4 blueuText">
-                        GAMCA Approved Medical Examination Centres in Mumbai
+                    <section className={infoCardClasses}>
+                      <p>
+                        Angel Gulf Job, a licensed recruitment agency for Gulf countries, assists with Gulf job placement, visa documentation, and Wafid medical guidance, ensuring that every candidate meets GCC medical test requirements.
+                      </p>
+                      <p>
+                        If you are planning to work or reside in a Gulf nation such as Saudi Arabia, UAE, Kuwait, Oman, Qatar, or Bahrain, one of the first and most crucial steps is scheduling your Wafid medical test (formerly known as the GAMCA medical test). This process is mandatory for anyone applying for a GCC employment visa and must be completed only at medical centres approved by Wafid (GAMCA).
+                      </p>
+                      <p>
+                        The GCC medical test is an official medical examination required by the Gulf Cooperation Council (GCC) countries to ensure that foreign nationals are medically fit before obtaining a work visa or family visa. It screens applicants for infectious diseases and other health conditions to protect public health in the region.
+                      </p>
+                      <p>
+                        Wafid (formerly known as the GAMCA medical test) is the official online health screening platform created by the Gulf Health Council (GHC). It helps expatriates going to GCC nations for employment, residency, or family visas to complete their medical exams smoothly before departure. For Qatar, medicals and biometrics are completed at the Qatar Visa Centre (QVC) in India.
+                      </p>
+                      <p>
+                        In India, applicants often use Wafid India ({' '}
+                        <a
+                          href="https://wafidindia.com"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          wafidindia.com
+                        </a>
+                        ) to book an appointment for the required pre-departure medical tests.
+                      </p>
+                      <p>
+                        For details on Qatar Visa Centre (QVC), visit: 
+                        <a
+                          href="https://www.qatarvisacenter.com/"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Qatar Visa Centre (QVC)
+                        </a>
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">1. Why is the Wafid (GAMCA) India Medical Test mandatory for GCC Countries?</h3>
+                      <p>
+                        All GCC governments require foreign nationals applying for a GCC employment visa to undergo a Gulf Health Council-approved medical examination.
+                      </p>
+                      <p className="mb-2">The Wafid medical test for Gulf countries ensures:</p>
+                      <ul className="ps-4 mb-3" style={unorderedListStyle}>
+                        <li className="mb-1">Authenticity and digital verification of medical reports</li>
+                        <li className="mb-1">Early detection of infectious diseases such as HIV, Hepatitis, Tuberculosis (TB), and high blood pressure</li>
+                        <li className="mb-1">Protection of the host country’s public health</li>
+                        <li className="mb-1">Faster and more efficient visa processing for Gulf Cooperation Council (GCC) countries</li>
+                      </ul>
+                      <p>Without an approved Wafid or GAMCA medical report, your GCC visa application may be delayed or rejected.</p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">2. How to book a Wafid medical for GCC countries in India?</h3>
+                      <p>
+                        Booking a Wafid appointment in India for your GCC medical test is simple and completely online. Follow these steps:
+                      </p>
+                      <ol className="ps-4 mb-3" style={orderedListStyle}>
+                        <li className="mb-1">
+                          Visit the Official Indian Website: 
+                          <a
+                            href="https://wafidindia.com"
+                            className="text-primary fw-semibold"
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            wafidindia.com
+                          </a>
+                        </li>
+                        <li className="mb-1">Click on ‘Book Medical Appointment’</li>
+                        <li className="mb-1">Select your country (India) and enter your passport details.</li>
+                        <li className="mb-1">Choose your Visa Type: Employment, Residency, or Family.</li>
+                        <li className="mb-1">Pay the non-refundable fees through online payment</li>
+                        <li className="mb-1">Automatic Centre Assignment: The system will assign you a Gulf Health Council-approved medical centre (for example, in Mumbai, Delhi, or Hyderabad)</li>
+                        <li className="mb-1">Print Your Slip: Download and print your appointment confirmation slip (Wafid slip). Bring this with you to your medical appointment.</li>
+                      </ol>
+                      <div className="my-4">
+                        <img
+                          src={medicalAddImg2}
+                          alt="GCC medical test illustration"
+                          className="img-fluid w-100 rounded-4 shadow-sm"
+                          style={{ objectFit: "contain" }}
+                        />
+                      </div>
+                      
+                      <p>
+                        Angel Gulf Jobs provides a list of approved Wafid/GAMCA centres in Mumbai. We aim to help candidates select verified facilities for their GCC medical test or pre-departure medical.
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">3. What documents are required for the Wafid Medical test?</h3>
+                      <p>When attending your Wafid medical test for GCC work visa, bring the following documents:</p>
+                      <ol className="ps-4 mb-3" style={orderedListStyle}>
+                        <li className="mb-2">Original Passport: Must be valid for at least 6 months</li>
+                        <li className="mb-2">
+                          Passport-Size Photograph
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">A recent, coloured passport-size photo</li>
+                            <li className="mb-1">Used for health test documentation</li>
+                          </ul>
+                        </li>
+                        <li className="mb-2">
+                          Full Medical History: Applicants may be asked to present their past medical reports or provide a detailed medical history.
+                        </li>
+                        <li className="mb-2">
+                          Original Visa Copy
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">Required for verification by the medical centre</li>
+                            <li className="mb-1">In some cases, an employment visa or application slip may be needed.</li>
+                          </ul>
+                        </li>
+                        <li className="mb-2">
+                          GAMCA / Wafid Medical Slip
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">You must book your medical test online</li>
+                            <li className="mb-1">After booking, print the medical slip and carry it to the centre</li>
+                          </ul>
+                        </li>
+                      </ol>
+                      <p>
+                        Tip from Angel Gulf Job: Arrive 30 minutes early, carry extra photocopies, and ensure that your passport number matches on all documents to avoid administrative delays.
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">4. What are the GCC visa Medical Tests included in the Wafid examination?</h3>
+                      <p>
+                        The Wafid medical panel for the Gulf Cooperation Council (GCC) countries includes standard medical tests approved by the Gulf Health Council. These medical exams are designed to determine whether you are medically fit for employment or residence in the GCC and for travelling to GCC countries.
+                      </p>
+                      <div className="table-responsive">
+                        <table className="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Type of Test</th>
+                              <th>Purpose</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Chest X-ray</td>
+                              <td>Detects Tuberculosis (TB)</td>
+                            </tr>
+                            <tr>
+                              <td>Blood Tests</td>
+                              <td>Screens for HIV, Hepatitis B & C, Syphilis, Malaria</td>
+                            </tr>
+                            <tr>
+                              <td>Urine Test</td>
+                              <td>Checks general health and drug traces</td>
+                            </tr>
+                            <tr>
+                              <td>Physical Exam</td>
+                              <td>Confirms overall medical fitness and identifies underlying medical conditions</td>
+                            </tr>
+                            <tr>
+                              <td>Pregnancy Test (for women)</td>
+                              <td>Ensures safety and compliance with employment categories</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p>
+                        Results are usually available within 2–5 working days and are uploaded automatically to the GCC Embassy Portal of the destination country for visa verification. You can also download your GCC medical report online.
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">5. What is the Wafid Medical Certificate Validity period and the Re-Examination process?</h3>
+                      <p>A Wafid test validity period is generally valid for 60-90 days (about 3 months) from the date of issue.</p>
+                      <p>
+                        If your Wafid medical report shows “UNFIT”, you may reapply after medical recovery, following the Gulf Health Council’s official re-examination policy.
+                      </p>
+                      <p>
+                        Always double-check that your updated Wafid report has been uploaded correctly in the system. It prevents mismatched data during embassy or employer verification.
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">6. What is the total Cost for the GAMCA / Wafid Medical Test for Gulf Countries</h3>
+                      <p>Total Cost of GAMCA (Wafid) Medical Test</p>
+                      <ol className="ps-4 mb-3" style={orderedListStyle}>
+                        <li className="mb-3">
+                          GAMCA / Wafid Registration Fees
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">Registration fees start from ₹1,600</li>
+                            <li className="mb-1">This amount usually includes 2% tax and service charges</li>
+                          </ul>
+                        </li>
+                        <li className="mb-3">
+                          Medical Examination Fees
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">Medical test fees start from ₹5,500</li>
+                            <li className="mb-1">Costs vary depending on the country, medical centre, and additional tests required</li>
+                          </ul>
+                        </li>
+                        <li className="mb-3">
+                          Total Estimated Cost
+                          <ul className="ps-4 mt-2" style={unorderedListStyle}>
+                            <li className="mb-1">When you combine both:</li>
+                            <li className="mb-1">₹1,600 (registration fees)</li>
+                            <li className="mb-1">₹5,500 or more (medical test fees)</li>
+                            <li className="mb-1">The total cost of the GAMCA medical test is generally ₹7,500 or more.</li>
+                          </ul>
+                        </li>
+                      </ol>
+                      <p className="fw-bold">⚠ Important Notes</p>
+                      <ul className="ps-4 mb-3" style={unorderedListStyle}>
+                        <li className="mb-2">Fees and document requirements vary by country</li>
+                        <li className="mb-2">Charges may differ based on the medical centre, country, or any additional tests required</li>
+                        <li className="mb-2">Always check the official Wafid (formerly GAMCA) website when booking your appointment</li>
+                        <li className="mb-2">Only visit authorised medical centres approved by Gulf countries</li>
+                        <li className="mb-2">Make sure your documents are accurate to avoid delays in processing your medical clearance</li>
+                      </ul>
+                      <p className="text-muted">
+                        Source:{' '}
+                        <a
+                          href="https://wafindia.com/"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Wafid Fees structure
+                        </a>
+                      </p>
+                    </section>
+                    <section className={infoCardClasses}>
+                      <h3 className="twm-s-title mb-3">Important Notes for GCC Applicants</h3>
+                      <p>
+                        Pre-arrival vs Post-arrival: Some GCC countries, including Saudi Arabia, the UAE, and Kuwait, rely on pre-arrival WAFID medical exams conducted before travel. Others, such as Qatar, Oman, and Bahrain, require both pre-departure and post-arrival medical checks to confirm health status and health issues after entry.
+                      </p>
+                      <p>
+                        Job-category add-ons: Certain professions, especially in healthcare, food handling, and childcare, may require additional medical tests specific to each country, beyond the standard WAFID examination panel.
+                      </p>
+                      <p>
+                        Centre Verification: Only Wafid-accredited centres are accepted by GCC embassies for medical slip generation. Avoid local or unregistered clinics claiming to be “GAMCA-approved,” as their reports are not valid for GCC visas.
+                      </p>
+                      <p>
+                        To know more about the post-arrival medical test, visit: 
+                        <a
+                          href="https://www.qatarvisacenter.com/"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          Qatar Visa Centre (QVC)
+                        </a>
+                      </p>
+                      <p>
+                        Scheduling your Wafid India medical appointment is the first step toward obtaining a Gulf work visa and a smooth relocation process. This GCC Medical test is your official gateway to employment in GCC countries.
+                      </p>
+                      <p>
+                        By applying through overseas recruitment agencies like Angel Gulf Job, you ensure that every stage, from Wafid appointment booking to visa stamping and deployment, is handled professionally and accurately.
+                      </p>
+                    </section>
+                    <section className={`${infoCardClasses} bg-light`}>
+                      <h2 className="text-center mt-2 mb-4 blueuText">
+                        GAMCA Medical Appointment in Mumbai: Approved Centres
                       </h2>
                       <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="FULARA MEDICHECK CENTRE"
-                            doctorName="DR. NASIR Y. FULARA"
-                            address="501 / 502, Doctor House,Opposite Jaslok Hospital, Peddar Road, Mumbai 400 026."
-                            telephoneNo="23514123 / 23526293"
-                            faxno="022 23874341"
-                            emailid="fmcbom@hotmail.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="ZAFF JAY MEDICAL SER. (I) PVT. LTD"
-                            doctorName="DR. JAYANT GUMASTE"
-                            address="Orient Shopping Plaza, Room No. 7 & 8, 2nd Floor, M. S. Ali Road, Near Shalimar Theatre, Grant Road, Mumbai 400 007."
-                            telephoneNo="23896100"
-                            faxno="23892900"
-                            emailid="jafjay@bom5.vsnl.net.in"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="A TO Z DIAGNOSTICS CENTRE"
-                            doctorName="DR. M.A.PATANKAR"
-                            address="90, C. R. B. Mansion Road, 1st Floor, Opp. Our Lady Of Dolours Church, Near Marine Lines, Mumbai 400 002."
-                            telephoneNo="23514123 / 23526293"
-                            faxno="22006524 / 22088263"
-                            emailid="contact@patankaratoz.com,drmapatankar_mumbai@hotmail.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="KAIFAK MEDICARE"
-                            doctorName="DR. M. K. E. MEMON"
-                            address="214-A, Maker Chamber V, Jamna Bajaj Marg, Veer Nariman Point, Mumbai 400 021."
-                            telephoneNo="22044385 / 2287355"
-                            faxno="2288 1699"
-                            emailid="khalil@bom3.vsnl.net.in"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="ALVA’S CLINIC"
-                            doctorName="DR. M. S. ALVA"
-                            address="543, 1st Floor, Umerbai Niwas, Opp Cement Godown, Bhakri – Adda, N. M. Joshi Marg, Byculla (West) Mumbai 400 011."
-                            telephoneNo="22044385 / 2287355"
-                            faxno="022 23874341"
-                            phoneNo="23052473"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="MOHAMMADI HEALTHCARE SYSTEMS"
-                            doctorName="DR. B.K.MISRA"
-                            address="798, Moon Bldg, Mori Road, Mahim (West), Mumbai 400 016."
-                            telephoneNo="24440888 / 24440786"
-                            faxno="24448899"
-                            emailid="drbkmisra@hotmail.com"
-                          />
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="CHOUHAN CLINIC"
-                            doctorName="DR. C. L. CHOUHAN"
-                            address="101 / 105, L. R. T. Medical & Research Centre, 10th Floor, Opposite Cooperage Football Ground, Opp. P V M Gymkhana, Maharashi Karve Road, Mumbai 400 021."
-                            telephoneNo="022 22823287 / 22845787"
-                            faxno="022 2851344"
-                            emailid="clchouhan@yahoo.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="AL-AMAL DIAGNOSTIC CENTER"
-                            doctorName="DR. YOUSIF I. QABGEH"
-                            address="77 / 1, RADHA MOHAN BLDG, ROAD NO. 7, NEAR KHAR SUBWAY (GOLIBAR), SANTACRUZ (EAST), MUMBAI 400 055."
-                            telephoneNo="26114706 / 26133357"
-                            faxno="6186331"
-                            emailid="yqabageh@yahoo.co.in"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="GULSHAN MEDICARE"
-                            doctorName="DR. B.K.MISRA"
-                            address="39/43, Nishanpada Road, Noor Masjid Gali, Near Ajwa Sweets, Dongri, Mumbai 400 009"
-                            telephoneNo="23514123 / 23526293"
-                            faxno="022 23874341"
-                            emailid="fmcbom@hotmail.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="MODERN DIAGNOSTICS"
-                            doctorName="DR. ABDUL KARIM NAIK"
-                            address="6, Merchant Bldg, Near Habib Hospital, Jail Road (East), Dongri, Mumbai 400 009."
-                            telephoneNo="2373 1872/ 2371 8663.7"
-                            faxno="022 2851344"
-                            emailid="moderndiagnostics@vsnl.net"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="DR. QURESHI MEDICAL CHECK-UP CENTRE"
-                            doctorName="DR. ISMAIL QURESHI"
-                            address="91, Modi Street, Opp. G. P. O, Opp. Masjid,2nd Floor, Near V. T. Railway Station, Fort, Mumbai 400 001."
-                            telephoneNo="22670755."
-                            faxno="6186331"
-                            emailid="Ismaeelqureshi@Rediffmail.Com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="DR. H.S.BHATIA"
-                            doctorName="DR. H.S.BHATIA"
-                            address="5-a, Meghaji Bhavan, 1st Floor, Berrack Road, Above Cafe Cecil, Behind Metro Cinema, Mumbai 400 020."
-                            telephoneNo="22004291 / 22009985.."
-                            faxno="22007693."
-                            emailid="hotchandbhatia@yahoo.co.in"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="DR. F.T.PADARIA"
-                            doctorName="DR. F.T.PADARIA"
-                            address="501 / 502, Doctor House,Opposite Jaslok Hospital, Peddar Road, Mumbai 400 026."
-                            telephoneNo="23095458."
-                            // faxno=""
-                            emailid="spadaria@gmail.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="AL-SALAM DIAGNOSTICS"
-                            doctorName="AL-SALAM DIAGNOSTICS"
-                            address="9 / 15, Al-karim Manzil, Palton Road, Crawford Market, Mumbai 400 001."
-                            telephoneNo="22679190 / 22670755."
-                            faxno="22617386 / 22610505 / 22672939."
-                            emailid="alsalaamdignostic@yahoo.com"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12">
-                          <MedicalCenterAddress
-                            medicalName="DR. KEWAL JAIN"
-                            doctorName="DR. NALINI KOTHARI"
-                            address="487, Murad Mansion, 2nd Floor, Room No. 26, Near Marvadi Vidhyalaya School,Opera House, Mumbai – 400 004."
-                            telephoneNo="022-23866782"
-                            faxno="022 23874341"
-                            emailid="drkewaljain@hotmail.com."
-                          />
-                        </div>
+                        {mumbaiCenters.map((center, index) => (
+                          <div
+                            className="col-xl-4 col-lg-6 col-md-6 col-sm-12 mb-4"
+                            key={`${center.name}-${index}`}
+                          >
+                            <div className="p-4 h-100 bg-white border rounded-4 shadow-sm">
+                              <p className="fw-semibold mb-2">{center.name}</p>
+                              <p className="mb-0 text-muted">
+                                {center.address.split("\n").map((line, lineIndex, lines) => (
+                                  <React.Fragment key={`${center.name}-${lineIndex}`}>
+                                    {line}
+                                    {lineIndex < lines.length - 1 && <br />}
+                                  </React.Fragment>
+                                ))}
+                              </p>
+                            </div>
+                          </div>
+                        ))}
                       </div>
-                    </div>
-                    <div className="bg-light">
-                      <div className="container p-3">
-                        <p>
-                          GAMCA (Gulf Approved Medical centers Association) is
-                          an association created to provide medical examinations
-                          to expatriates intending to join the Labor Market in
-                          the GCC countries .This association has provided an
-                          electronic platform through which the health results
-                          are shared to all organizations of interest; all
-                          electronically via their official website.
-                        </p>
-                        <p>
-                          All short-listed candidates have to compulsorily
-                          undergo a thorough medical. No chances are taken and
-                          the physical suitability is never compromised. We
-                          engage in arranging medical examination from GCC
-                          Countries approved GAMCA medical centers and ask the
-                          candidate to undertake the relevant tests to determine
-                          appropriate physical health of every candidate.
-                        </p>
-                      </div>
-                    </div>
+                      <p>
+                        Source: 
+                        <a
+                          href="https://wafidindia.com/wafid-approved-medical-centers-in-mumbai/"
+                          className="text-primary fw-semibold"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          https://wafidindia.com/wafid-approved-medical-centers-in-mumbai/
+                        </a>
+                      </p>
+                    </section>
                   </div>
                 </div>
               </div>

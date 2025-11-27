@@ -23,6 +23,7 @@ import NotFound from "./components/NotFound.js";
 import BeAwareModal from './components/static/BeAwareModal.js'
 import './App.css';
 
+
 // Services components
 const VisaService = React.lazy(() =>
   import("./components/Services/VisaService.js")
@@ -41,6 +42,9 @@ const FlightBooking = React.lazy(() =>
 );
 const ForeignExchange = React.lazy(() =>
   import("./components/Services/ForeignExchange.js")
+);
+const GCCIndustries = React.lazy(() =>
+  import("./components/Services/GCCIndustries.js")
 );
 
 // Industries component
@@ -95,6 +99,25 @@ const PressRelease = React.lazy(() =>
   import("./components/static/PressRelease.js")
 );
 const Sitemap = React.lazy(() => import("./components/Sitemap.js"));
+const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
+const AvoidGulfJobScams = React.lazy(() =>
+  import("./components/Blog/AvoidGulfJobScams.js")
+);
+const ConnectingContinents = React.lazy(() =>
+  import("./components/Blog/ConnectingContinents.js")
+);
+const EcrNonEcrPassports = React.lazy(() =>
+  import("./components/Blog/EcrNonEcrPassports.js")
+);
+const KafalaSystem = React.lazy(() =>
+  import("./components/Blog/KafalaSystem.js")
+);
+const EconomicDiversificationGCC = React.lazy(() =>
+  import("./components/Blog/EconomicDiversificationGCC.js")
+);
+const ApostilleAttestation = React.lazy(() =>
+  import("./components/Blog/ApostilleAttestation.js")
+);
 
 // Articles
 
@@ -259,6 +282,12 @@ const UAEDefenceDeals = React.lazy(() =>
 const CentrepointExpansionHiring = React.lazy(() =>
   import("./components/News/CentrepointExpansionHiring.js")
 );
+const UAEDigitalWorkPermitSystem = React.lazy(() =>
+  import("./components/News/UAEDigitalWorkPermitSystem.js")
+);
+const SaudiSkillBasedWorkPermit = React.lazy(() =>
+  import("./components/News/SaudiSkillBasedWorkPermit.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -409,6 +438,11 @@ function App() {
               path="/foreign-exchange"
               element={<ForeignExchange />}
             />
+            <Route
+              exact
+              path="/gcc-industries"
+              element={<GCCIndustries />}
+            />
 
             {/* Industries */}
             <Route exact path="/industries" element={<Industries />} />
@@ -453,6 +487,40 @@ function App() {
             <Route exact path="/latest-gulf-news" element={<LatestNews />} />
             <Route exact path="/press-release" element={<PressRelease />} />
             <Route exact path="/site-map" element={<Sitemap />} />
+            <Route exact path="/blogs" element={<BlogList />} />
+           
+            {/* Blog routes*/}
+            <Route
+              exact
+              path="/blogs/avoid-gulf-job-scams"
+              element={<AvoidGulfJobScams />}
+            />
+            <Route
+              exact
+              path="/blogs/connecting-continents-global-talent"
+              element={<ConnectingContinents />}
+            />
+            <Route
+              exact
+              path="/blogs/ecr-and-non-ecr-passports"
+              element={<EcrNonEcrPassports />}
+            />
+            <Route
+              exact
+              path="/blogs/kafala-system-saudi-arabia"
+              element={<KafalaSystem />}
+            />
+            <Route
+              exact
+              path="/blogs/economic-diversification-gcc-countries"
+              element={<EconomicDiversificationGCC />}
+            />
+            <Route
+              exact
+              path="/blogs/apostille-attestation-gulf-document-verification"
+              element={<ApostilleAttestation />}
+            />
+           
 
             {/* Articles */}
 
@@ -724,6 +792,16 @@ function App() {
               exact
               path="/centerpoint-to-add-25-outlets-in-2016"
               element={<CentrepointExpansionHiring />}
+            />
+            <Route
+              exact
+              path="/uae-digital-work-permit-system"
+              element={<UAEDigitalWorkPermitSystem />}
+            />
+            <Route
+              exact
+              path="/saudi-skill-based-work-permit-system"
+              element={<SaudiSkillBasedWorkPermit />}
             />
 
             {/* Sitemap */}

@@ -16,7 +16,7 @@ const Footer = () => {
   return (
    <div>
   {/* FOOTER START */}
-  <footer className="footer-light ftr-light-with-bg site-bg-cover" style={{backgroundImage: 'url(images/ftr-bg.jpg)'}}>
+  <footer className="footer-light ftr-light-with-bg site-bg-cover" style={{backgroundImage: 'url(/images/ftr-bg.jpg)'}}>
     <div className="container">
       {/* FOOTER BLOCKES START */}  
       <div className="footer-top">
@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-12">
             <div className="widget widget_about">
               <div className="logo-footer clearfix">
-                <NavLink to='/'><img src="images/ange_gulf_logo.png" width='110px' alt="" /></NavLink>
+                <NavLink to='/'><img src="/images/ange_gulf_logo.png" width='110px' alt="" /></NavLink>
               </div>
               <p style={{fontSize:'14px'}}>The Easiest Way to get your new Job in Gulf.</p>
               <ul className="ftr-list">
@@ -44,7 +44,7 @@ const Footer = () => {
                     <li><NavLink to='/industries' onClick={gotoTop} target='_blank'>Industries</NavLink></li>
                     <li><NavLink to='/articles' onClick={gotoTop} target='_blank'>Articles of Interest</NavLink></li>
                     <li><NavLink to='/site-map' onClick={gotoTop} target='_blank'>Site Map</NavLink></li>
-                    <li><NavLink >Blog</NavLink></li>
+                    <li><NavLink to='/blogs' onClick={gotoTop} target='_blank' rel='noopener noreferrer'>Blog</NavLink></li>
                   </ul>
                 </div>
               </div>

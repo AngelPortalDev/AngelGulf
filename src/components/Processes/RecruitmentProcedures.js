@@ -1,6 +1,7 @@
 import React from "react";
 // import RecruitmentProcess from "./../../assets/images/recruitment-process.jpg";
 import RecruitmentProcess from "./../../assets/images/NewImages/recruitment.jpg";
+import RecruitmentProcess2 from "./../../assets/images/NewImages/recruitment-sidebar.png";
 
 
 import { Helmet } from "react-helmet";
@@ -20,7 +21,7 @@ const RecruitmentProcedures = () => {
         <div className="row mt-4">
           <div className="col-lg-6 col-md-12 col-sm-12">
             <img
-              src={RecruitmentProcess}
+              src={RecruitmentProcess2}
               className="img-fluid p-0"
               alt="Recruitment & Selection Process"
               title="Recruitment & Selection Process"

@@ -1,0 +1,36 @@
+.testimonials-stats-ribbon {
+  margin: 40px auto 0 auto;
+  padding: 18px 24px;
+  border-radius: 99px;
+  background: rgba(0, 155, 212, 0.08);
+  border: 1px solid rgba(0, 155, 212, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.testimonials-stats-pill {
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0b3b5d;
+  box-shadow: 0 10px 25px rgba(0, 155, 212, 0.12);
+  border: 1px solid rgba(0, 155, 212, 0.15);
+}
+
+@media (max-width: 767px) {
+  .testimonials-stats-ribbon {
+    border-radius: 24px;
+    padding: 18px;
+    gap: 10px;
+  }
+
+  .testimonials-stats-pill {
+    width: 100%;
+    text-align: center;
+  }
+}
+
