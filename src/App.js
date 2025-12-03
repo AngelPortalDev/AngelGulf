@@ -83,6 +83,7 @@ const QuatarJobs = React.lazy(() => import("./components/Jobs/QuatarJobs.js"));
 const BahrainJobs = React.lazy(() =>
   import("./components/Jobs/BahrainJobs.js")
 );
+const KuwaitJobs = React.lazy(() => import("./components/Jobs/KuwaitJobs.js"));
 
 // Footer Pages components
 const AreaofInterest = React.lazy(() =>
@@ -468,6 +469,7 @@ function App() {
             <Route exact path="/jobs-in-oman" element={<OmanJobs />} />
             <Route exact path="/jobs-in-qatar" element={<QuatarJobs />} />
             <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/jobs-in-kuwait" element={<KuwaitJobs />} />
 
             {/* Modal */}
             
