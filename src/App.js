@@ -438,14 +438,8 @@ function App() {
               path="/foreign-exchange"
               element={<ForeignExchange />}
             />
-            <Route
-              exact
-              path="/gcc-industries"
-              element={<GCCIndustries />}
-            />
-
             {/* Industries */}
-            <Route exact path="/industries" element={<Industries />} />
+            <Route exact path="/industries" element={<GCCIndustries />} />
 
             {/* Process */}
             <Route

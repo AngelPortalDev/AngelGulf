@@ -238,11 +238,6 @@ const Header = () => {
                           Foreign Exchange
                         </NavLink>
                       </li>
-                      <li>
-                        <NavLink to="/gcc-industries" target="_blank">
-                          GCC Industries
-                        </NavLink>
-                      </li>
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
