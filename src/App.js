@@ -289,6 +289,9 @@ const UAEDigitalWorkPermitSystem = React.lazy(() =>
 const SaudiSkillBasedWorkPermit = React.lazy(() =>
   import("./components/News/SaudiSkillBasedWorkPermit.js")
 );
+const SaudiIqamaReforms2025 = React.lazy(() =>
+  import("./components/News/SaudiIqamaReforms2025.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -472,8 +475,8 @@ function App() {
             <Route exact path="/jobs-in-kuwait" element={<KuwaitJobs />} />
 
             {/* Modal */}
-            
-            <Route exact path="/BeAwareModal" element={<BeAwareModal/>}/>
+
+            <Route exact path="/BeAwareModal" element={<BeAwareModal />} />
 
             {/* Footer Pages */}
 
@@ -484,7 +487,7 @@ function App() {
             <Route exact path="/press-release" element={<PressRelease />} />
             <Route exact path="/site-map" element={<Sitemap />} />
             <Route exact path="/blogs" element={<BlogList />} />
-           
+
             {/* Blog routes*/}
             <Route
               exact
@@ -516,7 +519,7 @@ function App() {
               path="/blogs/apostille-attestation-gulf-document-verification"
               element={<ApostilleAttestation />}
             />
-           
+
 
             {/* Articles */}
 
@@ -799,6 +802,11 @@ function App() {
               path="/saudi-skill-based-work-permit-system"
               element={<SaudiSkillBasedWorkPermit />}
             />
+            <Route
+              exact
+              path="/saudi-iqama-reforms-2025"
+              element={<SaudiIqamaReforms2025 />}
+            />
 
             {/* Sitemap */}
 
@@ -916,7 +924,7 @@ function App() {
 
 
 
-                {/* Admin Routes */}    
+            {/* Admin Routes */}
             <Route
               path="/addjob"
               element={
@@ -953,19 +961,19 @@ function App() {
               path="/managejobs"
               element={
                 <ProtectedRoute>
-                  <ManageJobs/>
+                  <ManageJobs />
                 </ProtectedRoute>
               }
             />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/job-list" element={<JobListing />} />
             <Route path="/job-details/:jobId" element={<JobDetails />} />
-            <Route path="/apply-job/:jobId" element={<JobApplicationForm/>}/>
-            <Route path="/registration" element={<RegistrationForm/>}/>
+            <Route path="/apply-job/:jobId" element={<JobApplicationForm />} />
+            <Route path="/registration" element={<RegistrationForm />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AuthProvider>
-       
+
         <LocationAwareFooter />
       </div>
     </Router>

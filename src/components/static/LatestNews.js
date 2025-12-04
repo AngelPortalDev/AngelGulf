@@ -5,9 +5,21 @@ import { Helmet } from "react-helmet";
 
 const NEWS_GROUPS = [
   {
+    id: "december-2025",
+    label: "December 2025",
+    metaLabel: "Latest headline",
+    items: [
+      {
+        id: "saudi-iqama-reforms-2025",
+        to: "/saudi-iqama-reforms-2025",
+        title: "Saudi Iqama Reforms 2025: New Skill-Based Work Permit System Explained",
+      },
+    ],
+  },
+  {
     id: "november-2025",
     label: "November 2025",
-    metaLabel: "Latest headline",
+    metaLabel: "News headlines",
     items: [
       {
         id: "saudi-skill-based-work-permit-system-2025",
