@@ -5,46 +5,51 @@ import { Helmet } from "react-helmet";
 
 const NEWS_GROUPS = [
   {
-    id: "december-2025",
-    label: "December 2025",
-    metaLabel: "Latest headline",
+    id: "november-2025",
+    label: "November 2025",
+    metaLabel: "Latest headlines",
     items: [
+      {
+        id: "uae-digital-work-permit-system-2025",
+        to: "/uae-digital-work-permit-system",
+        title: "UAE Digital Work Permit System",
+        description:
+          "The UAE has launched a new AI-powered MoHRE digital work permit system that speeds up overseas hiring, simplifies work visas, and improves the recruitment process.",
+      },
+      {
+        id: "saudi-iqama-reforms-2025",
+        to: "/saudi-iqama-reforms-2025",
+        title: "Saudi Iqama Reforms 2025",
+        description:
+          "Saudi Arabia’s Iqama Reforms 2025 introduce a new skill-based work permit system that rewards talent, improves jobs in Saudi Arabia, and increases opportunities for expat workers.",
+      },
+      {
+        id: "uae-labour-dispute-index-2024",
+        to: "/uae-labour-dispute-index-2024",
+        title: "UAE Labour Dispute Index 2024",
+        description:
+          "The UAE ranks first globally in the Labour Dispute Index 2024, showcasing unmatched employment stability and strong worker protections.",
+      },
       {
         id: "uae-ai-revolution",
         to: "/uae-ai-revolution",
         title: "UAE AI Revolution: Faster Work Permits and Gulf Jobs",
+        description:
+          "The UAE’s new “Eye” AI system speeds up work permit processing, reduces document errors, and improves overseas hiring for Gulf jobs.",
       },
       {
         id: "uae-labour-law-violations",
         to: "/uae-labour-law-violations",
         title: "UAE Labour Law: Reporting 13 Major Labour Violations",
+        description:
+          "The UAE has outlined 13 major labour law violations to strengthen worker protection, improve safety standards, and support fair employment practices.",
       },
-      {
-        id: "uae-labour-dispute-index-2024",
-        to: "/uae-labour-dispute-index-2024",
-        title: "UAE Tops Global Labour Dispute Index 2024 | Impact on Indian Workers",
-      },
-      {
-        id: "saudi-iqama-reforms-2025",
-        to: "/saudi-iqama-reforms-2025",
-        title: "Saudi Iqama Reforms 2025: New Skill-Based Work Permit System Explained",
-      },
-    ],
-  },
-  {
-    id: "november-2025",
-    label: "November 2025",
-    metaLabel: "News headlines",
-    items: [
       {
         id: "saudi-skill-based-work-permit-system-2025",
         to: "/saudi-skill-based-work-permit-system",
-        title: "Saudi Skill-Based Work Permit System",
-      },
-      {
-        id: "uae-digital-work-permit-system-2025",
-        to: "/uae-digital-work-permit-system",
-        title: "UAE Digital Work Permit System",
+        title: "Qiwa Platform and Jobs in Saudi Arabia",
+        description:
+          "Saudi Arabia’s Qiwa platform strengthens digital recruitment and labour transparency, creating smoother hiring journeys for jobs in Saudi.",
       },
     ],
   },
@@ -57,22 +62,30 @@ const NEWS_GROUPS = [
         id: "pay-hike-or-keeping-your-job",
         to: "/pay-hike-or-keeping-your-job",
         title: "Pay hike or keeping your job? What your priority should be",
+        description:
+          "UAE salary forecasts for 2016 show minimal growth, with experts predicting flat pay hikes as companies adopt a cautious outlook amid fluctuating oil prices and economic uncertainty.",
       },
       {
         id: "indian-budget-spoils-uae-expat-remitters-party",
         to: "/indian-budget-spoils-uae-expat-remitters-party",
         title:
           "Indian Budget Euphoria Spoils UAE Expat Remitters' Party As Rupee Rallies",
+        description:
+          "India’s rupee surged to its strongest weekly gain since 2013 after Budget 2016 boosted investor confidence, driving a sharp rise in the currency and stock markets.",
       },
       {
         id: "uae-signs-defence-deals",
         to: "/uae-signs-defence-deals",
         title: "UAE Signs Defence Deals Worth Dh767m On UMEX Opening Day",
+        description:
+          "The UAE signed Dh767 million in defence contracts at UMEX 2016, boosting its unmanned systems and aerospace sector through major deals with global and local companies.",
       },
       {
         id: "centerpoint-to-add-25-outlets-in-2016",
         to: "/centerpoint-to-add-25-outlets-in-2016",
         title: "Centrepoint To Add 25 Outlets This Year, Recruit 2,500 Staff",
+        description:
+          "Centrepoint plans to open 25 new Gulf outlets in 2016 and hire 2,500 staff, with major expansion focused on Saudi Arabia as the Landmark Group explores new mall developments.",
       },
     ],
   },
@@ -191,6 +204,11 @@ const LatestNews = () => {
                             className="latest-news-link"
                           >
                             <h4 className="latest-news-item-title">{item.title}</h4>
+                            {item.description && (
+                              <p className="latest-news-item-description">
+                                {item.description}
+                              </p>
+                            )}
                             <span className="latest-news-item-meta">
                               Opens full article in a new tab
                             </span>
@@ -321,6 +339,13 @@ const LatestNews = () => {
           font-weight: 600;
           color: #0f172a;
           margin: 0 0 0.25rem 0;
+        }
+
+        .latest-news-item-description {
+          margin: 0 0 0.35rem 0;
+          color: #475569;
+          font-size: 0.9rem;
+          line-height: 1.5;
         }
 
         .latest-news-item-meta {
