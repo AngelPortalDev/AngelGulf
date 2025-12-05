@@ -15,6 +15,11 @@ const NEWS_GROUPS = [
         title: "UAE AI Revolution: Faster Work Permits and Gulf Jobs",
       },
       {
+        id: "uae-labour-law-violations",
+        to: "/uae-labour-law-violations",
+        title: "UAE Labour Law: Reporting 13 Major Labour Violations",
+      },
+      {
         id: "uae-labour-dispute-index-2024",
         to: "/uae-labour-dispute-index-2024",
         title: "UAE Tops Global Labour Dispute Index 2024 | Impact on Indian Workers",
