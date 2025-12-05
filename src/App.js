@@ -292,6 +292,9 @@ const SaudiSkillBasedWorkPermit = React.lazy(() =>
 const SaudiIqamaReforms2025 = React.lazy(() =>
   import("./components/News/SaudiIqamaReforms2025.js")
 );
+const UAELabourDisputeIndex2024 = React.lazy(() =>
+  import("./components/News/UAELabourDisputeIndex2024.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -806,6 +809,11 @@ function App() {
               exact
               path="/saudi-iqama-reforms-2025"
               element={<SaudiIqamaReforms2025 />}
+            />
+            <Route
+              exact
+              path="/uae-labour-dispute-index-2024"
+              element={<UAELabourDisputeIndex2024 />}
             />
 
             {/* Sitemap */}

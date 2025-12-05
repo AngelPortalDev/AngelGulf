@@ -10,6 +10,11 @@ const NEWS_GROUPS = [
     metaLabel: "Latest headline",
     items: [
       {
+        id: "uae-labour-dispute-index-2024",
+        to: "/uae-labour-dispute-index-2024",
+        title: "UAE Tops Global Labour Dispute Index 2024 | Impact on Indian Workers",
+      },
+      {
         id: "saudi-iqama-reforms-2025",
         to: "/saudi-iqama-reforms-2025",
         title: "Saudi Iqama Reforms 2025: New Skill-Based Work Permit System Explained",
