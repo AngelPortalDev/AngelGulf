@@ -10,6 +10,11 @@ const NEWS_GROUPS = [
     metaLabel: "Latest headline",
     items: [
       {
+        id: "uae-ai-revolution",
+        to: "/uae-ai-revolution",
+        title: "UAE AI Revolution: Faster Work Permits and Gulf Jobs",
+      },
+      {
         id: "uae-labour-dispute-index-2024",
         to: "/uae-labour-dispute-index-2024",
         title: "UAE Tops Global Labour Dispute Index 2024 | Impact on Indian Workers",
