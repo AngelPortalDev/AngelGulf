@@ -119,6 +119,9 @@ const EconomicDiversificationGCC = React.lazy(() =>
 const ApostilleAttestation = React.lazy(() =>
   import("./components/Blog/ApostilleAttestation.js")
 );
+const HRDAttestationForGulfEmployment = React.lazy(() =>
+  import("./components/Blog/HRDAttestationForGulfEmployment.js")
+);
 
 // Articles
 
@@ -527,6 +530,11 @@ function App() {
               exact
               path="/blogs/apostille-attestation-gulf-document-verification"
               element={<ApostilleAttestation />}
+            />
+            <Route
+              exact
+              path="/blogs/hrd-attestation-for-gulf-employment"
+              element={<HRDAttestationForGulfEmployment />}
             />
 
 

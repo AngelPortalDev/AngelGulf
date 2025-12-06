@@ -68,4 +68,15 @@ export const BLOG_POSTS = [
     readingTime: "7 min read",
     updatedOn: "Nov 2025",
   },
+  {
+    id: "hrd-attestation-for-gulf-employment",
+    title: "HRD Attestation for Gulf Employment",
+    description:
+      "Understand HRD, MEA, embassy, and MOFA attestation stages for Indian degrees headed to GCC job markets.",
+    to: "/blogs/hrd-attestation-for-gulf-employment",
+    imageKey: "hrdAttestation",
+    category: "Compliance & Documentation",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
 ];

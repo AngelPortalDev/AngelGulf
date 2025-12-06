@@ -8,6 +8,7 @@ import KafalaImg from "../../assets/images/blogs/kafala.png";
 import { BLOG_POSTS } from "./blogConfig";
 import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Diversification-in-GCC-Countries.png";
 import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attestation-blog-list.png";
+import hrdAttestation from "../../assets/images/blogs/HRD-Attestation.png";
 
 
 
@@ -18,6 +19,7 @@ const imageMap = {
   kafala: KafalaImg,
   economicDiversificationGCC: EconomicDiversificationGCCImg,
   apostilleAttestation: ApostilleAttestationImg,
+  hrdAttestation: hrdAttestation,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({
