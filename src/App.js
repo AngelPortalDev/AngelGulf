@@ -122,6 +122,9 @@ const ApostilleAttestation = React.lazy(() =>
 const HRDAttestationForGulfEmployment = React.lazy(() =>
   import("./components/Blog/HRDAttestationForGulfEmployment.js")
 );
+const WaqalaSystemInSaudiArabia = React.lazy(() =>
+  import("./components/Blog/WaqalaSystemInSaudiArabia.js")
+);
 
 // Articles
 
@@ -535,6 +538,11 @@ function App() {
               exact
               path="/blogs/hrd-attestation-for-gulf-employment"
               element={<HRDAttestationForGulfEmployment />}
+            />
+            <Route
+              exact
+              path="/blogs/waqala-system-in-saudi-arabia"
+              element={<WaqalaSystemInSaudiArabia />}
             />
 
 

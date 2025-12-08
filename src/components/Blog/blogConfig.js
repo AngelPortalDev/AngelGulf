@@ -79,4 +79,15 @@ export const BLOG_POSTS = [
     readingTime: "8 min read",
     updatedOn: "Dec 2025",
   },
+  {
+    id: "waqala-system-in-saudi-arabia",
+    title: "Waqala System in Saudi Arabia",
+    description:
+      "Learn how the Waqala system empowers licensed overseas recruitment agencies like Angel Gulf Jobs to manage Saudi employer authorisations, documentation, and visa procedures for Indian workers.",
+    to: "/blogs/waqala-system-in-saudi-arabia",
+    imageKey: "waqalaSystem",
+    category: "Recruitment & Compliance",
+    readingTime: "7 min read",
+    updatedOn: "Dec 2025",
+  },
 ];
