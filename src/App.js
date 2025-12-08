@@ -48,7 +48,7 @@ const GCCIndustries = React.lazy(() =>
 );
 
 // Industries component
-const Industries = React.lazy(() => import("./components/Industries.js"));
+// const Industries = React.lazy(() => import("./components/Industries.js"));
 
 // Process components
 const RecruitmentProcedures = React.lazy(() =>

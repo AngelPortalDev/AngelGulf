@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Testimonials.css";
 import TestimonialsStats from "./shared/TestimonialsStats";
 import Akash from "../assets/images/candidates-testimonials/akash-achari.png";
