@@ -101,4 +101,15 @@ export const BLOG_POSTS = [
     readingTime: "9 min read",
     updatedOn: "Dec 2025",
   },
+  {
+    id: "wage-protection-system-gcc-countries",
+    title: "Wage Protection Systems or WPS in GCC Countries",
+    description:
+      "Understand how Wage Protection Systems (WPS) in GCC countries safeguard worker salaries and support safe, transparent jobs in Gulf.",
+    to: "/blogs/wage-protection-system-gcc-countries",
+    imageKey: "wpsGCC",
+    category: "Labour Rights & Policy",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
 ];

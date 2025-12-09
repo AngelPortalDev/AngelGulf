@@ -128,6 +128,9 @@ const WaqalaSystemInSaudiArabia = React.lazy(() =>
 const SaudiLabourLawGuide = React.lazy(() =>
   import("./components/Blog/SaudiLabourLawGuide.js")
 );
+const WageProtectionSystemGCC = React.lazy(() =>
+  import("./components/Blog/WageProtectionSystemGCC.js")
+);
 
 // Articles
 
@@ -546,6 +549,11 @@ function App() {
               exact
               path="/blogs/waqala-system-in-saudi-arabia"
               element={<WaqalaSystemInSaudiArabia />}
+            />
+            <Route
+              exact
+              path="/blogs/wage-protection-system-gcc-countries"
+              element={<WageProtectionSystemGCC />}
             />
             <Route
               exact

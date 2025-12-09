@@ -11,6 +11,7 @@ import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attesta
 import hrdAttestation from "../../assets/images/blogs/HRD-Attestation.png";
 import WaqalaImg from "../../assets/images/blogs/Waqala-System-bg.png";
 import SaudiLabourLawImg from "../../assets/images/blogs/saudi-labour-law-bg.png";
+import WageProtectionSystemGCCImg from "../../assets/images/blogs/Wage-Protection-System-bg.png";
 
 
 const imageMap = {
@@ -23,6 +24,7 @@ const imageMap = {
   hrdAttestation: hrdAttestation,
   waqalaSystem: WaqalaImg,
   saudiLabourLaw: SaudiLabourLawImg, 
+  wpsGCC: WageProtectionSystemGCCImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

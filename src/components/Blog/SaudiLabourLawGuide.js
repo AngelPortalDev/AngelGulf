@@ -142,7 +142,15 @@ const SaudiLabourLawGuide = () => {
           <li>Overtime rules: According to Saudi Labour Law, overtime must be paid at 150% of your basic hourly wage. It is enforced through the Wage Protection System to protect employees.</li>
         </ul>
         <p>
-          For more details on the Wage Protection System, visit: Wage Protection System (WPS) in GCC Countries.
+          For more details on the Wage Protection System, visit:{" "}
+          <a
+            href="/blogs/wage-protection-system-gcc-countries"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wage Protection System (WPS) in GCC Countries
+          </a>
+          .
         </p>
       </section>
 
