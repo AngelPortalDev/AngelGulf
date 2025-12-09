@@ -10,7 +10,7 @@ import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Di
 import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attestation-blog-list.png";
 import hrdAttestation from "../../assets/images/blogs/HRD-Attestation.png";
 import WaqalaImg from "../../assets/images/blogs/Waqala-System-bg.png";
-
+import SaudiLabourLawImg from "../../assets/images/blogs/saudi-labour-law-bg.png";
 
 
 const imageMap = {
@@ -22,6 +22,7 @@ const imageMap = {
   apostilleAttestation: ApostilleAttestationImg,
   hrdAttestation: hrdAttestation,
   waqalaSystem: WaqalaImg,
+  saudiLabourLaw: SaudiLabourLawImg, 
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

@@ -90,4 +90,15 @@ export const BLOG_POSTS = [
     readingTime: "7 min read",
     updatedOn: "Dec 2025",
   },
+  {
+    id: "saudi-arabia-labour-law-guide-2025",
+    title: "Saudi Labour Law:  Complete Guide for Jobs in Saudi Arabia",
+    description:
+      "Understand 2025 Saudi Labour Law updates, visa rules, contracts, working hours, leave, salary protection and expat rights for overseas jobs in Saudi Arabia.",
+    to: "/blogs/saudi-arabia-labour-law-guide-2025",
+    imageKey: "saudiLabourLaw",
+    category: "Labour Rights & Policy",
+    readingTime: "9 min read",
+    updatedOn: "Dec 2025",
+  },
 ];

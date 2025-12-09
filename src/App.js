@@ -125,6 +125,9 @@ const HRDAttestationForGulfEmployment = React.lazy(() =>
 const WaqalaSystemInSaudiArabia = React.lazy(() =>
   import("./components/Blog/WaqalaSystemInSaudiArabia.js")
 );
+const SaudiLabourLawGuide = React.lazy(() =>
+  import("./components/Blog/SaudiLabourLawGuide.js")
+);
 
 // Articles
 
@@ -543,6 +546,11 @@ function App() {
               exact
               path="/blogs/waqala-system-in-saudi-arabia"
               element={<WaqalaSystemInSaudiArabia />}
+            />
+            <Route
+              exact
+              path="/blogs/saudi-arabia-labour-law-guide-2025"
+              element={<SaudiLabourLawGuide />}
             />
 
 
