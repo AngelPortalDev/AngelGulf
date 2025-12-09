@@ -131,6 +131,9 @@ const SaudiLabourLawGuide = React.lazy(() =>
 const WageProtectionSystemGCC = React.lazy(() =>
   import("./components/Blog/WageProtectionSystemGCC.js")
 );
+const QiwaSaudiGuide = React.lazy(() =>
+  import("./components/Blog/QiwaSaudiGuide.js")
+);
 
 // Articles
 
@@ -554,6 +557,11 @@ function App() {
               exact
               path="/blogs/wage-protection-system-gcc-countries"
               element={<WageProtectionSystemGCC />}
+            />
+            <Route
+              exact
+              path="/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi"
+              element={<QiwaSaudiGuide />}
             />
             <Route
               exact

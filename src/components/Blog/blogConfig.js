@@ -112,4 +112,15 @@ export const BLOG_POSTS = [
     readingTime: "8 min read",
     updatedOn: "Dec 2025",
   },
+    {
+      id: "understanding-qiwa-platform-guide-for-jobs-in-saudi",
+      title: "Understanding Qiwa Platform: A Guide for Jobs in Saudi",
+      description:
+        "Learn how Saudi Arabia's Qiwa platform simplifies digital contracts, work permits, labour protection, and overseas employment for Gulf jobseekers.",
+      to: "/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi",
+      imageKey: "qiwaSystem",
+      category: "Labour Rights & Policy",
+      readingTime: "8 min read",
+      updatedOn: "Dec 2025",
+    },
 ];
