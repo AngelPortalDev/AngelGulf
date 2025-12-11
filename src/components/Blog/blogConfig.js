@@ -112,37 +112,48 @@ export const BLOG_POSTS = [
     readingTime: "8 min read",
     updatedOn: "Dec 2025",
   },
-    {
-      id: "understanding-qiwa-platform-guide-for-jobs-in-saudi",
-      title: "Understanding Qiwa Platform: A Guide for Jobs in Saudi",
-      description:
-        "Learn how Saudi Arabia's Qiwa platform simplifies digital contracts, work permits, labour protection, and overseas employment for Gulf jobseekers.",
-      to: "/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi",
-      imageKey: "qiwaSystem",
-      category: "Labour Rights & Policy",
-      readingTime: "8 min read",
-      updatedOn: "Dec 2025",
-    },
-    {
-      id: "qatar-visa-centre-guide",
-      title: "Qatar Visa Centre (QVC): A Complete Guide",
-      description:
-        "Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits.",
-      to: "/blogs/qatar-visa-centre-guide",
-      imageKey: "qatarVisaCentre",
-      category: "Visa Process",
-      readingTime: "8 min read",
-      updatedOn: "Dec 2025",
-    },
-    {
-      id: "trade-testing-program-saudi-arabia",
-      title: "Trade Testing Program of Saudi Arabia",
-      description:
-        "Understand Saudi Arabia's Skill Verification Programme (SVP) for Indian workers, trade testing tracks, required documents, and exam rules.",
-      to: "/blogs/trade-testing-program-of-saudi-arabia",
-      imageKey: "tradeTestingSaudi",
-      category: "Skill Verification",
-      readingTime: "8 min read",
-      updatedOn: "Dec 2025",
-    },
+  {
+    id: "understanding-qiwa-platform-guide-for-jobs-in-saudi",
+    title: "Understanding Qiwa Platform: A Guide for Jobs in Saudi",
+    description:
+      "Learn how Saudi Arabia's Qiwa platform simplifies digital contracts, work permits, labour protection, and overseas employment for Gulf jobseekers.",
+    to: "/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi",
+    imageKey: "qiwaSystem",
+    category: "Labour Rights & Policy",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
+  {
+    id: "qatar-visa-centre-guide",
+    title: "Qatar Visa Centre (QVC): A Complete Guide",
+    description:
+      "Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits.",
+    to: "/blogs/qatar-visa-centre-guide",
+    imageKey: "qatarVisaCentre",
+    category: "Visa Process",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
+  {
+    id: "trade-testing-program-saudi-arabia",
+    title: "Trade Testing Program of Saudi Arabia",
+    description:
+      "Understand Saudi Arabia's Skill Verification Programme (SVP) for Indian workers, trade testing tracks, required documents, and exam rules.",
+    to: "/blogs/trade-testing-program-of-saudi-arabia",
+    imageKey: "tradeTestingSaudi",
+    category: "Skill Verification",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
+  {
+    id: "ethical-overseas-recruitment",
+    title: "Ethical Overseas Recruitment for Gulf Job Seekers",
+    description:
+      "Discover ethical overseas recruitment for Gulf jobs with verified, scam-free opportunities. Angel Gulf Jobs ensures transparency, trusted employers, and safe hiring.",
+    to: "/blogs/ethical-overseas-recruitment",
+    imageKey: "ethicalRecruitment",
+    category: "Recruitment & Compliance",
+    readingTime: "7 min read",
+    updatedOn: "Dec 2025",
+  },
 ];

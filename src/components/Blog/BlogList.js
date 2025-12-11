@@ -15,6 +15,7 @@ import WageProtectionSystemGCCImg from "../../assets/images/blogs/Wage-Protectio
 import QiwaSystem from "../../assets/images/blogs/qiwa-bg.jpg";
 import QatarVisaCentreImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
 import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Program.png";
+import EthicalRecruitmentImg from "../../assets/images/blogs/Ethical-Overseas-Recruitment-bg.png";
 
 
 const imageMap = {
@@ -26,11 +27,12 @@ const imageMap = {
   apostilleAttestation: ApostilleAttestationImg,
   hrdAttestation: hrdAttestation,
   waqalaSystem: WaqalaImg,
-  saudiLabourLaw: SaudiLabourLawImg, 
+  saudiLabourLaw: SaudiLabourLawImg,
   wpsGCC: WageProtectionSystemGCCImg,
   qiwaSystem: QiwaSystem,
   qatarVisaCentre: QatarVisaCentreImg,
   tradeTestingSaudi: TradeTestingProgramImg,
+  ethicalRecruitment: EthicalRecruitmentImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({
@@ -62,20 +64,20 @@ const BlogList = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-           
+
                 <div className="row justify-content-center mb-5">
-              <div className="col-lg-8 text-center">
+                  <div className="col-lg-8 text-center">
 
-                <div className="blog-badge">Latest insights</div>
+                    <div className="blog-badge">Latest insights</div>
 
-                <h2 className="section-title">Latest from Angel Gulf Jobs</h2>
+                    <h2 className="section-title">Latest from Angel Gulf Jobs</h2>
 
-                <p className="section-subtitle">
-                  Discover expert tips, scam alerts, and success stories designed to support your Gulf job journey.
-                </p>
+                    <p className="section-subtitle">
+                      Discover expert tips, scam alerts, and success stories designed to support your Gulf job journey.
+                    </p>
 
-              </div>
-            </div>
+                  </div>
+                </div>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center mb-0 bg-transparent bloglayout-breadcrumb">
                     <li className="breadcrumb-item">
