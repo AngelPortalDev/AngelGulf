@@ -134,6 +134,9 @@ const WageProtectionSystemGCC = React.lazy(() =>
 const QiwaSaudiGuide = React.lazy(() =>
   import("./components/Blog/QiwaSaudiGuide.js")
 );
+const QatarVisaCentreGuide = React.lazy(() =>
+  import("./components/Blog/QatarVisaCentreGuide.js")
+);
 
 // Articles
 
@@ -567,6 +570,11 @@ function App() {
               exact
               path="/blogs/saudi-arabia-labour-law-guide-2025"
               element={<SaudiLabourLawGuide />}
+            />
+            <Route
+              exact
+              path="/blogs/qatar-visa-centre-guide"
+              element={<QatarVisaCentreGuide />}
             />
 
 

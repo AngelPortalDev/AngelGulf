@@ -123,4 +123,15 @@ export const BLOG_POSTS = [
       readingTime: "8 min read",
       updatedOn: "Dec 2025",
     },
+    {
+      id: "qatar-visa-centre-guide",
+      title: "Qatar Visa Centre (QVC): A Complete Guide",
+      description:
+        "Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits.",
+      to: "/blogs/qatar-visa-centre-guide",
+      imageKey: "qatarVisaCentre",
+      category: "Visa Process",
+      readingTime: "8 min read",
+      updatedOn: "Dec 2025",
+    },
 ];
