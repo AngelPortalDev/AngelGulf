@@ -14,6 +14,7 @@ import SaudiLabourLawImg from "../../assets/images/blogs/saudi-labour-law-bg.png
 import WageProtectionSystemGCCImg from "../../assets/images/blogs/Wage-Protection-System-bg.png";
 import QiwaSystem from "../../assets/images/blogs/qiwa-bg.jpg";
 import QatarVisaCentreImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
+import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Program.png";
 
 
 const imageMap = {
@@ -29,6 +30,7 @@ const imageMap = {
   wpsGCC: WageProtectionSystemGCCImg,
   qiwaSystem: QiwaSystem,
   qatarVisaCentre: QatarVisaCentreImg,
+  tradeTestingSaudi: TradeTestingProgramImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

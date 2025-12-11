@@ -137,6 +137,9 @@ const QiwaSaudiGuide = React.lazy(() =>
 const QatarVisaCentreGuide = React.lazy(() =>
   import("./components/Blog/QatarVisaCentreGuide.js")
 );
+const TradeTestingProgramSaudi = React.lazy(() =>
+  import("./components/Blog/TradeTestingProgramSaudi.js")
+);
 
 // Articles
 
@@ -575,6 +578,11 @@ function App() {
               exact
               path="/blogs/qatar-visa-centre-guide"
               element={<QatarVisaCentreGuide />}
+            />
+            <Route
+              exact
+              path="/blogs/trade-testing-program-of-saudi-arabia"
+              element={<TradeTestingProgramSaudi />}
             />
 
 

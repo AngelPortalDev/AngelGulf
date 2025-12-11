@@ -134,4 +134,15 @@ export const BLOG_POSTS = [
       readingTime: "8 min read",
       updatedOn: "Dec 2025",
     },
+    {
+      id: "trade-testing-program-saudi-arabia",
+      title: "Trade Testing Program of Saudi Arabia",
+      description:
+        "Understand Saudi Arabia's Skill Verification Programme (SVP) for Indian workers, trade testing tracks, required documents, and exam rules.",
+      to: "/blogs/trade-testing-program-of-saudi-arabia",
+      imageKey: "tradeTestingSaudi",
+      category: "Skill Verification",
+      readingTime: "8 min read",
+      updatedOn: "Dec 2025",
+    },
 ];
