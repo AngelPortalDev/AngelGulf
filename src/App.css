@@ -306,3 +306,63 @@
     grid-row: 2;
   }
 }
+
+/* BeAware modal refined styling */
+.beaware-modal .modal-dialog {
+  max-width: 560px;
+}
+
+.beaware-modal-content {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.24);
+  overflow: hidden;
+}
+
+.beaware-modal-header {
+  padding: 0.85rem 0.85rem 0 0.85rem;
+}
+
+.beaware-modal-body {
+  padding: 1.25rem 1.75rem 1.75rem;
+}
+
+.beaware-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: rgba(0, 155, 212, 0.08);
+  color: #009bd4;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.beaware-close {
+  filter: none;
+  opacity: 0.7;
+}
+
+.beaware-close:hover,
+.beaware-close:focus {
+  opacity: 1;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.35);
+  backdrop-filter: blur(2px);
+  z-index: 1040;
+}
+
+@media (max-width: 575.98px) {
+  .beaware-modal-body {
+    padding: 1rem 1.25rem 1.25rem;
+  }
+}

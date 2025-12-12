@@ -48,7 +48,7 @@ const GCCIndustries = React.lazy(() =>
 );
 
 // Industries component
-const Industries = React.lazy(() => import("./components/Industries.js"));
+// const Industries = React.lazy(() => import("./components/Industries.js"));
 
 // Process components
 const RecruitmentProcedures = React.lazy(() =>
@@ -83,6 +83,7 @@ const QuatarJobs = React.lazy(() => import("./components/Jobs/QuatarJobs.js"));
 const BahrainJobs = React.lazy(() =>
   import("./components/Jobs/BahrainJobs.js")
 );
+const KuwaitJobs = React.lazy(() => import("./components/Jobs/KuwaitJobs.js"));
 
 // Footer Pages components
 const AreaofInterest = React.lazy(() =>
@@ -117,6 +118,30 @@ const EconomicDiversificationGCC = React.lazy(() =>
 );
 const ApostilleAttestation = React.lazy(() =>
   import("./components/Blog/ApostilleAttestation.js")
+);
+const HRDAttestationForGulfEmployment = React.lazy(() =>
+  import("./components/Blog/HRDAttestationForGulfEmployment.js")
+);
+const WaqalaSystemInSaudiArabia = React.lazy(() =>
+  import("./components/Blog/WaqalaSystemInSaudiArabia.js")
+);
+const SaudiLabourLawGuide = React.lazy(() =>
+  import("./components/Blog/SaudiLabourLawGuide.js")
+);
+const WageProtectionSystemGCC = React.lazy(() =>
+  import("./components/Blog/WageProtectionSystemGCC.js")
+);
+const QiwaSaudiGuide = React.lazy(() =>
+  import("./components/Blog/QiwaSaudiGuide.js")
+);
+const QatarVisaCentreGuide = React.lazy(() =>
+  import("./components/Blog/QatarVisaCentreGuide.js")
+);
+const TradeTestingProgramSaudi = React.lazy(() =>
+  import("./components/Blog/TradeTestingProgramSaudi.js")
+);
+const EthicalOverseasRecruitment = React.lazy(() =>
+  import("./components/Blog/EthicalOverseasRecruitment.js")
 );
 
 // Articles
@@ -288,6 +313,18 @@ const UAEDigitalWorkPermitSystem = React.lazy(() =>
 const SaudiSkillBasedWorkPermit = React.lazy(() =>
   import("./components/News/SaudiSkillBasedWorkPermit.js")
 );
+const SaudiIqamaReforms2025 = React.lazy(() =>
+  import("./components/News/SaudiIqamaReforms2025.js")
+);
+const UAELabourDisputeIndex2024 = React.lazy(() =>
+  import("./components/News/UAELabourDisputeIndex2024.js")
+);
+const UAEAIRevolution = React.lazy(() =>
+  import("./components/News/UAEAIRevolution.js")
+);
+const UAELabourViolations = React.lazy(() =>
+  import("./components/News/UAELabourViolations.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -438,14 +475,8 @@ function App() {
               path="/foreign-exchange"
               element={<ForeignExchange />}
             />
-            <Route
-              exact
-              path="/gcc-industries"
-              element={<GCCIndustries />}
-            />
-
             {/* Industries */}
-            <Route exact path="/industries" element={<Industries />} />
+            <Route exact path="/industries" element={<GCCIndustries />} />
 
             {/* Process */}
             <Route
@@ -474,10 +505,11 @@ function App() {
             <Route exact path="/jobs-in-oman" element={<OmanJobs />} />
             <Route exact path="/jobs-in-qatar" element={<QuatarJobs />} />
             <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/jobs-in-kuwait" element={<KuwaitJobs />} />
 
             {/* Modal */}
-            
-            <Route exact path="/BeAwareModal" element={<BeAwareModal/>}/>
+
+            <Route exact path="/BeAwareModal" element={<BeAwareModal />} />
 
             {/* Footer Pages */}
 
@@ -488,7 +520,7 @@ function App() {
             <Route exact path="/press-release" element={<PressRelease />} />
             <Route exact path="/site-map" element={<Sitemap />} />
             <Route exact path="/blogs" element={<BlogList />} />
-           
+
             {/* Blog routes*/}
             <Route
               exact
@@ -520,7 +552,47 @@ function App() {
               path="/blogs/apostille-attestation-gulf-document-verification"
               element={<ApostilleAttestation />}
             />
-           
+            <Route
+              exact
+              path="/blogs/hrd-attestation-for-gulf-employment"
+              element={<HRDAttestationForGulfEmployment />}
+            />
+            <Route
+              exact
+              path="/blogs/waqala-system-in-saudi-arabia"
+              element={<WaqalaSystemInSaudiArabia />}
+            />
+            <Route
+              exact
+              path="/blogs/wage-protection-system-gcc-countries"
+              element={<WageProtectionSystemGCC />}
+            />
+            <Route
+              exact
+              path="/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi"
+              element={<QiwaSaudiGuide />}
+            />
+            <Route
+              exact
+              path="/blogs/saudi-arabia-labour-law-guide-2025"
+              element={<SaudiLabourLawGuide />}
+            />
+            <Route
+              exact
+              path="/blogs/qatar-visa-centre-guide"
+              element={<QatarVisaCentreGuide />}
+            />
+            <Route
+              exact
+              path="/blogs/trade-testing-program-of-saudi-arabia"
+              element={<TradeTestingProgramSaudi />}
+            />
+            <Route
+              exact
+              path="/blogs/ethical-overseas-recruitment"
+              element={<EthicalOverseasRecruitment />}
+            />
+
 
             {/* Articles */}
 
@@ -803,6 +875,26 @@ function App() {
               path="/saudi-skill-based-work-permit-system"
               element={<SaudiSkillBasedWorkPermit />}
             />
+            <Route
+              exact
+              path="/saudi-iqama-reforms-2025"
+              element={<SaudiIqamaReforms2025 />}
+            />
+            <Route
+              exact
+              path="/uae-labour-dispute-index-2024"
+              element={<UAELabourDisputeIndex2024 />}
+            />
+            <Route
+              exact
+              path="/uae-ai-revolution"
+              element={<UAEAIRevolution />}
+            />
+            <Route
+              exact
+              path="/uae-labour-law-violations"
+              element={<UAELabourViolations />}
+            />
 
             {/* Sitemap */}
 
@@ -920,7 +1012,7 @@ function App() {
 
 
 
-                {/* Admin Routes */}    
+            {/* Admin Routes */}
             <Route
               path="/addjob"
               element={
@@ -957,19 +1049,19 @@ function App() {
               path="/managejobs"
               element={
                 <ProtectedRoute>
-                  <ManageJobs/>
+                  <ManageJobs />
                 </ProtectedRoute>
               }
             />
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/job-list" element={<JobListing />} />
             <Route path="/job-details/:jobId" element={<JobDetails />} />
-            <Route path="/apply-job/:jobId" element={<JobApplicationForm/>}/>
-            <Route path="/registration" element={<RegistrationForm/>}/>
+            <Route path="/apply-job/:jobId" element={<JobApplicationForm />} />
+            <Route path="/registration" element={<RegistrationForm />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AuthProvider>
-       
+
         <LocationAwareFooter />
       </div>
     </Router>

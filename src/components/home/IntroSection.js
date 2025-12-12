@@ -127,8 +127,7 @@ const IntroSection = () => {
                       <QuoteIcon />
                     </div>
                     <p className="intro-highlight-text">
-                      Our mission is simple. Being a specialist Gulf job consultant, Angel Gulf Jobs provides its services across
-                      the UAE, Qatar, Bahrain, Oman, Saudi Arabia & the entire Gulf.
+                      Our mission is simple. Angel Gulf Jobs, as a leading Gulf job consultant, provides its services to employers and job seekers across the UAE, Qatar, Bahrain, Oman, Saudi Arabia, and Kuwait.
                     </p>
                   </div>
                 </div>

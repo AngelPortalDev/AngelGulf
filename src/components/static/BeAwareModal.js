@@ -43,56 +43,46 @@ const BeAwareModal = () => {
       {showModal && (
         <>
           {/* Overlay */}
-          <div
-            className="modal-overlay"
-            style={{
-              position: "fixed",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
-              backgroundColor: "rgba(0, 0, 0, 0.5)",
-              zIndex: 1040, // Behind modal but above other content
-            }}
-          ></div>
+          <div className="modal-overlay" />
 
           {/* Modal */}
           <div
-            className="modal fade twm-sign-up show"
+            className="modal fade twm-sign-up show beaware-modal"
             id="sign_up_popup"
             aria-hidden="true"
             aria-labelledby="sign_up_popupLabel"
             tabIndex="-1"
-            style={{ display: "block", zIndex: 1050 }}
+            style={{ display: "block" }}
           >
             <div className="modal-dialog modal-dialog-centered">
-              <div className="modal-content">
+              <div className="modal-content beaware-modal-content">
                 <form>
-                  <div className="modal-header mt-0">
+                  <div className="modal-header border-0 pb-0 d-flex justify-content-end align-items-start beaware-modal-header">
                     <button
                       type="button"
-                      className="btn-close"
+                      className="btn-close beaware-close"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                       onClick={closeModal}
                     ></button>
                   </div>
 
-                  <div className="modal-body">
-                    <div className="update-section">
-                        <h5 className="blueuText">📣 Important Update:</h5>
-                        <p>
-                            We're excited to share that Angel Management Consultant
-                            is in the process of becoming <strong>Angel Portal Private
-                            Limited.</strong> During this transition, you may see both names
-                            being used—please note that it's still the same trusted
-                            team and services behind the scenes. Thank you for your
-                            continued trust and support!
-                        </p>
+                  <div className="modal-body pt-0 beaware-modal-body">
+                    <div className="update-section mb-3">
+                      <div className="beaware-badge">Update</div>
+                      <h5 className="blueuText mb-2">📣 Important Update:</h5>
+                      <p>
+                        We're excited to share that Angel Management Consultant
+                        is in the process of becoming <strong>Angel Portal Private
+                        Limited.</strong> During this transition, you may see both names
+                        being used—please note that it's still the same trusted
+                        team and services behind the scenes. Thank you for your
+                        continued trust and support!
+                      </p>
                     </div>
-                    <hr />
+                    <hr className="my-3" />
                     <div className="alert-section">
-                      <h5 className="text-danger">⚠️Fraud Alert – Please Read ⚠️</h5>
+                      <h5 className="text-danger mb-2">⚠️Fraud Alert – Please Read ⚠️</h5>
                       <p>
                         Some individuals are fraudulently using our name. We
                         only send emails from our official domain:
@@ -100,9 +90,10 @@ const BeAwareModal = () => {
                         <br />
                         (e.g., info@angelgulfjobs.com)
                       </p>
-                      <p>If you receive an email from any other domain, it is not from us.
-                      Please do not respond and report it to us immediately.</p>
-                     
+                      <p>
+                        If you receive an email from any other domain, it is not from us.
+                        Please do not respond and report it to us immediately.
+                      </p>
                     </div>
                   </div>
                 </form>

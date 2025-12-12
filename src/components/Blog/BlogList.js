@@ -8,7 +8,14 @@ import KafalaImg from "../../assets/images/blogs/kafala.png";
 import { BLOG_POSTS } from "./blogConfig";
 import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Diversification-in-GCC-Countries.png";
 import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attestation-blog-list.png";
-
+import hrdAttestation from "../../assets/images/blogs/HRD-Attestation.png";
+import WaqalaImg from "../../assets/images/blogs/Waqala-System-bg.png";
+import SaudiLabourLawImg from "../../assets/images/blogs/saudi-labour-law-bg.png";
+import WageProtectionSystemGCCImg from "../../assets/images/blogs/Wage-Protection-System-bg.png";
+import QiwaSystem from "../../assets/images/blogs/qiwa-bg.jpg";
+import QatarVisaCentreImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
+import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Program.png";
+import EthicalRecruitmentImg from "../../assets/images/blogs/Ethical-Overseas-Recruitment-bg.png";
 
 
 const imageMap = {
@@ -18,6 +25,14 @@ const imageMap = {
   kafala: KafalaImg,
   economicDiversificationGCC: EconomicDiversificationGCCImg,
   apostilleAttestation: ApostilleAttestationImg,
+  hrdAttestation: hrdAttestation,
+  waqalaSystem: WaqalaImg,
+  saudiLabourLaw: SaudiLabourLawImg,
+  wpsGCC: WageProtectionSystemGCCImg,
+  qiwaSystem: QiwaSystem,
+  qatarVisaCentre: QatarVisaCentreImg,
+  tradeTestingSaudi: TradeTestingProgramImg,
+  ethicalRecruitment: EthicalRecruitmentImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({
@@ -49,12 +64,20 @@ const BlogList = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
-                <h1 className="display-4 fw-bold mb-3 bloglayout-title">
-                  Angel Gulf Jobs Blog
-                </h1>
-                <p className="lead text-muted mb-4">
-                  Curated guidance and scam alerts from the Angel Gulf Jobs team to keep your overseas job search safe and confident.
-                </p>
+
+                <div className="row justify-content-center mb-5">
+                  <div className="col-lg-8 text-center">
+
+                    <div className="blog-badge">Latest insights</div>
+
+                    <h2 className="section-title">Latest from Angel Gulf Jobs</h2>
+
+                    <p className="section-subtitle">
+                      Discover expert tips, scam alerts, and success stories designed to support your Gulf job journey.
+                    </p>
+
+                  </div>
+                </div>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb justify-content-center mb-0 bg-transparent bloglayout-breadcrumb">
                     <li className="breadcrumb-item">
@@ -75,22 +98,6 @@ const BlogList = () => {
         {/* BLOG LIST BODY */}
         <div className="py-5 bloglayout-body">
           <div className="container">
-
-            {/* SECTION TITLE */}
-            <div className="row justify-content-center mb-5">
-              <div className="col-lg-8 text-center">
-
-                <div className="blog-badge">Latest insights</div>
-
-                <h2 className="section-title">Latest from Angel Gulf Jobs</h2>
-
-                <p className="section-subtitle">
-                  Discover expert tips, scam alerts, and success stories designed to support your Gulf job journey.
-                </p>
-
-              </div>
-            </div>
-
             {/* BLOG CARDS */}
             <div className="row g-4 justify-content-center">
               {blogs.map((blog) => (

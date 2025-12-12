@@ -238,11 +238,6 @@ const Header = () => {
                           Foreign Exchange
                         </NavLink>
                       </li>
-                      <li>
-                        <NavLink to="/gcc-industries" target="_blank">
-                          GCC Industries
-                        </NavLink>
-                      </li>
                     </ul>
                   </li>
                   <li className="has-child removearrowicon">
@@ -294,7 +289,9 @@ const Header = () => {
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink>Work in Kuwait</NavLink>
+                        <NavLink to="/jobs-in-kuwait" target="_blank">
+                          Work in Kuwait
+                        </NavLink>
                       </li>
                       <li>
                         <NavLink to="/jobs-in-qatar" target="_blank">

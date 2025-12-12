@@ -1,24 +1,21 @@
 import React from "react";
-// import authentication from '../../assets/images/backgroundImages/authentication.jpg';
 import authentication from '../../assets/images/NewImages/authentication.avif';
-
-
-
-
+import documentAttestationImage from '../../assets/images/document_attestation_process.png';
+import apostilleVsAttestationImage from '../../assets/images/apostille_vs_attestation.png';
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const Authentication = () => {
   return (
     <div>
-        <Helmet>
-          <title>Dubai Work Permit Visa, Dubai Working Visa Processing Time</title>
-          <meta name="keywords" content="Dubai Work Permit Visa, Dubai Working Visa Processing Time, authentication services, authentication centres, documents authentication"/>
-          <meta name="description" content="Are you planning to apply for Dubai work permit visa, than what are you waiting for? Get to know about Dubai working visa processing time, requirements etc."/>
-          <link rel="canonical" href="https://www.angelgulfjobs.com/authentication"/> 
-          <meta name="revisit-after" content="7 days"/>
-          <meta name="robots" content="index, follow"/>
-        </Helmet>
+      <Helmet>
+        <title>Document Attestation for Gulf Jobs | Certificate & Apostille India</title>
+        <meta name="keywords" content="document attestation, certificate attestation, apostille attestation, Gulf jobs, attestation for employment visa, GCC countries attestation, apostille India, Angel Gulf Jobs" />
+        <meta name="description" content="Step-by-step guide to document, certificate and apostille attestation for Gulf jobs. Learn GCC countries attestation, MEA process and how Angel Gulf Jobs can help." />
+        <link rel="canonical" href="https://www.angelgulfjobs.com/authentication" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div>
         <div className="page-content">
           {/* INNER PAGE BANNER */}
@@ -31,7 +28,7 @@ const Authentication = () => {
               <div className="wt-bnr-inr-entry">
                 <div className="banner-title-outer">
                   <div className="banner-title-name background-heading p-3">
-                    <h2 className="wt-title darkblueTxt">Authentication</h2>
+                    <h2 className="wt-title darkblueTxt">Document Attestation for Gulf Jobs</h2>
                   </div>
                 </div>
                 {/* BREADCRUMB ROW */}
@@ -40,7 +37,7 @@ const Authentication = () => {
                     <li>
                       <NavLink to='/'>Home</NavLink>
                     </li>
-                    <li>Authentication</li>
+                    <li>Document Attestation</li>
                   </ul>
                 </div>
                 {/* BREADCRUMB ROW END */}
@@ -48,1814 +45,527 @@ const Authentication = () => {
             </div>
           </div>
           {/* INNER PAGE BANNER END */}
-          {/* Employer Detail START */}
-          <div className="section-full  p-t30 p-b50 bg-white">
+          {/* Content Detail START */}
+          <div className="section-full p-t20 p-b40 bg-white">
             <div className="container">
               <div className="section-content">
                 <div className="row d-flex justify-content-center">
                   <div className="col-lg-10 col-md-12">
-                    {/* Candidate detail START */}
+                    {/* Content START */}
                     <div className="cabdidate-de-info">
-                      <h2 className="twm-s-title blueuText">
-                        How to Get Gulf Work Permit Visa.
-                      </h2>
-                      <p>
-                        Foreign nationals who want to work in Dubai, the most
-                        sought-after place for working expats, need a{" "}
-                        <strong>Dubai work permit, </strong> and to get a job in
-                        the Gulf countries, they require a Gulf work permit
-                        visa. Here, we have covered the process for both.
+                      <p className="mt-5">
+                        Angel Gulf Job is a licensed overseas job consultant for Gulf countries. It supports candidates with Gulf job placement, visa documentation, document verification, and Wafid medical guidance, ensuring every job seeker successfully finds their dream job in Gulf. As part of preparing for employment in the Gulf, it is also important to understand how GCC countries attestation and apostille India works.
                       </p>
                       <p>
-                        Gulf countries are known for their oil and gas reserve.
-                        The part has approximately 2/3 of the world’s estimated
-                        oil reserves and one-third of the world’s estimated gas
-                        reserves. Both factors make Gulf countries
-                        self-sufficient and leading exporters of the same.
+                        Several GCC nations, including Bahrain, Oman, and Saudi Arabia, are members of the Hague Convention. The Hague Convention is an international treaty that simplifies document legalisation among its member countries. This means that apostilled documents from India are directly accepted in these countries without any additional embassy attestation.
                       </p>
                       <p>
-                        Petrochemical, tourism and other petroleum-based
-                        industries are also expanding in the region and
-                        significantly contributing to the expansion of the Gulf
-                        economy.
+                        In the non-Hague member Gulf countries, such as Qatar, UAE, and Kuwait, an apostille alone is not enough. Documents must go through the full attestation process, which includes state verification, MEA attestation, embassy attestation, and finally MOFA attestation in the destination country before they are considered valid for employment or residency.
                       </p>
                       <p>
-                        Together these factors make the Gulf countries major job
-                        creators in the world, while the local man force is
-                        insufficient to cater to the growing job requirements.
+                        If you're planning to work in the Gulf countries, understanding the process of document approval, document attestation service, and apostille attestation is essential. Employers, embassies, and immigration authorities in the GCC require properly verified documents to prove their authenticity before issuing an employment visa or residence permit.
                       </p>
                       <p>
-                        To fill the employment gap, Gulf organizations and
-                        organizations in Dubai operating in diverse industry
-                        segments hire skilled and unskilled resources from Asia
-                        and other countries, nevertheless, not everyone is
-                        eligible to qualify for jobs in Gulf or get a{" "}
-                        <strong>Dubai work permit</strong> visa. The aspirants
-                        who fulfil the Gulf jobs requirement conditions become
-                        eligible. The conditions for employment are:
+                        Whether you submit educational certificates, experience letters, or personal documents, you must get them attested. This step is necessary to secure your job in the Gulf.
                       </p>
-
-                      <ul className="description-list-2">
-                        <li>
-                          <i className="feather-check" />
-                          You must be above 18 years.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          You are having work license from a valid organization.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          Your recruiter must not be a violator of any Gulf
-                          work-related rules.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          The profile of your recruiter should be of your area
-                          of work.
-                        </li>
-                      </ul>
+                      <p>
+                        At Angel Gulf Job, we guide candidates through the entire process of Gulf recruitment. This includes services from document attestation and apostille guidance to visa support and medical preparation. Angel Gulf Job ensures a smooth and hassle-free relocation to your chosen GCC country.
+                      </p>
 
                       <h4 className="twm-s-title">
-                        How to Get Dubai Work Permit Visa
+                        What is Certificate Attestation for an employment visa?
                       </h4>
                       <p>
-                        A foreign national who wants to live in any Gulf
-                        country, or in Dubai particularly, must have a work
-                        permit visa from the respective country. E.g. to work in
-                        Dubai, the candidate must have Dubai Work Permit Visa.
-                        However, before anything, one must have an employer
-                        interested in hiring him. After receiving the job offer
-                        from a legitimate employer in the Gulf or UAE, the rest
-                        of the things related to documents proceed. The required
-                        documents include
+                        Certificate attestation is the official way to verify a document's authenticity. This process makes the document legally valid and accepted in another country.
                       </p>
-                      <ul className="description-list-2">
-                        <li>
-                          <i className="feather-check" />
-                          Original passport, and a few copies of it.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          Certificates of academic qualifications. These should
-                          be valid and authenticated by the country embassy from
-                          where the applicant has received the job offer, the
-                          authorities in India, and the organization they will
-                          be working with.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          Health certificate from any government-approved health
-                          care centre in the Gulf countries.
-                        </li>
-                        <li>
-                          <i className="feather-check" />
-                          The Dubai work permit visa.
-                        </li>
+                      <p>
+                        In GCC countries, which are not part of the Hague Apostille Convention, documents must go through many Indian and foreign authorities. This is necessary before they can be used for things like employment visas in Gulf nations.
+                      </p>
+                      <p>The process ensures that:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li>The document is genuine and issued by a recognised institution.</li>
+                        <li>The signatures and seals are verified by authorised government departments.</li>
+                        <li>The receiving country can fully trust the document's authenticity.</li>
                       </ul>
+                      <p>
+                        In simple terms, getting job documents approved in the Gulf relies on this verification process. It shows that your certificates are valid and trustworthy.
+                      </p>
+
                       <h4 className="twm-s-title">
-                        Dubai Working Visa Processing Time
+                        Attestation by the Ministry of External Affairs (MEA) — Two Types in India
                       </h4>
                       <p>
-                        The visa approval process is straightforward for those
-                        with all the relevant documents in Dubai and Gulf
-                        countries. Dubai working Visa processing time, and of
-                        other Gulf countries, is a week to a fortnight at the
-                        max. Regional Authentication Centres for Authentication
-                        of Education Documents/General Documents.
+                        In India, the Ministry of External Affairs (MEA) is the competent authority responsible for authenticating documents for international use.
                       </p>
-
-                      <h3 className="blueuText">Authentication Centers</h3>
                       <p>
-                        REGIONAL AUTHENTICATION CENTRES FOR AUTHENTICATION OF
-                        EDUCATIONAL DOCUMENTS/GENERAL DOCUMENTS
+                        The MEA provides two distinct types of legalisation, based on the status of the destination country under the Hague Apostille Convention (1961).
                       </p>
-                    </div>
 
-                    <div className="tw-faq-section">
-                      <div className="accordion tw-faq" id="sf-faq-accordion">
-                        {/*One*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            aria-expanded="false"
-                            data-bs-target="#FAQ1"
-                          >
-                            Andhra Pradesh
-                          </button>
-                          <div
-                            id="FAQ1"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri N.V.RAMANA REDDY, Special
-                                  Secretary(Protocol), General Administration
-                                  Department
-                                </li>
-                                <li>
-                                  Shri P.KRISHNA SASTRY, Joint Secretary to
-                                  Government (Low & Order), General
-                                  Administration Department
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23387036, 23384016
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Andhra Pradesh, Hyderabad. Tel- 040-23452620,
-                                  23455340
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Two*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ2"
-                            aria-expanded="false"
-                          >
-                            Arunachal Pradesh
-                          </button>
-                          <div
-                            id="FAQ2"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Deputy Secretary(Home), Government. of
-                                  Arunachal Pradesh, Itanagar
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23014136
-                                </li>
-                                <li>
-                                  Office of the Secretary, Government of
-                                  Arunachal Pradesh. Tel- 0360-2212418
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Three*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ3"
-                            aria-expanded="false"
-                          >
-                            Assam
-                          </button>
-                          <div
-                            id="FAQ3"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri S.K.ROY, ACS, Joint Secretary to the
-                                  Government. of Assam, Home, Political Deptt.,
-                                  Assam Secretariat, Dispur, Guwahati-6
-                                </li>
-                                <li>
-                                  Shri P.K.GOSWAMI, Director of Technical
-                                  Education, Guwahati Tel.0361-2382276
-                                </li>
-                                <li>
-                                  Shri P.P.BARUA, ACS, Joint Sectretary to the
-                                  Government. of Assam, Political(B) Deptt.
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 26118069
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Assam. Tel- 0361- 2261120, 2661403
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Four*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ4"
-                            aria-expanded="false"
-                          >
-                            Andaman and Nicobar
-                          </button>
-                          <div
-                            id="FAQ4"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri B.B.GHARAMI, Assistant Secretary(Home) A
-                                  & A Administraton
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Five*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ5"
-                            aria-expanded="false"
-                          >
-                            Bihar
-                          </button>
-                          <div
-                            id="FAQ5"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri RAJEEV VERMA, Deputy Secretary,
-                                  Home(Special) Dept. Government. of Bihar,
-                                  Patna, 09939608674(M),0612-2217225
-                                </li>
-                                <li>
-                                  Shri ARUN JOY KUMAR, Dy. Secretary
-                                  Verification, Bihar School Examination Board,
-                                  Deptt. of HRD, Government. of Bihar
-                                </li>
-                                <li>
-                                  Shri OM PRAKASH SINHA, Dy.
-                                  Secretary(Verification), Bihar School
-                                  Examination Board, (Senior Secondary) Dept. of
-                                  HRD, Government. of Bihar, Patna.
-                                </li>
-                                <li>
-                                  Shri RAVI BHUSHAN SAHAY, Deputy Director
-                                  (Higher Education Human Resource Development),
-                                  New Secretariat, Patna-15
-                                </li>
-                                <li>
-                                  Shri NIWAS CHANDRA TIWARY, Secretary, Sanskrit
-                                  Siksha Board, Boring Canal Road, Patna-1
-                                </li>
-                                <li>
-                                  Shri TASHNIMUR REHMAN, Secretary, Madarsa
-                                  Shiksha Road, Vidyapati, Marg, Patna
-                                </li>
-                                <li>
-                                  Shri RUBI SHARAN, Deputy Director, Higher
-                                  Education
-                                </li>
-                                <li>
-                                  Shri MOHD. MUSTAFA HUSAIN MANSURI, Secretary
-                                  of Bihar Education Madarsa Board, Patna
-                                </li>
-                                <li>
-                                  Shri MD. SAOOD, Joint Secretary, Home(Special)
-                                  Department , Bihar, Patna. 9939608674(M),
-                                  0612-2217225
-                                </li>
-                                <li>
-                                  Shri OM PRAKASH SHUKLA, Bihar Sanskrit Siksha
-                                  Board, Patna
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23014945, 23015067
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Bihar. Tel- 0612- 2215804
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Six*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ6"
-                            aria-expanded="false"
-                          >
-                            Chhattisgarh
-                          </button>
-                          <div
-                            id="FAQ6"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Sunil Kujur, Secretary, Technical
-                                  Education Chattisgarh Administration
-                                </li>
-                                <li>
-                                  Shri R.K.Likhate, Under Secretary, Government
-                                  of Chhattisgarh, Home(Passpsort) Department,
-                                  Raipur
-                                </li>
-                                <li>
-                                  Shri J.S.Dixit, Deputy Secretary, Government
-                                  of Chhattisgarh, Department of Higher
-                                  Education, Raipur
-                                </li>
-                                <li>
-                                  Shri N.D.Bhoyar, Under Secretary, Government
-                                  of Chhattisgarh Department of Higher
-                                  Education, Raipur
-                                </li>
-                                <li>
-                                  Offfice of the Resident Commissioner in Delhi.
-                                  Tel- 46092500, 46092555
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Chattisgarh. Tel- 0741- 2221207/08
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Seven*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ7"
-                            aria-expanded="false"
-                          >
-                            Dadra and Nagar Haveli Ut
-                          </button>
-                          <div
-                            id="FAQ7"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri V.R.Jethwa, Deputy Secretary(Home) ,
-                                  Dadra and Nagar Haveli, (Home Department)
-                                  Silvassa
-                                </li>
-                                <li>
-                                  Shri Sanjeev Kumar, Resident Dy. Collector,
-                                  Silvassa for the Union Territory of Dadar and
-                                  Nagar Haveli
-                                </li>
-                                <li>
-                                  Shri M.T.Kom, Resident Dy. Collector,Khanvel
-                                  for the Union Territor of Dadar and Nagar
-                                  Haveli
-                                </li>
-                                <li>
-                                  Shri B.M. Sharma, Resident Collector (Head
-                                  Quarter) for the Union Territor of Dadra and
-                                  Nagar Haveli.
-                                </li>
-                                <li>
-                                  Deputy Collector/SDM Collectorate, Damman
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23385369
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Eight*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ8"
-                            aria-expanded="false"
-                          >
-                            Daman and Diu
-                          </button>
-                          <div
-                            id="FAQ8"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Smt. Ankita Mishra Bundela, Collector &
-                                  District Magistrate, Diu
-                                </li>
-                                <li>
-                                  Shri N.S.Meena and Shri Vijender Singh, Deputy
-                                  Collector/SDM Collectorate, Damam
-                                </li>
-                                <li>
-                                  Shri P.S. Jani, Addl. Dist. Magistrate, Diu.
-                                  W.e.f. 22.06.2010
-                                </li>
-                                <li>
-                                  Smt. Chanchal Yadav, Deputy Collector/SDM,
-                                  Daman w.e.f. 29.09.10
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23385369
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23385369
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Nine*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ9"
-                            aria-expanded="false"
-                          >
-                            Delhi
-                          </button>
-                          <div
-                            id="FAQ9"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Smt. Satinder Kaur, RDE(South),Phone 26144508
-                                  and Smt. Neelam Verma, RDE(East), Phone
-                                  22522458 C-4, Vasant Vihar, New Delhi.
-                                </li>
-                                <li>
-                                  Shri Mukul Koranga, Deputy
-                                  Secretary,Home(Passport) and Ms.Sonica Singh,
-                                  Superintendent, Government of National Capital
-                                  Territory of Delhi, Home (Passport
-                                  Department), 5th Level, "C" Wing, Delhi
-                                  Secretariat, I.P. Estate, New Delhi as
-                                  authorized by NCT of Delhi
-                                </li>
-                                <li>
-                                  All District Judges (DJ) and Sub Divisional
-                                  Magistrates( SDMs) in Delhi
-                                </li>
-                                <li>
-                                  Shri R.T.L. D'Souza, Marriage Registrar,
-                                  Indian Christian Marriage Act, Delhi
-                                  Secretariat, New Delhi Tel.-011 23392028
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Ten*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ10"
-                            aria-expanded="false"
-                          >
-                            Goa
-                          </button>
-                          <div
-                            id="FAQ10"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Bhaskar G. Nayak, Director of Higher
-                                  Education, Government of Goa, Junta House, 2nd
-                                  Lift, 5th floor, Panaji, Goa Tel: 2425582/85,
-                                  Mobile: 9822802572
-                                </li>
-                                <li>
-                                  Shri V.P.Dangui, Under Secretary(Home-II),
-                                  Home Department (Foreigner's & Citizenship
-                                  Div.), Secretariat, Porvorim-Goa
-                                </li>
-                                <li>
-                                  Shri Anant Vasant Redkar, Superintendent, 2nd
-                                  Checker,
-                                </li>
-                                <li>
-                                  Dr. Celsa Pinto, Director of Education,
-                                  Government of Goa
-                                </li>
-                                <li>
-                                  Shri Dipak M. Bandekar, Under Secretary
-                                  (Home-I), Home Department(Foreigners and
-                                  Citizenship Division)
-                                </li>
-                                <li>
-                                  Shri Amarsen Wamanrao Rane, Addl Collector-II,
-                                  North Goa District, Panji
-                                </li>
-                                <li>
-                                  Shri Siddhivanayak S. Naik, Under
-                                  Secretary(Home-I), Home Department(Foreigners
-                                  and Ciktizenship Division)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 24629964/67/68
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Goa. Tel- 0832- 2419401/02
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Eleven*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ11"
-                            aria-expanded="false"
-                          >
-                            Gujarat
-                          </button>
-                          <div
-                            id="FAQ11"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Jashavant Gandhi (J.U.Gandhi), Deputy
-                                  Secretary, Government. of Gujarat
-                                </li>
-                                <li>
-                                  Shri Harish Khanna, Under Secretary,Government
-                                  of Gujarat, General Administration Department,
-                                  Sachivalya, Gandhinagar (Tel: 079-23250481,
-                                  for Enquiry-09978406311)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23343147, 23742413
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Gujarat. Tel- 079- 23250301/303
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Twele*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ12"
-                            aria-expanded="false"
-                          >
-                            Haryana
-                          </button>
-                          <div
-                            id="FAQ12"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Higher Education Commissioner/Director Higher
-                                  Education, Haryana in respect of
-                                  certificate(s)/degree(s) issued by
-                                  Universities situated outside the State of
-                                  Haryana
-                                </li>
-                                <li>
-                                  Registrar of the concerned University in the
-                                  State which has issued the
-                                  certificate(s)/diploma(s)/degree(s).
-                                </li>
-                                <li>
-                                  Director Secondary Education, Haryana in
-                                  respect of certiricate(s)/diploma(s)/degree
-                                  issued by National open School, Central Board
-                                  of Secondary Education, ICSE or any other
-                                  State Board of Education in the country
-                                </li>
-                                <li>
-                                  The Secondary Board of School Education,
-                                  Haryana, Bhiwani in respect of Matriculation
-                                  and 10+2 certificates issued by it or by the
-                                  Haryana Open School
-                                </li>
-                                <li>
-                                  Dr. S.P.Singh, Deputy Director Colleges-II O/o
-                                  Higher Education Commissioner, Haryana
-                                  (0172-2562036)
-                                </li>
-                                <li>
-                                  Shri S.K.Goyal, IAS, Special Secretary to
-                                  Government Haryana, Home Department
-                                </li>
-                                <li>
-                                  Shri Sat Paul, HSS, Under Secretary Home
-                                  Department, Govenmetn of Haryana
-                                  09416967813(M)-Mangiram
-                                </li>
-                                <li>
-                                  Shri Tek Chand Goel, Assistant
-                                  Registrar(Conduct),Kurukehetra University
-                                  Kurukshetra, Haryana
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23384354, 23386131/425
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Haryana. Tel- 0172- 2740118
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Thirteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ13"
-                            aria-expanded="false"
-                          >
-                            Himachal Pradesh
-                          </button>
-                          <div
-                            id="FAQ13"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Guru Lal Negi, Deputy Secretary(Home) to
-                                  the Government of Himachal Pradesh, Shimla
-                                </li>
-                                <li>
-                                  Dr. D.C.Katoch, Addl . Director(C),
-                                  Directorate of Higher Education
-                                </li>
-                                <li>
-                                  Shri Dinkar Burathoki, Addl.
-                                  Director(Colleges), Directorate of High
-                                  Education, Himachal Pradesh
-                                </li>
-                                <li>
-                                  Dr. Yogesh, Joint Director (C-I), Directorate
-                                  of Higher Educateion
-                                </li>
-                                <li>
-                                  Shri Devinder Sarswati, Under Secretary(Home)
-                                  to the Government of Himachal Pradesh, Shimla
-                                  (0177-2626450)
-                                </li>
-                                <li>
-                                  Shri Guru Lal Negi, Deputy Secretary(Home) to
-                                  the Government of Himachal Pradesh, Shimla
-                                </li>
-                                <li>
-                                  Shri Devinder Sarswati, Under Secretary(Home)
-                                  to the Government of Himachal Pradesh, Shimla
-                                  (0177-2626450)
-                                </li>
-                                <li>
-                                  Shri Vijay Kumar Sharma, Under Secretary(Home)
-                                  to the Government of Himachal Pradesh, Shimla
-                                </li>
-                                <li>
-                                  Shri Subhash Chander Negi, Principal
-                                  Secretary(Home) to the Government. of Himachal
-                                  Pradesh,Shimla
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Fourteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ14"
-                            aria-expanded="false"
-                          >
-                            Jammu & Kashmir
-                          </button>
-                          <div
-                            id="FAQ14"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri M.S.Baloria, Principal, GGM Science
-                                  College, Jammu, Government of Jammu and
-                                  Kashmir, Civil Sectt. Higher Education
-                                  Department
-                                </li>
-                                <li>
-                                  Shri Tariq Ahmad Kawoos, Principal, Amar Singh
-                                  College, Gogji Bagh, Srinagar (J&K)
-                                  9419010839(M),0194-2476828
-                                </li>
-                                <li>
-                                  Shri Haris Ahmad Handoo, Deputy Secretary,
-                                  Government of Jammu and Kashmir, Home
-                                  Department 0191-2543261, 0941942533(M)
-                                </li>
-                                <li>
-                                  Dr. Sham Lal Gupta, Director Colleges, Higher
-                                  Education Department, Civil Secretariat,
-                                  Srinagar/Jammu
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 24611506, 24611210
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Jammu Kashmir. Tel- 0194- 2452257, 2455353
-                                  (Srinagar), 0191-2546773, 2544338 (Jammu)
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-                        {/*Fifteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ15"
-                            aria-expanded="false"
-                          >
-                            Jharkhand
-                          </button>
-                          <div
-                            id="FAQ15"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>Shri P.J.Lakra, Director</li>
-                                <li>Cyril Xaxa, Deputy Secretary</li>
-                                <li>
-                                  Shri Balendu Bhushan Anandmurti, Deputy
-                                  Secretary, Smt. Meena Thaukar,Deputy Secretary
-                                  and Shri Sukhdev Munda, Under Secretary
-                                  Government of Jharkhand, Department of Human
-                                  Resource Development, Ranchi
-                                </li>
-                                <li>
-                                  Shri Arbind Kumar, Deputy Secretary, Home
-                                  Department, Government. of Jharkhand , Ranchi,
-                                  09334359534(M), 0651-2401447
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Jharkhand. Tel- 0651- 2400240/250/627/628
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Sixteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ16"
-                            aria-expanded="false"
-                          >
-                            Karnataka
-                          </button>
-                          <div
-                            id="FAQ16"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  SMT. ALICE GONSALVES, Under Secretary, Home
-                                  Department (Passport and Foreigners),
-                                  Bangalore, Phone: 080-22033371
-                                </li>
-                                <li>
-                                  Shri T.N.RAVIPRAKASH, Under Secretary, Home
-                                  Department (Passport and Foreigners)
-                                  Bangalore, Tel: 080 22033371
-                                </li>
-                                <li>
-                                  Shri M.V.JAYANTHI, IAS, Regional Commissioner,
-                                  Mysore, Government of Karnataka
-                                </li>
-                                <li>
-                                  Shri CHIKKATHIMMAIAH, Additional
-                                  Commissioner(Administration and Development),
-                                  Government of Karnataka, Mysore
-                                </li>
-                                <li>
-                                  Shri M. MANJUNATH NAYAK, Additional
-                                  Commissioner(Land Maintenance, Projects and
-                                  Misc.), Government of Karnataka, Mysore
-                                </li>
-                                <li>
-                                  Shri RAJNEESH GOEL, Regional Commissioner,
-                                  Gulbarga
-                                </li>
-                                <li>
-                                  Shri G.M.DHANANJAYA, Regional commissioner,
-                                  Government of Karnataka, Bangalore
-                                </li>
-                                <li>
-                                  Shri G.V.Seenappa, Additional Deputy
-                                  Commissioner & Additional District Magistrate
-                                  Government of Karnataka, Bangalore District
-                                </li>
-                                <li>
-                                  Shri K.R.Ramakrishna, Additional
-                                  Commissioner(Admn. and Development),
-                                  Government of Karnataka, Bangalore
-                                </li>
-                                <li>
-                                  Dr. Vijaykumar N. Torgal, Additional
-                                  Commissioner(Land Maintenance Projects and
-                                  Misc.), Belgaum
-                                </li>
-                                <li>
-                                  Shri C.M.Shirol, I.A.S., Regional
-                                  Commissioner, Belgaum
-                                </li>
-                                <li>
-                                  Shri M.O.Nagaraj, Additional
-                                  Commissioner(Administration and Development)
-                                  Belgaum
-                                </li>
-                                <li>
-                                  Shri Umesh H Kusugal, Additional Commissioner,
-                                  (Land Maintenance Project and Misc.), Gulbarga
-                                </li>
-                                <li>
-                                  Shri D.B.Naik, Additional Commissioner
-                                  (Administration and Development) Gulbarga.
-                                </li>
-                                <li>
-                                  Shri B. Nanjundeshwar, Additional Deputy
-                                  Commissioner & Additional District Magistrate,
-                                  Bangalore Urban, Bangalore.
-                                </li>
-                                <li>
-                                  Shri R. Srinivasa, Additional Deputy
-                                  Commissioner & Additional District Magistrate,
-                                  Bangalore Rural, Bangalore
-                                </li>
-                                <li>
-                                  Shri D. Mallu, Additional Commissioner, (Land
-                                  Maintenance Projects and Misc.), Regional
-                                  Commissioner Office, Bangalore.(w.e.f.
-                                  23.10.10)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 26889814
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Karnataka. Tel- 080- 22252442
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Seventeen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ17"
-                            aria-expanded="false"
-                          >
-                            Madhya Pradesh
-                          </button>
-                          <div
-                            id="FAQ17"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Mahendra Kumar Raghuvanshi, Deputy
-                                  Secretary,Government. of Madhya Pradesh,
-                                  Higher Education Deptt., Mantralya , Vallagh
-                                  Bhavan, M Block 3 Green City, 35, Gulmohur
-                                  Bhawan, Bhopal , Tel:
-                                  0755-2741024,09926966011(M)-Shri Sher Singh
-                                </li>
-                                <li>
-                                  Shri L.P.Jain, Under Secretary(0755-2512423
-                                  (O)) and Sh. V,K,Wadhwani, Under Secretary,
-                                  (0755-2512428 (O) Government). of Madhya
-                                  Pradesh, Home Department, Mantralaya, Bhopal
-                                </li>
-                                <li>
-                                  Shri J.G.Gandavgade, Under Secretary,
-                                  Government. of Madhya Pradesh, Higher
-                                  Education Department,, Maltralaya, Vallabh
-                                  Bhawan, Bhopal
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23019899, 23348484, 23361705
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Madhya Pradesh. Tel- 0755- 2441010
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Eighteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ18"
-                            aria-expanded="false"
-                          >
-                            Maharastra
-                          </button>
-                          <div
-                            id="FAQ18"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Smt. Seema Dhamdhere, Joint Secretary, Higher
-                                  & Technical Education Department, 4th floor,
-                                  Mantralaya Annexe, Mumbai-400032, Tel:
-                                  022-22025206(O), 24367773(R)
-                                </li>
-                                <li>
-                                  Shri S.M.Dhule, Section Officer, Home
-                                  Department, Government of Maharashtra
-                                </li>
-                                <li>
-                                  Shri V.R.Shirsat, Deputy Secretary, Government
-                                  of Maharashtra, Employment & Self-Employment
-                                  Department Mantralaya, Mumbai
-                                </li>
-                                <li>
-                                  Shri Sunil Rawade, Section Officer, Home
-                                  Department, Government of Maharashtra
-                                  022-22794093, 09322650065(M)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23388075, 23383876
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Maharashtra. Tel- 022- 22025042, 22028762
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Ninghteen*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ19"
-                            aria-expanded="false"
-                          >
-                            Meghalaya
-                          </button>
-                          <div
-                            id="FAQ19"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri P.S.Thangkhidew, IAS, Secretary,
-                                  Education Department, Government of Meghalaya,
-                                  Shillong.
-                                </li>
-                                <li>
-                                  Shri B. Dhar, IAS, Secretary to the
-                                  Government. of Meghalaya, Political Department
-                                </li>
-                                <li>
-                                  Shri C.D.Kynjing, IAS, Principal Secretary to
-                                  the Government. of Meghalya, Political
-                                  Department,
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23015503, 23014341, 23015605
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Meghalaya. Tel- 0364- 2224801
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Twenty*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ20"
-                            aria-expanded="false"
-                          >
-                            Mizoram
-                          </button>
-                          <div
-                            id="FAQ20"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri R. Malsawma, Under Secretary, Government.
-                                  of Mizoram, Higher & Technical Education Dept.
-                                </li>
-                                <li>
-                                  Shri T.V.Fambawl, Additional Secretary, Home
-                                  Deptt. Government. of Mizoram
-                                </li>
-                                <li>
-                                  Shri Lalmalsawma, IAS, Secretary, Home Deptt.
-                                  of Mizoram, Aizawl, Tel: 0389-2310680
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23016408
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Mizoram. Tel- 0389- 2322411
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyOne*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ21"
-                            aria-expanded="false"
-                          >
-                            Manipur
-                          </button>
-                          <div
-                            id="FAQ21"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri M. Yaiskul Meitei, IAS, Additional
-                                  Secretary, Home Department, Government. of
-                                  Manipur, Telephone:0385-2443366
-                                </li>
-                                <li>
-                                  Shri Somorjit Salam, Under Secretary(Home),
-                                  Government. of Manipur
-                                </li>
-                                <li>
-                                  Shri S. Gourikumar Sharma, OSD, Univesity &
-                                  Higher Education, Imphal, 09856086410(M)
-                                </li>
-                                <li>
-                                  Shri T. Ojit Singh, OSD University & Higher
-                                  Education, Imphal 09856170467(M)
-                                </li>
-                                <li>
-                                  Shri N.Tomba Singh, Under Secretary(GAD),
-                                  Government. of Manipur
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 26873009, 26873311
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Manipur. Tel- 0385- 2451144, 2450064
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyTwo*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ22"
-                            aria-expanded="false"
-                          >
-                            Nagaland
-                          </button>
-                          <div
-                            id="FAQ22"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri L.Singsit, IPS - Special Secretary(Home),
-                                  Government of Nagaland, Kohima, Tel.
-                                  0370-2270074
-                                </li>
-                                <li>
-                                  Smt. Meilemla, IAS -Secretary(Home),
-                                  Government. of Nagaland, Kohima
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23013751, 23794680
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Nagaland. Tel- 0370- 2270082
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyThree*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ23"
-                            aria-expanded="false"
-                          >
-                            Orissa
-                          </button>
-                          <div
-                            id="FAQ23"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri Amrit Mohan Prasad, IPS, Special
-                                  Secretary to Government, Home Deptt.
-                                  0674-2536761
-                                </li>
-                                <li>
-                                  Shri Upendra Nath Behera, IAS, Principal
-                                  Secretary to Government, Home Department,
-                                  Government of Orissa 0674-2531515(office),
-                                  0674-2392666(Res.)
-                                </li>
-                                <li>
-                                  Shri Sarat Chandra Mohapatra, Joint Secretary,
-                                  High Education 0674-2322434
-                                </li>
-                                <li>
-                                  Shri Maguni Charan Lenka, Joint Secretary of
-                                  Higher Education Department, Government. of
-                                  Orissa
-                                </li>
-                                <li>
-                                  Shri Bijay Sankar Deo, Joint Secretary, High
-                                  Education Department, Department of Higher
-                                  Education Government of Orissa, Bhubaneswar
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23019771
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Orissa. Tel- 0674- 2534300, 2536700
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyFour*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ24"
-                            aria-expanded="false"
-                          >
-                            Pudducherry
-                          </button>
-                          <div
-                            id="FAQ24"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri L.Kumar, Joint Secretary to
-                                  Government(Home)Chief Secretariat, Puducherry
-                                </li>
-                                <li>
-                                  Shri V. Madhivanan, Joint Secretary to
-                                  Government (Administrative Reforms Wing),
-                                  Chief Secretariat
-                                </li>
-                                <li>
-                                  Shri Giddi Mruthyunjaya Durga Rao, Under
-                                  Secretary to Government (DP&AR), Chief
-                                  Secretariat, Puducherry
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 26881703
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Pudducherry. Tel- 0413- 2334145, 2335512
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyFive*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ25"
-                            aria-expanded="false"
-                          >
-                            Punjab
-                          </button>
-                          <div
-                            id="FAQ25"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Smt. Neelam Mahajan, Deputy Secretary to
-                                  Government of Punjab, Department of NRI
-                                  Affairs, Tel: 0172-2742243,Ext.286
-                                </li>
-                                <li>
-                                  Smt. Sarita Chopra, Assistant Director
-                                  (Funds), and Sh.Sandeep Mahajan, Assistant
-                                  Director (CC), Punjab Education
-                                  Department,Chandigarh Tel: 0172-2704431,
-                                  2702857, 09356062952(M) 09815333077(M).
-                                  Office: 9855683544(M)-Sh.Avtar Singh
-                                </li>
-                                <li>
-                                  Smt. Harleen Kaur Bedi, Assistant Director,
-                                  Office of Director Public Instruction
-                                  (Colleges)
-                                </li>
-                                <li>
-                                  Smt. Manorama Devi, Under Secretary to
-                                  Government of Punjab, Department of NRI
-                                  Affairs
-                                </li>
-                                <li>
-                                  Shri Jaswant Singh, Under Secretary to
-                                  Government of Punjab, Deptt. of NRI Affairs
-                                </li>
-                                <li>
-                                  Shri Bharat Bhushan Sehgal, Under Secretary to
-                                  Government of Punjab, Department of NRI
-                                  Affairs, Chandigarh
-                                </li>
-                                <li>
-                                  Shri V.K.Sharma, Director, Department of
-                                  Technical Education & Industrial Training,
-                                  Government of Punjab, Plot No.1-A,
-                                  Sector-36-A, Chandigarh, Tel: 0172-2615385,
-                                  2615389, 9988346813(M)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23383804, 23385399
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Punjab. Tel- 0172- 2740156
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentySix*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ26"
-                            aria-expanded="false"
-                          >
-                            Port Blair
-                          </button>
-                          <div
-                            id="FAQ26"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri B.B.Gharami, Assistant Secretary (Home) A
-                                  & N Administration, Port Blair.
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentySeven*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ27"
-                            aria-expanded="false"
-                          >
-                            Rajasthan
-                          </button>
-                          <div
-                            id="FAQ27"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri J.K.Sharma, Officer on Special duty
-                                  (OSD), Home(Jail Department), Government. of
-                                  Rajasthan Tel.0141-5153222-Ext.2330
-                                </li>
-                                <li>
-                                  Shri Mahavir Prasad Verma, Deputy
-                                  Secretary(Administration), Education
-                                  Department,Administration Secretariat, Jaipur.
-                                  Phone:0141-2227399(O) 9829480205
-                                </li>
-                                <li>
-                                  Shri Madhusudan Sharma, Deputy Secretary
-                                  (Administration). Education Department
-                                  Phone:0141-2227724
-                                </li>
-                                <li>
-                                  Shri Sangram Singh Yadav, Dy.
-                                  Secretary,(Home(Coordination) Department,
-                                  Government. of Rajasthan, Home(Gr-3)
-                                  Department)
-                                </li>
-                                <li>
-                                  Shri Ramhet Lal Jatav, Asstt. Secretary,
-                                  Higher Education(GR.III), Government.
-                                  Secretariat, Jaipur, Tel. 0141-5153222 Ext.
-                                  4852, 09414335554 (M)
-                                </li>
-                                <li>
-                                  Shri Satya Prakash Baswala, Dy. Secretary,
-                                  Higher Education (Gr.III) Deptt. Room No.2202,
-                                  2nd floor, Main Building, Government.
-                                  Secretariat, Jaipur 0141-5115995,
-                                  9828051054(M)
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23073747, 23381333, 23383472
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Rajasthan. Tel- 0141- 2227254
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyEight*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ28"
-                            aria-expanded="false"
-                          >
-                            Sikkim
-                          </button>
-                          <div
-                            id="FAQ28"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Mrs. Ingrid Lhamu Bhutia, Dy. Director(Exam),
-                                  Human Resource Development Department,
-                                  Government. of Sikkim, Gangtok
-                                </li>
-                                <li>
-                                  Shri Kalzang Dorjee Bhutia, Asstt.
-                                  Director/Exam, Cell, Human Resource
-                                  Development, Government. of Sikkim, Gangtok
-                                </li>
-                                <li>
-                                  Shri Deepak Kumar Pradhan, Joint
-                                  Secretary(Protocol), Home Department,
-                                  Government. of Sikkim
-                                </li>
-                                <li>
-                                  Mrs. T.Kizom, Joint Secretary(Con), Home
-                                  Department,Government. of Sikkim, Gangtok
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 26113747
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Sikkim. Tel- 03592- 202315, 204323
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*TwentyNine*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ29"
-                            aria-expanded="false"
-                          >
-                            Tamilnadu
-                          </button>
-                          <div
-                            id="FAQ29"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri T. Joseph Besky, M.A., B.Ed., Under
-                                  Secretary, Government Public(Foreigners)
-                                  Department, Government of Tamil Nadu, Chennai
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23010035, 24193333
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Tamil Nadu. Tel- 044- 25671555
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*Thirty*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ30"
-                            aria-expanded="false"
-                          >
-                            Tripura
-                          </button>
-                          <div
-                            id="FAQ30"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Smt. B. Basfore, Deputy Secretary to the Govrt
-                                  of Tripura, Agartala,
-                                  Tel:0381-2326041-224(EPBX)
-                                </li>
-                                <li>
-                                  Shri Dinesh Chandra Sarkar, Deputy Secretary
-                                  to the Government. of Tripura, Agaartala
-                                  Tel:0381-2324001/0381-2324002
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23012693, 23015157
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Tripura. Tel- 0381- 2324077
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                        {/*ThirtyOne*/}
-                        <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ31"
-                            aria-expanded="false"
-                          >
-                            Uttar Pradesh
-                          </button>
-                          <div
-                            id="FAQ31"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                  Shri P.N.Yadav, Special Secretary, General
-                                  Administration Deptt. Government of Uttar
-                                  Pradesh
-                                </li>
-                                <li>
-                                  Shri Jagdeo Singh, Special Secretary, General
-                                  Administration Deptt. . Government. of Uttar
-                                  Pradesh
-                                </li>
-                                <li>
-                                  Shri Ramanand Prasad, Joint Secretary, Deptt.
-                                  of Higher Education 0522-2238001 Extn.3041,
-                                  09936043902-ShriSrivastava
-                                </li>
-                                <li>
-                                  Shri Ramkinker Mishra, Under Secretary, Deptt.
-                                  of Higher Education, Government of Uttar
-                                  Pradesh, 0522-2238001 Extn.3967
-                                </li>
-
-                                <li>
-                                  Shri Shanti Nath Mishra, Joint Secretary,
-                                  General Administration Deptt., Government of
-                                  Uttar Pradesh 09415014247-(M)
-                                </li>
-                                <li>
-                                  Shri Om Prakash Mishra, Under Secretary,
-                                  Department of Higher Education, Government of
-                                  Uttar Pradesh, 0522-2238001 Extn.3202
-                                </li>
-                                <li>
-                                  Shri Saroj Kumar yadav, Under Secretary,
-                                  Deptt. of Higher Education, Government. of
-                                  Uttar Pradesh
-                                </li>
-                                <li>
-                                  Shri Joy Dev Mitra, Joint Secretary, Deptt. of
-                                  Higher Education, Government. of Uttar Pradesh
-                                  Department of Higher Education, Government of
-                                  UP., Lucknow, Tel: 0522 2238001 Extension 3202
-                                </li>
-                                <li>
-                                  Office of the Resident Commissioner in New
-                                  Delhi. Tel- 23310408
-                                </li>
-                                <li>
-                                  Office of the Chief Secretary, Government of
-                                  Uttar Pradesh. Tel- 0522- 2621599, 2238212
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                          {/*ThirtyTwo*/}
-                          <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ32"
-                            aria-expanded="false"
-                          >
-                            Uttarakhand
-                          </button>
-                          <div
-                            id="FAQ32"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                Shri N.S.Dungariyal, Under Secretary, General Administration Department, Government of Uttrakhand, Tel: 0135-2712802,09411173553(M)
-                                </li>
-                                <li>
-                                Shri Santosh Badoni, Under Secretary, General Administration Deptt., Uttrakhand
-                                </li>
-                                <li>
-                                Office of the Resident Commissioner in New Delhi. Tel- 23738498, 23358434]
-                                </li>
-                                <li>
-                                Office of the Chief Secretary, Government of Uttarakhand. Tel- 0135- 2712100, 2712200
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
-
-                          {/*ThirtyThree*/}
-                          <div className="accordion-item">
-                          <button
-                            className="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#FAQ33"
-                            aria-expanded="false"
-                          >
-                            West bengal
-                          </button>
-                          <div
-                            id="FAQ33"
-                            className="accordion-collapse collapse"
-                            data-bs-parent="#sf-faq-accordion"
-                          >
-                            <div className="accordion-body">
-                              <ol style={{ marginLeft: "24px" }}>
-                                <li>
-                                Shri Khokan Sen, Section Officer, Home (Foreigners' & NRI's ) Department Government. of West Bengal
-                                </li>
-                                <li>
-                                Shri Pradip Kumar Datta, Section Officer, Home (Foreigners & NRIs) Deptt. Government. of West Bengal,
-                                </li>
-                                <li>
-                                Shri G.G.Sarkar, W.B.C.S (Exe), Joint Secretary, Home (Foreigners'& NRI's) Deptt, Government. of West Bengal, Kolkata 09830005306(M)
-                                </li>
-                                <li>
-                                Office of the Resident Commissioner in New Delhi. Tel- 23344269, 23742695
-                                </li>
-                                <li>
-                                Office of the Chief Secretary, Government of West Bengal. Tel- 033- 22145858
-                                </li>
-                              </ol>
-                            </div>
-                          </div>
-                        </div>
+                      <div className="my-4">
+                        <img
+                          src={documentAttestationImage}
+                          alt="Document attestation"
+                          className="img-fluid w-100 rounded-4 shadow-sm"
+                          style={{ objectFit: "contain" }}
+                        />
                       </div>
+
+                      <h5 className="twm-s-title">1. For Hague Convention Member Countries – Apostille Attestation</h5>
+                      <p>
+                        For Hague Convention member countries, documents only need an MEA apostille stamp. This single-step process replaces the traditional multi-stage attestation procedure and is recognised by all member nations — no additional embassy or consulate attestation is required.
+                      </p>
+                      <p>Among the Gulf Cooperation Council (GCC) countries:</p>
+                      <p><strong>Bahrain, Oman and Saudi Arabia are members of the Hague Apostille Convention.</strong></p>
+                      <p>This means:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li>Documents apostilled in India by the MEA are directly valid in Bahrain and Oman.</li>
+                        <li>Likewise, documents apostilled in these countries are accepted in India without any further legalisation.</li>
+                      </ul>
+                      <p>Examples of documents eligible for apostille attestation for Gulf employment include:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li><strong>Educational certificates:</strong> degrees, diplomas, transcripts, mark sheets.</li>
+                        <li><strong>Personal certificates:</strong> marriage, birth, and police clearance certificates (if required).</li>
+                      </ul>
+                      <p>For more details on Apostille Attestation, visit: <NavLink to="/blogs/apostille-attestation-gulf-document-verification" className="site-text-primary">Apostille Attestation for Gulf document verification</NavLink>.</p>
+
+                      <h5 className="twm-s-title">2. For Non-Hague Convention Countries – Full Attestation Chain</h5>
+                      <p>
+                        For countries not party to the Hague Apostille Convention, documents require a multi-step attestation process. This process involves both Indian and foreign authorities. It is often called the standard attestation chain.
+                      </p>
+                      <p>Among the GCC nations, the following countries are not members of the Hague Apostille Convention:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li>United Arab Emirates (UAE)</li>
+                        <li>Qatar</li>
+                        <li>Kuwait</li>
+                      </ul>
+                      <p>
+                        In these countries, apostille attestation alone is not sufficient. Documents must follow the full certificate attestation process for proper document approval for employment.
+                      </p>
+                      <p>The standard attestation chain includes:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li><strong>State Government Level Verification</strong> — Human Resource Development or HRD for educational certificate attestation</li>
+                        <li><strong>MEA Attestation</strong> — verification at the national level by the Ministry of External Affairs.</li>
+                        <li><strong>Embassy/Consulate Attestation</strong> — legalisation by the destination country's embassy in India.</li>
+                        <li><strong>MOFA Attestation</strong> — final validation by the Ministry of Foreign Affairs in the destination Gulf country.</li>
+                      </ul>
+                      <p>For more details on the Full Attestation Chain for non-Hague GCC Countries, visit: <NavLink to="/blogs/hrd-attestation" className="site-text-primary">HRD Attestation Process for Gulf Employment</NavLink>.</p>
+
+                      <h4 className="twm-s-title">
+                        Apostille vs Certificate Attestation – Key Difference
+                      </h4>
+
+                      <div className="my-4">
+                        <img
+                          src={apostilleVsAttestationImage}
+                          alt="Apostille vs Certificate Attestation"
+                          className="img-fluid w-100 rounded-4 shadow-sm"
+                          style={{ objectFit: "contain" }}
+                        />
+                      </div>
+
+                      <h4 className="twm-s-title">
+                        Why Document Attestation Matters for Gulf Employment
+                      </h4>
+                      <p>
+                        If you are applying for a Gulf job, properly attested documents are mandatory. Without valid document approval, your educational certificates or professional credentials may be rejected by employers, ministries, or immigration offices in the GCC.
+                      </p>
+                      <p>Document attestation confirms:</p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li>Your academic qualifications for the job role.</li>
+                        <li>Your personal details for visa and residency purposes.</li>
+                        <li>The authenticity of your experience certificates or business documents.</li>
+                      </ul>
+                      <p>
+                        Hence, while apostille attestation simplifies international document recognition among member countries, traditional certificate attestation remains compulsory for non-member GCC countries such as the UAE, Saudi Arabia, Qatar, and Kuwait.
+                      </p>
+
+                      <h4 className="twm-s-title">
+                        Simplify Your Gulf Job Journey with Angel Gulf Jobs
+                      </h4>
+                      <p>Looking to secure your dream Gulf job without the paperwork stress?</p>
+                      <p>
+                        Angel Gulf Jobs makes the process of certificate attestation and apostille attestation simple, fast, and reliable. Our Services Include:
+                      </p>
+                      <ul className="ps-4 mb-3" style={{ listStyleType: "disc" }}>
+                        <li>End-to-end support — from state verification to MEA and embassy attestation</li>
+                        <li>Transparent document tracking and timely delivery</li>
+                        <li>Trusted by professionals across India for UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, and Oman</li>
+                      </ul>
+                      <p>
+                        Visit <NavLink to="/" className="site-text-primary">Angel Gulf Jobs</NavLink> or contact our support team to make your document attestation process hassle-free.
+                      </p>
+
+                      <h4 className="twm-s-title">
+                        Regional Authentication Centres in India
+                      </h4>
+                      <p>Regional authentication centres for the authentication of educational documents/general documents</p>
+
+                      <div className="table-responsive my-4">
+                        <table className="table table-bordered table-striped">
+                          <thead className="table-dark">
+                            <tr>
+                              <th style={{ minWidth: "150px" }}>State/UT</th>
+                              <th>Regional Authentication Centres (RACs)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td><strong>Andhra Pradesh</strong></td>
+                              <td>
+                                Addl. Secretary, YAT &C Department, Andhra Pradesh Secretariat, Room No. 278, Building No. 3, Amaravathi. Tel- 0863-2443335, Email-so_nri@ap.gov.in, sahudurgaprasad65@gmail.com<br />
+                                Special Secretary (Protocol), General Administration Department, Hyderabad.<br />
+                                Joint Secretary (Law &Order), General Administration Department, Hyderabad<br />
+                                Office of the Resident Commissioner of Andhra Pradesh in New Delhi, Tel-23387036,23384016
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Arunachal Pradesh</strong></td>
+                              <td>
+                                Secretariat, Block No. 4, 2nd Floor, Ita Nagar, Arunachal Pradesh<br />
+                                Deputy Secretary(Home), Government of Arunachal Pradesh, Home Deptt. Civil Secretariat, Block No. 4, 2nd Floor, Itanagar<br />
+                                Director, Department of Higher &Technical Education, Government of Arunachal Pradesh, Ita Nagar<br />
+                                Office of the Resident Commissioner of Arunachal Pradesh in New Delhi Tel-23014136<br />
+                                Under Secretary (Home-B), Govt. of Arunachal Pradesh
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Assam</strong></td>
+                              <td>
+                                ACS, Commissioner &Secretary to the Govt. of Assam, Passport Deptt. Dispur, Guwahati.<br />
+                                ACS Joint Secretary(Home), Home Department, Assam Secretariat, Dispur, Guwahati -6<br />
+                                ACS, Joint Secretary(Political), Home Department, Assam Secretariat, Dispur, Guwahati-6, Telefax 0361-2261421<br />
+                                Directorate of Technical Education, Assam, Guwahati-19 Tel- 0361-3518492, Email- dte.assam@gov.in<br />
+                                Office of the Resident Commissioner of Assam in New Delhi.Tel-26118069<br />
+                                Secretary to the Govt. of Assam, Home (Passport) Department, Dispur, Guwahati-6<br />
+                                Joint Director, Technical Education, Assam, Kahilipara, Guwahati-19<br />
+                                Addl. Secretary to the Government of Assam, Home, Political & Passport Department.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Andaman and Nicobar</strong></td>
+                              <td>
+                                Assistant Secretary (Home), A & A Administration, Port Blair (Fax: 22879703)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Bihar</strong></td>
+                              <td>
+                                Deputy Secretary, Home (Special) Department, Patna. Tel: 0612-2217225, Mobile: 09939608674<br />
+                                Deputy Secretary(verification), Bihar School Examination Board,(Senior Secondary), Patna.<br />
+                                Controller of Examination, Health Services, HRD for Medical Related Certificates, Patna.<br />
+                                Deputy Director(Higher Education), HRD Department, New Secretariat, Patna-15<br />
+                                Secretary, Sanskrit Siksha Board, Boring Canal Road, Patna<br />
+                                Secretary, Madarsa Shiksha Board, Vidyapati Marg, Patna<br />
+                                Office of the Resident Commissioner of Bihar in New Delhi<br />
+                                Under Secretary, Home Department (Special Branch), Sardar Patel Bhawan, Bailey Road, Patna-800023.<br />
+                                Joint Director (Crops), Edu, Agriculture Department, Bihar, Patna.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Chandigarh</strong></td>
+                              <td>
+                                Secretary (Home), Joint Secretary (Home), Under Secretary (Home), Home Department, Chandigarh Administration, Tel: 0172-27402900172-2740290<br />
+                                Joint Secretary (Finance), Home Department, Chandigarh Administration<br />
+                                Registering and Licensing Authority, Chandigarh.<br />
+                                District Education Officer, Education Department, Chandigarh Administration, O/o, DPI, U.T. Sector 9, Chandigarh<br />
+                                Office of the Resident Commissioner of UT in New Delhi. Tel- 23353359
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Chhattisgarh</strong></td>
+                              <td>
+                                Secretary, Technical Education, Chattisgarh Administration, Raipur<br />
+                                Deputy Secretary/Under Secretary, Home(Passport) Department, Mantralaya, Raipur<br />
+                                Under Secretary, Department of Higher Education, Government of Chattisgarh, Raipur.<br />
+                                Under Secretary, General Administration Department, Mantralaya, Raipur<br />
+                                Office of the Resident Commissioner of Chhattisgarh in Delhi. Tel 46092500,46092555<br />
+                                Under Secretary, High Education Department, Naya Raipur<br />
+                                Joint Secretary, Govt. of Chhattisgarh, Skill Development Technical Education & Manpower Planning Deptt, Mantralaya, Atal Nagar, Distt. Raipur.<br />
+                                Under Secretary Skill Development Technical Education & Manpower Planning Deptt, Mantralaya, Atal Nagar, Distt. Raipur<br />
+                                Under Secretary, Govt. of Chhattisgarh, Home Department, Mantralay, Naya Raipur (Chhattisgarh)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Dadra and Nagar Haveli UT</strong></td>
+                              <td>
+                                Deputy Secretary(Home), Home Department, Silvassa<br />
+                                Resident Deputy Collector, Silvassa for the UT of Dadar &Nagar Haveli.<br />
+                                Resident Deputy Collector, Khanvel for the UT of Dadar&Nagar Haveli.<br />
+                                Resident Collector(Headquarters) for the UT of Dadar&Nagar Haveli.<br />
+                                Deputy Collector/SDM Collectorate, Daman<br />
+                                Office of the Resident Commissioner in New Delhi. Tel23385369 Plot No. 16, Tenzing Norgay Marg, Chanakyapuri, New Delhi
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Daman and Diu</strong></td>
+                              <td>
+                                Additional District Magistrate, Collector's Office, Diu, Fort Road, Diu-362520, Ph-02875252444, Email-dycoll-diu-dd@nic.in<br />
+                                DANICS Deputy Collector(HQ)/Additional District Magistrate, Office of the Collector, Collectorate, Daman, U.T. Administration of Daman &Diu. Tel- 0260-2230922/255023/252333, Email- collector-daman-dd@nic.in, dycoll-dmn-dd@nic.in<br />
+                                Office of the Resident Commissioner in New Delhi. Tel 23385369
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Delhi NCT</strong></td>
+                              <td>
+                                SDM of Delhi has been authorised as a pre-authenticated authority for all kinds of documents (except commercial documents) on behalf of all states<br />
+                                Regional Director of Education (South), C-4, Vasant Vihar, New Delhi. Phone 26144508<br />
+                                Regional Director of Education(East), C-4, Vasant Vihar, New Delhi. Phone 22522458<br />
+                                Deputy Secretary, Home(Passport) and Superintendent, Government of NCT of Delhi, Home (Passport) Department, 5th Level, "C" Wing, Delhi Secretariat, I.P.Estate, New Delhi<br />
+                                All District Judges(DJs) and Sub Divisional Magistrates(SDMs) in Delhi<br />
+                                Marriage Registrar, Indian Christian Marriage Act, Delhi Secretariat, New Delhi, Tel.-011-23392028, Fax011-23392034<br />
+                                Asstt. Director Education (Authentication)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Goa</strong></td>
+                              <td>
+                                Director, Directorate of Higher Education, Scert, Alto-Porvorim, Bardez, Panaji, Goa. Tel: 0832-2410824, 2415585 Email: dirdhe.goa@nic.in<br />
+                                Director (Education), Junta House, 2nd Lift, 5th floor, Panaji, Goa. Tel: 2425582/85, Fax: 2425582, Mobile:9822802572<br />
+                                Under Secretary (Home-I/Home-II), Home Department (Foreigners &Citizenship Division), Secretariat, Porvorim, Goa<br />
+                                Addl. Collector-II, North Goa, Collectorate Building, Opp. Municipal Garden, Panaji, Goa 403001. Tel- 0832-2427690, Email- ac2-north.goa@nic.in<br />
+                                Addl. Collector- I &II, South Goa District, Room No. 419 A, 4th Floor, Matanhy Saldanha, Administrative Complex, Margo, Goa. Tel- 0832-2794483<br />
+                                Office of the Resident Commissioner of Goa in New Delhi. Tel- 24629964/67/68
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Gujarat</strong></td>
+                              <td>
+                                Additional Secretary/Deputy Secretary/Under Secretary, General Administration Department(Protocol), Government of Gujarat, Block No. 1/7 Sachivalaya, Gandhi Nagar. Tel- 079-23250353, Email- gujaratstateprotocol@gmail.com<br />
+                                Section Officer, General Administration Department(Protocol), Government of Gujarat, Block No. 1/3 Sachivalaya, Gandhi Nagar. Tel- 079-23250481<br />
+                                Office of the Resident Commissioner of Gujarat in New Delhi. Tel- 23343147,23742413
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Haryana</strong></td>
+                              <td>
+                                Higher Education Commissioner/Director Higher Education, Haryana<br />
+                                Director Secondary Education, Haryana<br />
+                                The Secondary Board of School Education, Haryana, Bhiwani<br />
+                                Dy. Director Colleges-II O/o Higher Education Commissioner, Haryana(0172-25620360172-2562036) Fax: 2562042<br />
+                                Special Secretary/Deputy Secretary/Under Secretary, Home, Haryana Civil Secretariat, Chandigarh. Ph-0172-2740326<br />
+                                Office of the Resident Commissioner of Haryana in New Delhi. Haryana Bhawan, Copernicus Marg, New Delhi. Tel- 23384354
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Himachal Pradesh</strong></td>
+                              <td>
+                                Joint Secretary Principal Secretary/Deputy Secretary (Home) to the Government of Himachal Pradesh, Shimla<br />
+                                Principal Secretary/Deputy Secretary/Under Secretary (Home), Government of Himachal Pradesh, Shimla (Tel: 0177-2626450)<br />
+                                Joint Director (C-I)/(C-II), Directorate of High Education, Shimla-171001<br />
+                                Additional Director (Colleges), Directorate of High Education, Shimla-171001<br />
+                                Office of the Resident Commissioner of Himachal Pradesh in New Delhi. Tel-23716574, 23716124, 23711964<br />
+                                Additional Secretary (Home), Govt. of Himanchal Pradesh, Shimla-171002
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Jammu & Kashmir</strong></td>
+                              <td>
+                                Principal, G.G.M. Science College, Jammu. Tel- 0191-2953033, Email- principalggm@gmail.com<br />
+                                Nodal Officer, Kashmir Division Colleges, Principal, Govt. College of Education, Srinagar 190001<br />
+                                Principal, Amar Singh College, Gogji Bagh, Srinagar (J&K) Fax:0194-2476828<br />
+                                Additional Secretary, Home Department, Phone No. 01912549253<br />
+                                Director Colleges, Higher Education Department, Civil Secretariat, Srinagar/Jammu. Tel/Fax: 0194-2479584<br />
+                                Office of the Resident Commissioner of J&K in New Delhi. Tel- 24611506, 24611210
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Jharkhand</strong></td>
+                              <td>
+                                Director/Deputy Secretary/Under Secretary, Department of Human Resource Development, Ranchi.<br />
+                                Deputy Secretary, Home Department, Ranchi, Mobile: 09334359534 and Phone: 0651-2401447<br />
+                                Office of the Resident Commissioner of Jharkhand in New Delhi. Tel- 011-26739011, Fax 26739005<br />
+                                Joint Secretary, Higher and Technical Education Department.<br />
+                                Under Secretary, School Education And Literacy Department, Jharkhand, Ranchi.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Karnataka</strong></td>
+                              <td>
+                                Additional Commissioner (Land Maintenance Projects and Misc.), Regional Commissioner's Office, Mysuru Division, Mysuru. Ph0821-2513617<br />
+                                Additional Commissioner (Administration and Development), Regional Commissioner's Office, Mysuru Division, Mysuru. Ph0821-2516318<br />
+                                Under Secretary, Home Department (Passport and Foreigners), Bangalore, Phone: 080-22033371<br />
+                                Regional Commissioner, Mysore, Gulbarga, Bangalore, Belagavi<br />
+                                Additional Deputy Commissioner &Additional District Magistrate, Bangalore Urban/Rural, Bangalore.<br />
+                                Office of the Resident Commissioner of Karnataka in New Delhi. Karnataka Bhawan,10 Kautliya Marg, Chankyapuri, New Delhi. Tel-26889814
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Kerala</strong></td>
+                              <td>
+                                Additional Secretary to Govt. of Kerala, General Education Department, Regional Certificate Authentication Centre, Norka Roots, 6th Floor, Commercial Building, MG Road Metro Station, Ernakulam-682035. Tel- 0484-2371810/30<br />
+                                Deputy Secretary/Joint Secretary General, Education Department, Certificate Authentication Centre, Ernakulam. 0484-2371810, 0484-2371830<br />
+                                Additional Secretary to Govt. of Kerala, General Education Department, Certificate Authentication Centre, Kozhikode-673002<br />
+                                Additional Secretary (HRD) Certificate Authentication Centre, Thiruvanathapuram.<br />
+                                Joint Secretary to Government, Home Department and Under Secretary, Home (Attestation) Department 0471-2517107<br />
+                                Office of the Resident Commissioner of Kerala in New Delhi. Tel- 23362656,23368581, 23367833
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Madhya Pradesh</strong></td>
+                              <td>
+                                Additional Secretary/Deputy Secretary/Under Secretary, Govt. of M.P., Higher Education Department, Mantralaya, Vallabh Bhawan, Bhopal-462004. Tel- 0755-17046411<br />
+                                Deputy Secretary, Govt. of M.P., Home(Passport) Department, Mantralaya, Vallabh Bhawan, Bhopal<br />
+                                Deputy Secretary/Under Secretary, Govt. of M.P., Home Department, Mantralaya, Vallabh Bhawan, Bhopal-462004. Tel- 0755-2512423/2703066<br />
+                                Office of the Resident Commissioner of Madhya Pradesh in New Delhi. Tel-23019899, 23348484, 23361705
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Maharashtra</strong></td>
+                              <td>
+                                Deputy Secretary, Agriculture, Animal Husbandry, Dairy Development &Fisheries Department (Mantralaya), Govt. of Maharashtra.<br />
+                                Under Secretary, Higher &Technical Education Department, Annex Building, 4th floor, Mantralaya, Madam Cama Marg, Hutatma Rajguru Chowk, Mumbai-400032<br />
+                                Section Officer, Home Department, Government of Maharashtra, Mantralaya(Main Building)2nd floor, Madam Cama Marg, Mumbai-400032, Tel- 02222025088<br />
+                                Office of the Resident Commissioner of Maharashtra in New Delhi. Tel-23388075, 23383876<br />
+                                Deputy Secretary, Medical Education and Drugs Department, New Mantralaya, 9th Floor, New Building, G.T. Hospital Complex, Mumbai-400001<br />
+                                Under Secretary, Home Department, Mantralaya, Mumbai.
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Meghalaya</strong></td>
+                              <td>
+                                Secretary, Education Department, Government of Meghalaya, Shillong Telefax:0364-2226684(For Education Documents only)<br />
+                                Secretary/Principal Secretary/Additional Chief Secretary to the Govt. of Meghalaya, Home(Political) Department, Meghalaya(C) Secretariat, Additional Building, Shillong-1, Room No. 314. Tel- 0364-2210132<br />
+                                Office of the Resident Commissioner of Meghalaya in New Delhi. Meghlaya House, 9 Dr APJ Abdul Kalam Road, New Delhi-110011 Tel: 21410847
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Mizoram</strong></td>
+                              <td>
+                                Under Secretary, Government of Mizoram, Higher &Technical Education Department (Telefax:0389-2310680)<br />
+                                Secretary/Additional Secretary/Joint Secretary/Deputy Secretary Home Department of Mizoram, Aizawl.Tel:0389-2310680<br />
+                                Office of the Resident Commissioner of Mizoram in New Delhi.Tel-23016408
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Manipur</strong></td>
+                              <td>
+                                Secretary/Joint Secretary/Additional Secretary/Deputy Secretary/Under Secretary, Home Department, Government of Manipur, Tel: 0385-2443366, 0385-2452829(fax)<br />
+                                OSD University &Higher Education, Imphal 09856170467(Mobile)<br />
+                                Under Secretary(GAD), Government of Manipur<br />
+                                Office of the Resident Commissioner of Manipur in New Delhi. Tel-26873009, 26873311
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Nagaland</strong></td>
+                              <td>
+                                Secretary/Special Secretary (Home), Government of Nagaland, Kohima, Tel: 0370-2270074, Fax: 0370-2270268<br />
+                                Office of the Resident Commissioner of Nagaland in New Delhi.Tel-23013751,23794680
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Odisha</strong></td>
+                              <td>
+                                Principal Secretary/Special Secretary, Home Department, Odisha Secretariat, Lokaseba Bhawan, Bhubaneswar, (0674-2536761), Email-splsecyhome@gmail.com<br />
+                                Joint Secretary, Department of Higher Education Government of Orissa, Bhubaneswar 0674-2322434<br />
+                                Office of the Resident Commissioner of Orissa in New Delhi.Tel23019771
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Puducherry</strong></td>
+                              <td>
+                                Under Secretary to Government (Home), Chief Secretariat, Puducherry.<br />
+                                Under Secretary to Government (Administrative Reforms Wing), Chief Secretariat, Puducherry.Ph-0413-2333271/75<br />
+                                Deputy Secretary to Government (Establishment), Chief Secretariat, Puducherry<br />
+                                Under Secretary to Government (Enforcement), Chief Secretariat, Puducherry<br />
+                                District Collector, Collectorate, Duplex Street, Karaikal-609602. Ph-04368-222025<br />
+                                Office of the Resident Commissioner of Puducherry in New Delhi.Tel-26881703
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Punjab</strong></td>
+                              <td>
+                                Deputy Secretary/Under Secretary, Department of NRI Affairs, Tel: 0172-2742243 Ext 286<br />
+                                Assistant Director (Funds) and Assistant Director(CC), Punjab Education Department, Chandigarh. Tel:0172-2704431<br />
+                                Assistant Director, Office of Director of Public Instruction(Colleges)<br />
+                                Deputy Director-II, O/o Director School Education, Higher Education Deptt, Chandigarh<br />
+                                Director, Department of Technical Education &Industrial Training, Government of Punjab, Plot No.1-A, Sector-36A, Chandigarh, Tel:0172-2615385<br />
+                                Office of the Resident Commissioner of Punjab in New Delhi.Tel-23383804,23385399
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Rajasthan</strong></td>
+                              <td>
+                                Deputy Secretary, Home (Security), Home (Gr III Deptt), Govt. of Rajasthan<br />
+                                Officer on Special Duty (OSD), Home (Jail Department), Government of Rajasthan Tel-0141-5153222-Ext.2330<br />
+                                Deputy Secretary (Administration), Education Department, Administration Secretariat, Jaipur. Phone:01412227399<br />
+                                Deputy Secretary, (Coordination) Home Department, Government of Rajasthan<br />
+                                Assistant Secretary/Deputy Secretary, Higher Education(Gr.III) Department, Room No. 2202, 2nd floor, Main Building, Government Secretariat, Jaipur<br />
+                                Office of the Resident Commissioner of Rajasthan in New Delhi. Tel-23073747, 23381333
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Sikkim</strong></td>
+                              <td>
+                                Deputy Director/Assistant Director, Exam Cell(Exam), Human Resource Development Department, Government of Sikkim, Gangtok<br />
+                                Joint Secretary (Protocol)/(Con), Home Department, Government of Sikkim, Gangtok<br />
+                                Joint Director(Exam), Scholarship Section, Education Department, Government of Sikkim, Room No. 302, Gangtok-737103<br />
+                                Office of the Resident Commissioner of Sikkim in New Delhi. Tel-26113747
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Tamil Nadu</strong></td>
+                              <td>
+                                Deputy Secretary to Govt. Public (Protocol) Deptt., Govt. of Tamil Nadu.<br />
+                                Under Secretary to Govt., Public(Foreigners-III) Department, Secretariat, Chennai-9. Tel- 044-25671354/25665719<br />
+                                Office of the Resident Commissioner of Tamil Nadu in New Delhi.Tel-23010035 and 24193333
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Tripura</strong></td>
+                              <td>
+                                Special Secretary, Schedule Caste Welfare Department, Govt. of Tripura, Room No. 6204, 2nd Floor, New Civil Secretariat, Kunjaban, Agartala. Ph-0381-2413901<br />
+                                Deputy Secretary to the Government of Tripura, Agartala Tel: 03812324001/2324002/2326041<br />
+                                Office of the Resident Commissioner of Tripura in New Delhi.Tel-23012693,23015157<br />
+                                Under Secretary, Govt. of Tripura<br />
+                                Joint Secretary, Govt. of Tripura
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Telangana</strong></td>
+                              <td>
+                                Joint Secretary/Additional Secretary to Government(Genl.), General Administration Department, Telangana State Secretariat, BRKR Bhavan, Hyderabad, Telangana. Tel- 04023220603<br />
+                                Office of the Resident Commissioner of Telangana in New Delhi (Tel 011-23380558/23382041)
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Uttar Pradesh</strong></td>
+                              <td>
+                                Joint Secretary/Deputy Secretary/Under Secretary, Department of Higher Education, Govt. of Uttar Pradesh, Tel- 05222213041, 2213952<br />
+                                Joint Secretary/Special Secretary/Section Officer General Administration Department, Government of Uttar Pradesh 09415014247(M)<br />
+                                Office of the Resident Commissioner of Uttar Pradesh in New Delhi.Tel-23310408
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>Uttarakhand</strong></td>
+                              <td>
+                                Deputy Secretary/Under Secretary, General Administration Department, Govt. of Uttarakhand, Tel- 01352713913/2712096<br />
+                                Office of the Resident Commissioner of Uttarakhand in New Delhi.Tel-23738498,23358434<br />
+                                Joint Secretary, Government of Uttarakhand
+                              </td>
+                            </tr>
+                            <tr>
+                              <td><strong>West Bengal</strong></td>
+                              <td>
+                                Special Secretary/Officer-on-Special Duty/Section Officer, Home&Hill Affairs, Department (Foreigner Branch, Block V, Ground Floor, Writers' Buildings, Government of West Bengal, Kolkata-700001, Ph-033-22141774/22143187<br />
+                                W.B.C.S(Exe), Joint Secretary, Home(Foreigners' & NRI's) Department, Government of West Bengal, Kolkata. Phone (i) 033-2254-4091 (ii) 033-2254-4645<br />
+                                Office of the Resident Commissioner of West Bengal in New Delhi.Tel-23344269,23742695<br />
+                                Joint Secretary/Special Commissioner/Assistant Secretary/Section Officer Govt. of West Bengal, Home and Hill Affairs Department, Foreigners Branch, Kolkata-700001
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p>
+                        Source: <a href="https://www.mea.gov.in/Images/attach/RAC_Updated_DATA.pdf" target="_blank" rel="noopener noreferrer" className="site-text-primary">https://www.mea.gov.in/Images/attach/RAC_Updated_DATA.pdf</a>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* Employer Detail END */}
+          {/* Content Detail END */}
         </div>
-        {/* CONTENT END */}
       </div>
     </div>
   );
