@@ -103,24 +103,27 @@ export const industryCategories = [
 export const serviceCards = [
   {
     id: "consultancy",
-    title: "Recruitment Consultancy Services",
+    title: "Manpower Consultancy",
     description:
-      "We provide entire gamut of recruitment consultancy services to clients across different industry verticals.",
+      "We are a licensed manpower consultancy in India with 15 years of experience in sending Indian workers for jobs in Gulf through ethical and compliant recruitment processes.",
     image: "images/home-6/blog/latest/bg3.jpg",
+    redirect: "/about-us",
   },
   {
     id: "counselling",
-    title: "Overseas Job Counselling",
+    title: "Jobs in Gulf",
     description:
-      "We provide free counselling to candidates as regards job opportunities in Gulf, recruitment process.",
+      "We help Indian job seekers find verified jobs in Gulf countries, including Saudi Arabia, UAE, Qatar, Bahrain, Kuwait and Oman, across white-collar and blue-collar job roles.",
     image: "images/home-6/blog/latest/bg4.jpg",
+    redirect: "/job-list",
   },
   {
     id: "immigration",
-    title: "Immigration and Clearance Services",
+    title: "Visa Services",
     description:
-      "We take care of Visa & all other procedures required for successful immigration of candidates.",
+      "We provide complete visa and clearance services, including documentation, GAMCA Medical, Wakala, and MOFA coordination for safe Gulf employment.",
     image: "images/home-6/blog/latest/bg5.jpg",
+    redirect: "/visa",
   },
 ];
 

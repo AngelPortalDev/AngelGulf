@@ -358,6 +358,35 @@ const QatarVisaCentreGuide = () => {
           If you're planning on working in Qatar, our team is here to support you
           every step of the way.
         </p>
+ 
+
+        <div className="card bg-light border-0 shadow-sm mt-5">
+          <div className="card-body text-center p-5">
+            <h3 className="mb-3">Ready to Start Your Qatar Employment Journey?</h3>
+            <p className="mb-4">
+              Angel Gulf Jobs is here to guide you through the entire Qatar visa
+              process, from job placement and document preparation to Qatar Visa
+              Centre (QVC) appointments, biometric enrolment, and medical tests.
+            </p>
+            <p className="mb-4">
+              Get expert support, fast processing, and a smooth migration
+              experience.
+            </p>
+            <Link to="/contact-us" className="btn btn-lg">
+              Contact Angel Gulf Jobs today
+            </Link>
+            <p className="mt-3 text-muted">
+              Source:{" "}
+              <a
+                href="https://www.qatarvisacenter.com/cnt/faq"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://www.qatarvisacenter.com/cnt/faq
+              </a>
+            </p>
+          </div>
+        </div>
 
         <section className="blog-section mb-5">
           <h2 className="h3 fw-bold section-title-blue">FAQs</h2>
@@ -392,34 +421,6 @@ const QatarVisaCentreGuide = () => {
             })}
           </div>
         </section>
-
-        <div className="card bg-light border-0 shadow-sm mt-5">
-          <div className="card-body text-center p-5">
-            <h3 className="mb-3">Ready to Start Your Qatar Employment Journey?</h3>
-            <p className="mb-4">
-              Angel Gulf Jobs is here to guide you through the entire Qatar visa
-              process, from job placement and document preparation to Qatar Visa
-              Centre (QVC) appointments, biometric enrolment, and medical tests.
-            </p>
-            <p className="mb-4">
-              Get expert support, fast processing, and a smooth migration
-              experience.
-            </p>
-            <Link to="/contact-us" className="btn btn-primary btn-lg">
-              Contact Angel Gulf Jobs today
-            </Link>
-            <p className="mt-3 text-muted">
-              Source:{" "}
-              <a
-                href="https://www.qatarvisacenter.com/cnt/faq"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://www.qatarvisacenter.com/cnt/faq
-              </a>
-            </p>
-          </div>
-        </div>
 
         <style>{`
           .blog-section { margin-bottom: clamp(2rem, 4vw, 4rem); }

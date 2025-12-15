@@ -4,6 +4,7 @@ import saudiCompany from "./../assets/images/existing_partners/saudi-company.jpg
 import saudyDynamic from "./../assets/images/existing_partners/saudi-dynamic.jpg";
 import saudiSecuirity from "./../assets/images/existing_partners/saudi-security.jpg";
 import saudiImage from "./../assets/images/existing_partners/saudi.jpg";
+import UAEImage from "./../assets/images/existing_partners/UAE.jpg";
 import { Helmet } from "react-helmet";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -302,6 +303,16 @@ const Partners = () => {
         <div className="row">
           <div className="col-3 mt-2">
             <img
+              src={UAEImage}
+              className="img-fluid"
+              alt="not found"
+              data-bs-toggle="modal"
+              href="#uae-saved-jobs-view"
+              style={{ border: "1px solid gray" }}
+            />
+          </div>
+          <div className="col-3 mt-2">
+            <img
               src={duabiImage}
               className="img-fluid"
               alt="not found"
@@ -540,6 +551,45 @@ const Partners = () => {
               </div>
               <div className="modal-body">
                 <img src={saudyDynamic} className="img-fluid" alt="not found" />
+              </div>
+              <div className="modal-footer">
+                <button
+                  type="button"
+                  className="site-button"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* UAE Modal */}
+      <div
+        className="modal fade twm-saved-jobs-view"
+        id="uae-saved-jobs-view"
+        aria-hidden="true"
+        aria-labelledby="sign_up_popupLabel-3"
+        tabIndex={-1}
+      >
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <form>
+              <div className="modal-header">
+                <h3 className="modal-title" id="sign_up_popupLabel-3">
+                  Hot Mops
+                </h3>
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                />
+              </div>
+              <div className="modal-body">
+                <img src={UAEImage} className="img-fluid" alt="not found" />
               </div>
               <div className="modal-footer">
                 <button
