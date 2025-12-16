@@ -10,6 +10,13 @@ const NEWS_GROUPS = [
     metaLabel: "Latest headlines",
     items: [
       {
+        id: "gulf-construction-jobs",
+        to: "/gulf-construction-jobs",
+        title: "Job in Gulf for Blue-Collar Workers in Construction",
+        description:
+          "Find high-demand Gulf construction jobs for Indian blue-collar workers across UAE, Saudi Arabia, Qatar, Oman, Kuwait, and Bahrain. Apply through Angel Gulf Jobs today.",
+      },
+      {
         id: "saudi-india-workers-hiring",
         to: "/saudi-india-workers-hiring",
         title: "Saudi Arabia Leads in Hiring Indian Blue-Collar Workers",
