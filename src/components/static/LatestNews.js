@@ -5,6 +5,20 @@ import { Helmet } from "react-helmet";
 
 const NEWS_GROUPS = [
   {
+    id: "december-2025",
+    label: "December 2025",
+    metaLabel: "Latest headlines",
+    items: [
+      {
+        id: "saudi-india-workers-hiring",
+        to: "/saudi-india-workers-hiring",
+        title: "Saudi Arabia Leads in Hiring Indian Blue-Collar Workers",
+        description:
+          "Over 6.9 lakh Indians hired by Saudi Arabia between 2020-2025. Discover why Saudi Arabia remains the top destination for Indian blue-collar workers seeking jobs in Gulf.",
+      },
+    ],
+  },
+  {
     id: "november-2025",
     label: "November 2025",
     metaLabel: "Latest headlines",

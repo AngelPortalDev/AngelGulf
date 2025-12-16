@@ -325,6 +325,9 @@ const UAEAIRevolution = React.lazy(() =>
 const UAELabourViolations = React.lazy(() =>
   import("./components/News/UAELabourViolations.js")
 );
+const SaudiIndianWorkersHiring = React.lazy(() =>
+  import("./components/News/SaudiIndianWorkersHiring.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -894,6 +897,11 @@ function App() {
               exact
               path="/uae-labour-law-violations"
               element={<UAELabourViolations />}
+            />
+            <Route
+              exact
+              path="/saudi-india-workers-hiring"
+              element={<SaudiIndianWorkersHiring />}
             />
 
             {/* Sitemap */}
