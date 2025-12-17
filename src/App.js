@@ -325,6 +325,12 @@ const UAEAIRevolution = React.lazy(() =>
 const UAELabourViolations = React.lazy(() =>
   import("./components/News/UAELabourViolations.js")
 );
+const SaudiIndianWorkersHiring = React.lazy(() =>
+  import("./components/News/SaudiIndianWorkersHiring.js")
+);
+const GulfConstructionJobs = React.lazy(() =>
+  import("./components/News/GulfConstructionJobs.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -894,6 +900,16 @@ function App() {
               exact
               path="/uae-labour-law-violations"
               element={<UAELabourViolations />}
+            />
+            <Route
+              exact
+              path="/saudi-india-workers-hiring"
+              element={<SaudiIndianWorkersHiring />}
+            />
+            <Route
+              exact
+              path="/gulf-construction-jobs"
+              element={<GulfConstructionJobs />}
             />
 
             {/* Sitemap */}

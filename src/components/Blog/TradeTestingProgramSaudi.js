@@ -20,6 +20,9 @@ const TradeTestingProgramSaudi = () => {
   return (
     <BlogLayout
       title="Trade Testing Program of Saudi Arabia"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -33,7 +36,7 @@ const TradeTestingProgramSaudi = () => {
           </figcaption>
         </figure>
       )}
-      metaTitle="Saudi Skill Verification Programme for Indians | SVP Test India Guide by Angel Gulf Jobs"
+      metaTitle="Trade Testing Program of Saudi Arabia"
       metaDescription="Learn everything about the Saudi Skill Verification Programme for Indians, SVP test India process, how to pass SVP, Saudi professional verification India requirements, and how Angel Gulf Jobs Saudi recruitment helps Indian workers succeed."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "Trade Testing Program of Saudi Arabia" }]}

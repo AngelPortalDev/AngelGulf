@@ -19,7 +19,9 @@ const WaqalaSystemInSaudiArabia = () => {
   return (
     <BlogLayout
       title="Waqala System in Saudi Arabia"
-      eyebrow="Recruitment & Compliance"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={
         <figure className="text-center mb-0">
           <img
@@ -30,7 +32,7 @@ const WaqalaSystemInSaudiArabia = () => {
           />
         </figure>
       }
-      metaTitle="Waqala System in Saudi Arabia | Angel Gulf Jobs Recruitment"
+      metaTitle="Waqala System in Saudi Arabia"
       metaDescription="Learn how the Waqala system in Saudi Arabia works and how Angel Gulf Jobs, a licensed overseas recruitment agency, manages authorisation, documentation, and visa procedures for Indian workers."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "Waqala System in Saudi Arabia" }]}
@@ -114,90 +116,44 @@ const WaqalaSystemInSaudiArabia = () => {
           How the Waqala System Works
         </h2>
         <p>
-          The Waqala becomes active after the Saudi employer completes the
-          initial hiring permissions. Below is a simplified, step-by-step flow
-          of how the Saudi employer Waqala process works:
+          The Waqala becomes active after the Saudi employer completes the initial hiring permissions. Below is a simplified, step-by-step flow of how the Saudi employer Waqala process works:
         </p>
-        <div className="blog-steps">
-          <div className="blog-step">
-            <h3 className="h4 fw-bold section-title-dark blog-step-heading">
-              <span className="blog-step-bullet" aria-hidden="true" />
-              1. Employer Applies for a Block Visa
-            </h3>
-            <ul className="blog-bullet-list">
-              <li>
-                Before hiring foreign workers, the Saudi employer must apply
-                for a block visa through the Ministry of Human Resources.
-                This block visa specifies:
-              </li>
-              <li>Number of foreign workers</li>
-              <li>Nationalities</li>
-              <li>Job titles</li>
-              <li>
-                Once approved, the employer may proceed with individual
-                recruitment and a visa for Saudi Arabia.
-              </li>
-            </ul>
-          </div>
+        
+        <div className="mt-4">
+          <h3 className="h4 fw-bold">1. Employer Applies for a Block Visa</h3>
+          <p>Before hiring foreign workers, the Saudi employer must apply for a block visa through the Ministry of Human Resources. This block visa specifies:</p>
+          <ul className="blog-bullet-list">
+            <li>Number of foreign workers</li>
+            <li>Nationalities</li>
+            <li>Job titles</li>
+          </ul>
+          <p>Once approved, the employer may proceed with individual recruitment and a visa for Saudi Arabia.</p>
+        </div>
 
-          <div className="blog-step">
-            <h3 className="h4 fw-bold section-title-dark blog-step-heading">
-              <span className="blog-step-bullet" aria-hidden="true" />
-              2. Employer Issues a Waqala to Angel Gulf Jobs
-            </h3>
-            <ul className="blog-bullet-list">
-              <li>
-                After the block visa is approved, the employer in Saudi
-                Arabia begins the Waqala MOFA Saudi Arabia process by issuing
-                a Waqala (power of attorney) to a trusted overseas Gulf Job
-                consultant, such as Angel Gulf Jobs.
-              </li>
-              <li>
-                It authorises Angel Gulf Jobs permissions to:
-              </li>
-              <li>Source qualified Indian candidates</li>
-              <li>Manage all recruitment paperwork</li>
-              <li>Coordinate medical tests and obtain medical reports</li>
-              <li>
-                Facilitate attestation of educational and professional
-                documents
-              </li>
-              <li>
-                With this authorisation, Angel Gulf Jobs represents the
-                employer in all official processes required for hiring
-                manpower from India.
-              </li>
-            </ul>
-          </div>
+        <div className="mt-4">
+          <h3 className="h4 fw-bold">2. Employer Issues a Waqala to Angel Gulf Jobs</h3>
+          <p>After the block visa is approved, the employer in Saudi Arabia begins the Waqala MOFA Saudi Arabia process by issuing a Waqala (power of attorney) to a trusted overseas Gulf Job consultant, such as Angel Gulf Jobs.</p>
+          <p>It authorises Angel Gulf Jobs permissions to:</p>
+          <ul className="blog-bullet-list">
+            <li>Source qualified Indian candidates</li>
+            <li>Manage all recruitment paperwork</li>
+            <li>Coordinate medical tests and obtain medical reports</li>
+            <li>Facilitate attestation of educational and professional documents</li>
+          </ul>
+          <p>With this authorisation, Angel Gulf Jobs represents the employer in all official processes required for hiring manpower from India.</p>
+        </div>
 
-          <div className="blog-step">
-            <h3 className="h4 fw-bold section-title-dark blog-step-heading">
-              <span className="blog-step-bullet" aria-hidden="true" />
-              3. Angel Gulf Jobs Completes the Visa Procedures
-            </h3>
-            <ul className="blog-bullet-list">
-              <li>
-                Using the Waqala, our recruitment specialists at Angel Gulf
-                Jobs, a trusted overseas manpower consultancy, help you to:
-              </li>
-              <li>Prepare and submit the worker’s visa application</li>
-              <li>Coordinate with MOFA and other Saudi authorities</li>
-              <li>
-                We provide guidance on the required documents and
-                certificates, such as their verification or attestation
-              </li>
-              <li>Arrange necessary medical tests</li>
-              <li>
-                Complete embassy stamping and payment of any applicable visa
-                fee
-              </li>
-              <li>
-                This completes the formalities required for travel to Saudi
-                Arabia and the subsequent Iqama (residence visa) processing
-                for long-term employment.
-              </li>
-            </ul>
-          </div>
+        <div className="mt-4">
+          <h3 className="h4 fw-bold">3. Angel Gulf Jobs Completes the Visa Procedures</h3>
+          <p>Using the Waqala, our recruitment specialists at Angel Gulf Jobs, a trusted overseas manpower consultancy, help you to:</p>
+          <ul className="blog-bullet-list">
+            <li>Prepare and submit the worker's visa application</li>
+            <li>Coordinate with MOFA and other Saudi authorities</li>
+            <li>Provide guidance on required documents and certificates, including verification and attestation</li>
+            <li>Arrange necessary medical tests</li>
+            <li>Complete embassy stamping and payment of any applicable visa fees</li>
+          </ul>
+          <p>This completes the formalities required for travel to Saudi Arabia and the subsequent Iqama (residence visa) processing for long-term employment.</p>
         </div>
       </section>
 
@@ -249,7 +205,7 @@ const WaqalaSystemInSaudiArabia = () => {
         <h2 className="h3 fw-bold section-title-blue">Conclusion</h2>
         <p>
           The Waqala system in Saudi Arabia is a vital part of the foreign
-          recruitment framework for jobs in Saudi Arabia. It legally empowers
+          recruitment framework for <a href="/job-list" className="text-primary">jobs in Saudi Arabia</a>. It legally empowers
           overseas recruitment agencies like Angel Gulf Jobs to manage the
           administrative and visa-related procedures on behalf of Saudi
           employers.

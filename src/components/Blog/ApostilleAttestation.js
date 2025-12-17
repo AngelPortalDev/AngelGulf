@@ -24,8 +24,9 @@ const ApostilleAttestation = () => {
   return (
     <BlogLayout
       title="Apostille Attestation for Gulf document verification"
-      subtitle="Complete attestation workflow covering Apostille, MEA, e-Sanad, embassy and MOFA steps for Gulf-bound professionals."
-      eyebrow="Documentation & verification"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -44,7 +45,7 @@ const ApostilleAttestation = () => {
         { label: "Reading time", value: "7 mins" },
         { label: "Updated", value: "Nov 2025" },
       ]}
-      metaTitle="Apostille Attestation for Gulf Countries | MEA, e-Sanad & Embassy Attestation Guide (2025)"
+      metaTitle="Apostille Attestation for Gulf document verification"
       metaDescription="Complete guide to Apostille Attestation for Gulf countries. Learn MEA, e-Sanad, embassy and MOFA attestation steps for UAE, Saudi, Qatar, Kuwait, Bahrain & Oman. Includes document requirements, process, timelines and Gulf employment verification."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[

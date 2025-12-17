@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { serviceCards } from "./sectionsData";
 import "./HomeLayout.css";
 
@@ -17,15 +18,17 @@ const ServicesSection = () => (
         </div>
       </div>
       <div className="row g-4">
-        {serviceCards.map(({ id, title, description, image }) => (
+        {serviceCards.map(({ id, title, description, image, redirect }) => (
           <div className="col-lg-4 col-md-6" key={id}>
-            <div className="home-service-card">
-              <img src={image} alt={title} title={title} loading="lazy" />
-              <div className="body">
-                <h4>{title}</h4>
-                <p>{description}</p>
+            <Link to={redirect} className="text-decoration-none">
+              <div className="home-service-card">
+                <img src={image} alt={title} title={title} loading="lazy" />
+                <div className="body">
+                  <h4>{title}</h4>
+                  <p>{description}</p>
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         ))}
       </div>

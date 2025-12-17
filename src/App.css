@@ -180,6 +180,19 @@
   }
 }
 
+/* Blog Link Styling */
+.bloglayout-article a {
+  color: #009bd4;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.bloglayout-article a:hover,
+.bloglayout-article a:focus {
+  color: #0078a8;
+  text-decoration: underline;
+}
+
 /* Testimonials */
 .testimonials-card {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);

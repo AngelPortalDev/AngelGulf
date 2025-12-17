@@ -30,10 +30,10 @@ const SEO_KEYWORDS = [
 const EcrNonEcrPassports = () => {
   return (
     <BlogLayout
-      title="ECR and Non-ECR Passports: What Indian Gulf Jobseekers Must Know"
-      subtitle="Understand whether your passport needs emigration clearance before you travel for work to Gulf countries."
-      eyebrow="Compliance & documentation"
-      intro="Knowing whether your passport is ECR (Emigration Check Required) or ECNR (Emigration Check Not Required) is critical before you accept a Gulf job offer and travel overseas."
+      title="Difference Between ECR Passports and ECNR Passports"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -52,7 +52,7 @@ const EcrNonEcrPassports = () => {
         { label: "Reading time", value: "7 mins" },
         { label: "Updated", value: "Nov 2025" },
       ]}
-      metaTitle="ECR vs ECNR Passport | Difference Between ECR and Non-ECR Passports"
+      metaTitle="Difference Between ECR Passports and ECNR Passports"
       metaDescription="Learn the difference between ECR and ECNR passports, who needs emigration clearance, and how Indian jobseekers can safely travel for Gulf employment using the eMigrate portal."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[
@@ -64,10 +64,6 @@ const EcrNonEcrPassports = () => {
     >
       {/* INTRO & OVERVIEW */}
       <section className="blog-section mb-5">
-        <h2 className="h3 fw-bold section-title-blue">
-          Difference Between ECR (Emigration Check Required) and ECNR (Emigration Check Not Required) Passports
-        </h2>
-
         <p>
           When applying for a Gulf employment visa from India, one of the most important things to understand is your passport
           category: ECR (Emigration Check Required) or ECNR (Emigration Check Not Required).

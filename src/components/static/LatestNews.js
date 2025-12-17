@@ -5,6 +5,27 @@ import { Helmet } from "react-helmet";
 
 const NEWS_GROUPS = [
   {
+    id: "december-2025",
+    label: "December 2025",
+    metaLabel: "Latest headlines",
+    items: [
+      {
+        id: "gulf-construction-jobs",
+        to: "/gulf-construction-jobs",
+        title: "Job in Gulf for Blue-Collar Workers in Construction",
+        description:
+          "Find high-demand Gulf construction jobs for Indian blue-collar workers across UAE, Saudi Arabia, Qatar, Oman, Kuwait, and Bahrain. Apply through Angel Gulf Jobs today.",
+      },
+      {
+        id: "saudi-india-workers-hiring",
+        to: "/saudi-india-workers-hiring",
+        title: "Saudi Arabia Leads in Hiring Indian Blue-Collar Workers",
+        description:
+          "Over 6.9 lakh Indians hired by Saudi Arabia between 2020-2025. Discover why Saudi Arabia remains the top destination for Indian blue-collar workers seeking jobs in Gulf.",
+      },
+    ],
+  },
+  {
     id: "november-2025",
     label: "November 2025",
     metaLabel: "Latest headlines",

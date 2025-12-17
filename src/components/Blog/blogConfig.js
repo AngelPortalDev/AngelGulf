@@ -4,8 +4,7 @@ export const BLOG_POSTS = [
   {
     id: "avoid-gulf-job-scams",
     title: "Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies",
-    description:
-      "Spot fake Gulf job offers, know the red flags, and learn how verified agencies like Angel Gulf Jobs keep your job search safe.",
+    description: "Learn how to identify fake Gulf job offers, avoid recruitment scams, and choose legit Gulf job agencies. Find verified Gulf jobs for Indians with Angel Gulf Jobs.",
     to: "/blogs/avoid-gulf-job-scams",
     imageKey: "fakeJob",
     category: "Safety & Compliance",
@@ -16,8 +15,7 @@ export const BLOG_POSTS = [
     id: "connecting-continents-global-talent",
     title:
       "Connecting Continents: How Angel Gulf Jobs is Bridging Global Talent with Opportunity",
-    description:
-      "See how Angel Gulf Jobs connects skilled professionals with verified Gulf employers through a trusted overseas manpower network.",
+    description: "Discover how Angel Gulf Jobs, a trusted overseas manpower consultancy, bridges global talent with verified Gulf employers across the UAE, Qatar, Bahrain, Saudi Arabia, Oman, and Kuwait.",
     to: "/blogs/connecting-continents-global-talent",
     imageKey: "connectingContinents",
     category: "Global Recruitment",
@@ -27,8 +25,7 @@ export const BLOG_POSTS = [
   {
     id: "ecr-and-non-ecr-passports",
     title: "ECR and Non-ECR passports",
-    description:
-      "Understand the difference between ECR and ECNR passports, who needs emigration clearance, and how to travel safely for Gulf jobs.",
+    description: "Learn the difference between ECR and ECNR passports, who needs emigration clearance, and how Indian jobseekers can safely travel for Gulf employment using the eMigrate portal.",
     to: "/blogs/ecr-and-non-ecr-passports",
     imageKey: "ecrNonEcr",
     category: "Compliance & Documentation",
@@ -38,8 +35,7 @@ export const BLOG_POSTS = [
   {
     id: "kafala-system-saudi-arabia",
     title: "The Kafala System: From Control to Reform in Saudi Arabia",
-    description:
-      "Understand how the Kafala system shaped migrant workers' lives in Saudi Arabia and what its abolition means for Indian Gulf jobseekers.",
+    description: "Learn what the Kafala system is, how it shaped migrant workers' lives in Saudi Arabia and the Gulf, and what its abolition under Vision 2030 means for Indian workers seeking safe, legal overseas employment.",
     to: "/blogs/kafala-system-saudi-arabia",
     imageKey: "kafala",
     category: "Labour Rights & Policy",
@@ -49,8 +45,7 @@ export const BLOG_POSTS = [
   {
     id: "economic-diversification-gcc-countries",
     title: "Economic Diversification in GCC Countries",
-    description:
-      "Explore how GCC economic diversification is creating industrial and blue-collar jobs for Indians, and how Angel Gulf Jobs connects talent to these opportunities.",
+    description: "Explore how GCC economic diversification is creating new industrial and blue-collar jobs for Indians. Angel Gulf Jobs connects skilled manpower to top Gulf employers.",
     to: "/blogs/economic-diversification-gcc-countries",
     imageKey: "economicDiversificationGCC",
     category: "Gulf Economy & Jobs",
@@ -60,8 +55,7 @@ export const BLOG_POSTS = [
   {
     id: "apostille-attestation-gulf-document-verification",
     title: "Apostille Attestation for Gulf document verification",
-    description:
-      "Learn MEA, e-Sanad, embassy and MOFA attestation steps for Gulf employment along with document requirements and timelines.",
+    description: "Complete guide to Apostille Attestation for Gulf countries. Learn MEA, e-Sanad, embassy and MOFA attestation steps for UAE, Saudi, Qatar, Kuwait, Bahrain & Oman. Includes document requirements, process, timelines and Gulf employment verification.",
     to: "/blogs/apostille-attestation-gulf-document-verification",
     imageKey: "apostilleAttestation",
     category: "Compliance & Documentation",
@@ -71,8 +65,7 @@ export const BLOG_POSTS = [
   {
     id: "hrd-attestation-for-gulf-employment",
     title: "HRD Attestation for Gulf Employment",
-    description:
-      "Understand HRD, MEA, embassy, and MOFA attestation stages for Indian degrees headed to GCC job markets.",
+    description: "Complete guide to HRD attestation for Gulf employment. Learn the step-by-step process for Indian degree verification, HRD, MEA, embassy, and MOFA attestation required for UAE, Saudi, Qatar, Kuwait, Oman and Bahrain jobs.",
     to: "/blogs/hrd-attestation-for-gulf-employment",
     imageKey: "hrdAttestation",
     category: "Compliance & Documentation",
@@ -82,8 +75,7 @@ export const BLOG_POSTS = [
   {
     id: "waqala-system-in-saudi-arabia",
     title: "Waqala System in Saudi Arabia",
-    description:
-      "Learn how the Waqala system empowers licensed overseas recruitment agencies like Angel Gulf Jobs to manage Saudi employer authorisations, documentation, and visa procedures for Indian workers.",
+    description: "Learn how the Waqala system in Saudi Arabia works and how Angel Gulf Jobs, a licensed overseas recruitment agency, manages authorisation, documentation, and visa procedures for Indian workers.",
     to: "/blogs/waqala-system-in-saudi-arabia",
     imageKey: "waqalaSystem",
     category: "Recruitment & Compliance",
@@ -93,8 +85,7 @@ export const BLOG_POSTS = [
   {
     id: "saudi-arabia-labour-law-guide-2025",
     title: "Saudi Labour Law:  Complete Guide for Jobs in Saudi Arabia",
-    description:
-      "Understand 2025 Saudi Labour Law updates, visa rules, contracts, working hours, leave, salary protection and expat rights for overseas jobs in Saudi Arabia.",
+    description: "Planning to work in Saudi Arabia? This 2025 Labour Law guide explains Iqama rules, working hours, overtime, leave, salary protection, and expat rights.",
     to: "/blogs/saudi-arabia-labour-law-guide-2025",
     imageKey: "saudiLabourLaw",
     category: "Labour Rights & Policy",
@@ -104,8 +95,7 @@ export const BLOG_POSTS = [
   {
     id: "wage-protection-system-gcc-countries",
     title: "Wage Protection Systems or WPS in GCC Countries",
-    description:
-      "Understand how Wage Protection Systems (WPS) in GCC countries safeguard worker salaries and support safe, transparent jobs in Gulf.",
+    description: "Learn how the Wage Protection System (WPS) in GCC Countries ensures safe, transparent WPS salary payments for workers. Find WPS-compliant jobs in Gulf with Angel Gulf Jobs.",
     to: "/blogs/wage-protection-system-gcc-countries",
     imageKey: "wpsGCC",
     category: "Labour Rights & Policy",
@@ -115,8 +105,7 @@ export const BLOG_POSTS = [
   {
     id: "understanding-qiwa-platform-guide-for-jobs-in-saudi",
     title: "Understanding Qiwa Platform: A Guide for Jobs in Saudi",
-    description:
-      "Learn how Saudi Arabia's Qiwa platform simplifies digital contracts, work permits, labour protection, and overseas employment for Gulf jobseekers.",
+    description: "Learn how Qiwa simplifies overseas employment in Saudi Arabia. Angel Gulf Jobs, trusted overseas job consultants, guide you through work permits, labour protection, digital contracts, and Gulf job opportunities for a safe and secure career in the Gulf.",
     to: "/blogs/understanding-qiwa-platform-guide-for-jobs-in-saudi",
     imageKey: "qiwaSystem",
     category: "Labour Rights & Policy",
@@ -126,8 +115,7 @@ export const BLOG_POSTS = [
   {
     id: "qatar-visa-centre-guide",
     title: "Qatar Visa Centre (QVC): A Complete Guide",
-    description:
-      "Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits.",
+    description: "Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits. Perfect guide for Qatar employment visa applicants.",
     to: "/blogs/qatar-visa-centre-guide",
     imageKey: "qatarVisaCentre",
     category: "Visa Process",
@@ -137,8 +125,7 @@ export const BLOG_POSTS = [
   {
     id: "trade-testing-program-saudi-arabia",
     title: "Trade Testing Program of Saudi Arabia",
-    description:
-      "Understand Saudi Arabia's Skill Verification Programme (SVP) for Indian workers, trade testing tracks, required documents, and exam rules.",
+    description: "Learn everything about the Saudi Skill Verification Programme for Indians, SVP test India process, how to pass SVP, Saudi professional verification India requirements, and how Angel Gulf Jobs Saudi recruitment helps Indian workers succeed.",
     to: "/blogs/trade-testing-program-of-saudi-arabia",
     imageKey: "tradeTestingSaudi",
     category: "Skill Verification",
@@ -148,8 +135,7 @@ export const BLOG_POSTS = [
   {
     id: "ethical-overseas-recruitment",
     title: "Ethical Overseas Recruitment for Gulf Job Seekers",
-    description:
-      "Discover ethical overseas recruitment for Gulf jobs with verified, scam-free opportunities. Angel Gulf Jobs ensures transparency, trusted employers, and safe hiring.",
+    description: "Discover ethical overseas recruitment for Gulf jobs with verified, scam-free opportunities. Angel Gulf Jobs ensures transparency, trusted employers, and safe hiring.",
     to: "/blogs/ethical-overseas-recruitment",
     imageKey: "ethicalRecruitment",
     category: "Recruitment & Compliance",

@@ -26,9 +26,9 @@ const AvoidGulfJobScams = () => {
   return (
     <BlogLayout
       title="Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies"
-      subtitle="Simple checks you can follow to stay safe while chasing your Gulf career dreams."
-      eyebrow="Job search safety"
-      intro="Angel Gulf Jobs shares practical guidance to help Indian job seekers identify fake Gulf job offers, verify recruiters, and trust only licensed agencies."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -47,7 +47,7 @@ const AvoidGulfJobScams = () => {
         { label: "Reading time", value: "8 mins" },
         { label: "Updated", value: "Oct 2025" },
       ]}
-      metaTitle="Avoid Gulf Job Scams | Choose Verified & Legit Gulf Job Agencies"
+      metaTitle="Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies"
       metaDescription="Learn how to identify fake Gulf job offers, avoid recruitment scams, and choose legit Gulf job agencies. Find verified Gulf jobs for Indians with Angel Gulf Jobs."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[

@@ -18,9 +18,9 @@ const SaudiLabourLawGuide = () => {
   return (
     <BlogLayout
       title="Saudi Labour Law:  Complete Guide for Jobs in Saudi Arabia"
-      eyebrow="Labour law guidance"
-      subtitle="A 2025 overview of Saudi Arabia Labour Law, expat rights, and rules for overseas jobseekers."
-      intro="Planning to work in Saudi Arabia? This detailed guide summarises key Saudi Labour Law rules, contract terms, working hours, leave benefits, salary protections, and expat rights you should know before accepting a job."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -34,7 +34,7 @@ const SaudiLabourLawGuide = () => {
           </figcaption>
         </figure>
       )}
-      metaTitle="Saudi Arabia Labour Law Guide 2025: Iqama, Leave, Salary Rules & Expat Rights | Angel Gulf Jobs"
+      metaTitle="Saudi Labour Law:  Complete Guide for Jobs in Saudi Arabia"
       metaDescription="Planning to work in Saudi Arabia? This 2025 Labour Law guide explains Iqama rules, working hours, overtime, leave, salary protection, and expat rights."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[
