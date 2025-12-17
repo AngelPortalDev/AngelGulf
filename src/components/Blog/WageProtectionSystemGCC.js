@@ -16,8 +16,9 @@ const WageProtectionSystemGCC = () => {
   return (
     <BlogLayout
       title="Wage Protection Systems or WPS in GCC Countries"
-      eyebrow="Labour protection & salary safety"
-      subtitle="How WPS in GCC Countries protects worker salaries and supports safe jobs in Gulf."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -28,7 +29,7 @@ const WageProtectionSystemGCC = () => {
           />
         </figure>
       )}
-      metaTitle="Wage Protection System (WPS) in GCC Countries | Safe Jobs in Gulf | Angel Gulf Jobs"
+      metaTitle="Wage Protection Systems or WPS in GCC Countries"
       metaDescription="Learn how the Wage Protection System (WPS) in GCC Countries ensures safe, transparent WPS salary payments for workers. Find WPS-compliant jobs in Gulf with Angel Gulf Jobs."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "Wage Protection Systems or WPS in GCC Countries" }]}

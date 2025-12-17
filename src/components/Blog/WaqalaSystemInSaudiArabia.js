@@ -19,7 +19,9 @@ const WaqalaSystemInSaudiArabia = () => {
   return (
     <BlogLayout
       title="Waqala System in Saudi Arabia"
-      eyebrow="Recruitment & Compliance"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={
         <figure className="text-center mb-0">
           <img
@@ -30,7 +32,7 @@ const WaqalaSystemInSaudiArabia = () => {
           />
         </figure>
       }
-      metaTitle="Waqala System in Saudi Arabia | Angel Gulf Jobs Recruitment"
+      metaTitle="Waqala System in Saudi Arabia"
       metaDescription="Learn how the Waqala system in Saudi Arabia works and how Angel Gulf Jobs, a licensed overseas recruitment agency, manages authorisation, documentation, and visa procedures for Indian workers."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "Waqala System in Saudi Arabia" }]}

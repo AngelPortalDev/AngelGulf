@@ -18,7 +18,9 @@ const HRDAttestationForGulfEmployment = () => {
   return (
     <BlogLayout
       title="HRD Attestation for Gulf Employment"
-      eyebrow="Compliance & Documentation"
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={
         <figure className="text-center mb-0">
           <img
@@ -33,7 +35,7 @@ const HRDAttestationForGulfEmployment = () => {
           </figcaption>
         </figure>
       }
-      metaTitle="HRD Attestation for Gulf Jobs | Step-by-Step Degree Verification Process in India"
+      metaTitle="HRD Attestation for Gulf Employment"
       metaDescription="Complete guide to HRD attestation for Gulf employment. Learn the step-by-step process for Indian degree verification, HRD, MEA, embassy, and MOFA attestation required for UAE, Saudi, Qatar, Kuwait, Oman and Bahrain jobs."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "HRD Attestation for Gulf Employment" }]}

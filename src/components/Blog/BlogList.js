@@ -122,10 +122,7 @@ const BlogList = () => {
                       <div className="card-body d-flex flex-column p-4">
                         <span className="blog-card-category">{blog.category}</span>
                         <h3 className="blog-card-title">{blog.title}</h3>
-
-                        <p className="blog-card-description flex-grow-1">
-                          {blog.description}
-                        </p>
+                        <p className="blog-card-description">{blog.description}</p>
 
                         <div className="blog-card-meta">
                           <span>{blog.readingTime}</span>

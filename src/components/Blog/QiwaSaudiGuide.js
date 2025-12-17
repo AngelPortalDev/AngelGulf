@@ -18,8 +18,9 @@ const QiwaSaudiGuide = () => {
   return (
     <BlogLayout
       title="Understanding Qiwa Platform: A Guide for Jobs in Saudi"
-      eyebrow="Digital labour platforms"
-      subtitle="How Saudi Arabia's Qiwa platform supports safer, more transparent Gulf employment for expatriate workers."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -30,7 +31,7 @@ const QiwaSaudiGuide = () => {
           />
         </figure>
       )}
-      metaTitle="Qiwa Saudi Arabia Guide 2025 | Overseas Job Consultants for Gulf Employment & Labour Protection"
+      metaTitle="Understanding Qiwa Platform: A Guide for Jobs in Saudi"
       metaDescription="Learn how Qiwa simplifies overseas employment in Saudi Arabia. Angel Gulf Jobs, trusted overseas job consultants, guide you through work permits, labour protection, digital contracts, and Gulf job opportunities for a safe and secure career in the Gulf."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[{ label: "Understanding Qiwa Platform: A Guide for Jobs in Saudi" }]}

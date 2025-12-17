@@ -21,9 +21,9 @@ const EconomicDiversificationGCC = () => {
   return (
     <BlogLayout
       title="Economic Diversification in GCC Countries"
-      subtitle="How GCC transformation is creating new technical and blue-collar opportunities for Indian talent."
-      eyebrow="Gulf economy & jobs"
-      intro="Economic diversification across the GCC is reducing oil dependence and powering growth in manufacturing, renewable energy, logistics, smart infrastructure, and digital industries—creating a steady rise in demand for Indian talent."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -42,7 +42,7 @@ const EconomicDiversificationGCC = () => {
         { label: "Reading time", value: "7 mins" },
         { label: "Updated", value: "Nov 2025" },
       ]}
-      metaTitle="Economic Diversification in GCC | Gulf Jobs for Indians | Angel Gulf Jobs"
+      metaTitle="Economic Diversification in GCC Countries"
       metaDescription="Explore how GCC economic diversification is creating new industrial and blue-collar jobs for Indians. Angel Gulf Jobs connects skilled manpower to top Gulf employers."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[

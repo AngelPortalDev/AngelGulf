@@ -29,7 +29,10 @@ const QatarVisaCentreGuide = () => {
   return (
     <BlogLayout
       title="Qatar Visa Centre (QVC): A Complete Guide"
-      metaTitle="Qatar Visa Centre (QVC) Guide for Indians | Biometric, Medical & Work Visa Process | Angel Gulf Jobs"
+      subtitle=""
+      eyebrow=""
+      intro=""
+      metaTitle="Qatar Visa Centre (QVC): A Complete Guide"
       metaDescription="Learn the complete Qatar Visa Centre (QVC) process for Indians — biometric enrolment, Qatar visa medical test, documents required, appointment steps, and benefits. Perfect guide for Qatar employment visa applicants."
       metaKeywords="Qatar Visa Centre, QVC Qatar, Qatar visa medical test, MOI Qatar Visa Centre, Qatar employment visa process, Qatar Visa Centre India, Qatar Visa Centre Mumbai, Qatar work visa process India, Qatar biometric enrolment India, Qatar visa procedure for Indians, jobs in Qatar"
       hero={(

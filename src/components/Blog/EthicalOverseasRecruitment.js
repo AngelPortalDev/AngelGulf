@@ -22,9 +22,9 @@ const EthicalOverseasRecruitment = () => {
     return (
         <BlogLayout
             title="Ethical Overseas Recruitment for Gulf Job Seekers"
-            subtitle="Building trust across borders through fair, transparent, and responsible hiring practices."
-            eyebrow="Recruitment & Compliance"
-            intro="Angel Gulf Jobs is committed to ethical overseas recruitment, offering 100% verified Gulf job opportunities and ensuring safe, transparent, and legitimate employment pathways for job seekers."
+            subtitle=""
+            eyebrow=""
+            intro=""
             hero={(
                 <figure className="text-center mb-0">
                     <img
@@ -43,7 +43,7 @@ const EthicalOverseasRecruitment = () => {
                 { label: "Reading time", value: "7 mins" },
                 { label: "Updated", value: "Dec 2025" },
             ]}
-            metaTitle="Ethical Overseas Recruitment for Safe & Verified Gulf Jobs | Angel Gulf Jobs"
+            metaTitle="Ethical Overseas Recruitment for Gulf Job Seekers"
             metaDescription="Discover ethical overseas recruitment for Gulf jobs with verified, scam-free opportunities. Angel Gulf Jobs ensures transparency, trusted employers, and safe hiring."
             metaKeywords={SEO_KEYWORDS}
             breadcrumbItems={[

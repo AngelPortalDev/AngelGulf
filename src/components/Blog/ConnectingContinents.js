@@ -22,9 +22,9 @@ const ConnectingContinents = () => {
   return (
     <BlogLayout
       title="Connecting Continents: How Angel Gulf Jobs is Bridging Global Talent with Opportunity"
-      subtitle="A trusted overseas manpower consultancy connecting skilled professionals to Gulf opportunities across the UAE, Saudi Arabia, Qatar, Bahrain, Oman, and Kuwait."
-      eyebrow="Global talent mobility"
-      intro="Angel Gulf Jobs acts as a bridge between ambitious professionals and trusted Gulf employers, simplifying overseas hiring with verified opportunities, documentation support, and end-to-end guidance."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -43,7 +43,7 @@ const ConnectingContinents = () => {
         { label: "Reading time", value: "7 mins" },
         { label: "Updated", value: "Nov 2025" },
       ]}
-      metaTitle="Angel Gulf Jobs | Connecting Global Talent with Gulf Opportunities"
+      metaTitle="Connecting Continents: How Angel Gulf Jobs is Bridging Global Talent with Opportunity"
       metaDescription="Discover how Angel Gulf Jobs, a trusted overseas manpower consultancy, bridges global talent with verified Gulf employers across the UAE, Qatar, Bahrain, Saudi Arabia, Oman, and Kuwait."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[

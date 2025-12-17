@@ -15,9 +15,9 @@ const KafalaSystem = () => {
   return (
     <BlogLayout
       title="The Kafala System: From Control to Reform in Saudi Arabia"
-      subtitle="Understanding how a historic sponsorship system shaped migrant lives across the Gulf—and what its abolition in Saudi Arabia means for Indian workers."
-      eyebrow="Labour rights & policy"
-      intro="For decades, the Kafala system governed nearly every aspect of migrant workers' lives in the Gulf. Today, as Saudi Arabia abolishes the system, a new chapter is opening for millions of workers, including Indians seeking safe and legal overseas employment."
+      subtitle=""
+      eyebrow=""
+      intro=""
       hero={(
         <figure className="text-center mb-0">
           <img
@@ -36,7 +36,7 @@ const KafalaSystem = () => {
         { label: "Reading time", value: "8 mins" },
         { label: "Updated", value: "Nov 2025" },
       ]}
-      metaTitle="The Kafala System in Saudi Arabia | From Sponsorship to Labour Reform"
+      metaTitle="The Kafala System: From Control to Reform in Saudi Arabia"
       metaDescription="Learn what the Kafala system is, how it shaped migrant workers' lives in Saudi Arabia and the Gulf, and what its abolition under Vision 2030 means for Indian workers seeking safe, legal overseas employment."
       metaKeywords={SEO_KEYWORDS}
       breadcrumbItems={[
