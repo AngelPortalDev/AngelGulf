@@ -101,6 +101,9 @@ const PressRelease = React.lazy(() =>
 );
 const Sitemap = React.lazy(() => import("./components/Sitemap.js"));
 const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
+const GccWorkPermitProcessEmploymentVisa = React.lazy(() =>
+  import("./components/Blog/GccWorkPermitProcessEmploymentVisa.js")
+);
 const AvoidGulfJobScams = React.lazy(() =>
   import("./components/Blog/AvoidGulfJobScams.js")
 );
@@ -298,18 +301,6 @@ const LabourLawWorkBanCancellation = React.lazy(() =>
 );
 
 // News components
-const PayHikeVsJobPriority = React.lazy(() =>
-  import("./components/News/PayHikeVsJobPriority.js")
-);
-const IndianBudgetImpactOnRemitters = React.lazy(() =>
-  import("./components/News/IndianBudgetImpactOnRemitters.js")
-);
-const UAEDefenceDeals = React.lazy(() =>
-  import("./components/News/UAEDefenceDeals.js")
-);
-const CentrepointExpansionHiring = React.lazy(() =>
-  import("./components/News/CentrepointExpansionHiring.js")
-);
 const UAEDigitalWorkPermitSystem = React.lazy(() =>
   import("./components/News/UAEDigitalWorkPermitSystem.js")
 );
@@ -528,6 +519,11 @@ function App() {
             <Route exact path="/blogs" element={<BlogList />} />
 
             {/* Blog routes*/}
+            <Route
+              exact
+              path="/blogs/gcc-work-permit-process-for-employment-visa"
+              element={<GccWorkPermitProcessEmploymentVisa />}
+            />
             <Route
               exact
               path="/blogs/avoid-gulf-job-scams"
@@ -856,26 +852,6 @@ function App() {
 
             {/* News */}
 
-            <Route
-              exact
-              path="/pay-hike-or-keeping-your-job"
-              element={<PayHikeVsJobPriority />}
-            />
-            <Route
-              exact
-              path="/indian-budget-spoils-uae-expat-remitters-party"
-              element={<IndianBudgetImpactOnRemitters />}
-            />
-            <Route
-              exact
-              path="/uae-signs-defence-deals"
-              element={<UAEDefenceDeals />}
-            />
-            <Route
-              exact
-              path="/centerpoint-to-add-25-outlets-in-2016"
-              element={<CentrepointExpansionHiring />}
-            />
             <Route
               exact
               path="/uae-digital-work-permit-system"

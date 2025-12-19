@@ -7,14 +7,20 @@ import EcrNonEcrImgr from "../../assets/images/blogs/ecr-non-ecr-bg.png";
 import KafalaImg from "../../assets/images/blogs/kafala.png";
 import EconomicDiversificationGCCImg from "../../assets/images/blogs/Economic-Diversification-in-GCC-Countries.png";
 import ApostilleAttestationImg from "../../assets/images/blogs/Apostille-Attestation-blog-list.png";
+import saudiSkilledBasedWorkPermitImg from "../../assets/images/blogs/Saudi-skill-based-work-permit-visa.png";
+import GccWorkPermitImg from "../../assets/images/blogs/National-plans-by-GCC-countries.png";
+import GccWorkPermitVisaImg from'../../assets/images/blogs/GCC-work-permit-visa.png';
 
 const imageMap = {
     fakeJob: FakeJobImg,
+    gccWorkPermit: GccWorkPermitImg,
     connectingContinents: BgImge,
     ecrNonEcr: EcrNonEcrImgr,
     kafala: KafalaImg,
     economicDiversificationGCC: EconomicDiversificationGCCImg,
     apostilleAttestation: ApostilleAttestationImg,
+    saudiSkillBasedWorkPermit: saudiSkilledBasedWorkPermitImg,
+    gccWorkPermitVisa: GccWorkPermitVisaImg,
 };
 
 // Get first 3 blog posts

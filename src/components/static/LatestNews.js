@@ -67,42 +67,6 @@ const NEWS_GROUPS = [
       },
     ],
   },
-  {
-    id: "march-2016",
-    label: "March 2016",
-    metaLabel: "News headlines",
-    items: [
-      {
-        id: "pay-hike-or-keeping-your-job",
-        to: "/pay-hike-or-keeping-your-job",
-        title: "Pay hike or keeping your job? What your priority should be",
-        description:
-          "UAE salary forecasts for 2016 show minimal growth, with experts predicting flat pay hikes as companies adopt a cautious outlook amid fluctuating oil prices and economic uncertainty.",
-      },
-      {
-        id: "indian-budget-spoils-uae-expat-remitters-party",
-        to: "/indian-budget-spoils-uae-expat-remitters-party",
-        title:
-          "Indian Budget Euphoria Spoils UAE Expat Remitters' Party As Rupee Rallies",
-        description:
-          "India’s rupee surged to its strongest weekly gain since 2013 after Budget 2016 boosted investor confidence, driving a sharp rise in the currency and stock markets.",
-      },
-      {
-        id: "uae-signs-defence-deals",
-        to: "/uae-signs-defence-deals",
-        title: "UAE Signs Defence Deals Worth Dh767m On UMEX Opening Day",
-        description:
-          "The UAE signed Dh767 million in defence contracts at UMEX 2016, boosting its unmanned systems and aerospace sector through major deals with global and local companies.",
-      },
-      {
-        id: "centerpoint-to-add-25-outlets-in-2016",
-        to: "/centerpoint-to-add-25-outlets-in-2016",
-        title: "Centrepoint To Add 25 Outlets This Year, Recruit 2,500 Staff",
-        description:
-          "Centrepoint plans to open 25 new Gulf outlets in 2016 and hire 2,500 staff, with major expansion focused on Saudi Arabia as the Landmark Group explores new mall developments.",
-      },
-    ],
-  },
 ];
 
 const LatestNews = () => {
