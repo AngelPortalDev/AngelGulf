@@ -2,6 +2,17 @@
 
 export const BLOG_POSTS = [
   {
+    id: "saudi-skill-based-work-permit-system",
+    title: "Saudi Skill-Based Work Permit System",
+    description:
+      "Explore Saudi Arabia’s new skill-based work permit system for foreign workers. Learn the 2025 requirements, classification levels, Qiwa process & Vision 2030 reforms.",
+    to: "/blogs/saudi-skill-based-work-permit-system",
+    imageKey: "saudiSkillBasedWorkPermit",
+    category: "Labour Rights & Policy",
+    readingTime: "9 min read",
+    updatedOn: "Dec 2025",
+  },
+  {
     id: "avoid-gulf-job-scams",
     title: "Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies",
     description: "Learn how to identify fake Gulf job offers, avoid recruitment scams, and choose legit Gulf job agencies. Find verified Gulf jobs for Indians with Angel Gulf Jobs.",

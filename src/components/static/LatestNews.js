@@ -65,13 +65,6 @@ const NEWS_GROUPS = [
         description:
           "The UAE has outlined 13 major labour law violations to strengthen worker protection, improve safety standards, and support fair employment practices.",
       },
-      {
-        id: "saudi-skill-based-work-permit-system-2025",
-        to: "/saudi-skill-based-work-permit-system",
-        title: "Qiwa Platform and Jobs in Saudi Arabia",
-        description:
-          "Saudi Arabia’s Qiwa platform strengthens digital recruitment and labour transparency, creating smoother hiring journeys for jobs in Saudi.",
-      },
     ],
   },
   {

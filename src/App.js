@@ -104,6 +104,9 @@ const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
 const AvoidGulfJobScams = React.lazy(() =>
   import("./components/Blog/AvoidGulfJobScams.js")
 );
+const SaudiSkillBasedWorkPermitSystem = React.lazy(() =>
+  import("./components/Blog/SaudiSkillBasedWorkPermitSystem.js")
+);
 const ConnectingContinents = React.lazy(() =>
   import("./components/Blog/ConnectingContinents.js")
 );
@@ -309,9 +312,6 @@ const CentrepointExpansionHiring = React.lazy(() =>
 );
 const UAEDigitalWorkPermitSystem = React.lazy(() =>
   import("./components/News/UAEDigitalWorkPermitSystem.js")
-);
-const SaudiSkillBasedWorkPermit = React.lazy(() =>
-  import("./components/News/SaudiSkillBasedWorkPermit.js")
 );
 const SaudiIqamaReforms2025 = React.lazy(() =>
   import("./components/News/SaudiIqamaReforms2025.js")
@@ -532,6 +532,11 @@ function App() {
               exact
               path="/blogs/avoid-gulf-job-scams"
               element={<AvoidGulfJobScams />}
+            />
+            <Route
+              exact
+              path="/blogs/saudi-skill-based-work-permit-system"
+              element={<SaudiSkillBasedWorkPermitSystem />}
             />
             <Route
               exact
@@ -875,11 +880,6 @@ function App() {
               exact
               path="/uae-digital-work-permit-system"
               element={<UAEDigitalWorkPermitSystem />}
-            />
-            <Route
-              exact
-              path="/saudi-skill-based-work-permit-system"
-              element={<SaudiSkillBasedWorkPermit />}
             />
             <Route
               exact

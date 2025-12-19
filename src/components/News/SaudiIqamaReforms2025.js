@@ -107,7 +107,7 @@ const SaudiIqamaReforms2025 = () => {
                                         </p>
                                         <p>
                                             To read in detail about the Skill-Based Work Permit Classification System, visit:{" "}
-                                            <NavLink to="/saudi-skill-based-work-permit-system" className="text-primary">
+                                            <NavLink to="/blogs/saudi-skill-based-work-permit-system" className="text-primary">
                                                 Skill-based work permit classification system in Saudi Arabia
                                             </NavLink>.
                                         </p>

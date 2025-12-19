@@ -16,6 +16,7 @@ import QiwaSystem from "../../assets/images/blogs/qiwa-bg.jpg";
 import QatarVisaCentreImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
 import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Program.png";
 import EthicalRecruitmentImg from "../../assets/images/blogs/Ethical-Overseas-Recruitment-bg.png";
+import saudiSkilledBasedWorkPermitImg from "../../assets/images/blogs/Saudi-skill-based-work-permit-visa.png";
 
 
 const imageMap = {
@@ -33,6 +34,7 @@ const imageMap = {
   qatarVisaCentre: QatarVisaCentreImg,
   tradeTestingSaudi: TradeTestingProgramImg,
   ethicalRecruitment: EthicalRecruitmentImg,
+  saudiSkillBasedWorkPermit: saudiSkilledBasedWorkPermitImg,
 };
 
 const blogs = BLOG_POSTS.map((post) => ({
