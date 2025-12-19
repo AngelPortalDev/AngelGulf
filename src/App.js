@@ -322,6 +322,9 @@ const SaudiIndianWorkersHiring = React.lazy(() =>
 const GulfConstructionJobs = React.lazy(() =>
   import("./components/News/GulfConstructionJobs.js")
 );
+const QiwaPlatformSaudiJobs = React.lazy(() =>
+  import("./components/News/QiwaPlatformSaudiJobs.js")
+);
 
 // Sitemap components
 const ConstructionIndustry = React.lazy(() =>
@@ -876,6 +879,11 @@ function App() {
               exact
               path="/uae-labour-law-violations"
               element={<UAELabourViolations />}
+            />
+            <Route
+              exact
+              path="/qiwa-platform-jobs-in-saudi-arabia"
+              element={<QiwaPlatformSaudiJobs />}
             />
             <Route
               exact
