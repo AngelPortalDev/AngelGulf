@@ -18,7 +18,8 @@ import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Prog
 import EthicalRecruitmentImg from "../../assets/images/blogs/Ethical-Overseas-Recruitment-bg.png";
 import saudiSkilledBasedWorkPermitImg from "../../assets/images/blogs/Saudi-skill-based-work-permit-visa.png";
 import GccWorkPermitImg from "../../assets/images/blogs/National-plans-by-GCC-countries.png";
-import GccWorkPermitVisaImg from'../../assets/images/blogs/GCC-work-permit-visa.png';
+import GccWorkPermitVisaImg from '../../assets/images/blogs/GCC-work-permit-visa.png';
+import GamcaMedicalImg from "../../assets/images/blogs/GAMCA-Medical-bg.png";
 
 
 const imageMap = {
@@ -39,6 +40,8 @@ const imageMap = {
   ethicalRecruitment: EthicalRecruitmentImg,
   saudiSkillBasedWorkPermit: saudiSkilledBasedWorkPermitImg,
   gccWorkPermitVisa: GccWorkPermitVisaImg,
+  gamcaHealthChecks: GamcaMedicalImg,
+
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

@@ -150,6 +150,10 @@ const EthicalOverseasRecruitment = React.lazy(() =>
   import("./components/Blog/EthicalOverseasRecruitment.js")
 );
 
+const GamcaMedical = React.lazy(() =>
+  import("./components/Blog/GamcaMedical.js")
+);
+
 // Articles
 
 const UAEOnlineLaw = React.lazy(() =>
@@ -603,6 +607,12 @@ function App() {
               element={<EthicalOverseasRecruitment />}
             />
 
+
+            <Route
+              exact
+              path="/blogs/gamca-medical-health-checks"
+              element={<GamcaMedical />}
+            />
 
             {/* Articles */}
 

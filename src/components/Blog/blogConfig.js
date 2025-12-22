@@ -1,7 +1,7 @@
 // Central configuration for blog posts used by BlogList and BlogLayout
 
 export const BLOG_POSTS = [
-  
+
   {
     id: "avoid-gulf-job-scams",
     title: "Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies",
@@ -164,5 +164,15 @@ export const BLOG_POSTS = [
     category: "Labour Rights & Policy",
     readingTime: "9 min read",
     updatedOn: "Oct 2025",
+  },
+  {
+    id: "gamca-medical-health-checks",
+    title: "How GCC is Strengthening Health Checks Through GAMCA Medical",
+    description: "Learn how GCC strengthens health checks through the GAMCA Medical Test. Get guidance and verified jobs in Gulf, Dubai, Saudi Arabia, Kuwait, & Oman with Angel Gulf Jobs.",
+    to: "/blogs/gamca-medical-health-checks",
+    imageKey: "gamcaHealthChecks",
+    category: "Medical & Health",
+    readingTime: "6 min read",
+    updatedOn: "Dec 2025",
   },
 ];
