@@ -20,6 +20,7 @@ import saudiSkilledBasedWorkPermitImg from "../../assets/images/blogs/Saudi-skil
 import GccWorkPermitImg from "../../assets/images/blogs/National-plans-by-GCC-countries.png";
 import GccWorkPermitVisaImg from '../../assets/images/blogs/GCC-work-permit-visa.png';
 import GamcaMedicalImg from "../../assets/images/blogs/GAMCA-Medical-bg.png";
+import AverageSalaryGccImg from "../../assets/images/blogs/GCC-salary.png";
 
 
 const imageMap = {
@@ -41,6 +42,7 @@ const imageMap = {
   saudiSkillBasedWorkPermit: saudiSkilledBasedWorkPermitImg,
   gccWorkPermitVisa: GccWorkPermitVisaImg,
   gamcaHealthChecks: GamcaMedicalImg,
+  averageSalaryGcc: AverageSalaryGccImg,
 
 };
 

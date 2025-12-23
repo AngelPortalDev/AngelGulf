@@ -175,4 +175,15 @@ export const BLOG_POSTS = [
     readingTime: "6 min read",
     updatedOn: "Dec 2025",
   },
+  {
+    id: "average-salary-gcc-countries",
+    title: "The Average Salary in GCC Countries",
+    description: "Discover the 2025 average salary trends in GCC countries for blue-collar and white-collar workers. Compare salaries in UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain.",
+    to: "/blogs/average-salary-gcc-countries",
+    imageKey: "averageSalaryGcc",
+    category: "Salary Guide",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
+
 ];

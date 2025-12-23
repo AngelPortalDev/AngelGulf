@@ -153,6 +153,9 @@ const EthicalOverseasRecruitment = React.lazy(() =>
 const GamcaMedical = React.lazy(() =>
   import("./components/Blog/GamcaMedical.js")
 );
+const AverageSalaryGCC = React.lazy(() =>
+  import("./components/Blog/AverageSalaryGCC.js")
+);
 
 // Articles
 
@@ -612,6 +615,11 @@ function App() {
               exact
               path="/blogs/gamca-medical-health-checks"
               element={<GamcaMedical />}
+            />
+            <Route
+              exact
+              path="/blogs/average-salary-gcc-countries"
+              element={<AverageSalaryGCC />}
             />
 
             {/* Articles */}
