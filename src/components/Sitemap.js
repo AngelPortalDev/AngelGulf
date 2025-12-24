@@ -159,30 +159,30 @@ const Sitemap = () => {
           <li>
            <NavLink to="/press-release" className='textlinkstyle' target="_blank">Press Release</NavLink> 
           </li>
-          <li>
+          {/* <li>
            <NavLink to="/area-of-interest" className='textlinkstyle' target="_blank">Articles</NavLink> 
+          </li> */}
+          <li>
+           <NavLink to="/latest-gulf-news" className='textlinkstyle' target="_blank">Latest Gulf News</NavLink> 
           </li>
           <li>
-           <NavLink to="/latest-news" className='textlinkstyle' target="_blank">Latest Gulf News</NavLink> 
-          </li>
-          <li>
-           <NavLink to="/recruitment-procedures" className='textlinkstyle' target="_blank">Recruitment Procedure</NavLink> 
+           <NavLink to="/recruitment-procedure" className='textlinkstyle' target="_blank">Recruitment Procedure</NavLink> 
           </li>
           <li>
            <NavLink to="/clientele" className='textlinkstyle' target="_blank">Clientele</NavLink> 
           </li>
           <li>
-           <NavLink to="" className='textlinkstyle'>Current Openings</NavLink> 
+           <NavLink to="/job-list" className='textlinkstyle' target="_blank">Current Openings</NavLink> 
           </li>
-          <li>
+          {/* <li>
            <NavLink to="" className='textlinkstyle'>Post Your Resume</NavLink> 
-          </li>
+          </li> */}
           <li>
-           <NavLink to="/contact-us" className='textlinkstyle' target="_blank">Careers</NavLink> 
+           <NavLink to="/job-list" className='textlinkstyle' target="_blank">Careers</NavLink> 
           </li>
-          <li>
+          {/* <li>
            <NavLink to="/contact-us" className='textlinkstyle' target="_blank">Feedback</NavLink> 
-          </li>
+          </li> */}
           <li>
            <NavLink to="/contact-us" className='textlinkstyle' target="_blank">Contact Us</NavLink> 
           </li>
