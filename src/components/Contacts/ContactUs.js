@@ -91,29 +91,54 @@ const ContactUs = () => {
     }
   };
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    fetchCountries();
-    const renderRecaptcha = () => {
-      if (window.grecaptcha) {
-        window.grecaptcha.render('recaptcha-container', {
-          sitekey: '6LeAhhIrAAAAAN1mLRktx4e7nuoeQPIuP-DsC8FT',
-          theme: 'light',
-        });
-      }
-    };
+  //   fetchCountries();
+  //   const renderRecaptcha = () => {
+  //     if (window.grecaptcha) {
+  //       window.grecaptcha.render('recaptcha-container', {
+  //         sitekey: '6LeAhhIrAAAAAN1mLRktx4e7nuoeQPIuP-DsC8FT',
+  //         theme: 'light',
+  //       });
+  //     }
+  //   };
 
-    if (window.grecaptcha) {
-      renderRecaptcha();
-    } else {
-      const interval = setInterval(() => {
-        if (window.grecaptcha) {
-          clearInterval(interval);
-          renderRecaptcha();
+  //   if (window.grecaptcha) {
+  //     renderRecaptcha();
+  //   } else {
+  //     const interval = setInterval(() => {
+  //       if (window.grecaptcha) {
+  //         clearInterval(interval);
+  //         renderRecaptcha();
+  //       }
+  //     }, 500);
+  //   }
+  // }, []);
+
+
+  useEffect(() => {
+  fetchCountries();
+
+  let interval = setInterval(() => {
+    if (
+      window.grecaptcha &&
+      typeof window.grecaptcha.render === "function" &&
+      !window.recaptchaWidgetId
+    ) {
+      window.recaptchaWidgetId = window.grecaptcha.render(
+        "recaptcha-container",
+        {
+          sitekey: "6LeAhhIrAAAAAN1mLRktx4e7nuoeQPIuP-DsC8FT",
+          theme: 'light',
         }
-      }, 500);
+      );
+      clearInterval(interval);
     }
-  }, []);
+  }, 500);
+
+  return () => clearInterval(interval);
+}, []);
+
 
   const countryOptions = countryList.map(country => ({
     value: country.country_code,

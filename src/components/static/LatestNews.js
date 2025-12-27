@@ -11,14 +11,14 @@ const NEWS_GROUPS = [
     items: [
       {
         id: "gulf-construction-jobs",
-        to: "/gulf-construction-jobs",
+        to: "/news/gulf-construction-jobs",
         title: "Job in Gulf for Blue-Collar Workers in Construction",
         description:
           "Find high-demand Gulf construction jobs for Indian blue-collar workers across UAE, Saudi Arabia, Qatar, Oman, Kuwait, and Bahrain. Apply through Angel Gulf Jobs today.",
       },
       {
         id: "saudi-india-workers-hiring",
-        to: "/saudi-india-workers-hiring",
+        to: "/news/saudi-india-workers-hiring",
         title: "Saudi Arabia Leads in Hiring Indian Blue-Collar Workers",
         description:
           "Over 6.9 lakh Indians hired by Saudi Arabia between 2020-2025. Discover why Saudi Arabia remains the top destination for Indian blue-collar workers seeking jobs in Gulf.",
@@ -32,42 +32,42 @@ const NEWS_GROUPS = [
     items: [
       {
         id: "uae-digital-work-permit-system-2025",
-        to: "/uae-digital-work-permit-system",
+        to: "/news/uae-digital-work-permit-system",
         title: "UAE Digital Work Permit System",
         description:
           "The UAE has launched a new AI-powered MoHRE digital work permit system that speeds up overseas hiring, simplifies work visas, and improves the recruitment process.",
       },
       {
         id: "saudi-iqama-reforms-2025",
-        to: "/saudi-iqama-reforms-2025",
+        to: "/news/saudi-iqama-reforms-2025",
         title: "Saudi Iqama Reforms 2025",
         description:
           "Saudi Arabia’s Iqama Reforms 2025 introduce a new skill-based work permit system that rewards talent, improves jobs in Saudi Arabia, and increases opportunities for expat workers.",
       },
       {
         id: "uae-labour-dispute-index-2024",
-        to: "/uae-labour-dispute-index-2024",
+        to: "/news/uae-labour-dispute-index-2024",
         title: "UAE Labour Dispute Index 2024",
         description:
           "The UAE ranks first globally in the Labour Dispute Index 2024, showcasing unmatched employment stability and strong worker protections.",
       },
       {
         id: "uae-ai-revolution",
-        to: "/uae-ai-revolution",
+        to: "/news/uae-ai-revolution",
         title: "UAE AI Revolution: Faster Work Permits and Gulf Jobs",
         description:
           "The UAE’s new “Eye” AI system speeds up work permit processing, reduces document errors, and improves overseas hiring for Gulf jobs.",
       },
       {
         id: "uae-labour-law-violations",
-        to: "/uae-labour-law-violations",
+        to: "/news/uae-labour-law-violations",
         title: "UAE Labour Law: Reporting 13 Major Labour Violations",
         description:
           "The UAE has outlined 13 major labour law violations to strengthen worker protection, improve safety standards, and support fair employment practices.",
       },
       {
         id: "saudi-skill-based-work-permit-system-2025",
-        to: "/saudi-skill-based-work-permit-system",
+        to: "/news/saudi-skill-based-work-permit-system",
         title: "Qiwa Platform and Jobs in Saudi Arabia",
         description:
           "Saudi Arabia’s Qiwa platform strengthens digital recruitment and labour transparency, creating smoother hiring journeys for jobs in Saudi.",
@@ -81,14 +81,14 @@ const NEWS_GROUPS = [
     items: [
       {
         id: "pay-hike-or-keeping-your-job",
-        to: "/pay-hike-or-keeping-your-job",
+        to: "/news/pay-hike-or-keeping-your-job",
         title: "Pay hike or keeping your job? What your priority should be",
         description:
           "UAE salary forecasts for 2016 show minimal growth, with experts predicting flat pay hikes as companies adopt a cautious outlook amid fluctuating oil prices and economic uncertainty.",
       },
       {
         id: "indian-budget-spoils-uae-expat-remitters-party",
-        to: "/indian-budget-spoils-uae-expat-remitters-party",
+        to: "/news/indian-budget-spoils-uae-expat-remitters-party",
         title:
           "Indian Budget Euphoria Spoils UAE Expat Remitters' Party As Rupee Rallies",
         description:
@@ -96,14 +96,14 @@ const NEWS_GROUPS = [
       },
       {
         id: "uae-signs-defence-deals",
-        to: "/uae-signs-defence-deals",
+        to: "/news/uae-signs-defence-deals",
         title: "UAE Signs Defence Deals Worth Dh767m On UMEX Opening Day",
         description:
           "The UAE signed Dh767 million in defence contracts at UMEX 2016, boosting its unmanned systems and aerospace sector through major deals with global and local companies.",
       },
       {
         id: "centerpoint-to-add-25-outlets-in-2016",
-        to: "/centerpoint-to-add-25-outlets-in-2016",
+        to: "/news/centerpoint-to-add-25-outlets-in-2016",
         title: "Centrepoint To Add 25 Outlets This Year, Recruit 2,500 Staff",
         description:
           "Centrepoint plans to open 25 new Gulf outlets in 2016 and hire 2,500 staff, with major expansion focused on Saudi Arabia as the Landmark Group explores new mall developments.",
