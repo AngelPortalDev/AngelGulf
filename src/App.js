@@ -875,42 +875,62 @@ function App() {
 
             <Route
               exact
-              path="/uae-digital-work-permit-system"
+              path="/news/pay-hike-or-keeping-your-job"
+              element={<PayHikeVsJobPriority />}
+            />
+            <Route
+              exact
+              path="/news/indian-budget-spoils-uae-expat-remitters-party"
+              element={<IndianBudgetImpactOnRemitters />}
+            />
+            <Route
+              exact
+              path="/news/uae-signs-defence-deals"
+              element={<UAEDefenceDeals />}
+            />
+            <Route
+              exact
+              path="/news/centerpoint-to-add-25-outlets-in-2016"
+              element={<CentrepointExpansionHiring />}
+            />
+            <Route
+              exact
+              path="/news/uae-digital-work-permit-system"
               element={<UAEDigitalWorkPermitSystem />}
             />
             <Route
               exact
-              path="/saudi-iqama-reforms-2025"
+              path="/news/saudi-skill-based-work-permit-system"
+              element={<SaudiSkillBasedWorkPermit />}
+            />
+            <Route
+              exact
+              path="/news/saudi-iqama-reforms-2025"
               element={<SaudiIqamaReforms2025 />}
             />
             <Route
               exact
-              path="/uae-labour-dispute-index-2024"
+              path="/news/uae-labour-dispute-index-2024"
               element={<UAELabourDisputeIndex2024 />}
             />
             <Route
               exact
-              path="/uae-ai-revolution"
+              path="/news/uae-ai-revolution"
               element={<UAEAIRevolution />}
             />
             <Route
               exact
-              path="/uae-labour-law-violations"
+              path="/news/uae-labour-law-violations"
               element={<UAELabourViolations />}
             />
             <Route
               exact
-              path="/qiwa-platform-jobs-in-saudi-arabia"
-              element={<QiwaPlatformSaudiJobs />}
-            />
-            <Route
-              exact
-              path="/saudi-india-workers-hiring"
+              path="/news/saudi-india-workers-hiring"
               element={<SaudiIndianWorkersHiring />}
             />
             <Route
               exact
-              path="/gulf-construction-jobs"
+              path="/news/gulf-construction-jobs"
               element={<GulfConstructionJobs />}
             />
 
@@ -918,7 +938,7 @@ function App() {
 
             <Route
               exact
-              path="/construction-industry"
+              path="/news/construction-industry"
               element={<ConstructionIndustry />}
             />
             <Route
