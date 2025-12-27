@@ -19,7 +19,7 @@ const SaudiJobs = () => {
         name="keywords"
         content="Jobs in Saudi Arabia for Indians, Jobs in Saudi Arabia, Overseas job consultants, Saudi Arabia job vacancy, jobs in Saudi Arabia for freshers, apply for job in Saudi Arabia, Overseas job consultancy, Gulf jobs for Indians, Overseas recruitment agency, Work in Saudi Arabia"
       />
-      <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-saudi-arabia"/> 
+      <link rel="canonical" href="https://www.angelgulfjobs.com/work-in-saudi-arabia"/> 
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
       </Helmet>

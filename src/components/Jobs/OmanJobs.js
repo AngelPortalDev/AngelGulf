@@ -19,7 +19,7 @@ const OmanJobs = () => {
           name="keywords"
           content="Gulf jobs, Jobs in Oman, Oman job vacancies, Jobs in Muscat, Overseas recruitment agency, Angel Gulf Jobs, Oman jobs for expats, Work in Oman, Oman hiring, Oman employment opportunities, Oman Vision 2040"
         />
-        <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-oman"/> 
+        <link rel="canonical" href="https://www.angelgulfjobs.com/work-in-oman"/> 
         <meta name="revisit-after" content="7 days"/>
         <meta name="robots" content="index, follow"/>
       </Helmet>

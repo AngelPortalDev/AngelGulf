@@ -20,7 +20,7 @@ const DubaiJobs = () => {
         name="keywords"
         content="Dubai jobs for Indians, Jobs in Dubai for Indians, Jobs in UAE, Jobs in UAE for Indians, Gulf jobs for Indians, Angel Gulf Jobs, Work in UAE, UAE job vacancies 2025, UAE jobs for Indian professionals, Overseas recruitment agency for UAE, Overseas job consultants for Gulf, Dubai job openings for Indians, Angel Gulf Jobs, UAE hiring 2025, Jobs in Dubai for Indians, Gulf recruitment from India, Overseas job consultants, overseas job consultancy, Dubai job search 2025"
       />
-      <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-uae"/> 
+      <link rel="canonical" href="https://www.angelgulfjobs.com/work-in-uae"/> 
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
       </Helmet>

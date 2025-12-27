@@ -129,7 +129,7 @@ const AreaOfInterest = () => {
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to='/jobs-in-qatar' target="_blank" className="linkstyle">
+                            <NavLink to='/work-in-qatar' target="_blank" className="linkstyle">
                               Jobs In Qatar, Civil Jobs In Qatar, Banking Jobs
                               In Qatar
                             </NavLink>
@@ -141,7 +141,7 @@ const AreaOfInterest = () => {
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/jobs-in-oman" target="_blank" className="linkstyle">
+                            <NavLink to="/work-in-oman" target="_blank" className="linkstyle">
                               Jobs In Oman, Civil Jobs In Oman, Banking Jobs In
                               Oman
                             </NavLink>
@@ -175,7 +175,7 @@ const AreaOfInterest = () => {
                       <div className="accordion-body">
                         <ul style={{ marginLeft: "24px" }}>
                           <li>
-                            <NavLink to='/jobs-in-saudi-arabia' target="_blank" className="linkstyle">
+                            <NavLink to='/work-in-saudi-arabia' target="_blank" className="linkstyle">
                               Jobs In Saudi Arabia, Civil Jobs, Medical Jobs In
                               SA
                             </NavLink>
@@ -187,7 +187,7 @@ const AreaOfInterest = () => {
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to='/jobs-in-uae' target="_blank" className="linkstyle">
+                            <NavLink to='/work-in-uae' target="_blank" className="linkstyle">
                               Jobs In UAE, Oil & Gas Jobs In UAE, Civil Jobs In
                               UAE
                             </NavLink>
@@ -233,7 +233,7 @@ const AreaOfInterest = () => {
                             </NavLink>
                           </li>
                           <li>
-                            <NavLink to='/jobs-in-bahrain' target="_blank" className="linkstyle">
+                            <NavLink to='/work-in-bahrain' target="_blank" className="linkstyle">
                             Jobs In Bahrain, Oil & Gas Jobs In Bahrain, Civil Jobs In Bahrain
                             </NavLink>
                           </li>

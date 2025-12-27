@@ -21,6 +21,11 @@ import ProtectedRoute from "./components/middleware/ProtectedRoute.js";
 import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
 import BeAwareModal from './components/static/BeAwareModal.js'
+import PayHikeVsJobPriority from "./components/News/PayHikeVsJobPriority.js";
+import IndianBudgetImpactOnRemitters from "./components/News/IndianBudgetImpactOnRemitters.js";
+import UAEDefenceDeals from "./components/News/UAEDefenceDeals.js";
+import CentrepointExpansionHiring from "./components/News/CentrepointExpansionHiring.js";
+import SaudiSkillBasedWorkPermit from "./components/News/SaudiSkillBasedWorkPermit.js";
 import './App.css';
 
 
@@ -507,12 +512,12 @@ function App() {
             <Route exact path="/grievance-form" element={<GrievanceForm />} />
 
             {/* Jobs */}
-            <Route exact path="/jobs-in-uae" element={<DubaiJobs />} />
-            <Route exact path="/jobs-in-saudi-arabia" element={<SaudiJobs />} />
-            <Route exact path="/jobs-in-oman" element={<OmanJobs />} />
-            <Route exact path="/jobs-in-qatar" element={<QuatarJobs />} />
-            <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
-            <Route exact path="/jobs-in-kuwait" element={<KuwaitJobs />} />
+            <Route exact path="/work-in-uae" element={<DubaiJobs />} />
+            <Route exact path="/work-in-saudi-arabia" element={<SaudiJobs />} />
+            <Route exact path="/work-in-oman" element={<OmanJobs />} />
+            <Route exact path="/work-in-qatar" element={<QuatarJobs />} />
+            <Route exact path="/work-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/work-in-kuwait" element={<KuwaitJobs />} />
 
             {/* Modal */}
 
@@ -656,7 +661,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-qatar"
+              path="/work-in-qatar"
               element={<QatarJobOpportunities />}
             />
             <Route
@@ -666,7 +671,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-oman"
+              path="/work-in-oman"
               element={<OmanJobOpportunities />}
             />
             <Route
@@ -676,7 +681,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-saudi-arabia"
+              path="/work-in-saudi-arabia"
               element={<SaudiArabiaJobOpportunities />}
             />
             <Route
@@ -686,7 +691,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-uae"
+              path="/work-in-uae"
               element={<UAEJobOpportunities />}
             />
             <Route
@@ -704,7 +709,7 @@ function App() {
               path="/jobs-in-abu-dhabi"
               element={<AbuDhabiJobOpportunities />}
             />
-            <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/work-in-bahrain" element={<BahrainJobs />} />
             <Route
               exact
               path="/indian-rupee-18.56-vs-dh1"

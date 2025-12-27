@@ -19,7 +19,7 @@ const QuatarJobs = () => {
           name="keywords"
           content="Gulf jobs, Jobs in Qatar, Qatar job vacancies, job opportunities in Qatar, Qatar careers, Qatar jobs for foreigners, Qatar jobs for expats, Qatar recruitment, Work in Qatar, Qatar Vision 2030"
         />
-        <link rel="canonical" href="https://www.angelgulfjobs.com/jobs-in-qatar" />
+        <link rel="canonical" href="https://www.angelgulfjobs.com/work-in-qatar" />
         <meta name="revisit-after" content="7 days" />
         <meta name="robots" content="index, follow" />
       </Helmet>

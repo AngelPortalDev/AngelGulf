@@ -274,32 +274,32 @@ const Header = () => {
                     <NavLink style={navLinkStyle}>Country Guides</NavLink>
                     <ul className="sub-menu">
                       <li>
-                        <NavLink to="/jobs-in-uae" target="_blank">
+                        <NavLink to="/work-in-uae" target="_blank">
                           Work in Dubai
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/jobs-in-saudi-arabia" target="_blank">
+                        <NavLink to="/work-in-saudi-arabia" target="_blank">
                           Work in Saudi
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/jobs-in-oman" target="_blank">
+                        <NavLink to="/work-in-oman" target="_blank">
                           Work in Oman
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/jobs-in-kuwait" target="_blank">
+                        <NavLink to="/work-in-kuwait" target="_blank">
                           Work in Kuwait
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/jobs-in-qatar" target="_blank">
+                        <NavLink to="/work-in-qatar" target="_blank">
                           Work in Qatar
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="/jobs-in-bahrain" target="_blank">
+                        <NavLink to="/work-in-bahrain" target="_blank">
                           Work in Bahrain
                         </NavLink>
                       </li>
