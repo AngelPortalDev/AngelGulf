@@ -31,6 +31,13 @@ const NEWS_GROUPS = [
     metaLabel: "Latest headlines",
     items: [
       {
+        id: "qiwa-platform-jobs-saudi-arabia",
+        to: "/qiwa-platform-jobs-in-saudi-arabia",
+        title: "Qiwa Platform and Jobs in Saudi Arabia",
+        description:
+          "Explore how the Qiwa platform boosts jobs in Saudi Arabia through digital transformation. Angel Gulf Jobs, trusted Gulf job consultants, guide you to safe, verified Gulf opportunities.",
+      },
+      {
         id: "uae-digital-work-permit-system-2025",
         to: "/news/uae-digital-work-permit-system",
         title: "UAE Digital Work Permit System",

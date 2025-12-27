@@ -16,10 +16,16 @@ import QiwaSystem from "../../assets/images/blogs/qiwa-bg.jpg";
 import QatarVisaCentreImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
 import TradeTestingProgramImg from "../../assets/images/blogs/Trade-Testing-Program.png";
 import EthicalRecruitmentImg from "../../assets/images/blogs/Ethical-Overseas-Recruitment-bg.png";
+import saudiSkilledBasedWorkPermitImg from "../../assets/images/blogs/Saudi-skill-based-work-permit-visa.png";
+import GccWorkPermitImg from "../../assets/images/blogs/National-plans-by-GCC-countries.png";
+import GccWorkPermitVisaImg from '../../assets/images/blogs/GCC-work-permit-visa.png';
+import GamcaMedicalImg from "../../assets/images/blogs/GAMCA-Medical-bg.png";
+import AverageSalaryGccImg from "../../assets/images/blogs/GCC-salary.png";
 
 
 const imageMap = {
   fakeJob: FakeJobImg,
+  gccWorkPermit: GccWorkPermitImg,
   connectingContinents: BgImge,
   ecrNonEcr: EcrNonEcrImgr,
   kafala: KafalaImg,
@@ -33,6 +39,11 @@ const imageMap = {
   qatarVisaCentre: QatarVisaCentreImg,
   tradeTestingSaudi: TradeTestingProgramImg,
   ethicalRecruitment: EthicalRecruitmentImg,
+  saudiSkillBasedWorkPermit: saudiSkilledBasedWorkPermitImg,
+  gccWorkPermitVisa: GccWorkPermitVisaImg,
+  gamcaHealthChecks: GamcaMedicalImg,
+  averageSalaryGcc: AverageSalaryGccImg,
+
 };
 
 const blogs = BLOG_POSTS.map((post) => ({

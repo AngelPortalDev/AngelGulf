@@ -1,6 +1,7 @@
 // Central configuration for blog posts used by BlogList and BlogLayout
 
 export const BLOG_POSTS = [
+
   {
     id: "avoid-gulf-job-scams",
     title: "Avoid Gulf Job Scams & Choose Legit Gulf Job Agencies",
@@ -142,4 +143,47 @@ export const BLOG_POSTS = [
     readingTime: "7 min read",
     updatedOn: "Dec 2025",
   },
+  {
+    id: "gcc-work-permit-process-for-employment-visa",
+    title: "GCC work permit process for employment visa",
+    description:
+      "Complete guide to GCC work permit and employment visa processes across UAE, Saudi Arabia, Qatar, Oman, Bahrain, and Kuwait. Learn steps, requirements, and employer duties.",
+    to: "/blogs/gcc-work-permit-process-for-employment-visa",
+    imageKey: "gccWorkPermitVisa",
+    category: "Visa Process",
+    readingTime: "10 min read",
+    updatedOn: "Oct 2025",
+  },
+  {
+    id: "saudi-skill-based-work-permit-system",
+    title: "Saudi Skill-Based Work Permit System",
+    description:
+      "Explore Saudi Arabia’s new skill-based work permit system for foreign workers. Learn the 2025 requirements, classification levels, Qiwa process & Vision 2030 reforms.",
+    to: "/blogs/saudi-skill-based-work-permit-system",
+    imageKey: "saudiSkillBasedWorkPermit",
+    category: "Labour Rights & Policy",
+    readingTime: "9 min read",
+    updatedOn: "Oct 2025",
+  },
+  {
+    id: "gamca-medical-health-checks",
+    title: "How GCC is Strengthening Health Checks Through GAMCA Medical",
+    description: "Learn how GCC strengthens health checks through the GAMCA Medical Test. Get guidance and verified jobs in Gulf, Dubai, Saudi Arabia, Kuwait, & Oman with Angel Gulf Jobs.",
+    to: "/blogs/gamca-medical-health-checks",
+    imageKey: "gamcaHealthChecks",
+    category: "Medical & Health",
+    readingTime: "6 min read",
+    updatedOn: "Dec 2025",
+  },
+  {
+    id: "average-salary-gcc-countries",
+    title: "The Average Salary in GCC Countries",
+    description: "Discover the 2025 average salary trends in GCC countries for blue-collar and white-collar workers. Compare salaries in UAE, Saudi Arabia, Qatar, Kuwait, Oman, and Bahrain.",
+    to: "/blogs/average-salary-gcc-countries",
+    imageKey: "averageSalaryGcc",
+    category: "Salary Guide",
+    readingTime: "8 min read",
+    updatedOn: "Dec 2025",
+  },
+
 ];

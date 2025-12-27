@@ -21,6 +21,11 @@ import ProtectedRoute from "./components/middleware/ProtectedRoute.js";
 import { AuthProvider } from "./components/middleware/AuthContext.js";
 import NotFound from "./components/NotFound.js";
 import BeAwareModal from './components/static/BeAwareModal.js'
+import PayHikeVsJobPriority from "./components/News/PayHikeVsJobPriority.js";
+import IndianBudgetImpactOnRemitters from "./components/News/IndianBudgetImpactOnRemitters.js";
+import UAEDefenceDeals from "./components/News/UAEDefenceDeals.js";
+import CentrepointExpansionHiring from "./components/News/CentrepointExpansionHiring.js";
+import SaudiSkillBasedWorkPermit from "./components/News/SaudiSkillBasedWorkPermit.js";
 import './App.css';
 
 
@@ -101,8 +106,14 @@ const PressRelease = React.lazy(() =>
 );
 const Sitemap = React.lazy(() => import("./components/Sitemap.js"));
 const BlogList = React.lazy(() => import("./components/Blog/BlogList.js"));
+const GccWorkPermitProcessEmploymentVisa = React.lazy(() =>
+  import("./components/Blog/GccWorkPermitProcessEmploymentVisa.js")
+);
 const AvoidGulfJobScams = React.lazy(() =>
   import("./components/Blog/AvoidGulfJobScams.js")
+);
+const SaudiSkillBasedWorkPermitSystem = React.lazy(() =>
+  import("./components/Blog/SaudiSkillBasedWorkPermitSystem.js")
 );
 const ConnectingContinents = React.lazy(() =>
   import("./components/Blog/ConnectingContinents.js")
@@ -142,6 +153,13 @@ const TradeTestingProgramSaudi = React.lazy(() =>
 );
 const EthicalOverseasRecruitment = React.lazy(() =>
   import("./components/Blog/EthicalOverseasRecruitment.js")
+);
+
+const GamcaMedical = React.lazy(() =>
+  import("./components/Blog/GamcaMedical.js")
+);
+const AverageSalaryGCC = React.lazy(() =>
+  import("./components/Blog/AverageSalaryGCC.js")
 );
 
 // Articles
@@ -295,23 +313,8 @@ const LabourLawWorkBanCancellation = React.lazy(() =>
 );
 
 // News components
-const PayHikeVsJobPriority = React.lazy(() =>
-  import("./components/News/PayHikeVsJobPriority.js")
-);
-const IndianBudgetImpactOnRemitters = React.lazy(() =>
-  import("./components/News/IndianBudgetImpactOnRemitters.js")
-);
-const UAEDefenceDeals = React.lazy(() =>
-  import("./components/News/UAEDefenceDeals.js")
-);
-const CentrepointExpansionHiring = React.lazy(() =>
-  import("./components/News/CentrepointExpansionHiring.js")
-);
 const UAEDigitalWorkPermitSystem = React.lazy(() =>
   import("./components/News/UAEDigitalWorkPermitSystem.js")
-);
-const SaudiSkillBasedWorkPermit = React.lazy(() =>
-  import("./components/News/SaudiSkillBasedWorkPermit.js")
 );
 const SaudiIqamaReforms2025 = React.lazy(() =>
   import("./components/News/SaudiIqamaReforms2025.js")
@@ -330,6 +333,9 @@ const SaudiIndianWorkersHiring = React.lazy(() =>
 );
 const GulfConstructionJobs = React.lazy(() =>
   import("./components/News/GulfConstructionJobs.js")
+);
+const QiwaPlatformSaudiJobs = React.lazy(() =>
+  import("./components/News/QiwaPlatformSaudiJobs.js")
 );
 
 // Sitemap components
@@ -506,12 +512,12 @@ function App() {
             <Route exact path="/grievance-form" element={<GrievanceForm />} />
 
             {/* Jobs */}
-            <Route exact path="/jobs-in-uae" element={<DubaiJobs />} />
-            <Route exact path="/jobs-in-saudi-arabia" element={<SaudiJobs />} />
-            <Route exact path="/jobs-in-oman" element={<OmanJobs />} />
-            <Route exact path="/jobs-in-qatar" element={<QuatarJobs />} />
-            <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
-            <Route exact path="/jobs-in-kuwait" element={<KuwaitJobs />} />
+            <Route exact path="/work-in-uae" element={<DubaiJobs />} />
+            <Route exact path="/work-in-saudi-arabia" element={<SaudiJobs />} />
+            <Route exact path="/work-in-oman" element={<OmanJobs />} />
+            <Route exact path="/work-in-qatar" element={<QuatarJobs />} />
+            <Route exact path="/work-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/work-in-kuwait" element={<KuwaitJobs />} />
 
             {/* Modal */}
 
@@ -530,8 +536,18 @@ function App() {
             {/* Blog routes*/}
             <Route
               exact
+              path="/blogs/gcc-work-permit-process-for-employment-visa"
+              element={<GccWorkPermitProcessEmploymentVisa />}
+            />
+            <Route
+              exact
               path="/blogs/avoid-gulf-job-scams"
               element={<AvoidGulfJobScams />}
+            />
+            <Route
+              exact
+              path="/blogs/saudi-skill-based-work-permit-system"
+              element={<SaudiSkillBasedWorkPermitSystem />}
             />
             <Route
               exact
@@ -600,6 +616,17 @@ function App() {
             />
 
 
+            <Route
+              exact
+              path="/blogs/gamca-medical-health-checks"
+              element={<GamcaMedical />}
+            />
+            <Route
+              exact
+              path="/blogs/average-salary-gcc-countries"
+              element={<AverageSalaryGCC />}
+            />
+
             {/* Articles */}
 
             <Route
@@ -634,7 +661,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-qatar"
+              path="/work-in-qatar"
               element={<QatarJobOpportunities />}
             />
             <Route
@@ -644,7 +671,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-oman"
+              path="/work-in-oman"
               element={<OmanJobOpportunities />}
             />
             <Route
@@ -654,7 +681,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-saudi-arabia"
+              path="/work-in-saudi-arabia"
               element={<SaudiArabiaJobOpportunities />}
             />
             <Route
@@ -664,7 +691,7 @@ function App() {
             />
             <Route
               exact
-              path="/jobs-in-uae"
+              path="/work-in-uae"
               element={<UAEJobOpportunities />}
             />
             <Route
@@ -682,7 +709,7 @@ function App() {
               path="/jobs-in-abu-dhabi"
               element={<AbuDhabiJobOpportunities />}
             />
-            <Route exact path="/jobs-in-bahrain" element={<BahrainJobs />} />
+            <Route exact path="/work-in-bahrain" element={<BahrainJobs />} />
             <Route
               exact
               path="/indian-rupee-18.56-vs-dh1"
