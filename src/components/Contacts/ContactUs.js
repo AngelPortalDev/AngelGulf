@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { NavLink } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { ToastContainer, toast } from 'react-toastify';
 import ContactUsImage from '../../assets/images/NewImages/contact-us.jpg';
 import axios from 'axios';

@@ -5,7 +5,7 @@ import comingSoon from './../../assets/images/logo-coming-soon.jpg';
 import clientel from '../../assets/images/NewImages/clintel.jpg';
 import { testimonials } from '../../data/clientTestimonialsData';
 import './Clientele.css';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const ITEMS_PER_PAGE = 6;
 

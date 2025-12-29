@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import dafzajobImg from "../../assets/images/articles/uae-jobs-dafza-linkedin-tieu.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAEJobHuntDafzaLinkedIn = () => {
   return (

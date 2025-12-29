@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import SaudiJob from '../../assets/images/NewImages/saudi.jpg';
 import whyWorkImage from '../../assets/images/countries/Why-Work-In-Saudi-Arabia.png';
 
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const SaudiJobs = () => {
   return (

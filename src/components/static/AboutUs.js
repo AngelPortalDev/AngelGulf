@@ -2,7 +2,7 @@ import React from "react";
 import IndustriesImage from '../../assets/images/about-us-banner.png'
 import RecruitmentImage from '../../assets/images/USP-of-Angel-Gulf-Jobs.png'
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   return (

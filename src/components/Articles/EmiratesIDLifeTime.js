@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import emiredtIdImg from "../../assets/images/articles/emirates-id-number-cannot-be-changed-2.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const EmiratesIDLifeTime = () => {
   return (

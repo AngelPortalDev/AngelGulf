@@ -1,6 +1,6 @@
 import React from "react";
 import indiaFlag from "./../../assets/images/network.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const OurNetwork = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import AlFatulImg from "../../assets/images/articles/alfuttiam-group-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 const IndianRupeeVsDh1Opportunities = () => {

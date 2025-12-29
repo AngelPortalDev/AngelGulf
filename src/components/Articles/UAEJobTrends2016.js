@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import jobInterview from "../../assets/images/articles/gulf-job-interviews.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAEJobTrends2016 = () => {
   return (

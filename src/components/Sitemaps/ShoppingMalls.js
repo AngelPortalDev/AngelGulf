@@ -14,7 +14,7 @@ import dataOperatorsImg from "../../assets/images/sitemap/shopping/shopping-mall
 import billingStaffImg from "../../assets/images/sitemap/shopping/shopping-malls-in-dubai-billing-staff.jpg";
 import itProfessionalsImg from "../../assets/images/sitemap/shopping/shopping-malls-in-dubai-it-professionals.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ShoppingMalls = () => {
     const images = [

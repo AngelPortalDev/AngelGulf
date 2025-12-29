@@ -5,13 +5,14 @@ import App from './App';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap-select/dist/css/bootstrap-select.min.css';
 // import 'bootstrap-select/dist/js/bootstrap-select.min.js';
+import { HelmetProvider } from "react-helmet-async";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+  <HelmetProvider>
     <App />
-  </>
+  </HelmetProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

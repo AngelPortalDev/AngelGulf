@@ -21,7 +21,7 @@ import mrFieldSupervisorImg from "../../assets/images/sitemap/marketing/media-co
 import prExecutiveImg from "../../assets/images/sitemap/marketing/media-communication-advertising-ind-pr-executive.jpg";
 import prMediaRelationsMgrImg from "../../assets/images/sitemap/marketing/media-communication-advertising-ind-pr-&-media-relations-mgr.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const HospitalityJobs = () => {
     const images = [

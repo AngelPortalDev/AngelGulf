@@ -1,7 +1,7 @@
 import React from "react";
 import JobAlert from '../../assets/images/articles/dubai-interview-questions-1.jpg'
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const RetirementAgeUpdate = () => {
   return (

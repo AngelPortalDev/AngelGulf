@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import NRIAlert from "../../assets/images/articles/nri-alert-rupee-exchange.jpg";
 import LogoForeCast from "../../assets/images/articles/LongForecast.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const NRIRupeeAlert = () => {
   return (

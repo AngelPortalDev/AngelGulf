@@ -5,7 +5,7 @@ import saudyDynamic from "./../assets/images/existing_partners/saudi-dynamic.jpg
 import saudiSecuirity from "./../assets/images/existing_partners/saudi-security.jpg";
 import saudiImage from "./../assets/images/existing_partners/saudi.jpg";
 import UAEImage from "./../assets/images/existing_partners/UAE.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast, ToastContainer } from "react-toastify/unstyled";

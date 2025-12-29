@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import uaebankImg from "../../assets/images/articles/uae-central-bank-hiring-jobs-open-to-expats-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAECentralBankJobs = () => {
   return (

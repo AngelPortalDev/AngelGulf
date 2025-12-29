@@ -4,7 +4,7 @@ import foreignExchangeimg from '../../assets/images/NewImages/foreignExchange.jp
 
 import { NavLink } from "react-router-dom";
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ForeignExchange = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import uaeJobseeker from "../../assets/images/articles/uae-jobseekers.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UaeJobMarketOutlook = () => {
   return (

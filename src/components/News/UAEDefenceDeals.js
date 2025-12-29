@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import uaesignImg from "../../assets/images/news/uae-signs-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAEDefenceDeals = () => {
   return (

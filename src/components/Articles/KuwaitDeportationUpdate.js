@@ -1,7 +1,7 @@
 import React from "react";
 import KuwaitUpdate from '../../assets/images/articles/kuwait-illegal-migrants-1.jpg';
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const KuwaitDeportationUpdate = () => {
   return (

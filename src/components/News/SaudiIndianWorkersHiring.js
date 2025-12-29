@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BgImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import articleImg from "../../assets/images/articles/Jobs-in-Gulf.png";
 import articleImg2 from "../../assets/images/articles/gulf.jpg";

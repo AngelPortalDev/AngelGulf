@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 import industriesBanner from "../../assets/images/backgroundImages/Industries-showcase.jpg";
 import saudiIndustryImg from "../../assets/images/Saudi-Arabia-GDP-by-Main-Activities.png";

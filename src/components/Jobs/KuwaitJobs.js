@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Kuwait from '../../assets/images/countries/saudi.jpg'; // Placeholder
 import whyWorkInKuwait from '../../assets/images/Why-Work-in-Kuwait.png'; // Placeholder
 import jobsInKuwait from '../../assets/images/Jobs-in-Kuwait.png'; // Placeholder

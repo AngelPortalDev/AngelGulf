@@ -20,7 +20,7 @@ import salesExecutivesImg from "../../assets/images/sitemap/telecom/telecom-indu
 import areaSalesManagersImg from "../../assets/images/sitemap/telecom/telecom-indu-area-sales-managers.jpg";
 import rgnlSalesManagersImg from "../../assets/images/sitemap/telecom/telecom-indu-rgnl-sales-managers.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const BankSector = () => {
     const images = [

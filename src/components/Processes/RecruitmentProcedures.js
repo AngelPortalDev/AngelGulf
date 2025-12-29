@@ -4,7 +4,7 @@ import RecruitmentProcess from "./../../assets/images/NewImages/recruitment.jpg"
 import RecruitmentProcess2 from "./../../assets/images/Recruitment-and-Selection-Process.png";
 
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { NavLink } from "react-router-dom";
 
 const RecruitmentProcedures = () => {

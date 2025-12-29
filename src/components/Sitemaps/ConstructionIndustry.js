@@ -22,7 +22,7 @@ import img17 from "../../assets/images/sitemap/constructions/Scaffolder.jpg";
 import img18 from "../../assets/images/sitemap/constructions/Steel_Fixers.jpg";
 import img19 from "../../assets/images/sitemap/constructions/Construction_Supervisors.jpg";
 import img20 from "../../assets/images/sitemap/constructions/Constructio_Managers.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ConstructionIndustry = () => {
   const images = [

@@ -18,7 +18,7 @@ import fittersImg from "../../assets/images/sitemap/aviation/aviation-airline-in
 import mechanicsImg from "../../assets/images/sitemap/aviation/aviation-airline-ind-air-traffic-mechanics.jpg";
 import plannersImg from "../../assets/images/sitemap/aviation/aviation-airline-ind-planners.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const AviationJob = () => {
   const images = [

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import GulfImg from "../../assets/images/articles/gulf-jobs-life.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const GulfJobsExpatsExperience = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import FakeJobImg from '../../assets/images/blogs/fake-job-scam.png'
 import BgImge from "../../assets/images/blogs/connection-contitent-blog-img.png";
 import EcrNonEcrImgr from "../../assets/images/blogs/ecr-non-ecr-bg.png";

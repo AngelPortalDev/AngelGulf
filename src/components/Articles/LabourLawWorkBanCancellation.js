@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import monthsWorkImg from "../../assets/images/articles/months-work.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const LabourLawWorkBanCancellation = () => {
   return (

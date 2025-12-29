@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import BarclaysImg from "../../assets/images/articles/barclays-slash-100s-of-jobs-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const BarclaysJobCuts = () => {
   return (

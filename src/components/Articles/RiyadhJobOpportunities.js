@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Riyadhimg from '../../assets/images/articles/jobs-in-riyadh-1.jpg';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const RiyadhJobOpportunities = () => {
   return (

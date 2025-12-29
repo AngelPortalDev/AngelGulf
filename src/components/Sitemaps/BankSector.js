@@ -22,7 +22,7 @@ import corporateHeadImg from "../../assets/images/sitemap/banking/banking-&-fina
 import institutionalHeadImg from "../../assets/images/sitemap/banking/banking-&-finance-sector-institutional-head.jpg";
 import investmentAdvisorImg from "../../assets/images/sitemap/banking/banking-&-finance-sector-investment-advisor.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const BankSector = () => {
     const images = [

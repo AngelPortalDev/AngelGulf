@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Behrain from '../../assets/images/countries/bahrain-1.jpg';
 import workInBahrain from '../../assets/images/Work-in-Bahrain.png';
 import jobsInBahrain from '../../assets/images/Jobs-in-Bahrain.png'; // Placeholder

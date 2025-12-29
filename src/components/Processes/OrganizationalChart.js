@@ -1,6 +1,6 @@
 import React from 'react'
 import OrganizationalChartimage from './../../assets/images/organization-flow-chart.jpg';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const OrganizationalChart = () => {
   return (

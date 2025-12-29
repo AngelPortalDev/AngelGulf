@@ -10,7 +10,7 @@ import administrationImg from "../../assets/images/sitemap/travel/travel-&-touri
 import accountsImg from "../../assets/images/sitemap/travel/travel-&-tourism-indu-accounts.jpg";
 import marketingImg from "../../assets/images/sitemap/travel/travel-&-tourism-indu-marketing.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const TravelJobs = () => {
     const images = [

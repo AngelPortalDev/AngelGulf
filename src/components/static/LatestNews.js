@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import latestArticleImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const NEWS_GROUPS = [
   {
@@ -32,7 +32,7 @@ const NEWS_GROUPS = [
     items: [
       {
         id: "qiwa-platform-jobs-saudi-arabia",
-        to: "/qiwa-platform-jobs-in-saudi-arabia",
+        to: "/news/qiwa-platform-jobs-in-saudi-arabia",
         title: "Qiwa Platform and Jobs in Saudi Arabia",
         description:
           "Explore how the Qiwa platform boosts jobs in Saudi Arabia through digital transformation. Angel Gulf Jobs, trusted Gulf job consultants, guide you to safe, verified Gulf opportunities.",

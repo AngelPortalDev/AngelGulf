@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import hrskills from "../../assets/images/articles/hr-skills.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const HRSkillsForUAE = () => {
   return (

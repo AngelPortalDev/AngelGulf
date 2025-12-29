@@ -12,7 +12,7 @@ import machineOperatorsImg from "../../assets/images/sitemap/civilJobs/heavy-equ
 import equipmentMechanicsImg from "../../assets/images/sitemap/civilJobs/heavy-equipments-equipment-mechanics.jpg";
 import equipmentSupervisorsImg from "../../assets/images/sitemap/civilJobs/heavy-equipments-equipment-supervisors.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const CivilEngineeringJob = () => {
     const images = [

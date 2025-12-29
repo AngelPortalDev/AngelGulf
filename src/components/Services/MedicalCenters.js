@@ -6,7 +6,7 @@ import medicalAddImg from '../../assets/images/NewImages/medicalCenter.avif';
 
 
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const mumbaiCenters = [
   {

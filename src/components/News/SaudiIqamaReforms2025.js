@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BgImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import headerImg from "../../assets/images/work-permit-classification.png";
 import criteriaImg from "../../assets/images/Criteria-for-skill-based-work.png";

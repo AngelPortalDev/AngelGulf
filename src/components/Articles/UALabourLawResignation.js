@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import RulesUAEImg from "../../assets/images/articles/rules-to-follow-when-resigning-your-job-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UALabourLawResignation = () => {
   return (

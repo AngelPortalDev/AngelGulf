@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import Quatar from '../../assets/images/NewImages/qatar.jpg';
 import qatarInfoImage from '../../assets/images/countries/Work-in-Qatar.png';
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const QuatarJobs = () => {
   return (

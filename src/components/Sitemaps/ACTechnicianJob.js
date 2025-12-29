@@ -21,7 +21,7 @@ import adminExecutiveImg from "../../assets/images/sitemap/air-conditional/air-c
 import customerServiceImg from "../../assets/images/sitemap/air-conditional/air-conditioning-industry-customer-services.jpg";
 import otherBackOfficeImg from "../../assets/images/sitemap/air-conditional/air-conditioning-industry-other-back-office.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ShippingJob = () => {
   const images = [

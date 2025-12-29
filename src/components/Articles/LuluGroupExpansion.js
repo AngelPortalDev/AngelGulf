@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import luluImg from "../../assets/images/articles/lulu-to-open-10-hypermarkets.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const LuluGroupExpansion = () => {
   return (
