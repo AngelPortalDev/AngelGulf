@@ -903,6 +903,11 @@ function App() {
               path="/news/uae-digital-work-permit-system"
               element={<UAEDigitalWorkPermitSystem />}
             />
+            <Route 
+            exact 
+            path="/news/qiwa-platform-jobs-in-saudi-arabia"
+            element={<QiwaPlatformSaudiJobs />}
+            />
             <Route
               exact
               path="/news/saudi-skill-based-work-permit-system"

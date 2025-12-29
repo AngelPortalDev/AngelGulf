@@ -2,7 +2,7 @@ import React from "react";
 import jobConsultance from '../../assets/images/Gulf-work-visafor-Indians.png';
 import whyChoose from '../../assets/images/Role-of-Angel-Gulf-Jobs.png';
 import visaServiceImage from '../../assets/images/backgroundImages/visaServices.jpg'
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { NavLink } from "react-router-dom";
 
 

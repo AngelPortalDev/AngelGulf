@@ -22,7 +22,7 @@ import medicalSocialWorkerImg from "../../assets/images/sitemap/medical/medical-
 import physicalTherapistsImg from "../../assets/images/sitemap/medical/medical-&-pharmaceutical-industry-physical-therapists.jpg";
 import salesRepresentativesImg from "../../assets/images/sitemap/medical/medical-&-pharmaceutical-industry-sales-representatives.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const MedicalIndustry = () => {
     const images = [

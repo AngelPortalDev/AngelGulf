@@ -19,7 +19,7 @@ import storeManagerImg from "../../assets/images/sitemap/garment/garments-&-fmcg
 import purchaseOfficersImg from "../../assets/images/sitemap/garment/garments-&-fmcg-sector-purchase-officers.jpg";
 import marketingExecutivesImg from "../../assets/images/sitemap/garment/garments-&-fmcg-sector-marketing-executives.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const GarmentIndustry = () => {
     const images = [

@@ -1,7 +1,7 @@
 import React from 'react';
 import UAEImage from '../../assets/images/articles/uae-online-law-1.jpg'
 import { NavLink } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 
 const UAEOnlineLaw = () => {

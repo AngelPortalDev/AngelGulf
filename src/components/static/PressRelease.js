@@ -1,7 +1,7 @@
 import React from "react";
 import latestArticleImg from '../../assets/images/backgroundImages/banner-articles.jpg'
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 const PressRelease = () => {

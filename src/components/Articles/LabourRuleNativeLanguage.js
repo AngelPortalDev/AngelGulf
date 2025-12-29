@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import newUaeLaw from "../../assets/images/articles/new-uae-labour-laws.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const LabourRuleNativeLanguage = () => {
   return (

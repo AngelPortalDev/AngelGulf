@@ -3,7 +3,7 @@ import authentication from '../../assets/images/NewImages/authentication.avif';
 import documentAttestationImage from '../../assets/images/document_attestation_process.png';
 import apostilleVsAttestationImage from '../../assets/images/apostille_vs_attestation.png';
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Authentication = () => {
   return (

@@ -18,7 +18,7 @@ import carpenterImg from "../../assets/images/sitemap/shipping/shipping-&-marine
 import ableSeamanImg from "../../assets/images/sitemap/shipping/shipping-&-marine-able-seaman.jpg";
 import ordinarySeamanImg from "../../assets/images/sitemap/shipping/shipping-&-marine-ordinary-seaman.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ShippingJob = () => {
     const images = [

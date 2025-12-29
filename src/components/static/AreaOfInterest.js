@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import bannerArticle from '../../assets/images/articles/articles.jpg';
 
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const AreaOfInterest = () => {
   return (

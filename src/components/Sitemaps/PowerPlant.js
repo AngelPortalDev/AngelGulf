@@ -13,7 +13,7 @@ import contractManagersImg from "../../assets/images/sitemap/powerplant/power-pl
 import technicalConsultantsImg from "../../assets/images/sitemap/powerplant/power-plant-technical-consultants.jpg";
 import technicalAuthorImg from "../../assets/images/sitemap/powerplant/power-plant-technical-author.jpg";
 import constructionManagersImg from "../../assets/images/sitemap/powerplant/power-plant-construction-managers.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import CarouselItems from "../common/CarouselItems";
 
 const PowerPlant = () => {

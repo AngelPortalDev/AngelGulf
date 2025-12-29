@@ -1,7 +1,7 @@
 import React from "react";
 import NakheelAnnouncement from '../../assets/images/articles/nakheel-new-hotel-1.jpg';
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const NakheelHotelAnnouncement = () => {
   return (

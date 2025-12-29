@@ -4,7 +4,7 @@ import Oman from '../../assets/images/countries/oman-1.jpg'
 import aboutOmanImg from '../../assets/images/countries/About-Oman.png';
 import workInOmanGuideImg from '../../assets/images/countries/Work-in-Oman-with-Angel-Gulf-Jobs.png';
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const OmanJobs = () => {
   return (

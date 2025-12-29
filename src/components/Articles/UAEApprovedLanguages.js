@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import labourImg from "../../assets/images/articles/new-uae-labour-contracts.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAEApprovedLanguages = () => {
   return (

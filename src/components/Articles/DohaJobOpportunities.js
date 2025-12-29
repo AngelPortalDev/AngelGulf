@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Dohaimg from '../../assets/images/articles/jobs-in-doha-1.jpg';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const DohaJobOpportunities = () => {
   return (

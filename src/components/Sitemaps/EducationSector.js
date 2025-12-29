@@ -20,7 +20,7 @@ import schoolAdministratorImg from "../../assets/images/sitemap/education/educat
 import studentServicesImg from "../../assets/images/sitemap/education/education-&-training-sector-student-services.jpg";
 import substituteTeacherImg from "../../assets/images/sitemap/education/education-&-training-sector-substitute-teacher.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const GarmentIndustry = () => {
     const images = [

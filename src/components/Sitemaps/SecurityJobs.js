@@ -10,7 +10,7 @@ import doorSecurityImg from "../../assets/images/sitemap/secuirity/security-staf
 import crowdControlImg from "../../assets/images/sitemap/secuirity/security-staffing-crowd-control.jpg";
 import trafficMarshalsImg from "../../assets/images/sitemap/secuirity/security-staffing-traffic-marshals.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const SecurityJobs = () => {
   const images = [

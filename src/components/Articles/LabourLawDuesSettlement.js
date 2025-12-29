@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import courtfirm from "../../assets/images/articles/court-firm-extra.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const LabourLawDuesSettlement = () => {
   return (

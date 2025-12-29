@@ -4,7 +4,7 @@ import skilltestimg from '../../assets/images/NewImages/technicalSkills.jpg'
 
 
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 const SkillsTestCenter = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import SharjahBudget from '../../assets/images/articles/sharjah-budget-jobs-1.jpg';
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const SharjahBudgetJobOpportunities = () => {
 

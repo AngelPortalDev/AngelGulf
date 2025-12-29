@@ -1,7 +1,7 @@
 import React from "react";
 import IndustriesImage from '../assets/images/backgroundImages/Industries-showcase.jpg'
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Industries = () => {
   return (

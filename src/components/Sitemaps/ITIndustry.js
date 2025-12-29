@@ -14,7 +14,7 @@ import graphicDesignerImg from "../../assets/images/sitemap/it/it-industry-graph
 import teamLeaderImg from "../../assets/images/sitemap/it/it-industry-team-leader.jpg";
 import businessAnalyticsImg from "../../assets/images/sitemap/it/it-industry-business-analytics.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const ITIndustry = () => {
     const images = [

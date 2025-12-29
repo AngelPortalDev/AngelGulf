@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BgImg from "../../assets/images/backgroundImages/uae-work-permit-bg.jpg";
 import latestArticleImg from "../../assets/images/articles/UAE-Digital-Work-Permit-System.png";
 import latestArticleImg2 from "../../assets/images/articles/Benefits-of-Digital-Work-Permit-system.png";

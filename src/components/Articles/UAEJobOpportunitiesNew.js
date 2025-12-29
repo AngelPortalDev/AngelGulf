@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import UAEJobImg from "../../assets/images/articles/jobs-in-uae-2016-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UAEJobOpportunitiesNew = () => {
   return (

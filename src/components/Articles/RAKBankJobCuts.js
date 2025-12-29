@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import rakBankImg from "../../assets/images/articles/rakbank-to-cut-250-jobs-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const RAKBankJobCuts = () => {
   return (

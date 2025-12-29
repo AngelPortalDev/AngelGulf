@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import phonePenaltyt from "../../assets/images/articles/dubai-traffic-laws-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const DubaiPhoneDrivingPenalty = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import withoutNotice from "../../assets/images/articles/without-notice.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const JobTerminationRisks = () => {
   return (

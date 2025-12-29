@@ -22,7 +22,7 @@ import metalDecoratorImg from "../../assets/images/sitemap/printing/printing-&-p
 import technicalOfficerImg from "../../assets/images/sitemap/printing/printing-&-publishing-industry-technical-officer.jpg";
 import seniorDisplayAccountManagerImg from "../../assets/images/sitemap/printing/printing-&-publishing-industry-senior-display-account-manager.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const PrintingTechnologist = () => {
   const images = [

@@ -5,7 +5,7 @@ import UAE from '../../assets/images/NewImages/UAE.jpg';
 import jobContentImage from '../../assets/images/countries/Angel-Gulf-Jobs-in-UAE.png';
 // import jobContentImage from '../../assets/images/NewImages/Angel-Gulf-Jobs-in-UAE.png';
 
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const DubaiJobs = () => {
   return (

@@ -22,7 +22,7 @@ import operationsTechnologistImg from "../../assets/images/sitemap/Oil&Gas/opera
 import refineryDesignsEngineerImg from "../../assets/images/sitemap/Oil&Gas/refinery_designs_engineer.jpg";
 import managerDeveloperImg from "../../assets/images/sitemap/Oil&Gas/manager_developer.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const OilAndGasIndustry = () => {
   const images = [

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import payHikeImg from "../../assets/images/news/pay-hike-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const PayHikeVsJobPriority = () => {
   return (

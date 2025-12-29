@@ -14,7 +14,7 @@ import accountsStaffImg from "../../assets/images/sitemap/retail/retail-indu-acc
 import adminStaffImg from "../../assets/images/sitemap/retail/retail-indu-admin-staff.jpg";
 import housekeepingImg from "../../assets/images/sitemap/retail/retail-indu-housekeeping.jpg";
 import CarouselItems from "../common/CarouselItems";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const RetailJob = () => {
   const images = [

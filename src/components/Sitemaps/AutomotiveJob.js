@@ -20,7 +20,7 @@ import salesPersonImg from "../../assets/images/sitemap/automotive/automotive-in
 import customerServiceImg from "../../assets/images/sitemap/automotive/automotive-industry-customer-service.jpg";
 import vehicleLoansManagerImg from "../../assets/images/sitemap/automotive/automotive-industry-vehicle-loans-manager.jpg";
 import billingAccountantImg from "../../assets/images/sitemap/automotive/automotive-industry-billing-accountant.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import CarouselItems from "../common/CarouselItems";
 
 const AutomotiveJob = () => {

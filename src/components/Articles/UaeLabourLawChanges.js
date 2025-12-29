@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import newUaeLabour from "../../assets/images/articles/new-uae-labour.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const UaeLabourLawChanges = () => {
   return (

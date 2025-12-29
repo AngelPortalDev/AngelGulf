@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import DubaiSnachImg from "../../assets/images/articles/dubai-padestrian-felled-dh50k-snatched-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const DubaiPedestrianIncident = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import IndianRupeeImg from "../../assets/images/articles/indian-rupee-valuation-dirham-1.jpg";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const IndianRupeeVsDh1Opportunities = () => {
   return (

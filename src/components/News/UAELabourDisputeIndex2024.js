@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BgImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import uaeWorkPermitBg from "../../assets/images/UAE-HR.png";
 import uaeGdpImg from "../../assets/images/UAE-Top-Ranking.png";
