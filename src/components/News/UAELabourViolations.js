@@ -4,10 +4,33 @@ import BgImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import heroImg from "../../assets/images/UAE-Labour-Law.png";
 import labourLawImg from "../../assets/images/UAE-Labour-Law-1.png";
 import complaintImg from "../../assets/images/labour-complaint-in-UAE.jpg";
+import { Helmet } from "react-helmet-async";
 
 const UAELabourViolations = () => {
   return (
     <div>
+      <Helmet>
+          <title>
+            UAE Labour Law: 13 Major Violations & How to Report Them | MoHRE Guide
+          </title>
+
+          <meta
+            name="description"
+            content="Learn about the 13 major UAE labour law violations and how to file a labour complaint through MoHRE. Angel Gulf Jobs guides workers on rights, safety, and fair employment."
+          />
+
+          <meta
+            name="keywords"
+            content="UAE Labour Law, UAE recruitment agency, Angel Gulf Jobs, Labour Complaint UAE, overseas jobs in UAE"
+          />
+
+          <link
+            rel="canonical"
+            href="https://www.angelgulfjobs.com/news/uae-labour-law-violations"
+          />
+
+          <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="page-content">
         {/* INNER PAGE BANNER */}
         <div

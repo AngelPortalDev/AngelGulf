@@ -5,6 +5,7 @@ import QatarHeroImg from "../../assets/images/blogs/Qatar-visa-centre-bg.png";
 import QatarVisaCentreImg from '../../assets/images/blogs/Qatar-Visa-Centre.png';
 import QvcStepImg from "../../assets/images/blogs/Steps-at-QVC.png";
 import MedicialTestQVCImg from "../../assets/images/blogs/Medical-Tests-QVC.png";
+import { Helmet } from "react-helmet-async";
 
 
 const QatarVisaCentreGuide = () => {
@@ -27,7 +28,23 @@ const QatarVisaCentreGuide = () => {
   ];
 
   return (
-    <BlogLayout
+    <>
+    <Helmet>
+      <title>Qatar Visa Centre (QVC): A Complete Guide</title>
+       <meta
+            name="description"
+            content="Complete guide to Qatar Visa Centre (QVC) for Indians. Learn about biometric enrolment, Qatar visa medical test, documents, appointments, and visa process."
+          />
+          <meta
+            name="keywords"
+            content="Qatar Visa Centre, QVC Qatar, Qatar visa medical test, MOI Qatar Visa Centre, Qatar employment visa process, Qatar Visa Centre India, Qatar Visa Centre Mumbai, Qatar work visa process India, Qatar biometric enrolment India, Qatar visa procedure for Indians, jobs in Qatar"
+          />
+          <link
+            rel="canonical"
+            href="https://www.angelgulfjobs.com/blogs/qatar-visa-centre-guide"
+          />
+    </Helmet>
+        <BlogLayout
       title="Qatar Visa Centre (QVC): A Complete Guide"
       subtitle=""
       eyebrow=""
@@ -438,6 +455,8 @@ const QatarVisaCentreGuide = () => {
         `}</style>
       </div>
     </BlogLayout>
+    </>
+
   );
 };
 

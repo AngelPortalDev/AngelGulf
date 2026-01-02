@@ -18,6 +18,7 @@ const KuwaitJobs = () => {
           name="keywords"
           content="Jobs in Kuwait, Indians in Kuwait jobs, Jobs in Kuwait for Indian freshers, job opportunities in Kuwait, how to get job in Kuwait, Angel Gulf Jobs, Overseas recruitment agency, overseas job consultants"
         />
+         <link rel="canonical" href="https://www.angelgulfjobs.com/work-in-kuwait" />
       </Helmet>
       <div className="page-content">
         {/* INNER PAGE BANNER */}

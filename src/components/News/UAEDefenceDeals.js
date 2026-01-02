@@ -10,7 +10,7 @@ const UAEDefenceDeals = () => {
       <title>UAE Signs Defence Deals Worth Dh767m On UMEX Opening Day</title>
 <meta name="keywords" content="defence deals UAE, defence deals UMEX 2016, UAE deals UMEX 2016"/>
 <meta name="description" content="UAE defence deals UMEX 2016. UAE signed six defence deals on UMEX opening day 2016"/>
-<link rel="canonical" href="https://www.angelgulfjobs.com/uae-signs-defence-deals"/>
+<link rel="canonical" href="https://www.angelgulfjobs.com/news/uae-signs-defence-deals"/>
 <meta name="revisit-after" content="7 days"/>
 <meta name="robots" content="index, follow"/>
       </Helmet>

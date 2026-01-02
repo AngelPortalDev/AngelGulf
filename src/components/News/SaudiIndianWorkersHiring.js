@@ -19,7 +19,7 @@ const SaudiIndianWorkersHiring = () => {
                 />
                 <link
                     rel="canonical"
-                    href="https://www.angelgulfjobs.com/saudi-india-workers-hiring"
+                    href="https://www.angelgulfjobs.com/news/saudi-india-workers-hiring"
                 />
                 <meta name="robots" content="index, follow" />
             </Helmet>

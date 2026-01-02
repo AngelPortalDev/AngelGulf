@@ -21,7 +21,7 @@ const SaudiSkillBasedWorkPermit = () => {
         />
         <link
           rel="canonical"
-          href="https://www.angelgulfjobs.com/saudi-skill-based-work-permit-system"
+          href="https://www.angelgulfjobs.com/news/saudi-skill-based-work-permit-system"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>

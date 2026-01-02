@@ -20,7 +20,7 @@ const UAEDigitalWorkPermitSystem = () => {
         />
         <link
           rel="canonical"
-          href="https://www.angelgulfjobs.com/uae-digital-work-permit-system"
+          href="https://www.angelgulfjobs.com/news/uae-digital-work-permit-system"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>

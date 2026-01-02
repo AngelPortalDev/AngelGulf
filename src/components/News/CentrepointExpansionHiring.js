@@ -10,7 +10,7 @@ const CentrepointExpansionHiring = () => {
       <title>Centrepoint To Add 25 Outlets This Year, Recruit 2,500 Staff</title>
 <meta name="keywords" content="centerpoint expansion, centerpoint new outlets, centerpoint hiring 2016"/>
 <meta name="description" content="Centerpoint expansion 2016. Centerpoint aims to open 25 new outlets & to hire 2500 people in 2016."/>
-<link rel="canonical" href="https://www.angelgulfjobs.com/centerpoint-to-add-25-outlets-in-2016"/>
+<link rel="canonical" href="https://www.angelgulfjobs.com/news/centerpoint-to-add-25-outlets-in-2016"/>
 <meta name="revisit-after" content="7 days"/>
 <meta name="robots" content="index, follow"/>
       </Helmet>

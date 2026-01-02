@@ -21,7 +21,7 @@ const QiwaPlatformSaudiJobs = () => {
         />
         <link
           rel="canonical"
-          href="https://www.angelgulfjobs.com/latest-gulf-news"
+          href="https://www.angelgulfjobs.com/news/qiwa-platform-jobs-in-saudi-arabia"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>

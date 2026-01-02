@@ -3,10 +3,32 @@ import { NavLink } from "react-router-dom";
 import BgImg from "../../assets/images/backgroundImages/banner-articles.jpg";
 import headerImg from "../../assets/images/UAE-AI.png";
 import aiApplicationImg from "../../assets/images/AI-Application.png";
+import { Helmet } from "react-helmet-async";
 
 const UAEAIRevolution = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          UAE AI Revolution: Faster Work Permits & Gulf Jobs | MoHRE Eye AI System
+        </title>
+
+        <meta
+          name="description"
+          content="Discover how the UAE’s new “Eye” AI system speeds up work permit approvals, reduces errors, and helps overseas job seekers with support from Angel Gulf Jobs."
+        />
+
+        <meta
+          name="keywords"
+          content="Overseas jobs in UAE, Overseas recruitment agency, UAE recruitment agency, recruitment agency, work permit, job seekers, work visa, international jobs, Gulf jobs, AI technology, artificial intelligence applications."
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.angelgulfjobs.com/news/uae-ai-revolution"
+        />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <div className="page-content">
         {/* INNER PAGE BANNER */}
         <div

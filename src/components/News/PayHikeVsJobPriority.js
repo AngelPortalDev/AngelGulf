@@ -10,7 +10,7 @@ const PayHikeVsJobPriority = () => {
       <title>Pay Hike Or Keeping Your Job? What Your Priority Should Be</title>
       <meta name="keywords" content="salary hike UAE 2016, pay hike UAE 2016, growth in salaries UAE 2016"/>
       <meta name="description" content="Salary hike UAE 2016. Companies in the UAE may not necessarily open up their purse-strings and offer a fatter pay cheque to employees this year (2016)."/>
-      <link rel="canonical" href="https://www.angelgulfjobs.com/pay-hike-or-keeping-your-job"/>
+      <link rel="canonical" href="https://www.angelgulfjobs.com/news/pay-hike-or-keeping-your-job"/>
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
       </Helmet>

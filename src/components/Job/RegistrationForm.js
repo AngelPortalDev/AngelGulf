@@ -6,6 +6,8 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Select from 'react-select';
+import { Helmet } from "react-helmet-async";
+
 
 const RegistrationForm = () => {
   const [resume, setResume] = useState(null);
@@ -145,7 +147,14 @@ const RegistrationForm = () => {
 
 
   return (
-    <form onSubmit={formik.handleSubmit}>
+    <>
+     <Helmet>
+        <title>Candidate Registration | Start Your Gulf Career | Angel Gulf Jobs</title>
+        <link rel="canonical" href="https://www.angelgulfjobs.com/registration" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+       <form onSubmit={formik.handleSubmit}>
       <ToastContainer />
       <div className="modal-header mt-3 d-flex mx-auto" style={{ maxWidth: "900px" }}>
         <h3 className="modal-title" id="sign_up_popupLabel-3">
@@ -551,6 +560,8 @@ const RegistrationForm = () => {
       </div>
       
     </form>
+    </>
+   
   );
 };
 
