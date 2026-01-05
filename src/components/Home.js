@@ -31,6 +31,7 @@ import Client15 from "../assets/images/clients/our-client-15.webp";
 import Client16 from "../assets/images/clients/our-client-16.webp";
 import Client17 from "../assets/images/clients/our-client-17.webp";
 import Client18 from "../assets/images/clients/our-client-18.webp";
+import { Helmet } from "react-helmet-async";
 
 
 const clientImages = [
@@ -58,6 +59,16 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+           <title>Angel Gulf Jobs | Leading Overseas & Gulf Job Consultants India</title>
+            <meta name="keywords" content="abroad job consultants, overseas job consultants, Gulf job consultants, overseas recruitment agency, Indian overseas job consultants, Gulf recruitment agency, manpower consultancy for Gulf, overseas job placement agency, best Gulf job consultancy, Gulf job consultancy in India, Gulf recruitment consultants in Mumbai"/>
+            <meta name="description" content="Angel Gulf Jobs is India’s trusted overseas job consultants and Gulf recruitment agency, offering verified job opportunities, skilled hiring, and ethical recruitment solutions."/>
+             <link
+              rel="canonical"
+              href="https://www.angelgulfjobs.com/"
+            />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
       <BeAwareModal />
       <div className="page-content">
         {/*Banner Start*/}

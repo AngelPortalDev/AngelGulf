@@ -22,7 +22,7 @@ const SaudiIqamaReforms2025 = () => {
                 />
                 <link
                     rel="canonical"
-                    href="https://www.angelgulfjobs.com/saudi-iqama-reforms-2025"
+                    href="https://www.angelgulfjobs.com/news/saudi-iqama-reforms-2025"
                 />
                 <meta name="robots" content="index, follow" />
             </Helmet>

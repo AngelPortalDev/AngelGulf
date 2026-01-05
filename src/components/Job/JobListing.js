@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import JobApplicationForm from "./JobApplicationForm";
 import axios from "axios";
+import { Helmet } from "react-helmet-async";
 
 const JobListing = () => {
   const [jobList, setJobList] = useState([]);
@@ -75,6 +76,12 @@ const JobListing = () => {
 
   return (
     <div>
+          <Helmet>
+            <title>Browse Jobs | Latest Gulf Career Opportunities | Angel Gulf Jobs</title>
+            <link rel="canonical" href="https://www.angelgulfjobs.com/job-list" />
+            <meta name="revisit-after" content="7 days" />
+            <meta name="robots" content="index, follow" />
+          </Helmet>
       <style>{`
         
          body {

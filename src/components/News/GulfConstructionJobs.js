@@ -21,7 +21,7 @@ const GulfConstructionJobs = () => {
                 />
                 <link
                     rel="canonical"
-                    href="https://www.angelgulfjobs.com/gulf-construction-jobs"
+                    href="https://www.angelgulfjobs.com/news/gulf-construction-jobs"
                 />
                 <meta name="robots" content="index, follow" />
             </Helmet>

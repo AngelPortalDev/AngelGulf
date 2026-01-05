@@ -10,7 +10,7 @@ const IndianBudgetImpactOnRemitters = () => {
       <title>Indian Budget Euphoria Spoils UAE Expat Remitters’ Party As Rupee Rallies</title>
       <meta name="keywords" content="UAE Dirham to INR, Dirham INR conversion rates, Forex rates Dirham INR"/>
       <meta name="description" content="UAE Dirham to INR post budget 2016. Expats who were waiting for their Feb salaries to remit at the ‘best ever’ exchange rate were disappointed as the rupee began its upward rally."/>
-      <link rel="canonical" href="https://www.angelgulfjobs.com/indian-budget-spoils-uae-expat-remitters-party"/>
+      <link rel="canonical" href="https://www.angelgulfjobs.com/news/indian-budget-spoils-uae-expat-remitters-party"/>
       <meta name="revisit-after" content="7 days"/>
       <meta name="robots" content="index, follow"/>
       </Helmet>

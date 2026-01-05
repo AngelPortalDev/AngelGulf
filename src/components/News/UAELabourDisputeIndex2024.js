@@ -22,7 +22,7 @@ const UAELabourDisputeIndex2024 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.angelgulfjobs.com/latest-gulf-news"
+          href="https://www.angelgulfjobs.com/news/uae-labour-dispute-index-2024"
         />
         <meta name="robots" content="index, follow" />
       </Helmet>
