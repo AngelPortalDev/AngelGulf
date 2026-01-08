@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import video1 from "../assets/video/new.mp4";
+import video2 from "../assets/video/bg-video.mp4";
 import poster from "../assets/video/poster.jpg";
 import BeAwareModal from "./static/BeAwareModal.js";
 import Testimonials from "./Testimonials";
@@ -70,19 +72,158 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <BeAwareModal />
-      <div className="page-content">
+      <div className="page-content" style={{ overflowX: 'hidden' }}>
         {/*Banner Start*/}
-        <div className="">
+        <div className="hero-section" style={{
+          position: 'relative',
+          width: '100%',
+          height: '100vh',
+          maxHeight: '800px',
+          overflow: 'hidden',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'flex-start',
+          backgroundColor: '#000'
+        }}>
           <video
-            width="100%"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              zIndex: 1
+            }}
             loop
             autoPlay
             muted
+            playsInline
             preload="auto"
             poster={poster}
           >
-            <source src={video1} type="video/mp4" />
+            <source src={video2} type="video/mp4" />
           </video>
+          
+          {/* Overlay */}
+          <div style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            background: 'linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 100%)',
+            zIndex: 2
+          }}></div>
+          
+          {/* Content */}
+          <div style={{
+            position: 'relative',
+            zIndex: 3,
+            color: '#ffffff',
+            padding: '0 5%',
+            maxWidth: '1400px',
+            width: '100%',
+            margin: '0 auto'
+          }}>
+            <div style={{
+              maxWidth: '700px'
+            }}>
+              <h1 style={{
+                fontSize: 'clamp(2.5rem, 6vw, 4.5rem)',
+                fontWeight: '700',
+                marginBottom: '1.5rem',
+                lineHeight: '1.2',
+                color: '#ffffff',
+                textShadow: '2px 2px 12px rgba(0, 0, 0, 0.7)',
+                letterSpacing: '-0.02em'
+              }}>
+                Gateway to Gulf
+              </h1>
+              <p style={{
+                fontSize: 'clamp(1.1rem, 2.5vw, 1.4rem)',
+                fontWeight: '400',
+                lineHeight: '1.6',
+                color: '#ffffff',
+                textShadow: '1px 1px 8px rgba(0, 0, 0, 0.7)',
+                marginBottom: '2.5rem'
+              }}>
+                Your trusted manpower consultancy for secure, <br/> well-matched Gulf jobs for Indians.
+              </p>
+              
+              {/* Buttons */}
+              <div style={{
+                display: 'flex',
+                gap: '1rem',
+                flexWrap: 'wrap',
+                alignItems: 'center'
+              }}>
+                <Link 
+                  to="/job-list" 
+                  style={{
+                    display: 'inline-block',
+                    padding: '14px 32px',
+                    backgroundColor: '#009BD4',
+                    color: '#ffffff',
+                    fontSize: 'clamp(0.95rem, 1.5vw, 1.1rem)',
+                    fontWeight: '600',
+                    borderRadius: '6px',
+                    textDecoration: 'none',
+                    transition: 'all 0.3s ease',
+                    boxShadow: '0 4px 12px rgba(0, 155, 212, 0.3)',
+                    border: '2px solid #009BD4',
+                    cursor: 'pointer'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.backgroundColor = '#0579ad';
+                    e.target.style.borderColor = '#0579ad';
+                    e.target.style.transform = 'translateY(-2px)';
+                    e.target.style.boxShadow = '0 6px 16px rgba(0, 155, 212, 0.4)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.backgroundColor = '#009BD4';
+                    e.target.style.borderColor = '#009BD4';
+                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.boxShadow = '0 4px 12px rgba(0, 155, 212, 0.3)';
+                  }}
+                >
+                  Browse Jobs
+                </Link>
+                
+                <Link 
+                  to="/registration" 
+                  style={{
+                    display: 'inline-block',
+                    padding: '14px 32px',
+                    backgroundColor: 'transparent',
+                    color: '#ffffff',
+                    fontSize: 'clamp(0.95rem, 1.5vw, 1.1rem)',
+                    fontWeight: '600',
+                    borderRadius: '6px',
+                    textDecoration: 'none',
+                    transition: 'all 0.3s ease',
+                    border: '2px solid #ffffff',
+                    cursor: 'pointer'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.backgroundColor = '#ffffff';
+                    e.target.style.color = '#009BD4';
+                    e.target.style.transform = 'translateY(-2px)';
+                    e.target.style.boxShadow = '0 6px 16px rgba(255, 255, 255, 0.3)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.backgroundColor = 'transparent';
+                    e.target.style.color = '#ffffff';
+                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.boxShadow = 'none';
+                  }}
+                >
+                  Register & Apply
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
         {/*Banner End*/}
         <ClientsSection clientImages={clientImages} />
