@@ -118,7 +118,7 @@ const Header = () => {
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="https://www.youtube.com/channel/UC2ywUMh9xqwpimGEQ-UMgcQ?view_as=subscriber"
+                href="https://www.youtube.com/@ANGELGULFJOBS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fs-5 ms-3"
