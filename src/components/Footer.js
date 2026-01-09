@@ -97,7 +97,7 @@ const Footer = () => {
             <li><NavLink to="https://www.facebook.com/angelgulfjobs/" className="fab fa-facebook-f"  target='_blank'/></li>
             <li><NavLink to="https://x.com/angelgulfjobs" className="fab fa-twitter" target='_blank'/></li>
             <li><NavLink to="https://www.instagram.com/angelgulfjobs/" className="fab fa-instagram" target='_blank'/></li>
-            <li><NavLink to="https://www.youtube.com/channel/UC2ywUMh9xqwpimGEQ-UMgcQ?view_as=subscriber" className="fab fa-youtube" target='_blank' /></li>
+            <li><NavLink to="https://www.youtube.com/@ANGELGULFJOBS" className="fab fa-youtube" target='_blank' /></li>
            <li><NavLink to="https://www.linkedin.com/company/angel-gulf-jobs-for-you" className="fab fa-linkedin" target='_blank'></NavLink></li> 
           </ul>
         </div>
